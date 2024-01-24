@@ -1,0 +1,146 @@
+.logo{
+    width: 65%;
+    height: 65%;
+    margin-top: 7%;
+  }
+  
+  .LogoNav{
+    margin-left: 2%;
+  }
+
+  .link-nav {
+    margin-right: 3rem;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .navbar-links-container{
+    margin-right: 3rem;
+    text-decoration: none;
+    color:#bfc4d8;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .link-nav-chapa{
+    color: #FFF;
+    font-family: Public Sans;
+    font-size: 75%;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 2px;
+    padding-left: 115px;
+    margin-right: 5%;
+  }
+  
+  .link-nav-chapab{
+    color: #FFF;
+    font-family: Public Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 1.8px;
+    margin-right: 30px;
+  }
+  .link-nav-submenu{
+    color: #FFF;
+    font-family: Public Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 1.8px;
+    margin-right: 10px;
+    margin-left: -20px;
+  }
+
+  .ul-nav{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    justify-content: start;
+    cursor: pointer;
+    background-color: transparent;
+    margin-right: 55%;
+  }
+
+  .li{
+    color: inherit;
+    text-decoration: inherit;
+  }
+  
+  .liNav{
+    color: inherit;
+    text-decoration: inherit;
+    margin-left: -150%;
+  }
+  
+  .liNav1{
+    color: inherit;
+    text-decoration: inherit;
+    margin-left: -310%;
+    margin-right: -40%;
+  }
+  
+  .liNav2{
+    color: inherit;
+    text-decoration: inherit;
+    margin-left: -195%;
+  }
+  .liNav3{
+    color: inherit;
+    text-decoration: inherit;
+    margin-left: -110%;
+    display: flex;  /* Agrega esta propiedad */
+    flex-direction: column;  /* Agrega esta propiedad */
+  }
+
+  .ul-menuNav {
+    position: absolute; /* Cambia a relative para que el menú secundario sea relativo a este */
+    top: 10.5%;
+    left: 54%;
+    background: rgba(4, 68, 132, 0.45);
+    padding-left: 65px;
+    padding-right: 38px;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    list-style-type: none;
+  }
+  
+  .ul-menuNav li {
+    margin-top: 13px;
+    margin-bottom: 15px;
+  }
+
+  .link-nav-submenuNuevo{
+    color: #FFF;
+    font-family: Public Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 1.8px;
+    margin-right: 10px;
+    margin-left: -20px;
+  }
+
+  .ul-menu3  {
+    position: absolute;
+    top: 10.5%;
+    left: 67%;
+    background: rgba( 4, 68, 132, 0.45 );
+    padding-left: 52px;
+    padding-right: 22px;
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    list-style-type: none;
+  }
+  .ul-menu3 li {
+    /* border-bottom: 0.01px solid #FFF;  */
+    margin-top: 13px;
+    margin-bottom: 15px;
+  }

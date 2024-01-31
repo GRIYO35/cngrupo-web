@@ -1,18 +1,60 @@
 import Logo from "../Assets/cngrupoLOGOwhite.png"
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link} from "react-router-dom";
 import fotoellos1 from '../Assets/EDUARDO.png';
+import fotoellos4 from '../Assets/261x353 EDUARDO.png';
 import fotoellos2 from '../Assets/TOMI.png';
+import fotoellos5 from '../Assets/261x353 TOMI.png';
 import fotoellos3 from '../Assets/EDU solo.png';
+import fotoellos6 from '../Assets/261x353 EDU h.png';
 import { useTranslation } from "react-i18next";
 import gerentes from '../Assets/gerentes.png';
+import gerentes1 from '../Assets/479x279 GERENTES.png';
 import NAVBAR from "./NavBar"
 
 
 const Navinfo = () => {
   const [t, i18next] = useTranslation("global");
   const [isOpen, setIsOpen] = useState(false);
-  const [isSubMenuOpen1, setSubMenuOpen1] = useState(false);
+  const [currentImage, setCurrentImage] = useState(gerentes);
+  const [currentImage1, setCurrentImage1] = useState(fotoellos1);
+  const [currentImage2, setCurrentImage2] = useState(fotoellos2);
+  const [currentImage3, setCurrentImage3] = useState(fotoellos3);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 1919) {
+        setCurrentImage(gerentes);
+      } else {
+        setCurrentImage(gerentes1);
+      }
+      if (window.innerWidth > 1919) {
+        setCurrentImage1(fotoellos4);
+      } else {
+        setCurrentImage1(fotoellos1);
+      }
+      if (window.innerWidth > 1919) {
+        setCurrentImage2(fotoellos5);
+      } else {
+        setCurrentImage2(fotoellos2);
+      }
+      if (window.innerWidth > 1919) {
+        setCurrentImage3(fotoellos6);
+      } else {
+        setCurrentImage3(fotoellos3);
+      }
+    };
+       // Llamamos a la función una vez al montar el componente
+       handleResize();
+
+       window.addEventListener("resize", handleResize);
+   
+       return () => {
+         window.removeEventListener("resize", handleResize);
+       };
+     }, []);
+
+  {/*const [isSubMenuOpen1, setSubMenuOpen1] = useState(false);
   const [isSubMenuOpen2, setSubMenuOpen2] = useState(false);
   const [isSubMenuOpen3, setSubMenuOpen3] = useState(false);
 
@@ -47,7 +89,7 @@ const Navinfo = () => {
 
   const handleMouseLeave3 = () => {
       timer = setTimeout(() => setSubMenuOpen3(false), delay);
-  };
+  };*/}
 
   return (
       <div className="home-container">
@@ -160,7 +202,7 @@ const Navinfo = () => {
              </h2>
           </div>
           <div className="gerentes">
-            <img src = {gerentes} alt = "Gerentes"/>
+            <img src = {currentImage} alt = "Gerentes"/>
           </div>
       </div>
 
@@ -168,13 +210,13 @@ const Navinfo = () => {
               {/*<h2 className="quienes-title2">Nuestro equipo</h2>   
               <hr className="linea-quienes"></hr>*/}
                  <div className='container-fotosdellos'>
-                    <div className='foto-txt-quienes'><img src={fotoellos1} alt="" className='fotoellos'/> <h2 className="quienes-title-foto">EDUARDO GÓMEZ NAAR</h2><p className="p-quienes1">Fundador y CEO de CN Grupo</p>   
+                    <div className='foto-txt-quienes'><img src={currentImage1} alt="" className='fotoellos'/> <h2 className="quienes-title-foto">EDUARDO GÓMEZ NAAR</h2><p className="p-quienes1">Fundador y CEO de CN Grupo</p>   
                       <hr className="linea-quienes2"></hr>
                     </div>
-                    <div className='foto-txt-quienes'><img src={fotoellos2} alt="" className='fotoellos'/> <h2 className="quienes-title-foto">TOMÁS GÓMEZ NAAR</h2><p className="p-quienes1">Director de Negocios</p> 
+                    <div className='foto-txt-quienes'><img src={currentImage2} alt="" className='fotoellos'/> <h2 className="quienes-title-foto">TOMÁS GÓMEZ NAAR</h2><p className="p-quienes1">Director de Negocios</p> 
                       <hr className="linea-quienes2"></hr>
                     </div>
-                    <div className='foto-txt-quienes'><img src={fotoellos3} alt="" className='fotoellos'/> <h2 className="quienes-title-foto">EDUARDO GÓMEZ NAAR</h2><p className="p-quienes1">Director de Áreas Staff</p>  
+                    <div className='foto-txt-quienes'><img src={currentImage3} alt="" className='fotoellos'/> <h2 className="quienes-title-foto">EDUARDO GÓMEZ NAAR</h2><p className="p-quienes1">Director de Áreas Staff</p>  
                       <hr className="linea-quienes2"></hr>
                     </div>
                  </div>

@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
+import "./Mollar.css"
 
 export const Contactocomponente = () => {
   const form = useRef();

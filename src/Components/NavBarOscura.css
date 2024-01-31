@@ -1,21 +1,21 @@
-.logo{
-    width: 65%;
-    height: 65%;
-    margin-top: 7%;
+.logoOsc{
+    width: 90%;
+    height: 90%;
+    margin-top: -1%;
   }
   
-  .LogoNav{
-    margin-left: 2%;
+  .LogoNavOsc{
+    margin-left: 3%;
   }
 
-  .link-nav {
+  .link-navOsc {
     margin-right: 3rem;
     text-decoration: none;
     font-size: 18px;
     font-weight: 400;
   }
   
-  .navbar-links-container{
+  .navbar-links-containerOsc{
     margin-right: 3rem;
     text-decoration: none;
     color:#bfc4d8;
@@ -23,8 +23,8 @@
     font-weight: 400;
   }
   
-  .link-nav-chapa{
-    color: #FFF;
+  .link-nav-chapaOsc{
+    color: #225065;
     font-family: Public Sans;
     font-size: 75%;
     font-style: normal;
@@ -35,8 +35,8 @@
     margin-right: 5%;
   }
   
-  .link-nav-chapab{
-    color: #FFF;
+  .link-nav-chapabOsc{
+    color: #225065;
     font-family: Public Sans;
     font-size: 12px;
     font-style: normal;
@@ -45,7 +45,8 @@
     letter-spacing: 1.8px;
     margin-right: 30px;
   }
-  .link-nav-submenu{
+
+  .link-nav-submenuOsc{
     color: #FFF;
     font-family: Public Sans;
     font-size: 12px;
@@ -56,8 +57,21 @@
     margin-right: 10px;
     margin-left: -20px;
   }
+  
+.link-nav-submenuNuevoOsc{
+  color: #FFF;
+  font-family: Public Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 1.8px;
+  margin-right: 10px;
+  margin-left: -20px;
+  list-style-type: none;
+}
 
-  .ul-nav{
+  .ul-navOsc{
     margin-top: 5%;
     display: flex;
     flex-direction: row;
@@ -68,39 +82,37 @@
     margin-right: 55%;
   }
 
-  .li{
+  .liOsc{
     color: inherit;
     text-decoration: inherit;
   }
   
-  .liNav{
+  .liNavOsc{
     color: inherit;
     text-decoration: inherit;
     margin-left: -150%;
   }
   
-  .liNav1{
+  .liNav1Osc{
     color: inherit;
     text-decoration: inherit;
     margin-left: -310%;
     margin-right: -40%;
   }
   
-  .liNav2{
+  .liNav2Osc{
     color: inherit;
     text-decoration: inherit;
     margin-left: -195%;
   }
-  .liNav3{
+  .liNav3Osc{
     color: inherit;
     text-decoration: inherit;
     margin-left: -110%;
-    display: flex;  /* Agrega esta propiedad */
-    flex-direction: column;  /* Agrega esta propiedad */
   }
 
-  .ul-menuNav {
-    position: absolute; /* Cambia a relative para que el menú secundario sea relativo a este */
+  .ul-menuNavOsc {
+    position: absolute;
     top: 10.5%;
     left: 54%;
     background: rgba(4, 68, 132, 0.45);
@@ -109,26 +121,16 @@
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
     list-style-type: none;
+    margin-left: -6.7%;
+    margin-top: 0.5%;
   }
   
-  .ul-menuNav li {
+  .ul-menuNavOsc li {
     margin-top: 13px;
     margin-bottom: 15px;
   }
 
-  .link-nav-submenuNuevo{
-    color: #FFF;
-    font-family: Public Sans;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 200;
-    line-height: 20px; /* 142.857% */
-    letter-spacing: 1.8px;
-    margin-right: 10px;
-    margin-left: -20px;
-  }
-
-  .ul-menu3  {
+  .ul-menu3Osc  {
     position: absolute;
     top: 10.5%;
     left: 67%;
@@ -139,8 +141,74 @@
     -webkit-backdrop-filter: blur( 6px );
     list-style-type: none;
   }
-  .ul-menu3 li {
-    /* border-bottom: 0.01px solid #FFF;  */
+  .ul-menu3Osc li {
     margin-top: 13px;
     margin-bottom: 15px;
+  }
+
+  .ul-menuOsc  {
+    position: absolute;
+    background: rgba( 4, 68, 132, 0.45 );
+    padding-top: 20px;
+    padding-left: 32px;
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    list-style-type: none;
+    margin-top: 0.3%;
+    margin-left: -5.7%;
+  }
+
+  .ul-menuOsc li {
+    margin-bottom: 15px;
+  }
+
+  .botonesOsc{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-left: -150%;
+    margin-top: 12%;
+  }
+
+  .language-buttonOsc {
+    border: 2px solid #225065;
+    background-color: transparent;
+    color: #225065;
+    padding: 7px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    font-size: 11px;
+    margin-top: -9%;
+    margin-left: 5%;
+  }
+  
+/*.language-buttonOsc:hover {
+    border-color: #ddd;
+    color: #ddd;
+  }*/
+  
+.language-buttonOsc.active {
+    background-color: #225065;
+    color: white;
+  }
+
+  .submenuNav-boxOsc {
+    position: absolute;
+    top: 0;
+    left: 100%; 
+    background: rgba(4, 68, 132, 0.45);
+    padding: 10px;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+  }
+
+  .nav-containerOsc{
+    display: flex;
+    justify-content: space-between;
+    background-image:  #0c0c0c;
+    padding-bottom: 2%;
   }

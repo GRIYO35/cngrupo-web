@@ -1,17 +1,17 @@
 import Logo from '../Assets/cngrupocolor.png'
 import React, { useState } from "react";
 import {Link} from "react-router-dom";
-import logoinf1 from '../Assets/logoinf1.png';
-import logoinf2 from '../Assets/logoinf2.png';
-import logoinf3 from '../Assets/logoinf3.png';
-import logoinf4 from '../Assets/logoinf4.png';
-import logoinf5 from '../Assets/logoinf5.png';
-import logoinf6 from '../Assets/logoinf6.png';
+import logoinf1 from '../Assets/CN - INFO IMPOSITIVA grey@300x.png';
+import logoinf2 from '../Assets/CHANGO - INFO IMPOSITIVA grey@300x.png';
+import logoinf3 from '../Assets/GAS DEL NORTE - INFO IMPOSITIVA grey@300x.png';
+import logoinf4 from '../Assets/CN LOGISTICA - INFO IMPOSITIVA grey@300x.png';
+import logoinf5 from '../Assets/NECA - INFO IMPOSITIVA grey@300x.png';
+import logoinf6 from '../Assets/PEM - INFO IMPOSITIVA grey@300x.png';
 import NAVBAR from "./NavBarOscura"
 
 const Navinfo = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isSubMenuOpen1, setSubMenuOpen1] = useState(false);
+  {/*const [isSubMenuOpen1, setSubMenuOpen1] = useState(false);
   const [isSubMenuOpen2, setSubMenuOpen2] = useState(false);
   const [isSubMenuOpen3, setSubMenuOpen3] = useState(false);
 
@@ -46,7 +46,7 @@ const Navinfo = () => {
 
   const handleMouseLeave3 = () => {
       timer = setTimeout(() => setSubMenuOpen3(false), delay);
-  };
+  };*/}
 
   return (
       <div className="home-container">
@@ -107,7 +107,7 @@ const Navinfo = () => {
 
       
       <div className="txt-redesInfo">
-            <div className="txt-container-empresa">
+            <div className="txt-container-InfoImpo">
               <div className="linea-titulo2">
             <hr class="mi-linea2"></hr><p className="nuestra-empresa3">NUESTRA EMPRESA</p></div>
             <h2 className="titulo-info">Info impositiva</h2>

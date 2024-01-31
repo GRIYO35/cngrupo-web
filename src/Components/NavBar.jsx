@@ -12,6 +12,48 @@ const Navbar = () => {
   const [isSubMenuOpen4, setSubMenuOpen4] = useState(false);
   const [isSubMenuOpen5, setSubMenuOpen5] = useState(false);
   const [isSubMenuOpen6, setSubMenuOpen6] = useState(false);
+  let subMenuTimer;
+  let subMenuTimer1;
+  let subMenuTimer2;
+
+  const handleMouseEnter4 = (setSubMenuOpen) => {
+    clearTimeout(subMenuTimer);
+    setSubMenuOpen4(true);
+     
+  };
+
+  const handleMouseLeave4 = (setSubMenuOpen) => {
+    clearTimeout(subMenuTimer);
+    subMenuTimer = setTimeout(() => {
+      setSubMenuOpen4(false);
+    }, 150);
+  };
+
+  const handleMouseEnter5 = (setSubMenuOpen) => {
+    clearTimeout(subMenuTimer1);
+    setSubMenuOpen5(true);
+     
+  };
+
+  const handleMouseLeave5 = (setSubMenuOpen) => {
+    clearTimeout(subMenuTimer1);
+    subMenuTimer1 = setTimeout(() => {
+      setSubMenuOpen5(false);
+    }, 150);
+  };
+
+  const handleMouseEnter6 = (setSubMenuOpen) => {
+    clearTimeout(subMenuTimer2);
+    setSubMenuOpen6(true);
+     
+  };
+
+  const handleMouseLeave6 = (setSubMenuOpen) => {
+    clearTimeout(subMenuTimer2);
+    subMenuTimer2 = setTimeout(() => {
+      setSubMenuOpen6(false);
+    }, 100);
+  };
 
   const handleMouseEnter1 = () => {
     setSubMenuOpen1(true);
@@ -37,7 +79,7 @@ const Navbar = () => {
     setSubMenuOpen3(false);
   };
 
-  const handleMouseEnter4 = () => {
+  {/*const handleMouseEnter4 = () => {
     setSubMenuOpen4(true);
   };
 
@@ -59,7 +101,7 @@ const Navbar = () => {
 
   const handleMouseLeave6 = () => {
     setSubMenuOpen6(false);
-  };
+  };*/}
 
   return (
     <div className="nav-container">
@@ -174,7 +216,7 @@ const Navbar = () => {
                           </Link>
                         </li>
                         <li>
-                          <Link className="li" to="/gasdelnorte">
+                          <Link className="li" to="/mollar">
                             Puesto El Mollar
                           </Link>
                         </li>
@@ -216,10 +258,10 @@ const Navbar = () => {
               onMouseEnter={handleMouseEnter3}
               onMouseLeave={handleMouseLeave3}
             >
-              <Link className="liNav2" >
+              <Link className="liNav2" to="/quiénes">
               {t("li.WORK AT CN GROUP")}
               </Link>
-              {isSubMenuOpen3 && (
+              {/*{isSubMenuOpen3 && (
                 <ul className="ul-menu3">
                   <li className="link-nav-submenu">
                     <Link className="li" to="/quiénes">
@@ -227,7 +269,7 @@ const Navbar = () => {
                     </Link>
                   </li>
                 </ul>
-              )}
+              )}*/}
             </li>
             <li className="link-nav-chapa">
               <Link className="liNav1" to="/contacto">

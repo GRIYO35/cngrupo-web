@@ -14,6 +14,48 @@ const NavbarOscura = () => {
   const [isSubMenuOpen4, setSubMenuOpen4] = useState(false);
   const [isSubMenuOpen5, setSubMenuOpen5] = useState(false);
   const [isSubMenuOpen6, setSubMenuOpen6] = useState(false);
+  let subMenuTimer;
+  let subMenuTimer1;
+  let subMenuTimer2;
+
+  const handleMouseEnter4 = (setSubMenuOpen) => {
+    clearTimeout(subMenuTimer);
+    setSubMenuOpen4(true);
+     
+  };
+
+  const handleMouseLeave4 = (setSubMenuOpen) => {
+    clearTimeout(subMenuTimer);
+    subMenuTimer = setTimeout(() => {
+      setSubMenuOpen4(false);
+    }, 100);
+  };
+
+  const handleMouseEnter5 = (setSubMenuOpen) => {
+    clearTimeout(subMenuTimer1);
+    setSubMenuOpen5(true);
+     
+  };
+
+  const handleMouseLeave5 = (setSubMenuOpen) => {
+    clearTimeout(subMenuTimer1);
+    subMenuTimer1 = setTimeout(() => {
+      setSubMenuOpen5(false);
+    }, 50);
+  };
+
+  const handleMouseEnter6 = (setSubMenuOpen) => {
+    clearTimeout(subMenuTimer2);
+    setSubMenuOpen6(true);
+     
+  };
+
+  const handleMouseLeave6 = (setSubMenuOpen) => {
+    clearTimeout(subMenuTimer2);
+    subMenuTimer2 = setTimeout(() => {
+      setSubMenuOpen6(false);
+    }, 100);
+  };
 
   const handleMouseEnter1 = () => {
     setSubMenuOpen1(true);
@@ -39,55 +81,31 @@ const NavbarOscura = () => {
     setSubMenuOpen3(false);
   };
 
-  const handleMouseEnter4 = () => {
-    setSubMenuOpen4(true);
-  };
-
-  const handleMouseLeave4 = () => {
-    setSubMenuOpen4(false);
-  };
-
-  const handleMouseEnter5 = () => {
-    setSubMenuOpen5(true);
-  };
-
-  const handleMouseLeave5 = () => {
-    setSubMenuOpen5(false);
-  };
-
-  const handleMouseEnter6 = () => {
-    setSubMenuOpen6(true);
-  };
-
-  const handleMouseLeave6 = () => {
-    setSubMenuOpen6(false);
-  };
-
   return (
-    <div className="nav-container">
-        <Link to="/" className="LogoNav">
-          <img src={Logo} alt="" className="logo" />
+    <div className="nav-containerOsc">
+        <Link to="/" className="LogoNavOsc">
+          <img src={Logo} alt="" className="logoOsc" />
         </Link>
-      <nav className="nav-chapa">
+      <nav className="nav-chapaOsc">
         <div className={`navbar-links-container ${isOpen && "open"}`}>
-          <ul className="ul-nav">
+          <ul className="ul-navOsc">
             <li
-              className="link-nav-chapa"
+              className="link-nav-chapaOsc"
               onMouseEnter={handleMouseEnter1}
               onMouseLeave={handleMouseLeave1}
             >
-              <Link className="liNav3" to="/">
+              <Link className="liNav3Osc" to="/">
               {t("li.OUR COMPANY")}
               </Link>
               {isSubMenuOpen1 && (
-                <ul className="ul-menu">
-                  <li className="link-nav-submenu">
-                    <Link className="li" to="/quienes">
+                <ul className="ul-menuOsc">
+                  <li className="link-nav-submenuOsc">
+                    <Link className="liOsc" to="/quienes">
                     {t("li.Who are we?")}
                     </Link>
                   </li>
-                  <li className="link-nav-submenu">
-                    <Link className="li" to="/vision">
+                  <li className="link-nav-submenuOsc">
+                    <Link className="liOsc" to="/vision">
                     {t("li.Vision and mission")}
                     </Link>
                   </li>
@@ -96,13 +114,13 @@ const NavbarOscura = () => {
                       Ejes de compromiso
                     </Link>
                   </li>*/}
-                  <li className="link-nav-submenu">
-                    <Link className="li" to="/historia">
+                  <li className="link-nav-submenuOsc">
+                    <Link className="liOsc" to="/historia">
                     {t("li.History")}
                     </Link>
                   </li>
-                  <li className="link-nav-submenu">
-                    <Link className="li" to="/info">
+                  <li className="link-nav-submenuOsc">
+                    <Link className="liOsc" to="/info">
                     {t("li.Tax information")}
                     </Link>
                   </li>
@@ -110,43 +128,43 @@ const NavbarOscura = () => {
               )}
             </li>
             <li
-              className="link-nav-chapa"
+              className="link-nav-chapaOsc"
               onMouseEnter={handleMouseEnter2}
               onMouseLeave={handleMouseLeave2}
             >
-              <Link className="liNav" to="/">
+              <Link className="liNavOsc" to="/">
               {t("li.OUR BUSINESSES")}
               </Link>
               {isSubMenuOpen2 && (
-                <li className="ul-menuNav">
+                <li className="ul-menuNavOsc">
                 <li
-                    className="link-nav-submenu"
+                    className="link-nav-submenuOsc"
                     onMouseEnter={handleMouseEnter4}
                     onMouseLeave={handleMouseLeave4}
                   >
-                    <Link className="li" to="/">
+                    <Link className="liOsc" to="/">
                       Oil & Gas
                     </Link>
                     {isSubMenuOpen4 && (
-                      <div className="submenuNav-box">
-                      <ul className="link-nav-submenuNuevo">
+                      <div className="submenuNav-boxOsc">
+                      <ul className="link-nav-submenuNuevoOsc">
                         <li>
-                          <Link className="li" to="/combustiblesdelnorte">
+                          <Link className="liOsc" to="/combustiblesdelnorte">
                           Combustibles del Norte
                           </Link>
                         </li>
                         <li>
-                          <Link className="li" to="/ccnchile">
+                          <Link className="liOsc" to="/ccnchile">
                           CCN Chile
                           </Link>
                         </li>
                         <li>
-                          <Link className="li" to="/gasdelnorte">
+                          <Link className="liOsc" to="/gasdelnorte">
                           Gas del norte
                           </Link>
                         </li>
                         <li>
-                          <Link className="li" to="/estaciones">
+                          <Link className="liOsc" to="/estaciones">
                           {t("li.SERVICE STATIONS")}
                           </Link>
                         </li>
@@ -155,33 +173,33 @@ const NavbarOscura = () => {
                     )}
                   </li>
                   <li
-                    className="link-nav-submenu"
+                    className="link-nav-submenuOsc"
                     onMouseEnter={handleMouseEnter5}
                     onMouseLeave={handleMouseLeave5}
                   >
-                    <Link className="li" to="/">
+                    <Link className="liOsc" to="/">
                       Agro
                     </Link>
                     {isSubMenuOpen5 && (
-                      <div className="submenuNav-box">
-                      <ul className="link-nav-submenuNuevo">
+                      <div className="submenuNav-boxOsc">
+                      <ul className="link-nav-submenuNuevoOsc">
                         <li>
-                          <Link className="li" to="/combustiblesdelnorte">
+                          <Link className="liOsc" to="/combustiblesdelnorte">
                             NECA
                           </Link>
                         </li>
                         <li>
-                          <Link className="li" to="/ccnchile">
+                          <Link className="liOsc" to="/ccnchile">
                           Combustibles del Norte
                           </Link>
                         </li>
                         <li>
-                          <Link className="li" to="/gasdelnorte">
+                          <Link className="liOsc" to="/mollar">
                             Puesto El Mollar
                           </Link>
                         </li>
                         <li>
-                          <Link className="li" to="/estaciones">
+                          <Link className="liOsc" to="/estaciones">
                             Planta Guemes
                           </Link>
                         </li>
@@ -190,19 +208,19 @@ const NavbarOscura = () => {
                     )}
                   </li>
                   <li
-                    className="link-nav-submenu"
+                    className="link-nav-submenuOsc"
                     onMouseEnter={handleMouseEnter6}
                     onMouseLeave={handleMouseLeave6}
                   >
-                    <Link className="li" to="/ejes">
+                    <Link className="liOsc" to="/ejes">
                     {t("li.Mining")}
                     </Link>
                     {isSubMenuOpen6 && (
-                      <div className="submenuNav-box">
-                      <ul className="link-nav-submenuNuevo">
+                      <div className="submenuNav-boxOsc">
+                      <ul className="link-nav-submenuNuevoOsc">
                         <li>
-                          <Link className="li" to="/combustiblesdelnorte">
-                            CN Sima
+                          <Link className="liOsc" to="/combustiblesdelnorte">
+                            CN Logistica
                           </Link>
                         </li>
                       </ul>
@@ -214,39 +232,39 @@ const NavbarOscura = () => {
             </li>
 
             <li
-              className="link-nav-chapa"
+              className="link-nav-chapaOsc"
               onMouseEnter={handleMouseEnter3}
               onMouseLeave={handleMouseLeave3}
             >
-              <Link className="liNav2" >
+              <Link  className="liNav2Osc" to="/quiénes">
               {t("li.WORK AT CN GROUP")}
               </Link>
-              {isSubMenuOpen3 && (
-                <ul className="ul-menu3">
-                  <li className="link-nav-submenu">
-                    <Link className="li" to="/quiénes">
+              {/*{isSubMenuOpen3 && (
+                <ul className="ul-menu3Osc">
+                  <li className="link-nav-submenuOsc">
+                    <Link className="liOsc" to="/quiénes">
                     {t("li.Human capital")}
                     </Link>
                   </li>
                 </ul>
-              )}
+              )}*/}
             </li>
-            <li className="link-nav-chapa">
-              <Link className="liNav1" to="/contacto">
+            <li className="link-nav-chapaOsc">
+              <Link className="liNav1Osc" to="/contacto">
               {t("li.CONTACT")}
               </Link>
             </li>
-            <li className="link-nav-chapab">
-                    <div className="botones">
+            <li className="link-nav-chapabOsc">
+                    <div className="botonesOsc">
                       <button
                         onClick={(event) => {
                           i18next.changeLanguage("es");
                           document
-                            .querySelectorAll(".language-button")
+                            .querySelectorAll(".language-buttonOsc")
                             .forEach((btn) => btn.classList.remove("active"));
                           event.target.classList.add("active");
                         }}
-                        className="language-button"
+                        className="language-buttonOsc"
                       >
                         ES
                       </button>
@@ -255,11 +273,11 @@ const NavbarOscura = () => {
                         onClick={(event) => {
                           i18next.changeLanguage("en");
                           document
-                            .querySelectorAll(".language-button")
+                            .querySelectorAll(".language-buttonOsc")
                             .forEach((btn) => btn.classList.remove("active"));
                           event.target.classList.add("active");
                         }}
-                        className="language-button"
+                        className="language-buttonOsc"
                       >
                         EN
                       </button>

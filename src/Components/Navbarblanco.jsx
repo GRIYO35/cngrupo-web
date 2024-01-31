@@ -26,7 +26,7 @@ import NAVBAR from "./NavBar"
 const Navchapa = () => {
   const [t, i18next] = useTranslation("global");
   const [isOpen, setIsOpen] = useState(false);
-  const [openSubMenu, setOpenSubMenu] = useState(null);
+  {/*const [openSubMenu, setOpenSubMenu] = useState(null);
 
   const [openMenu, setOpenMenu] = useState(null);
 
@@ -76,7 +76,7 @@ const Navchapa = () => {
   const handleSubMenuClickC = (event) => {
     event.stopPropagation();
     setSubMenuOpenC(!isSubMenuOpenC);
-  };
+  };*/}
 
   return (
     <div className="home-container">

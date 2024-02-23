@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import { FaSpinner } from "react-icons/fa";
+import MAPA from "./Maps1"
 import "./Contactocomponente.css";
 
 export const Contactocomponente = () => {
@@ -110,7 +111,6 @@ export const Contactocomponente = () => {
   return (
     <div className="contentContacto">
       <div className="contact-wrapper">
-        {showEmailSentMessage && <p className="p-enviado">Email enviado.</p>}
 
         <form ref={form} onSubmit={sendEmail} className="form-contacto">
           <div class="input-field">
@@ -170,7 +170,9 @@ export const Contactocomponente = () => {
               {sendingEmail ? <FaSpinner className="spinner" /> : "ENVIAR"}
             </button>
           </p>
+          {showEmailSentMessage && <p className="p-enviado">Email enviado.</p>}
         </form>
+        <MAPA></MAPA>
       </div>
     </div>
   );

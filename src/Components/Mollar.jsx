@@ -8,55 +8,32 @@ import vectormollar1 from '../Assets/Capa_2.png'
 import vectormollar2 from '../Assets/Group 94 (1).png'
 import vectormollar3 from '../Assets/Vector (4).png'
 import vectormollar4 from '../Assets/Vector (5).png'
+import videoSourceMollar from "../Assets/Puesto el mollar web v3.mp4";
 import NAVBAR from "./NavBar"
 import "./Mollar.css"
 
 const Navchapa = () => {
-    /*const [isOpen, setIsOpen] = useState(false);
-    const [isSubMenuOpen1, setSubMenuOpen1] = useState(false);
-    const [isSubMenuOpen2, setSubMenuOpen2] = useState(false);
-    const [isSubMenuOpen3, setSubMenuOpen3] = useState(false);
+    /*const [isOpen, setIsOpen] = useState(false);*/
 
-    let timer;
-    const delay = 100; // tiempo de retraso en milisegundos
-
-    const handleMouseEnter1 = () => {
-        if (timer) clearTimeout(timer);
-        setSubMenuOpen1(true);
-    };
-
-    const handleMouseLeave1 = () => {
-        timer = setTimeout(() => setSubMenuOpen1(false), delay);
-    };
-
-    // Repite lo mismo para los otros submenús
-    const handleMouseEnter2 = () => {
-        if (timer) clearTimeout(timer);
-        setSubMenuOpen2(true);
-    };
-
-    const handleMouseLeave2 = () => {
-        timer = setTimeout(() => setSubMenuOpen2(false), delay);
-    };
-
-    const handleMouseEnter3 = () => {
-        if (timer) clearTimeout(timer);
-        setSubMenuOpen3(true);
-    };
-
-    const handleMouseLeave3 = () => {
-        timer = setTimeout(() => setSubMenuOpen3(false), delay);
-    };
-*/
     return (
         <div className="home-container">
-            <div className="home-container5">
+            <div className="video">
+            <video
+          src={videoSourceMollar}
+          autoPlay
+          loop
+          muted
+          className="tuvideo"
+        >
+        </video>
+        <div className="content">
             <NAVBAR></NAVBAR>
-        <div className="txt-redes">
+        <div className="txt-redes-mollar">
             <div className="txt-container-mollar">
               <div className="linea-titulo">
             <hr class="mi-linea"></hr><p className="nuestra-empresa">NUESTRA EMPRESA</p></div>
             <h2 className="logistica-title">PUESTO EL MOLLAR</h2>
+            </div>
             </div>
             </div>  
         </div>
@@ -104,10 +81,10 @@ const Navchapa = () => {
         <hr className="linea-mollar"></hr>
         <p className="txt-mollar-card">Para contactarnos, podés hacerlo a través de estos canales:</p>
         <div className="container-cards-mollar">
-            <div className="card-mollar"><div className="titulo-mollar"><h2 className="title-direccion-mollar">Responsable</h2><img src={vectormollar1} alt="" className="vectormollar1"/></div><p className="txt-direccion-mollar">recepcion@cngrupo.com.ar</p></div>
-            <div className="card-mollar"><div className="titulo-mollar"><h2 className="title-direccion-mollar">Dirección</h2><img src={vectormollar2} alt="" className="vectormollar4"/></div><p className="txt-direccion-mollar">Av. Chile 1275-4400</p></div>
-            <div className="card-mollar"><div className="titulo-mollar"><h2 className="title-direccion-mollar">Teléfono</h2><img src={vectormollar3} alt="" className="vectormollar3"/></div><p className="txt-direccion-mollar">(0387) 423 6555</p></div>
-            <div className="card-mollar"><div className="titulo-mollar"><h2 className="title-direccion-mollar">Email</h2><img src={vectormollar4} alt="" className="vectormollar2"/></div><p className="txt-direccion-mollar">recepcion@cngrupo.com.ar</p></div>
+            <div className="card-mollar"><div className="titulo-mollar"><h2 className="title-direccion-mollar">Responsable</h2><img src={vectormollar1} alt="" className="vectormollar1"/></div><p className="txt-direccion-mollar">Francisco Couchot</p></div>
+            <div className="card-mollar"><div className="titulo-mollar"><h2 className="title-direccion-mollar">Dirección</h2><img src={vectormollar2} alt="" className="vectormollar4"/></div><p className="txt-direccion-mollar">Av. Chile 1275 - Salta (4400)</p></div>
+            <div className="card-mollar"><div className="titulo-mollar"><h2 className="title-direccion-mollar">Teléfono</h2><img src={vectormollar3} alt="" className="vectormollar3"/></div><p className="txt-direccion-mollar">(0387) 466-2710</p></div>
+            <div className="card-mollar"><div className="titulo-mollar"><h2 className="title-direccion-mollar">Email</h2><img src={vectormollar4} alt="" className="vectormollar2"/></div><p className="txt-direccion-mollar">fcouchot@cngrupo.com.ar</p></div>
         </div>
       </div>
 

@@ -208,11 +208,12 @@ width: 100px;
 }
 
 .mi-linea {
-  height: 1px; 
+  height: 1.5px; 
   border: none; 
   width: 80px;
   margin-top: 180px;
   background-color: #FFF;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   margin-left: 0px;
   margin-right: 10px;
 }
@@ -253,6 +254,7 @@ width: 100px;
   margin-left: 0px;
   margin-bottom: -10%;
   color: #FFF;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-size: 12px;
   font-weight: 400;
   line-height: 20px;
@@ -971,52 +973,7 @@ font-weight: 600;
 line-height: 25px;
 letter-spacing: 0.05px;
 color: #FFF;   
-}
-
-.home-container4{
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./Assets/PORTADA\ -\ DJI_0321.png);
-  background-size: cover;
-  height: 700px;
-}
-
-.container-logistica{
-  display: flex;
-  flex-direction: row;
-
-}
-
-.text-logistica{
-  color: #6C6C6C;
-  font-weight: 400;
-  text-align: left;
-  margin-right: 50px;
-  margin-bottom: 50px;
-}
-
-.container-logistica{
-  margin-top: 100px;
-  margin-left: 130px;
-  margin-right: 100px;
-}
-
-.logologistica{
-  margin-left: -200px;
-}
-
-.separadorfoto{
-  margin-top: 100px;
-  background-image: url(./Assets/ANCHO\ WEB\ -\ 7S303513.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 600px;
-}
-
-.container-cards-logistica{
-  display: flex;
-  flex-direction: row;
-  gap: 50px;
-  margin-top: 50px;
-  margin-right: 100px;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .card-contacto{
@@ -1059,54 +1016,6 @@ font-weight: 400;
 line-height: 20px;
 }
 
-.logistica-title-card{color: #00448A;
-font-family: Public Sans;
-font-size: 25px;
-font-style: normal;
-font-weight: 700;
-line-height: 69px;
-}
-
-.linea-logistica{
-  height: 1px; 
-  border: none; 
-  width: 80px;
-  background-color: #00448A;
- margin-left: 0;
- margin-top: -30px;
-}
-
-.txt-logistica-card{
-  color: #656565;
-font-family: Public Sans;
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-}
-
-.titulo-logo-logistica{
-  display: flex;
-  flex-direction: row;
-  gap: 130px;
-}
-
-.vector-logistica{
-  height: 20px;
-  margin-top: 27px;
-}
-
-.vector-logistica2{
-  height: 18px;
-  margin-top: 27px;
-}
-
-.vector-logistica3{
-  height: 13px;
-  margin-top: 32px;
-  margin-left: 20px;
-}
-
 
 .my-linea{
   width: 100px;
@@ -1118,263 +1027,16 @@ line-height: 30px;
   flex-direction: row;
 }
 
-.vectorneca1
-{
-  height: 18px;
-  width: 18px;
-  margin-top: 10px;
-  margin-left: 60px;
-}
-
-.vectorneca2
-{
-  height: 20px;
-  width: 20px;
-  margin-top: 10px;
-  margin-left: 90px;
-}
-
-.vectorneca3a
-{
-  height: 20px;
-  width: 20px;
-  margin-top: 10px;
-  margin-left: 70px;
-}
-
-.vectorneca3b
-{
-  margin-top: 10px;
-  height: 20px;
-  width: 20px;
-  margin-left: 5px;
- 
-}
-
-.vectorneca4
-{
-  height: 16px;
-  width: 18px;
-  margin-top: 13px;
-  margin-left: 125px;
-}
-
   .fotobotones{
     width: 450px;
     height: 290px;
     margin-top: 50px;
   }
 
-.home-container7{
-    /* background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./Assets/image\ 110.png);
-    background-size: cover; */
-    background-color: #22c1c3;
-    height: 700px;
-  }
-
-.lineagas {
-    height: 5px;
-    border-left: 2px solid #878179;
-    margin-right: 30px;
-    margin-left: 25px;
-}
-
 .txt-empresa-spang{
   font-weight: 600;
   font-size: 20px;
-
 }
-
-.banner-gas{
-  background: url(./Assets/GN\ RAW-185\ BANNER\ 1\ \(1\).png);
-  height: 600px;
-  background-repeat: no-repeat;
-
-
-}
-
-.gas-title{color: #009FE3;
-  font-family: Public Sans;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 69px;}
-
-  .linea-gas{
-    height: 1px; 
-    border: none; 
-    width: 80px;
-    background-color: #009FE3;
-   margin-left: 0;
-   margin-top: -30px;
-  }
-
-  .info-btn-gas{
-    width: 200px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    border-radius: 40px;
-    background-color: transparent;
-    color: #009FE3;
-    border: 1px solid #009FE3;
-    font-size: 9px;
-    margin-top: 30px;
-    letter-spacing: 1.5px;
-    text-align: center;
-    font-weight: 600;
-  }
-
-  
-  .gas-title2{color: #6C6C6C;
-    font-family: Public Sans;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px;
-  margin-right: 200px;}
-
-  .fotobotonesgas{
-    width: 450px;
-    height: 290px;
-    margin-top: 0px;
-  }
-
-  .gas-title{
-    color: #009FE3;
-    font-family: Public Sans;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 69px;
-  }
-  
-    .linea-gas{
-      height: 1px; 
-      border: none; 
-      width: 80px;
-      background-color: #009FE3;
-     margin-left: 0;
-     margin-top: -30px;
-    }
-
-     
-.title-direccion-gas{
-  color: #009FE3;
-  font-family: Public Sans;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 40px;
-  margin-bottom: 0px;
-margin-left: 20px;}
-
-.card-gas{
-  border-radius: 15px;
-  background: #F4F4F4;
-  width: 245px;
-  height: 120px;
-  flex-shrink: 0;
-  }
-
-  .logogas1
-  {
-    height: 18px;
-    width: 18px;
-    margin-top: 10px;
-    margin-left: 120px;
-  }
-  .logogas2
-  {
-    height: 18px;
-    width: 18px;
-    margin-top: 10px;
-    margin-left: 80px;
-  }
-  .logogas3
-  {
-    height: 18px;
-    width: 18px;
-    margin-top: 10px;
-    margin-left: 110px;
-  }
-  .logogas4
-  {
-    height: 18px;
-    width: 18px;
-    margin-top: 10px;
-    margin-left: 80px;
-  }
-
-  .containerfoto-botones-gas{
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-  }
-
-  .redes-container-empresa-gas{
-    position: fixed;
-    right: 0%;
-    display: flex;
-    flex-direction: column;
-      margin-top: 170px;
-      font-size: 25px;
-      color: #FFF;
-      height: 110px;
-      padding-top: 12px;
-      padding-right: 10px;
-      padding-left:10px;
-      background: rgba(140, 130, 122, 0.40);
-      backdrop-filter: blur( 6px );
-      -webkit-backdrop-filter: blur( 6px );
-      gap: 10px;
-    }
-
-    .home-container8{
-      background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./Assets/PORTADA\ -\ DSC04714-HDR.png);
-      background-size: cover;
-      height: 700px;
-    }
-
-    .redes-container-empresa-chile{
-      position: fixed;
-      right: 0%;
-      display: flex;
-      flex-direction: column;
-        margin-top: 170px;
-        font-size: 25px;
-        color: #FFF;
-        height: 73px;
-        padding-top: 12px;
-        padding-right: 10px;
-        padding-left:10px;
-        background: rgba(255, 11, 26, 0.60);
-        backdrop-filter: blur( 6px );
-        -webkit-backdrop-filter: blur( 6px );
-        gap: 10px;
-      }
-  .imgchile{
-    width: 450px;
-    height: 290px;
-  }
-
-  .container-gas{
-    display: flex;
-    flex-direction: row;
-    margin-top: 100px;
-    margin-left: 130px;
-    margin-right: 150px;
-  }
-  .logochile{
-    width: 200px;
-    margin-left: -330px;
-  }
-
-  .banner-chile{
-    background: url(./Assets/ANCHO\ WEB\ -\ DSC04722-HDR-2\ \(1\).png);
-    height: 600px;
-    background-repeat: no-repeat;
-  
-  
-  }
 
 .container-gris{
 background: #F4F4F4;
@@ -1401,18 +1063,6 @@ padding-top: 50px;
   margin-right: 150px;
   gap: 50px;
 
-}
-
-.fotosgris1{
-  width: 450px;
-  height: 290px;
-  margin-left: 50px;
-}
-
-.fotosgris2{
-  width: 450px;
-  height: 290px;
-  margin-left: 50px;
 }
 
 .txt-comb-card{
@@ -1445,95 +1095,10 @@ margin-top: -40px;
   padding-bottom: 100px;
 }
 
-
-.viales{
-  color: #656565;
-  font-family: Public Sans;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 28px;
-  text-align: left;
-  margin-top: 30px;
-  
-  }
-
-  .seccion2{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .numerocomb{
-    text-align: left;
-  }
-
-  .lineanum{
-    height: 1px; 
-  border: none; 
-  width: 30px;
-  background-color: #656565;
-  margin-left: 0;
-  margin-top: -20px;
-}
-
-.numeroytxt{
-  display: flex;
-  flex-direction: row;
-  color: #656565;
-}
-
-.txt-num{
-  margin-top: 30px;
-  margin-left: 10px;
-  font-weight: 600;
-  text-align: left;
-}
-
-.numeritos{
-  display: flex;
-  flex-direction: row;
-  gap: 50px;
-  flex-wrap: wrap;
-}
-
-.banner-comb2{
-  background: url(./Assets/ANCHO\ WEB\ 1\ -\ DJI_0016.png);
-  height: 600px;
-  background-repeat: no-repeat;
-
-
-}
-
-.socios-comb{
-  color: #6C6C6C;
-font-family: Public Sans;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: 30px;
-margin-right: 200px;
-}
-
-.banner-comb3{
-  background: url(./Assets/ANCHO\ WEB\ 2\ -\ Copia\ de\ DJI_0363.png);
-  height: 600px;
-  background-repeat: no-repeat;
-  margin-top: 100px;
-
-
-}
-
 .home-container10{
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./Assets/image\ 104.png);
   background-size: cover;
   height: 700px;
-}
-
-.txt-numA{
-  margin-top: 20px;
-  margin-left: 10px;
-  font-weight: 600;
-  text-align: left;
 }
 
 .parrafos{
@@ -1621,189 +1186,6 @@ font-weight: 400;
 line-height: 25px;
 margin-top: -30px;
 
-}
-
-.p-contacto1{
-  text-align: left;
-  color: #6C6C6C;
-font-size: 15px;
-font-weight: 400;
-line-height: 25px;
-}
-
-.txt-container-contacto{
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  margin-left: 130px;
-  
-}
-
-.subtitulocontacto{
-  margin-top: 170px;
-margin-left: 0px;
-
-  color: #5ABDCF;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 2.5px;
-}
-
-.milinea-contacto {
-  height: 1px; 
-  border: none; 
-  width: 80px;
-  margin-top: 180px;
-  background-color:#5ABDCF;
-  margin-left: 0px;
-  margin-right: 10px;
-}
-
-.contact-wrapper{
-  display: flex;
-  justify-content: left;
-  margin-left: 130px;
-  gap: 30px;
-  flex-direction: column;
-  margin-top: 35%;
-}
-
-.logo-txt-contacto{
-  display: flex;
-  flex-direction: row;
-}
-
-.linea-contacto{
-  height: 1px; 
-  border: none; 
-  width: 80px;
-  background-color: #009FE3;
-  margin-left: 0px;
-}
-
-.vectorcontacto{
-  padding: 10px;
-    border-radius: 45%;
-    height: 16px;
-    width: 18px;
-    background: #ECECEC;
-
-}
-
-.vectorcontacto2{
-  padding: 10px;
-    border-radius: 45%;
-    height: 15px;
-    width: 20px;
-    background: #ECECEC;
-
-}
-
-.imgcontacto{
-  width: 400px;
-height: 200px;
-}
-
-.otrorecuadro{
-  margin-top: 200px;
-}
-
- 
-.title-contacto{
-  color: #2A4B51;
-  font-family: Public Sans;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 60px;
-  margin-bottom: 0px;
-text-align: left;}
-
-.txt-direccion-contacto{
-  color: #656565;
-font-family: Public Sans;
-font-size: 15px;
-font-style: normal;
-font-weight: 300;
-line-height: 18px; 
-margin-left: 10px;
-margin-top: 10px;
-}
-
-.input-field {
-  position: relative;
-}
-
-.input-field input, .input-field textarea {
-  padding: 10px;
-  border: 1px solid #ccc; /* Cambia este color al que prefieras */
-  transition: border-color 0.3s;
-  outline: none;
-}
-
-.input-field label {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  transition: 0.3s;
-}
-
-.input-field input:focus + label,
-.input-field textarea:focus + label {
-  top: -20px;
-  font-size: 12px;
-  color: gray;
-}
-
-.input-field input:focus, .input-field textarea:focus {
-  border-color: #5ABDCF; /* Cambia este color al que prefieras */
-
-}
-
-.input-field label.hide {
-  display: none;
-}
-
-.input-contacto{
-  border-radius: 200px;
-  background: #ECECEC;
-  width: 550px;
-height: 20px;
-color: #878179;
-
-}
-
-.input-contacto2{
-  border-radius: 20px;
-  background: #ECECEC;
-  width: 550px;
-height: 120px;
-color: #878179; 
-}
-
-
-
-.nombre{
-  color: #878179;
-  font-size: 14px;
-}
-
-.btn-contacto{
-
-width: 160px;
-height: 36px;
-  border-radius: 40px;
-  background-color: transparent;
-  border: 1.5px solid #225065;
-  color: #225065;
-  font-size: 9px;
-  letter-spacing: 1.5px;
-  text-align: center;
-  font-weight: 600;
-  display: flex;
-  justify-content: left;
-  padding-top: 12px;
-  padding-left: 58px;
 }
 
 /* .content{

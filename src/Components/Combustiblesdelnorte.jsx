@@ -19,268 +19,311 @@ import logoneca3 from "../Assets/logoneca3.png";
 import logoneca4 from "../Assets/logoneca4.png";
 import vectorneca4 from "../Assets/logomail.svg";
 import LogoPersona from "../Assets/logoPersona.svg";
-import videoSourceComb from "../Assets/PORTADA - YPF AGRO Y MIC Web v3.mp4";
+import videoSourceComb from "../Assets/COMBUSTIBLES DEL NORTE.mp4";
 import NAVBAR from "./NavBar";
 import "./Combustiblesdelnorte.css";
 import ScrollToTop from "react-scroll-to-top";
 
 const Navchapa = () => {
-    const [isOpen, setIsOpen] = useState(false);
-    const [isSubMenuOpen1, setSubMenuOpen1] = useState(false);
-    const [isSubMenuOpen2, setSubMenuOpen2] = useState(false);
-    const [isSubMenuOpen3, setSubMenuOpen3] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  const [selectedButton, setSelectedButton] = useState(1);
 
-    let timer;
-    const delay = 100; // tiempo de retraso en milisegundos
+  const handleButtonClick = (buttonNumber) => {
+    setSelectedButton(buttonNumber);
+  };
 
-    // Cuando el mouse entra, limpiamos el temporizador si existe
-    const handleMouseEnter1 = () => {
-        if (timer) clearTimeout(timer);
-        setSubMenuOpen1(true);
-    };
+  const [selectedButton1, setSelectedButton1] = useState(1);
 
-    // Cuando el mouse sale, iniciamos un temporizador que cerrará el menú después del retraso
-    const handleMouseLeave1 = () => {
-        timer = setTimeout(() => setSubMenuOpen1(false), delay);
-    };
+  const handleButtonClick1 = (buttonNumber1) => {
+    setSelectedButton1(buttonNumber1);
+  };
 
-    // Repite lo mismo para los otros submenús
-    const handleMouseEnter2 = () => {
-        if (timer) clearTimeout(timer);
-        setSubMenuOpen2(true);
-    };
-
-    const handleMouseLeave2 = () => {
-        timer = setTimeout(() => setSubMenuOpen2(false), delay);
-    };
-
-    const handleMouseEnter3 = () => {
-        if (timer) clearTimeout(timer);
-        setSubMenuOpen3(true);
-    };
-
-    const handleMouseLeave3 = () => {
-        timer = setTimeout(() => setSubMenuOpen3(false), delay);
-    };
-
-    return (
-        <div className="home-container">
-            <div className="home-container9">
-            <div className='nav-container'>
-                <img src={Logo} alt="" className='logo' />
-                <nav className='nav-chapa'>
-                    <div className={`navbar-links-container ${isOpen && "open"}`}>
-                        <ul className="ul-nav">
-                            <li className="link-nav-chapa" onMouseEnter={handleMouseEnter1} onMouseLeave={handleMouseLeave1}>
-                                <Link className="li" to="/">NUESTRA EMPRESA</Link>
-                                {isSubMenuOpen1 && (
-                                    <ul className="ul-menu">
-                                        <li className="link-nav-submenu"><Link className="li" to="/quiénes">¿Quiénes somos?</Link></li>
-                                        <li className="link-nav-submenu"><Link className="li" to="/vision">Visión & misión</Link></li>
-                                        <li className="link-nav-submenu"><Link className="li" to="/ejes">Ejes de compromiso</Link></li>
-                                        <li className="link-nav-submenu"><Link className="li" to="/historia">Historia</Link></li>
-                                        <li className="link-nav-submenu"><Link className="li" to="/info">Info impositiva</Link></li>
-                                    </ul>
-                                )}
-                            </li>
-                            <li className="link-nav-chapa" onMouseEnter={handleMouseEnter2} onMouseLeave={handleMouseLeave2}>
-                                <Link className="li" to="/mecanica">NUESTROS NEGOCIOS</Link>
-                                {isSubMenuOpen2 && (
-                                    <ul className="ul-menu2">
-                                        <li className="link-nav-submenu"><Link className="li" to="/quiénes">Oil & Gas</Link></li>
-                                        <li className="link-nav-submenu"><Link className="li" to="/vision">Agro</Link></li>
-                                        <li className="link-nav-submenu"><Link className="li" to="/ejes">Minería</Link></li>
-                                    </ul>
-                                )}
-                            </li>
-
-                            <li className="link-nav-chapa" onMouseEnter={handleMouseEnter3} onMouseLeave={handleMouseLeave3}>
-                                <Link className="li" to="/chapaypintura">TRABAJÁ EN CN GRUPO</Link>
-                                {isSubMenuOpen3 && (
-                                    <ul className="ul-menu3">
-                                        <li className="link-nav-submenu"><Link className="li" to="/quiénes">Capital humano</Link></li>
-                                    </ul>
-                                )}
-                            </li>
-                            <li className="link-nav-chapa"><Link className="li" to="/4x4">CONTACTO</Link></li>
-                        </ul>
-
-                    </div>
-                    <div className={`toggle ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)}>
-                        <span className="span-nav"></span>
-                        <span className="span-nav"></span>
-                        <span className="span-nav"></span>
-
-                        <body className={isOpen ? 'overlay' : ''}></body>
-                    </div>
-                </nav>
-            
-        </div>
-
+  return (
+    <div className="home-container">
+      <div className="video">
+      <video
+          src={videoSourceComb}
+          autoPlay
+          loop
+          muted
+          className="tuvideo"
+        >
+        </video>
+        <div className="content">
+        <NAVBAR></NAVBAR>
         <div className="redes-container-empresa-comb">
-            <FaInstagram />
-            <FaFacebook />
-            <FaLinkedin />
-            </div>   
-        <div className="txt-redes">
-            <div className="txt-container-empresa">
-              <div className="linea-titulo">
-            <hr class="mi-linea"></hr><p className="nuestra-empresa">NUESTROS NEGOCIOS</p></div>
+          <FaInstagram />
+          <FaFacebook />
+          <FaLinkedin />
+        </div>
+        <div className="txt-redesComb">
+          <div className="txt-container-empresaComb">
+            <div className="linea-titulo">
+              <hr class="mi-linea"></hr>
+              <p className="nuestra-empresa">NUESTROS NEGOCIOS</p>
+            </div>
             <h2 className="logistica-title">COMBUSTIBLES DEL NORTE</h2>
-            </div>
-            </div>  
-        </div>
-
-        <div className="container-comb">
-                <img src={logo2} alt="" className="negaimg1"/>
-                <div className="containter-logo-img-comb">
-                <h2 className="gas-title">Oil&Gas</h2>
-                <hr className="linea-gas"></hr>
-                <p className="p-neca1"> Somos una empresa que ofrece<span className="txt-empresa-span">soluciones integrales</span> adaptadas a las necesidades de nuestros clientes a través de la distribución mayorista de Diesel. Asimismo somos distribuidores oficiales de <span className="txt-empresa-span">lubricantes y asfalto YPF.</span> 
-                </p>
-                </div>
-        
-        </div>     
-        <div className="banner-comb"></div>    
-        
-        
-
-    <div className="container-txt-card">
-        <h2 className="gas-title">Soluciones Oil</h2>
-        <hr className="linea-gas"></hr>
-        <h3 className="h3sub-combus">MIC - manejo integral de combustible </h3>
-        <p className="txt-neca-boton">soluciones digitales de distribución de  <span className="txt-empresa-span">combustible</span>  para estaciones<span className="txt-empresa-span">fijas</span>estaciones<span className="txt-empresa-span">moviles y  distribución capilar.</span></p>
-        <div className="neca-buttons">
-        <button className="info-btn-gas">ESTACIONES FIJAS</button>
-        <button className="info-btn-gas">ESTACIONES MOVILES</button>
-        <button className="info-btn-gas">DISTRIBUCIÓN CAPILAR</button>
-        </div>
-        <div className="containerfoto-botones-gas">
-
-            <img src={fotocomb} alt="" className="fotobotonesgas"/>
-            <div className="txt-logos-neca"><h2 className="gas-title2">Estaciones Fijas</h2>
-            <p className="txt-neca-boton2">Es una solución 
-            <span className="txt-empresa-span">inteligente y customizada</span> del manejo de combustible para estaciones  
-            <span className="txt-empresa-span"> fijas.</span>
-            </p>
-            </div>
-        </div>
-    </div>
-
-
-
-
-    <div className="container-gris">
-    
-    
-    <div className="container-completo">
-    <div className="titulo-linea-p-comb">
-        <h2 className="gas-title">Lubricentro</h2>
-        <hr className="linea-gas"></hr>
-        <p className="txt-logistica-card">Distribuimos <span className="txt-empresa-span">ELAION</span>, la línea de lubricantes de <span className="txt-empresa-span">YPF </span>empleados en el rubro agrícola, automotriz, industrial, náutico, de 
-        transporte, para motos y aceites agrícolas. Los lubricantes <span className="txt-empresa-span">ELAION</span> son aptos para todos los vehículos equipados con motores 4 tiempos que utilicen cualquier tipo de combustible</p>
-    </div> 
-    <img src={fotolubri} alt="" className="fotosgris1"/>  
-    </div> 
-
-        
-        
-
-
-    <div className="container-completo">
-    <div className="titulo-linea-p-comb">
-        <h2 className="gas-title">YPF Asfaltos</h2>
-        <hr className="linea-gas"></hr>
-        <p className="txt-logistica-card">Somos representantes oficiales y distribuidores exclusivos en toda la provincia de Salta de <span className="txt-empresa-span">YPF ASFALTOS</span>, líderes en la comercialización de <span className="txt-empresa-span">asfaltos</span> e insumos <span className="txt-empresa-span">energéticos</span> para la construcción, asegurando un <span className="txt-empresa-span">servicio personalizado</span> para cada cliente.</p>
-        </div>
-        <img src={fotoasfalto} alt="" className="fotosgris2"/>
-        </div>
-     
-
-        <div className="seccion2">
-        <h3 className="viales">Viales</h3>
-        
-        <div className="numeritos">
-        
-        <div className="numeroytxt">
-        <div className="numerocomb">
-        <h2 className="numerito">01</h2> 
-        <hr className="lineanum"></hr>
-        </div>
-        <p className="txt-num">CEMENTOS ASFÁLTICOS</p>
-        </div>
-
-        <div className="numeroytxt">
-        <div className="numerocomb">
-        <h2 className="numerito">02</h2> 
-        <hr className="lineanum"></hr>
-        </div>
-        <p className="txt-num">ASFALTOS MODIFICADOS</p>
-        </div>
-
-        <div className="numeroytxt">
-        <div className="numerocomb">
-        <h2 className="numerito">03</h2> 
-        <hr className="lineanum"></hr>
-        </div>
-        <p className="txt-num">EMULSIONES ASFÁLTICAS</p>
-        </div>
-
-        <div className="numeroytxt">
-        <div className="numerocomb">
-        <h2 className="numerito">04</h2> 
-        <hr className="lineanum"></hr>
-        </div>
-        <p className="txt-num">ASFALTOS TIBIOS</p>
-        </div>
-
-        <div className="numeroytxt">
-        <div className="numerocomb">
-        <h2 className="numerito">05</h2> 
-        <hr className="lineanum"></hr>
-        </div>
-        <p className="txt-num">SELLADORES ASFÁLTICOS</p>
-        </div>
-        
-        
-        </div>
-        <h3 className="viales">Industriales</h3>
-        <div className="numeritos">
-
-        <div className="numeroytxt">
-        <div className="numerocomb">
-        <h2 className="numerito">01</h2> 
-        <hr className="lineanum"></hr>
-        </div>
-        <p className="txt-num">ASFALTO BASE PLÁSTICO</p>
-        </div>
-
-        <div className="numeroytxt">
-        <div className="numerocomb">
-        <h2 className="numerito">02</h2> 
-        <hr className="lineanum"></hr>
-        </div>
-        <p className="txt-num">PINTURA ALFÁLTICA</p>
-        </div>
-
-        <div className="numeroytxt">
-        <div className="numerocomb">
-        <h2 className="numerito">03</h2> 
-        <hr className="lineanum"></hr>
-        </div>
-        <p className="txt-num">ASFALTO PLÁSTICO N°1</p>
-        </div>
-
+          </div>
         </div>
         </div>
-   </div>     
- 
-    
-    
-   <div className="banner-comb2"></div> 
+      </div>
 
       <div className="container-comb">
         <img src={logo2} alt="" className="Combimg1" />
+        <div className="containter-logo-img-comb">
+          <h2 className="Comb-title">Oil&Gas</h2>
+          <hr className="linea-Comb"></hr>
+          <p className="p-Comb1">
+            {" "}
+            Somos una empresa que ofrece
+            <span className="txt-empresa-spanComb">
+              soluciones integrales
+            </span>{" "}
+            adaptadas a las necesidades de nuestros clientes a través de la
+            distribución mayorista de Diesel. Asimismo somos distribuidores
+            oficiales de{" "}
+            <span className="txt-empresa-spanComb">
+              lubricantes y asfalto YPF.
+            </span>
+          </p>
+        </div>
+      </div>
+      <div className="banner-comb"></div>
+
+      <div className="container-txt-cardCombustible">
+        <h2 className="Comb-title">Soluciones Oil</h2>
+        <hr className="linea-Comb"></hr>
+        <h3 className="h3sub-combus">MIC - manejo integral de combustible </h3>
+        <p className="txt-comb-boton">
+          soluciones digitales de distribución de{" "}
+          <span className="txt-empresa-spanComb">combustible</span> para
+          estaciones<span className="txt-empresa-spanComb"> fijas </span>{" "}
+          estaciones
+          <span className="txt-empresa-spanComb">
+            {" "}
+            moviles y distribución capilar.
+          </span>
+        </p>
+        <div className="Comb-buttons">
+          <button
+            className="info-btn-Comb"
+            onClick={() => handleButtonClick(1)}
+            style={{
+              backgroundColor: selectedButton === 1 ? "#009fe3" : "transparent",
+              color: selectedButton === 1 ? "white" : "#009fe3",
+            }}
+          >
+            ESTACIONES FIJAS
+          </button>
+          <button
+            className="info-btn-Comb"
+            onClick={() => handleButtonClick(2)}
+            style={{
+              backgroundColor: selectedButton === 2 ? "#009fe3" : "transparent",
+              color: selectedButton === 2 ? "white" : "#009fe3",
+            }}
+          >
+            ESTACIONES MOVILES
+          </button>
+          <button
+            className="info-btn-Comb"
+            onClick={() => handleButtonClick(3)}
+            style={{
+              backgroundColor: selectedButton === 3 ? "#009fe3" : "transparent",
+              color: selectedButton === 3 ? "white" : "#009fe3",
+            }}
+          >
+            DISTRIBUCIÓN CAPILAR
+          </button>
+        </div>
+        <div className="card">
+          {selectedButton === 1 && (
+            <>
+              <div className="containerfoto-botones-Comb">
+                <img src={fotocomb} alt="" className="fotobotonesComb" />
+                <div className="txt-logos-Com">
+                  <h2 className="Comb-title2">Estaciones Fijas</h2>
+                  <p className="txt-Comb-boton2">
+                    Es una solución
+                    <span className="txt-empresa-spanComb">
+                      {" "}
+                      inteligente y customizada
+                    </span>{" "}
+                    del manejo de combustible para estaciones
+                    <span className="txt-empresa-spanComb"> fijas.</span>
+                  </p>
+                </div>
+              </div>
+            </>
+          )}
+          {selectedButton === 2 && (
+            <>
+              <div className="containerfoto-botones-Comb">
+                <img src={fotocombMob} alt="" className="fotobotonesComb" />
+                <div className="txt-logos-Com">
+                  <h2 className="Comb-title2">Estaciones Movíles</h2>
+                  <p className="txt-Comb-boton2">
+                    Es una solución
+                    <span className="txt-empresa-spanComb">
+                      {" "}
+                      inteligente y customizada
+                    </span>{" "}
+                    del manejo de combustible para estaciones
+                    <span className="txt-empresa-spanComb"> movíles.</span>
+                  </p>
+                </div>
+              </div>
+            </>
+          )}
+          {selectedButton === 3 && (
+            <>
+              <div className="containerfoto-botones-Comb">
+                <img src={fotocombDis} alt="" className="fotobotonesComb" />
+                <div className="txt-logos-Com">
+                  <h2 className="Comb-title2">Distribucion Capilar</h2>
+                  <p className="txt-Comb-boton2">
+                    Es un
+                    <span className="txt-empresa-spanComb">
+                      {" "}
+                      servicio logistico
+                    </span>{" "}
+                    de entrega de combustible en el útimo tramo en el proceso de
+                    suministro. Abastecemos cada máquina utilizando camiones
+                    provistos de
+                    <span className="txt-empresa-spanComb"> cisternas</span> y
+                    sistemas de bombas de
+                    <span className="txt-empresa-spanComb">
+                      {" "}
+                      superalto caudal{" "}
+                    </span>{" "}
+                    (250 lpm) con los más altos estándares de seguridad y
+                    tecnología para lograr un abastecimiento con trazabilidad,
+                    precisión e información clave para la toma de desiciones.
+                  </p>
+                </div>
+              </div>
+            </>
+          )}
+        </div>
+      </div>
+
+      <div className="container-gris">
+        <div className="container-completoComb">
+          <div className="titulo-linea-p-comb">
+            <h2 className="Comb-title">Lubricentro</h2>
+            <hr className="linea-Comb"></hr>
+            <p className="txt-Combustible-card">
+              Distribuimos <span className="txt-empresa-spanComb">ELAION</span>,
+              la línea de lubricantes de{" "}
+              <span className="txt-empresa-spanComb">YPF </span>empleados en el
+              rubro agrícola, automotriz, industrial, náutico, de transporte,
+              para motos y aceites agrícolas. Los lubricantes{" "}
+              <span className="txt-empresa-spanComb">ELAION</span> son aptos
+              para todos los vehículos equipados con motores 4 tiempos que
+              utilicen cualquier tipo de combustible
+            </p>
+          </div>
+          <img src={fotolubri} alt="" className="fotosgris1" />
+        </div>
+
+        <div className="container-completoComb">
+          <div className="titulo-linea-p-comb">
+            <h2 className="Comb-title">YPF Asfaltos</h2>
+            <hr className="linea-Comb"></hr>
+            <p className="txt-Combustible-card">
+              Somos representantes oficiales y distribuidores exclusivos en toda
+              la provincia de Salta de{" "}
+              <span className="txt-empresa-spanComb">YPF ASFALTOS</span>,
+              líderes en la comercialización de{" "}
+              <span className="txt-empresa-spanComb">asfaltos</span> e insumos{" "}
+              <span className="txt-empresa-spanComb">energéticos</span> para la
+              construcción, asegurando un{" "}
+              <span className="txt-empresa-spanComb">
+                servicio personalizado
+              </span>{" "}
+              para cada cliente.
+            </p>
+          </div>
+          <img src={fotoasfalto} alt="" className="fotosgris2" />
+        </div>
+
+        <div className="seccion2">
+          <h3 className="viales">Viales</h3>
+
+          <div className="numeritos">
+            <div className="numeroytxt">
+              <div className="numerocomb">
+                <h2 className="numerito">01</h2>
+                <hr className="lineanum"></hr>
+              </div>
+              <p className="txt-num">CEMENTOS ASFÁLTICOS</p>
+            </div>
+
+            <div className="numeroytxt">
+              <div className="numerocomb">
+                <h2 className="numerito">02</h2>
+                <hr className="lineanum"></hr>
+              </div>
+              <p className="txt-num">ASFALTOS MODIFICADOS</p>
+            </div>
+
+            <div className="numeroytxt">
+              <div className="numerocomb">
+                <h2 className="numerito">03</h2>
+                <hr className="lineanum"></hr>
+              </div>
+              <p className="txt-num">EMULSIONES ASFÁLTICAS</p>
+            </div>
+
+            <div className="numeroytxt">
+              <div className="numerocomb">
+                <h2 className="numerito">04</h2>
+                <hr className="lineanum"></hr>
+              </div>
+              <p className="txt-num">ASFALTOS TIBIOS</p>
+            </div>
+
+            <div className="numeroytxt">
+              <div className="numerocomb">
+                <h2 className="numerito">05</h2>
+                <hr className="lineanum"></hr>
+              </div>
+              <p className="txt-num">SELLADORES ASFÁLTICOS</p>
+            </div>
+          </div>
+          <h3 className="viales">Industriales</h3>
+          <div className="numeritos">
+            <div className="numeroytxt">
+              <div className="numerocomb">
+                <h2 className="numerito">01</h2>
+                <hr className="lineanum"></hr>
+              </div>
+              <p className="txt-num">ASFALTO BASE PLÁSTICO</p>
+            </div>
+
+            <div className="numeroytxt">
+              <div className="numerocomb">
+                <h2 className="numerito">02</h2>
+                <hr className="lineanum"></hr>
+              </div>
+              <p className="txt-num">PINTURA ALFÁLTICA</p>
+            </div>
+
+            <div className="numeroytxt">
+              <div className="numerocomb">
+                <h2 className="numerito">03</h2>
+                <hr className="lineanum"></hr>
+              </div>
+              <p className="txt-num">ASFALTO PLÁSTICO N°1</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="banner-comb2"></div>
+
+      <div className="container-comb">
+        <img src={logo2} alt="" className="Combimg2" />
         <div className="containter-logo-img-comb">
           <h2 className="Comb-title">Agro</h2>
           <hr className="linea-Comb"></hr>
@@ -313,7 +356,7 @@ const Navchapa = () => {
         <hr className="linea-Comb"></hr>
         <div className="Comb-buttons">
           <button
-            className="info-btn-gas"
+            className="info-btn-Comb"
             onClick={() => handleButtonClick1(1)}
             style={{
               backgroundColor:
@@ -324,7 +367,7 @@ const Navchapa = () => {
             MUESTREO DIRIGIDO
           </button>
           <button
-            className="info-btn-gas"
+            className="info-btn-Comb"
             onClick={() => handleButtonClick1(2)}
             style={{
               backgroundColor:
@@ -335,7 +378,7 @@ const Navchapa = () => {
             SUMMA
           </button>
           <button
-            className="info-btn-gas"
+            className="info-btn-Comb"
             onClick={() => handleButtonClick1(3)}
             style={{
               backgroundColor:
@@ -346,63 +389,193 @@ const Navchapa = () => {
             SOLUCIONES FINANCIERAS
           </button>
         </div>
-        <div className="containerfoto-botones-gas">
-
-            <img src={fotocomb2} alt="" className="fotobotonesgas"/>
-            <div className="txt-logos-neca"><h2 className="gas-title2">Soluciones Financieras</h2>
-            <p className="txt-neca-boton2">Tenemos una diversidad de
-             <span className="txt-empresa-span"> herramientas financieras </span> adaptadas para cada sector y al contexto económico mundial. 
-            </p>
-            <h3 className="socios-comb">Nuestros socios estratégicos </h3>
-            <div className="logos-neca2">
-            <img src={logoneca1} alt="" className="logo-neca2"/>
-            <img src={logoneca2} alt="" className="logo-neca2a"/>
-            <img src={logoneca3} alt="" className="logo-neca2b"/>
-            <img src={logoneca4} alt="" className="logo-neca2c"/>  
-            </div>
-            </div>
+        <div className="card">
+          {selectedButton1 === 1 && (
+            <>
+              <div className="containerfoto-botones-Comb">
+                <img src={fotocombMD} alt="" className="fotobotonesComb" />
+                <div className="txt-logos-Com">
+                  <h2 className="Comb-title2">Muestreo Dirigido</h2>
+                  <ul className="lista-Comb">
+                    <li>Servicio de muestreo y análisis de suelo.</li>
+                    <li>Extracción de muestras compuestas con calador hidráulico automático.</li>
+                    <li>Fertilidad de suelo.</li>
+                    <li>Agua útil de suelo.</li>
+                    <li>Análisis de laboratorio.</li>
+                  </ul>
+                  <button className="info-btn-Comb">DESCARGAR PDF</button>
+                </div>
+              </div>
+            </>
+          )}
+          {selectedButton1 === 2 && (
+            <>
+              <div className="containerfoto-botones-Comb">
+                <img src={fotocombSum} alt="" className="fotobotonesComb" />
+                <div className="txt-logos-Com">
+                  <h2 className="Comb-title2">Summa</h2>
+                  <p className="txt-Comb-boton2">
+                    Propuesta
+                    <span className="txt-empresa-spanComb">
+                      {" "}
+                      integral{" "}
+                    </span>{" "}
+                    de agricultura de precisión de máxima tecnología en cada etapa para la
+                    <span className="txt-empresa-spanComb">
+                      {" "}
+                      nutrición{" "}
+                    </span>{" "}
+                    de tus
+                    <span className="txt-empresa-spanComb">
+                      {" "}
+                      cultivos.
+                    </span>
+                  </p>
+                  <button className="info-btn-Comb">DESCARGAR PDF</button>
+                </div>
+              </div>
+            </>
+          )}
+          {selectedButton1 === 3 && (
+            <>
+              <div className="containerfoto-botones-Comb">
+                <img src={fotocombSF} alt="" className="fotobotonesComb" />
+                <div className="txt-logos-Com">
+                  <h2 className="Comb-title2">Soluciones Financieras</h2>
+                  <p className="txt-Comb-boton2">
+                    Tenemos una diversidad de
+                    <span className="txt-empresa-spanComb">
+                      {" "}
+                      herramientas financieras{" "}
+                    </span>{" "}
+                    adaptadas para cada sector y al contexto económico mundial.
+                  </p>
+                  <h3 className="socios-comb">Nuestros socios estratégicos </h3>
+                  <div className="logos-neca2">
+                    <img src={logoneca1} alt="" className="logo-neca2" />
+                    <img src={logoneca2} alt="" className="logo-neca2a" />
+                    <img src={logoneca3} alt="" className="logo-neca2b" />
+                    <img src={logoneca4} alt="" className="logo-neca2c" />
+                  </div>
+                </div>
+              </div>
+            </>
+          )}
         </div>
+      </div>
+
+      <div className="banner-comb3"></div>
+
+      <div className="container-txt-cardCombustible">
+        <h2 className="Comb-title">Contacto</h2>
+        <hr className="linea-Comb"></hr>
+        <p className="txt-Combustible-card">
+          Para contactarnos, podés hacerlo a través de estos canales:
+        </p>
+        <div className="container-cards-Combustible">
+          <div className="card-Comb">
+            <div className="titulo-Combustible">
+              <h2 className="title-direccion-Combustible">Las Lajitas</h2>
+            </div>
+            <div className="CardCombustibleContacto">
+              <div className="CombDirec">
+                <img src={LogoPersona} alt="" className="logoComb4" />
+                <p className="txt-direccion-Combustible">Marcos Cornejo</p>
+              </div>
+              <div className="CombDirec1">
+                <img src={logodireccion} alt="" className="logoComb1" />
+                <p className="txt-direccion-Combustible">
+                  Ruta Prov. 5, Interseccion
+                  <br />
+                  Ruta 30, A4449 Las Lajitas
+                </p>
+              </div>
+              <div className="CombDirec2">
+                <img src={logowpp} alt="" className="logoComb3" />
+                <img src={logotelefono} alt="" className="logoComb2" />
+                <p className="txt-direccion-Combustible">+54 387 504-6010</p>
+              </div>
+              <div className="CombDirec3">
+                <img src={vectorneca4} alt="" className="vectorComb4" />
+                <p className="txt-direccion-Combustible">
+                  mcornejo@cngrupo.com.ar
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container-cards-Combustible">
+          <div className="card-Comb1">
+            <div className="titulo-Combustible">
+              <h2 className="title-direccion-Combustible">Embarcacion</h2>
+            </div>
+            <div className="CardCombustibleContacto">
+              <div className="CombDirec">
+                <img src={LogoPersona} alt="" className="logoComb4" />
+                <p className="txt-direccion-Combustible">Pablo Bertolin</p>
+              </div>
+              <div className="CombDirec1">
+                <img src={logodireccion} alt="" className="logoComb1" />
+                <p className="txt-direccion-Combustible">
+                  Ruta Nacional 34, KM1344,
+                  <br />
+                  Embarcacion, Salta (4400)
+                </p>
+              </div>
+              <div className="CombDirec2">
+                <img src={logowpp} alt="" className="logoComb3" />
+                <img src={logotelefono} alt="" className="logoComb2" />
+                <p className="txt-direccion-Combustible">+54 387 441-0667</p>
+              </div>
+              <div className="CombDirec3">
+                <img src={vectorneca4} alt="" className="vectorComb4" />
+                <p className="txt-direccion-Combustible">
+                  pbertolin@cngrupo.com.ar
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="Scroll">
+         <ScrollToTop
+            smooth="false"
+            color="white"
+            className="scroll-to-top"
+            style={{
+              borderRadius: "50%",
+              color: "white",
+              backgroundColor: "#5ABDCF",
+              border: "none",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              position: "absolute",
+            }}
+            component={
+              <ExpandLessIcon
+                style={{
+                  fontSize: 40,
+                  color: "white",
+                }}
+              />
+            }
+          />
+        </div>
+
+      <div className="footer">
+        <div className="txt1">
+          <p className="txt-foo">Av. Chile 1275, A4400 Salta</p>
+        </div>
+        <div className="txt2">
+          <p className="txt-foo">
+            © 2023 CN Grupo - Todos los derechos reservados
+          </p>
+        </div>
+      </div>
     </div>
+  );
+};
 
-    <div className="banner-comb3"></div> 
-
- <div className="container-txt-card">
-<h2 className="gas-title">Contacto</h2>
-   <hr className="linea-gas"></hr>
-    <p className="txt-logistica-card">Para contactarnos, podés hacerlo a través de estos canales:</p>
-     <div className="container-cards-logistica">
-     <div className="card-neca"><div className="titulo-mollar-logistica"><h2 className="title-direccion-neca">Responsable</h2></div><p className="txt-direccion-mollar"><span className="txt-empresa-span"> Las Lajitas </span><br></br>Ana D´uva <br></br><br></br><span className="txt-empresa-span"> Embarcación </span><br></br>Marcelo Isasmendi</p></div>
-            <div className="card-neca"><div className="titulo-mollar-logistica"><h2 className="title-direccion-neca">Dirección</h2><img src={logodireccion} alt="" className="logogas1"/></div><p className="txt-direccion-mollar"><span className="txt-empresa-span"> Las Lajitas </span><br></br>Av. Chile 1275 - Salta (4400)<br></br><br></br><span className="txt-empresa-span"> Embarcación </span><br></br>Ruta Nacional 34, Km 1344,<br></br> Embarcación, Salta (4400)</p></div>
-            <div className="card-neca"><div className="titulo-mollar-logistica"><h2 className="title-direccion-neca">Teléfono</h2><img src={logotelefono} alt="" className="logogas2"/><img src={logowpp} alt="" className="logogas3"/></div><p className="txt-direccion-mollar"><span className="txt-empresa-span"> Las Lajitas </span><br></br>+54 387 441-0916 <br></br><br></br><span className="txt-empresa-span"> Embarcación </span><br></br>0800-122-5800</p></div>
-            <div className="card-neca"><div className="titulo-mollar-logistica"><h2 className="title-direccion-neca">Email</h2><img src={vectorneca4} alt="" className="vectorneca4"/></div><p className="txt-direccion-mollar"><span className="txt-empresa-span"> Las Lajitas </span><br></br>aduva@cngrupo.com <br></br><br></br><span className="txt-empresa-span"> Embarcación </span><br></br>misasmendi@cngrupo.com</p></div>
-  {/* <div className="card-gas"><div className="titulo-mollar-logistica"><h2 className="title-direccion-gas">Dirección</h2><img src={logodireccion} alt="" className="logogas1"/></div><p className="txt-direccion-mollar">Av. Chile 1275 - Salta (4400)</p></div>
-            
-  <div className="card-gas"><div className="titulo-mollar-logistica"><h2 className="title-direccion-gas">Teléfono 0800</h2><img src={logotelefono} alt="" className="logogas2"/></div><p className="txt-direccion-mollar">0800-122-5800</p></div>
-            
-   <div className="card-gas"><div className="titulo-mollar-logistica"><h2 className="title-direccion-gas">WhatsApp</h2> <img src={logowpp} alt="" className="logogas3"/></div><p className="txt-direccion-mollar">387-4688288</p></div>
-            
-            
-           <div className="card-gas"><div className="titulo-mollar-logistica"><h2 className="title-direccion-gas">App Delivery</h2><img src={logodelivery} alt="" className="logogas4"/></div><p className="txt-direccion-mollar">misasmendi@cngrupo.com</p></div> */}
-        </div>
-   </div>
-
-        <div className="footer">
-          <div className="txt1">
-            <p className="txt-foo1">0387 423-6555</p>
-            <p className="txt-foo">Av. Chile 1275, A4400 Salta</p>
-          </div>
-          <div className="txt2">
-            <p className="txt-foo">© 2023 CN Grupo - Todos los derechos reservados</p>
-          </div>
-        </div>
-
-  
-
-</div>
-        
-        
-        
-    )
-}
-
-export default Navchapa
+export default Navchapa;

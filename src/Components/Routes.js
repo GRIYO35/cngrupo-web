@@ -15,7 +15,7 @@ import Estaciones from './Estaciones'
 import Quienes from './Quienes'
 import Contacto from './Contacto'
 import Navbar from './NavBar'
-import ButtonCardExam from './Prueba'
+import RRHH from './CapitalHumano'
 
 const Myroutes = () => {
   return (
@@ -36,7 +36,7 @@ const Myroutes = () => {
          <Route path="/quienes" element={<Quienes/>} /> 
          <Route path="/contacto" element={<Contacto/>} /> 
          <Route path="/navbar" element={<Navbar/>} />
-         <Route path="/prueba" element={<ButtonCardExam/>} />
+         <Route path="/capital" element={<RRHH/>} />
         </Routes>
     </div>
   );

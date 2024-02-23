@@ -207,13 +207,13 @@ const Navbar = () => {
                       <div className="submenuNav-box">
                       <ul className="link-nav-submenuNuevo">
                         <li>
-                          <Link className="li" to="/combustiblesdelnorte">
+                          <Link className="li" to="/neca">
                             NECA
                           </Link>
                         </li>
                         <li>
                           <Link className="li" to="/combustiblesdelnorte">
-                          Combustibles del Norte
+                          COMBUSTIBLES DEL NORTE
                           </Link>
                         </li>
                         <li>
@@ -223,7 +223,7 @@ const Navbar = () => {
                         </li>
                         <li>
                           <Link className="li" to="/plantaguemes">
-                            Planta Guemes
+                            PLANTA GUEMES
                           </Link>
                         </li>
                       </ul>
@@ -243,7 +243,7 @@ const Navbar = () => {
                       <ul className="link-nav-submenuNuevo">
                         <li>
                           <Link className="li" to="/logistica">
-                            CN Logistica
+                            CN LOGISTICA
                           </Link>
                         </li>
                       </ul>

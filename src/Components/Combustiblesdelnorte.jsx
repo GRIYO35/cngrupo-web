@@ -1,27 +1,28 @@
 import React, { useState } from "react";
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
-import Logo from '../Assets/cngrupoblanco.png'
-import { FaInstagram, FaFacebook, FaLinkedin, FaYoutube } from 'react-icons/fa';
-import logo2 from '../Assets/loggo2.png';
-import fotocomb from '../Assets/MIC fija - CN NECA LAS LAJITAS-271.png'
-import logodireccion from '../Assets/logodireccion.png'
-import logotelefono from '../Assets/logotelefono.png'
-import logowpp from '../Assets/logowpp.png'
-import logodelivery from '../Assets/logodelivery.png'
-import fotolubri from '../Assets/texto descripción LUBRICANTES - YPF CHANGO OCT-289 1.png'
-import fotoasfalto from '../Assets//asfalto 1.png'
-import fotocomb2 from '../Assets/SS FINANCIERAS 1 - DSC02225 1.png'
-import logoneca1 from '../Assets/logoneca1.png'
-import logoneca2 from '../Assets/logoneca2.png'
-import logoneca3 from '../Assets/logoneca3.png'
-import logoneca4 from '../Assets/logoneca4.png'
-import vectorneca4 from '../Assets/Vector (8).png'
-import vectorneca1 from '../Assets/Capa_2 (1).png'
-import vectorneca2 from '../Assets/Group 94 (2).png'
-import vectorneca3a from '../Assets/Vector (6).png'
-import vectorneca3b from '../Assets/Vector (7).png'
-
-
+import ExpandLessIcon from "@material-ui/icons/ExpandLess";
+import { FaInstagram, FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
+import logo2 from "../Assets/CN - INFO IMPOSITIVA grey@300x.png";
+import fotocomb from "../Assets/650X388px WEB est fijas.png";
+import fotocombMob from "../Assets/650X388px WEB est moviles.png";
+import fotocombDis from "../Assets/650X388px WEB dd.png";
+import fotocombSF from "../Assets/650X388px WEB ss financieras.png";
+import fotocombSum from "../Assets/650X388px WEB summa.png";
+import fotocombMD from "../Assets/650X388px WEB md.png";
+import logodireccion from "../Assets/logodireccion.png";
+import logotelefono from "../Assets/logotelefono.png";
+import logowpp from "../Assets/logowpp.png";
+import fotolubri from "../Assets/650X388px WEB lubricentro.png";
+import fotoasfalto from "../Assets/650X388px WEB asfalto.png";
+import logoneca1 from "../Assets/logoneca1.png";
+import logoneca2 from "../Assets/logoneca2.png";
+import logoneca3 from "../Assets/logoneca3.png";
+import logoneca4 from "../Assets/logoneca4.png";
+import vectorneca4 from "../Assets/logomail.svg";
+import LogoPersona from "../Assets/logoPersona.svg";
+import videoSourceComb from "../Assets/PORTADA - YPF AGRO Y MIC Web v3.mp4";
+import NAVBAR from "./NavBar";
+import "./Combustiblesdelnorte.css";
+import ScrollToTop from "react-scroll-to-top";
 
 const Navchapa = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -278,30 +279,72 @@ const Navchapa = () => {
     
    <div className="banner-comb2"></div> 
 
-   <div className="container-comb">
-                <img src={logo2} alt="" className="negaimg1"/>
-                <div className="containter-logo-img-comb">
-                <h2 className="gas-title">Agro</h2>
-                <hr className="linea-gas"></hr>
-                <p className="p-neca1"> Somos representantes oficiales de<span className="txt-empresa-span">YPF AGRO</span> empresa líder en potenciar el desarrollo integral del campo argentino, a través de la provisión de los <span className="txt-empresa-span"> insumos y la energía</span> necesaria para producir más 
-y mejor.<br></br><br></br>
-Buscamos <span className="txt-empresa-span">transformar</span> el trabajo de nuestros clientes agricultores, brindándoles 
-<span className="txt-empresa-span">soluciones concretas</span> y una amplia gama de productos y servicios para
-<span className="txt-empresa-span"> protección y nutrición</span>de cultivos, semillas, bolsas 
-para silo.
+      <div className="container-comb">
+        <img src={logo2} alt="" className="Combimg1" />
+        <div className="containter-logo-img-comb">
+          <h2 className="Comb-title">Agro</h2>
+          <hr className="linea-Comb"></hr>
+          <p className="p-Comb1">
+            {" "}
+            Somos representantes oficiales de
+            <span className="txt-empresa-spanComb">YPF AGRO</span> empresa líder
+            en potenciar el desarrollo integral del campo argentino, a través de
+            la provisión de los{" "}
+            <span className="txt-empresa-spanComb"> insumos y la energía</span>{" "}
+            necesaria para producir más y mejor.<br></br>
+            <br></br>
+            Buscamos <span className="txt-empresa-spanComb">
+              transformar
+            </span>{" "}
+            el trabajo de nuestros clientes agricultores, brindándoles
+            <span className="txt-empresa-spanComb">soluciones concretas</span> y
+            una amplia gama de productos y servicios para
+            <span className="txt-empresa-spanComb">
+              {" "}
+              protección y nutrición
+            </span>
+            de cultivos, semillas, bolsas para silo.
+          </p>
+        </div>
+      </div>
 
-
-                </p>
-                </div>
-                </div>
-
-                <div className="container-txt-card">
-        <h2 className="gas-title">Soluciones Agro</h2>
-        <hr className="linea-gas"></hr>
-        <div className="neca-buttons">
-        <button className="info-btn-gas">MUESTREO DIRIGIDO</button>
-        <button className="info-btn-gas">SUMMA</button>
-        <button className="info-btn-gas">SOLUCIONES FINANCIERAS</button>
+      <div className="container-txt-cardCombustible1">
+        <h2 className="Comb-title">Soluciones Agro</h2>
+        <hr className="linea-Comb"></hr>
+        <div className="Comb-buttons">
+          <button
+            className="info-btn-gas"
+            onClick={() => handleButtonClick1(1)}
+            style={{
+              backgroundColor:
+                selectedButton1 === 1 ? "#009fe3" : "transparent",
+              color: selectedButton1 === 1 ? "white" : "#009fe3",
+            }}
+          >
+            MUESTREO DIRIGIDO
+          </button>
+          <button
+            className="info-btn-gas"
+            onClick={() => handleButtonClick1(2)}
+            style={{
+              backgroundColor:
+                selectedButton1 === 2 ? "#009fe3" : "transparent",
+              color: selectedButton1 === 2 ? "white" : "#009fe3",
+            }}
+          >
+            SUMMA
+          </button>
+          <button
+            className="info-btn-gas"
+            onClick={() => handleButtonClick1(3)}
+            style={{
+              backgroundColor:
+                selectedButton1 === 3 ? "#009fe3" : "transparent",
+              color: selectedButton1 === 3 ? "white" : "#009fe3",
+            }}
+          >
+            SOLUCIONES FINANCIERAS
+          </button>
         </div>
         <div className="containerfoto-botones-gas">
 

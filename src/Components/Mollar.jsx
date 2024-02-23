@@ -52,56 +52,6 @@ const Navchapa = () => {
         <div className="home-container">
             <div className="home-container5">
             <NAVBAR></NAVBAR>
-            {/*<div className='nav-container'>
-                <img src={Logo} alt="" className='logo' />
-                <nav className='nav-chapa'>
-                    <div className={`navbar-links-container ${isOpen && "open"}`}>
-                        <ul className="ul-nav">
-                            <li className="link-nav-chapa" onMouseEnter={handleMouseEnter1} onMouseLeave={handleMouseLeave1}>
-                                <Link className="li" to="/">NUESTRA EMPRESA</Link>
-                                {isSubMenuOpen1 && (
-                                    <ul className="ul-menu">
-                                        <li className="link-nav-submenu"><Link className="li" to="/quiénes">¿Quiénes somos?</Link></li>
-                                        <li className="link-nav-submenu"><Link className="li" to="/vision">Visión & misión</Link></li>
-                                        <li className="link-nav-submenu"><Link className="li" to="/ejes">Ejes de compromiso</Link></li>
-                                        <li className="link-nav-submenu"><Link className="li" to="/historia">Historia</Link></li>
-                                        <li className="link-nav-submenu"><Link className="li" to="/info">Info impositiva</Link></li>
-                                    </ul>
-                                )}
-                            </li>
-                            <li className="link-nav-chapa" onMouseEnter={handleMouseEnter2} onMouseLeave={handleMouseLeave2}>
-                                <Link className="li" to="/mecanica">NUESTROS NEGOCIOS</Link>
-                                {isSubMenuOpen2 && (
-                                    <ul className="ul-menu2">
-                                        <li className="link-nav-submenu"><Link className="li" to="/quiénes">Oil & Gas</Link></li>
-                                        <li className="link-nav-submenu"><Link className="li" to="/vision">Agro</Link></li>
-                                        <li className="link-nav-submenu"><Link className="li" to="/ejes">Minería</Link></li>
-                                    </ul>
-                                )}
-                            </li>
-
-                            <li className="link-nav-chapa" onMouseEnter={handleMouseEnter3} onMouseLeave={handleMouseLeave3}>
-                                <Link className="li" to="/chapaypintura">TRABAJÁ EN CN GRUPO</Link>
-                                {isSubMenuOpen3 && (
-                                    <ul className="ul-menu3">
-                                        <li className="link-nav-submenu"><Link className="li" to="/quiénes">Capital humano</Link></li>
-                                    </ul>
-                                )}
-                            </li>
-                            <li className="link-nav-chapa"><Link className="li" to="/4x4">CONTACTO</Link></li>
-                        </ul>
-
-                    </div>
-                    <div className={`toggle ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)}>
-                        <span className="span-nav"></span>
-                        <span className="span-nav"></span>
-                        <span className="span-nav"></span>
-
-                        <body className={isOpen ? 'overlay' : ''}></body>
-                    </div>
-                </nav>
-            
-                                </div>*/}
         <div className="txt-redes">
             <div className="txt-container-mollar">
               <div className="linea-titulo">

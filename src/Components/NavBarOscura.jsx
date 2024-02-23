@@ -28,7 +28,7 @@ const NavbarOscura = () => {
     clearTimeout(subMenuTimer);
     subMenuTimer = setTimeout(() => {
       setSubMenuOpen4(false);
-    }, 100);
+    }, 350);
   };
 
   const handleMouseEnter5 = (setSubMenuOpen) => {
@@ -41,7 +41,7 @@ const NavbarOscura = () => {
     clearTimeout(subMenuTimer1);
     subMenuTimer1 = setTimeout(() => {
       setSubMenuOpen5(false);
-    }, 50);
+    }, 350);
   };
 
   const handleMouseEnter6 = (setSubMenuOpen) => {
@@ -54,7 +54,7 @@ const NavbarOscura = () => {
     clearTimeout(subMenuTimer2);
     subMenuTimer2 = setTimeout(() => {
       setSubMenuOpen6(false);
-    }, 100);
+    }, 250);
   };
 
   const handleMouseEnter1 = () => {
@@ -87,14 +87,14 @@ const NavbarOscura = () => {
           <img src={Logo} alt="" className="logoOsc" />
         </Link>
       <nav className="nav-chapaOsc">
-        <div className={`navbar-links-container ${isOpen && "open"}`}>
+        <div className={`navbar-links-containerOsc ${isOpen && "open"}`}>
           <ul className="ul-navOsc">
             <li
               className="link-nav-chapaOsc"
               onMouseEnter={handleMouseEnter1}
               onMouseLeave={handleMouseLeave1}
             >
-              <Link className="liNav3Osc" to="/">
+              <Link className={i18next.language === "es" ? "liNav3Osc" : "liNav3ENOsc"} to="/">
               {t("li.OUR COMPANY")}
               </Link>
               {isSubMenuOpen1 && (
@@ -132,7 +132,7 @@ const NavbarOscura = () => {
               onMouseEnter={handleMouseEnter2}
               onMouseLeave={handleMouseLeave2}
             >
-              <Link className="liNavOsc" to="/">
+              <Link className={i18next.language === "es" ? "liNavOsc" : "liNavENOsc"} to="/">
               {t("li.OUR BUSINESSES")}
               </Link>
               {isSubMenuOpen2 && (
@@ -143,24 +143,24 @@ const NavbarOscura = () => {
                     onMouseLeave={handleMouseLeave4}
                   >
                     <Link className="liOsc" to="/">
-                      Oil & Gas
+                      OIL & GAS
                     </Link>
                     {isSubMenuOpen4 && (
                       <div className="submenuNav-boxOsc">
                       <ul className="link-nav-submenuNuevoOsc">
                         <li>
                           <Link className="liOsc" to="/combustiblesdelnorte">
-                          Combustibles del Norte
+                          COMBUSTIBLES DEL NORTE
                           </Link>
                         </li>
                         <li>
                           <Link className="liOsc" to="/ccnchile">
-                          CCN Chile
+                          CCN CHILE
                           </Link>
                         </li>
                         <li>
                           <Link className="liOsc" to="/gasdelnorte">
-                          Gas del norte
+                          GAS DEL NORTE
                           </Link>
                         </li>
                         <li>
@@ -178,7 +178,7 @@ const NavbarOscura = () => {
                     onMouseLeave={handleMouseLeave5}
                   >
                     <Link className="liOsc" to="/">
-                      Agro
+                      AGRO
                     </Link>
                     {isSubMenuOpen5 && (
                       <div className="submenuNav-boxOsc">
@@ -190,17 +190,17 @@ const NavbarOscura = () => {
                         </li>
                         <li>
                           <Link className="liOsc" to="/ccnchile">
-                          Combustibles del Norte
+                          COMBUSTIBLES DEL NORTE
                           </Link>
                         </li>
                         <li>
                           <Link className="liOsc" to="/mollar">
-                            Puesto El Mollar
+                            PUESTO EL MOLLAR
                           </Link>
                         </li>
                         <li>
                           <Link className="liOsc" to="/estaciones">
-                            Planta Guemes
+                            PLANTA GUEMES
                           </Link>
                         </li>
                       </ul>
@@ -212,15 +212,15 @@ const NavbarOscura = () => {
                     onMouseEnter={handleMouseEnter6}
                     onMouseLeave={handleMouseLeave6}
                   >
-                    <Link className="liOsc" to="/ejes">
+                    <Link className="liOsc" >
                     {t("li.Mining")}
                     </Link>
                     {isSubMenuOpen6 && (
                       <div className="submenuNav-boxOsc">
                       <ul className="link-nav-submenuNuevoOsc">
                         <li>
-                          <Link className="liOsc" to="/combustiblesdelnorte">
-                            CN Logistica
+                          <Link className="liOsc" to="/logistica">
+                            CN LOGISTICA
                           </Link>
                         </li>
                       </ul>
@@ -236,7 +236,7 @@ const NavbarOscura = () => {
               onMouseEnter={handleMouseEnter3}
               onMouseLeave={handleMouseLeave3}
             >
-              <Link  className="liNav2Osc" to="/quiénes">
+              <Link  className={i18next.language === "es" ? "liNav2Osc" : "liNav2ENOsc"} to="/capital">
               {t("li.WORK AT CN GROUP")}
               </Link>
               {/*{isSubMenuOpen3 && (
@@ -250,12 +250,12 @@ const NavbarOscura = () => {
               )}*/}
             </li>
             <li className="link-nav-chapaOsc">
-              <Link className="liNav1Osc" to="/contacto">
+              <Link className={i18next.language === "es" ? "liNav1Osc" : "liNav1ENOsc"} to="/contacto">
               {t("li.CONTACT")}
               </Link>
             </li>
             <li className="link-nav-chapabOsc">
-                    <div className="botonesOsc">
+                    <div className="botones">
                       <button
                         onClick={(event) => {
                           i18next.changeLanguage("es");

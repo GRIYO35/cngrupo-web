@@ -129,21 +129,33 @@ const Navchapa = () => {
             </div>  
         </div>
 
-        <div className="container-neca">
-                <img src={necaimg1} alt="" className="negaimg1"/>
-                <p className="p-neca1"> Luego de varios años de trabajo y crecimiento, <span className="txt-empresa-span">CN Agro</span> evolucionó y se transformó en <span className="txt-empresa-span">NECA</span>, que surge de la unión de las palabras <span className="txt-empresa-span">NET</span>(red en inglés) y <span className="txt-empresa-span">CAMPO</span>. Ambas palabras representan la esencia de la marca que funciona como una red de conexión entre el campo y las nuevas oportunidades del mercado.
-                <br></br>
-                <br></br>
-                A través de NECA brindamos las <span className="txt-empresa-span">soluciones </span>más precisas para cada uno de sus campos, la mejor <span className="txt-empresa-span">calidad</span> de productos y el servicio de<span className="txt-empresa-span"> excelencia</span> que nos caracteriza.
-                </p>
-        
-        
-        </div>     
-        <div className="banner-neca1"></div>    
-        
-        <div className="container-dibujitos">
-                <h2 className="neca-title">Nuestros productos</h2>   
-                <hr className="linea-neca"></hr>
+      <div className="container-neca">
+        <img src={necaimg1} alt="" className="negaimg1" />
+        <p className="p-neca1">
+          {" "}
+          Luego de varios años de trabajo y crecimiento,{" "}
+          <span className="txt-empresa-spanNeca">CN Agro</span> evolucionó y se
+          transformó en <span className="txt-empresa-spanNeca">NECA</span>, que
+          surge de la unión de las palabras{" "}
+          <span className="txt-empresa-spanNeca">NET</span>(red en inglés) y{" "}
+          <span className="txt-empresa-spanNeca">CAMPO</span>. Ambas palabras
+          representan la esencia de la marca que funciona como una red de
+          conexión entre el campo y las nuevas oportunidades del mercado.
+          <br></br>
+          <br></br>A través de NECA brindamos las{" "}
+          <span className="txt-empresa-spanNeca">soluciones </span>más precisas
+          para cada uno de sus campos, la mejor{" "}
+          <span className="txt-empresa-spanNeca">calidad</span> de productos y
+          el servicio de
+          <span className="txt-empresa-spanNeca"> excelencia</span> que nos
+          caracteriza.
+        </p>
+      </div>
+      <div className="banner-neca1"></div>
+
+      <div className="container-dibujitos">
+        <h2 className="neca-title">Nuestros productos</h2>
+        <hr className="linea-neca"></hr>
         <div className="container-proteccion">
         <h3 className="neca-subtitle">Protección de cultivos</h3>
         <div className="productos-protección">
@@ -237,12 +249,72 @@ const Navchapa = () => {
         <div className="container-txt-card">
         <h2 className="neca-title">Contacto</h2>
         <hr className="linea-neca"></hr>
-        <p className="txt-logistica-card">Para contactarnos, podés hacerlo a través de estos canales:</p>
-        <div className="container-cards-logistica">
-            <div className="card-neca"><div className="titulo-mollar-logistica"><h2 className="title-direccion-neca">Responsable</h2><img src={vectorneca1} alt="" className="vectorneca1"/></div><p className="txt-direccion-mollar"><span className="txt-empresa-span"> Las Lajitas </span><br></br>Ana D´uva <br></br><br></br><span className="txt-empresa-span"> Embarcación </span><br></br>Marcelo Isasmendi</p></div>
-            <div className="card-neca"><div className="titulo-mollar-logistica"><h2 className="title-direccion-neca">Dirección</h2><img src={vectorneca2} alt="" className="vectorneca2"/></div><p className="txt-direccion-mollar"><span className="txt-empresa-span"> Las Lajitas </span><br></br>Av. Chile 1275 - Salta (4400)<br></br><br></br><span className="txt-empresa-span"> Embarcación </span><br></br>Ruta Nacional 34, Km 1344,<br></br> Embarcación, Salta (4400)</p></div>
-            <div className="card-neca"><div className="titulo-mollar-logistica"><h2 className="title-direccion-neca">Teléfono</h2><img src={vectorneca3a} alt="" className="vectorneca3a"/><img src={vectorneca3b} alt="" className="vectorneca3b"/></div><p className="txt-direccion-mollar"><span className="txt-empresa-span"> Las Lajitas </span><br></br>+54 387 441-0916 <br></br><br></br><span className="txt-empresa-span"> Embarcación </span><br></br>0800-122-5800</p></div>
-            <div className="card-neca"><div className="titulo-mollar-logistica"><h2 className="title-direccion-neca">Email</h2><img src={vectorneca4} alt="" className="vectorneca4"/></div><p className="txt-direccion-mollar"><span className="txt-empresa-span"> Las Lajitas </span><br></br>aduva@cngrupo.com <br></br><br></br><span className="txt-empresa-span"> Embarcación </span><br></br>misasmendi@cngrupo.com</p></div>
+        <p className="txt-logistica-card">
+          Para contactarnos, podés hacerlo a través de estos canales:
+        </p>
+        <div className="container-cards-Combustible">
+          <div className="card-Comb">
+            <div className="titulo-Combustible">
+              <h2 className="title-direccion-NECA">Las Lajitas</h2>
+            </div>
+            <div className="CardCombustibleContacto">
+              <div className="CombDirec">
+                <img src={vectorneca1} alt="" className="logoComb4" />
+                <p className="txt-direccion-Combustible">Ana D'uva</p>
+              </div>
+              <div className="CombDirec1">
+                <img src={vectorneca2} alt="" className="logoComb1" />
+                <p className="txt-direccion-Combustible">
+                  Ruta Prov. 5, Interseccion
+                  <br />
+                  Ruta 30, A4449 Las Lajitas
+                </p>
+              </div>
+              <div className="CombDirec2">
+                <img src={vectorneca3b} alt="" className="logoComb3" />
+                <img src={vectorneca3a} alt="" className="logoComb2" />
+                <p className="txt-direccion-Combustible">+54 387 441-0916</p>
+              </div>
+              <div className="CombDirec3">
+                <img src={vectorneca4} alt="" className="vectorComb4" />
+                <p className="txt-direccion-Combustible">
+                  aduva@cngrupo.com.ar
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container-cards-Combustible">
+          <div className="card-Comb1">
+            <div className="titulo-Combustible">
+              <h2 className="title-direccion-NECA">Embarcación</h2>
+            </div>
+            <div className="CardCombustibleContacto">
+              <div className="CombDirec">
+                <img src={vectorneca1} alt="" className="logoComb4" />
+                <p className="txt-direccion-Combustible">Marcelo Isasmendi</p>
+              </div>
+              <div className="CombDirec1">
+                <img src={vectorneca2} alt="" className="logoComb1" />
+                <p className="txt-direccion-Combustible">
+                  Ruta Nacional 34, KM1344,
+                  <br />
+                  Embarcacion, Salta (4400)
+                </p>
+              </div>
+              <div className="CombDirec2">
+                <img src={vectorneca3b} alt="" className="logoComb3" />
+                <img src={vectorneca3a} alt="" className="logoComb2" />
+                <p className="txt-direccion-Combustible">+54 387 504-6010</p>
+              </div>
+              <div className="CombDirec3">
+                <img src={vectorneca4} alt="" className="vectorComb4" />
+                <p className="txt-direccion-Combustible">
+                  misasmendi@cngrupo.com.ar
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 

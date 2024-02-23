@@ -22,12 +22,18 @@
       height: 600px;
     }
 
+    .txt-redes-mollar{
+      display: flex;
+      flex-direction: row;
+      margin-top: -15%;
+    }
+
     .txt-container-mollar{
         display: flex;
         flex-direction: column;
         text-align: left;
         margin-left: 7%;
-        margin-top: -2%;
+        margin-top: 17%;
       }
 
       .logo-title-linea-mollar{
@@ -263,12 +269,18 @@
         height: 700px;
       }
 
+      .txt-redes-mollar{
+        display: flex;
+        flex-direction: row;
+        margin-top: -10%;
+      }
+
     .txt-container-mollar{
         display: flex;
         flex-direction: column;
         text-align: left;
         margin-left: 7%;
-        margin-top: -2%;
+        margin-top: 17%;
       }
 
       .logo-title-linea-mollar{
@@ -370,7 +382,8 @@
         text-align: left;
       }
 
-      .mollar-card{color: #939E71;
+      .mollar-card {
+        color: #939E71;
         font-family: Public Sans;
         font-size: 35px;
         font-style: normal;
@@ -427,7 +440,7 @@
             .title-direccion-mollar{
                 color:#939E71;
                 font-family: Public Sans;
-                font-size: 23px;
+                font-size: 25px;
                 font-weight: 600;
                 line-height: 40px;
                 margin-top: 12%;
@@ -447,37 +460,36 @@
             }
               
               
-              .titulo-mollar{
+              .titulo-mollar {
                 display: flex;
                 flex-direction: row;
               }
               
-              .vectormollar1
-              {
-                height: 25px;
-                width: 25px;
+              .vectormollar1 {
+                height: 22px;
+                width: 21px;
                 margin-top: 15px;
-                margin-left: 38%;
+                margin-left: 35%;
               }
               
-              .vectormollar4{
-                height: 25px;
-                width: 25px;
+              .vectormollar4 {
+                height: 23px;
+                width: 22px;
+                margin-top: 15px;
+                margin-left: 47%;
+              }
+              
+              .vectormollar3{
+                height: 23px;
+                width: 23px;
                 margin-top: 15px;
                 margin-left: 49%;
               }
               
-              .vectormollar3{
-                height: 25px;
-                width: 25px;
-                margin-top: 15px;
-                margin-left: 51%;
-              }
-              
               .vectormollar2{
-                height: 20px;
-                width: 25px;
+                height: 18px;
+                width: 22px;
                 margin-top: 15px;
-                margin-left: 61%;
+                margin-left: 60%;
               }
 }

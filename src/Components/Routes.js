@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbarblanco from './Navbarblanco';
+import Home from './Home';
 import Vision from './Vision';
 import { Routes, Route } from 'react-router-dom';
 import Historia from './Historia';
@@ -14,14 +14,14 @@ import Plantaguemes from './Plantaguemes'
 import Estaciones from './Estaciones'
 import Quienes from './Quienes'
 import Contacto from './Contacto'
-import Video from './Video'
 import Navbar from './NavBar'
+import ButtonCardExam from './Prueba'
 
 const Myroutes = () => {
   return (
     <div>
         <Routes>
-         <Route path="/" element={<Navbarblanco />} />
+         <Route path="/" element={<Home />} />
          <Route path="/vision" element={<Vision />} />
          <Route path="/historia" element={<Historia />} /> 
          <Route path="/info" element={<Info />} /> 
@@ -35,8 +35,8 @@ const Myroutes = () => {
          <Route path="/estaciones" element={<Estaciones/>} /> 
          <Route path="/quienes" element={<Quienes/>} /> 
          <Route path="/contacto" element={<Contacto/>} /> 
-         <Route path="/video" element={<Video/>} />
          <Route path="/navbar" element={<Navbar/>} />
+         <Route path="/prueba" element={<ButtonCardExam/>} />
         </Routes>
     </div>
   );

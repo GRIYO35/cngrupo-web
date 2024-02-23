@@ -1,5 +1,5 @@
 import React from 'react';
-import './Tarjeta.css';  // Asegúrate de ajustar la ruta si es necesario
+import './Tarjeta.css'; 
 import VectorCard from "../Assets/vec1.png"
 import VectorCard1 from "../Assets/vec2.png"
 import VectorCard2 from "../Assets/vec3.png"

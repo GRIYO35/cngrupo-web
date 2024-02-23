@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Assets/cngrupoLOGOwhite.png";
 import { useTranslation } from "react-i18next";
+import "./NavBar.css"
 
 const Navbar = () => {
   const [t, i18next] = useTranslation("global");
@@ -52,7 +53,7 @@ const Navbar = () => {
     clearTimeout(subMenuTimer2);
     subMenuTimer2 = setTimeout(() => {
       setSubMenuOpen6(false);
-    }, 100);
+    }, 250);
   };
 
   const handleMouseEnter1 = () => {
@@ -116,7 +117,7 @@ const Navbar = () => {
               onMouseEnter={handleMouseEnter1}
               onMouseLeave={handleMouseLeave1}
             >
-              <Link className="liNav3" to="/">
+              <Link className={i18next.language === "es" ? "liNav3" : "liNav3EN"} to="/">
               {t("li.OUR COMPANY")}
               </Link>
               {isSubMenuOpen1 && (
@@ -154,7 +155,7 @@ const Navbar = () => {
               onMouseEnter={handleMouseEnter2}
               onMouseLeave={handleMouseLeave2}
             >
-              <Link className="liNav" to="/">
+              <Link className={i18next.language === "es" ? "liNav" : "liNavEN"} to="/">
               {t("li.OUR BUSINESSES")}
               </Link>
               {isSubMenuOpen2 && (
@@ -165,24 +166,24 @@ const Navbar = () => {
                     onMouseLeave={handleMouseLeave4}
                   >
                     <Link className="li" to="/">
-                      Oil & Gas
+                      OIL & GAS
                     </Link>
                     {isSubMenuOpen4 && (
                       <div className="submenuNav-box">
                       <ul className="link-nav-submenuNuevo">
                         <li>
                           <Link className="li" to="/combustiblesdelnorte">
-                          Combustibles del Norte
+                          COMBUSTIBLES DEL NORTE
                           </Link>
                         </li>
                         <li>
                           <Link className="li" to="/ccnchile">
-                          CCN Chile
+                          CCN CHILE
                           </Link>
                         </li>
                         <li>
                           <Link className="li" to="/gasdelnorte">
-                          Gas del norte
+                          GAS DEL NORTE
                           </Link>
                         </li>
                         <li>
@@ -200,7 +201,7 @@ const Navbar = () => {
                     onMouseLeave={handleMouseLeave5}
                   >
                     <Link className="li" to="/">
-                      Agro
+                      AGRO
                     </Link>
                     {isSubMenuOpen5 && (
                       <div className="submenuNav-box">
@@ -211,17 +212,17 @@ const Navbar = () => {
                           </Link>
                         </li>
                         <li>
-                          <Link className="li" to="/ccnchile">
+                          <Link className="li" to="/combustiblesdelnorte">
                           Combustibles del Norte
                           </Link>
                         </li>
                         <li>
                           <Link className="li" to="/mollar">
-                            Puesto El Mollar
+                            PUESTO EL MOLLAR
                           </Link>
                         </li>
                         <li>
-                          <Link className="li" to="/estaciones">
+                          <Link className="li" to="/plantaguemes">
                             Planta Guemes
                           </Link>
                         </li>
@@ -241,8 +242,8 @@ const Navbar = () => {
                       <div className="submenuNav-box">
                       <ul className="link-nav-submenuNuevo">
                         <li>
-                          <Link className="li" to="/combustiblesdelnorte">
-                            CN Sima
+                          <Link className="li" to="/logistica">
+                            CN Logistica
                           </Link>
                         </li>
                       </ul>
@@ -258,7 +259,8 @@ const Navbar = () => {
               onMouseEnter={handleMouseEnter3}
               onMouseLeave={handleMouseLeave3}
             >
-              <Link className="liNav2" to="/quiénes">
+      
+              <Link className={i18next.language === "es" ? "liNav2" : "liNav2EN"} to="/capital">
               {t("li.WORK AT CN GROUP")}
               </Link>
               {/*{isSubMenuOpen3 && (
@@ -272,7 +274,7 @@ const Navbar = () => {
               )}*/}
             </li>
             <li className="link-nav-chapa">
-              <Link className="liNav1" to="/contacto">
+              <Link className={i18next.language === "es" ? "liNav1" : "liNav1EN"} to="/contacto">
               {t("li.CONTACT")}
               </Link>
             </li>

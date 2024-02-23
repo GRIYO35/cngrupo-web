@@ -1,90 +1,177 @@
-import { useState, useRef, useEffect } from 'react';
-import emailjs from '@emailjs/browser';
-import "./Mollar.css"
+import { useState, useRef, useEffect } from "react";
+import emailjs from "@emailjs/browser";
+import { FaSpinner } from "react-icons/fa";
+import "./Contactocomponente.css";
 
 export const Contactocomponente = () => {
   const form = useRef();
   const [emailSent, setEmailSent] = useState(false);
+  const [showEmailSentMessage, setShowEmailSentMessage] = useState(false);
   const [inputValue, setInputValue] = useState({
     user_name: "",
     user_email: "",
     asunto: "",
-    message: ""
+    message: "",
   });
+  const [sendingEmail, setSendingEmail] = useState(false);
 
   const handleBlur = (e) => {
-    console.log('Evento blur activado');
+    console.log("Evento blur activado");
     const { name, value } = e.target;
-    setInputValue(prevState => ({
+    setInputValue((prevState) => ({
       ...prevState,
-      [name]: value
+      [name]: value,
     }));
-  }
+  };
+
+  /*const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_x4v9z9j",
+        "template_n7by7sp",
+        form.current,
+        "d3VXfZZrFVUqnu77q"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("message sent");
+          setEmailSent(true);
+          form.current.reset();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };*/
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_fy8rz3c', 'template_ec8n3gc', form.current, 'UsP3scySiipuFGoh0')
-      .then((result) => {
-          console.log(result.text);
-          console.log("message sent");
-          setEmailSent(true);
-          form.current.reset(); 
-      }, (error) => {
-          console.log(error.text);
-      });
+    const inputs = form.current.querySelectorAll("input, textarea");
+    let isFormValid = true;
+
+    inputs.forEach((input) => {
+      if (!input.value.trim()) {
+        isFormValid = false;
+        input.classList.add("campo-incompleto");
+      } else {
+        input.classList.remove("campo-incompleto");
+      }
+    });
+
+    if (isFormValid) {
+      setSendingEmail(true);
+      emailjs
+        .sendForm(
+          "service_x4v9z9j",
+          "template_n7by7sp",
+          form.current,
+          "d3VXfZZrFVUqnu77q"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+            console.log("message sent");
+            setEmailSent(true);
+            form.current.reset();
+            setShowEmailSentMessage(true); // Mostrar el mensaje "Email enviado"
+            setTimeout(() => {
+              setShowEmailSentMessage(false); // Ocultar el mensaje después de 3 segundos
+            }, 3000);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        )
+        .finally(() => {
+          setSendingEmail(false);
+        });
+    } else {
+      alert("Por favor completa todos los campos.");
+    }
   };
 
   useEffect(() => {
-    const inputs = document.querySelectorAll('.input-field input, .input-field textarea');
-    inputs.forEach(input => {
-      if(input.value !== "") {
-        input.classList.add('has-value');
+    const inputs = document.querySelectorAll(
+      ".input-field input, .input-field textarea"
+    );
+    inputs.forEach((input) => {
+      if (input.value !== "") {
+        input.classList.add("has-value");
       } else {
-        input.classList.remove('has-value');
+        input.classList.remove("has-value");
       }
     });
   }, [inputValue]);
 
   return (
-    <div className='content'>
-        <div className="contact-wrapper">
-        {emailSent && <p className='p-enviado'>Email enviado.</p>}
-      
-        <form ref={form} onSubmit={sendEmail} className='form-contacto'>
+    <div className="contentContacto">
+      <div className="contact-wrapper">
+        {showEmailSentMessage && <p className="p-enviado">Email enviado.</p>}
 
-        <div class="input-field">
-  <input type="text" id="nombre" required onBlur={handleBlur} className='input-contacto' name="user_name"/>
-  <label for="nombre" className='nombre'>Nombre</label>
-</div>
+        <form ref={form} onSubmit={sendEmail} className="form-contacto">
+          <div class="input-field">
+            <input
+              type="text"
+              id="nombre"
+              required
+              onBlur={handleBlur}
+              className="input-contacto"
+              name="user_name"
+              placeholder="Nombre"
+            />
+          </div>
 
-<div class="input-field">
-  <input type="email" id="email" required onBlur={handleBlur} className='input-contacto' name="user_email" />
-  <label for="email" className='nombre'>Email</label>
-</div>
+          <div class="input-field">
+            <input
+              type="email"
+              id="email"
+              required
+              onBlur={handleBlur}
+              className="input-contacto"
+              name="user_email"
+              placeholder="Email"
+            />
+          </div>
 
-<div class="input-field">
-  <input type="text" id="asunto" required onBlur={handleBlur} className='input-contacto' name="asunto"/>
-  <label for="asunto" className='nombre'>Asunto</label>
-</div>
+          <div class="input-field">
+            <input
+              type="text"
+              id="asunto"
+              required
+              onBlur={handleBlur}
+              className="input-contacto"
+              name="asunto"
+              placeholder="Asunto"
+            />
+          </div>
 
-<div class="input-field">
-  <textarea id="mensaje" required onBlur={handleBlur} className='input-contacto2' name="message"></textarea>
-  <label for="mensaje" className='nombre'>Mensaje</label>
-</div>
+          <div class="input-field">
+            <textarea
+              id="mensaje"
+              required
+              onBlur={handleBlur}
+              className="input-contacto2"
+              name="message"
+              placeholder="Mensaje"
+            ></textarea>
+          </div>
 
-        <p className='block'>
-        <button className="btn-contacto" type="submit" value="Send" >ENVIAR</button>
-        </p>
-        
-
-    </form>
+          <p className="block">
+            <button
+              className="btn-contacto"
+              type="submit"
+              value="Send"
+              disabled={sendingEmail}
+            >
+              {sendingEmail ? <FaSpinner className="spinner" /> : "ENVIAR"}
+            </button>
+          </p>
+        </form>
+      </div>
     </div>
-
-    
-    </div>
-    
-
-   
   );
 };

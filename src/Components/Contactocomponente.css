@@ -1,0 +1,121 @@
+.contentContacto {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: left;
+  margin-left: 130px;
+  gap: 30px;
+  flex-direction: column;
+  margin-top: 40%;
+}
+
+.input-field {
+  position: relative;
+  margin-top: -2%;
+  margin-left: -47%;
+}
+
+.input-field input,
+.input-field textarea {
+  padding: 10px;
+  border: 1px solid #ccc; /* Cambia este color al que prefieras */
+  transition: border-color 0.3s;
+  outline: none;
+}
+
+.input-field label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transition: 0.3s;
+}
+
+.input-field input:focus + label,
+.input-field textarea:focus + label {
+  top: -20px;
+  font-size: 12px;
+  color: gray;
+}
+
+.input-field input:focus,
+.input-field textarea:focus {
+  border-color: #5abdcf; /* Cambia este color al que prefieras */
+}
+
+.input-field label.hide {
+  display: none;
+}
+
+.input-contacto {
+  border-radius: 200px;
+  background: #ececec;
+  width: 550px;
+  height: 20px;
+  color: #878179;
+
+}
+
+.input-contacto2 {
+  border-radius: 20px;
+  background: #ececec;
+  width: 550px;
+  height: 120px;
+  color: #878179;
+}
+
+.p-enviado {
+  margin: 0;
+  top: -20px;
+  font-size: 14px;
+  color: #5abdcf;
+  font-weight: 400;
+}
+
+.form-contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.input-field input.has-value + label,
+.input-field textarea.has-value + label {
+  top: -20px;
+  font-size: 12px;
+  color: gray;
+}
+
+.nombre {
+  color: #878179;
+  font-size: 14px;
+}
+
+.btn-contacto {
+    width: 160px;
+    height: 36px;
+    border-radius: 40px;
+    background-color: transparent;
+    border: 1.5px solid #225065;
+    color: #225065;
+    font-size: 9px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-weight: 600;
+    display: flex;
+    justify-content: left;
+    padding-top: 12px;
+    padding-left: 58px;
+    margin-left: 0.2%;
+    margin-top: -2%;
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+  }
+  
+  .btn-contacto:hover {
+    background-color: #225065; /* Cambia el fondo a azul al pasar el mouse */
+    color: white; /* Cambia el texto a blanco al pasar el mouse */
+  }
+  

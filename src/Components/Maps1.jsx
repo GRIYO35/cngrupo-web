@@ -57,6 +57,7 @@ const MapComponent = () => {
         center: coordinates,
         zoom: 17
       }),
+      
       controls: [
         // Agregar controles de OpenLayers
         new ZoomControl(),
@@ -70,7 +71,7 @@ const MapComponent = () => {
     };
   }, []); // El arreglo de dependencias está vacío para ejecutar este efecto solo una vez al montar el componente
 
-  return <div id="map" style={{ height: '550px', width: '1100px' }} />;
+  return <div id="map" style={{ height: '650px', width: '1450px' }} />;
 };
 
 export default MapComponent;

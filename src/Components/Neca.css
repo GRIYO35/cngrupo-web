@@ -256,32 +256,17 @@
 
   .container-logos-final {
     display: flex;
+    justify-content: center;
+    text-align: center;
     flex-direction: row;
-    gap: 50px;
-    margin-top: 40px;
+    margin-top: 50px;
+    margin-left: -12%;
+    gap: 5px;
   }
 
   .logogrande {
-    width: 130px;
-    height: 60px;
-    margin-top: 20px;
-  }
-
-  .logogrande1 {
-    width: 150px;
-    height: 40px;
-    margin-top: 30px;
-  }
-
-  .logogrande2 {
-    width: 150px;
-    height: 40px;
-    margin-top: 30px;
-  }
-
-  .logogrande3 {
-    width: 130px;
-    height: 90px;
+    width: 283px;
+    height: 103px;
   }
 
   .title-direccion-neca {
@@ -657,32 +642,17 @@
 
   .container-logos-final {
     display: flex;
+    justify-content: center;
+    text-align: center;
     flex-direction: row;
-    gap: 50px;
-    margin-top: 40px;
+    margin-top: 50px;
+    margin-left: -10%;
+    gap: 5px;
   }
 
   .logogrande {
-    width: 130px;
-    height: 60px;
-    margin-top: 20px;
-  }
-
-  .logogrande1 {
-    width: 150px;
-    height: 40px;
-    margin-top: 30px;
-  }
-
-  .logogrande2 {
-    width: 150px;
-    height: 40px;
-    margin-top: 30px;
-  }
-
-  .logogrande3 {
-    width: 130px;
-    height: 90px;
+    width: 365px;
+    height: 137px;
   }
 
   .title-direccion-neca {

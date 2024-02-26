@@ -11,6 +11,7 @@ import { useTranslation } from "react-i18next";
 import gerentes from '../Assets/gerentes.png';
 import gerentes1 from '../Assets/479x279 GERENTES.png';
 import NAVBAR from "./NavBar"
+import "./Quienes.css"
 
 
 const Navinfo = () => {
@@ -175,29 +176,29 @@ const Navinfo = () => {
             
                       </div>*/}
 
-      <div className="txt-redes1">
-           <div className="txt-container-empresa">
+      <div className="txt-redesQuienes">
+           <div className="txt-container-empresaQuienes">
                <div className="linea-titulo">
-                   <hr class="mi-linea"></hr><p className="nuestra-empresa">NUESTRA EMPRESA</p>
+                   <hr class="mi-lineaQuienes"></hr><p className="nuestra-empresa">NUESTRA EMPRESA</p>
                </div>
-               <h2 className="title-vectorQuienes">Quiénes somos</h2>
+               <h2 className="Quienes-title">QUIÉNES SOMOS</h2>
            </div>
       </div>
       </div>
     
 
       
-      <div className="txt-redes-gerentes">
-          <div className="txt-container-gerentes">
-             <h2 className="quienes-info-txt"><span className="txt-empresa-span">CN GRUPO </span>
-             nace como una empresa familiar y cuenta con más <span className="txt-empresa-span"> 35 años </span> 
-             de trayectoria, mas de <span className="txt-empresa-span"> 250 colaboradores </span> y 
-             <span className="txt-empresa-span"> 6 bases operativas </span> 
+      <div className="txt-redes-quienes">
+          <div className="txt-container-quienes">
+             <h2 className="quienes-info-txt"><span className="txt-empresa-spanQuienes">CN GRUPO </span>
+             nace como una empresa familiar y cuenta con más <span className="txt-empresa-spanQuienes"> 35 años </span> 
+             de trayectoria, mas de <span className="txt-empresa-spanQuienes"> 250 colaboradores </span> y 
+             <span className="txt-empresa-spanQuienes"> 6 bases operativas </span> 
              distribuidas en puntos estratégicos de Salta y norte de Chile. 
              <br></br>
              <br></br>
              En el transcurso de nuestro desarrollo empresario hemos ido diversificando negocios, apostando siempre a <label htmlFor=""></label>
-             <span className="txt-empresa-span"> innovación</span>, al <span className="txt-empresa-span"> desarrollo profesional </span> 
+             <span className="txt-empresa-spanQuienes"> innovación</span>, al <span className="txt-empresa-spanQuienes"> desarrollo profesional </span> 
              de nuestros equipos y a las relaciones estratégicas con nuestros proveedores, clientes y comunidad.
              </h2>
           </div>

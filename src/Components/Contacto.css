@@ -1,7 +1,8 @@
-.unrecuadro {
-  margin-top: 3%;
-}
-.dosrecuadros{
+@media (min-width: 801px) and (max-width: 1919px) {
+  .unrecuadro {
+    margin-top: 3%;
+  }
+  .dosrecuadros {
     display: flex;
     flex-direction: row;
     gap: 200px;
@@ -11,128 +12,265 @@
     margin-left: 1%;
   }
 
-  .txt-container-contacto{
+  .txt-container-contacto {
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-left: 130px;  
+    margin-left: 130px;
   }
 
-  .p-contacto1{
+  .p-contacto1 {
     text-align: left;
-    color: #6C6C6C;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 25px;
+    color: #6c6c6c;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
   }
-  
-  .subtitulocontacto{
+
+  .subtitulocontacto {
     margin-top: 170px;
-  margin-left: 0px;
-  
-    color: #5ABDCF;
+    margin-left: 0px;
+
+    color: #5abdcf;
     font-size: 12px;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 2.5px;
   }
-  
+
   .milinea-contacto {
-    height: 1px; 
-    border: none; 
+    height: 1px;
+    border: none;
     width: 80px;
     margin-top: 180px;
-    background-color:#5ABDCF;
+    background-color: #5abdcf;
     margin-left: 0px;
     margin-right: 10px;
   }
 
-  .linea-titulo2Con{
+  .linea-titulo2Con {
     display: flex;
     flex-direction: row;
   }
 
-  .titulo-Contacto{
+  .titulo-Contacto {
     font-size: 37px;
-    color: #5ABDCF;
+    color: #5abdcf;
     font-weight: 600;
   }
 
-  .otrorecuadro{
+  .otrorecuadro {
     margin-top: 200px;
   }
-  
-   
-  .title-contacto{
-    color: #2A4B51;
+
+  .title-contacto {
+    color: #2a4b51;
     font-family: Public Sans;
     font-size: 18px;
     font-weight: 600;
     line-height: 60px;
     margin-bottom: 0px;
-  text-align: left;}
-  
-  .txt-direccion-contacto{
-    color: #656565;
-  font-family: Public Sans;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 18px; 
-  margin-left: 10px;
-  margin-top: 10px;
+    text-align: left;
   }
 
-  .logo-txt-contacto{
+  .txt-direccion-contacto {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .logo-txt-contacto {
     display: flex;
     flex-direction: row;
   }
-  
-  .linea-contacto{
-    height: 1px; 
-    border: none; 
+
+  .linea-contacto {
+    height: 1px;
+    border: none;
     width: 80px;
-    background-color: #009FE3;
+    background-color: #009fe3;
     margin-left: 0px;
   }
-  
-  .vectorcontacto{
+
+  .vectorcontacto {
     padding: 10px;
-      border-radius: 45%;
-      height: 16px;
-      width: 18px;
-      background: #ECECEC;
-  
-  }
-  
-  .vectorcontacto2{
-    padding: 10px;
-      border-radius: 45%;
-      height: 15px;
-      width: 20px;
-      background: #ECECEC;
-  
-  }
-  
-  .imgcontacto{
-    width: 400px;
-  height: 200px;
+    border-radius: 45%;
+    height: 16px;
+    width: 18px;
+    background: #ececec;
   }
 
-  .footerContacto{
+  .vectorcontacto2 {
+    padding: 10px;
+    border-radius: 45%;
+    height: 15px;
+    width: 20px;
+    background: #ececec;
+  }
+
+  .imgcontacto {
+    width: 400px;
+    height: 200px;
+  }
+
+  .footerContacto {
     display: flex;
     flex-direction: row;
-    background-color: #27617B;
+    background-color: #27617b;
     justify-content: space-between;
     padding-right: 200px;
     padding-left: 200px;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #FFF;
-  font-size: 10px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 25px;
-  text-align: left;
-  margin-top: 110%;
+    color: #fff;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: left;
+    margin-top: 110%;
   }
+}
+
+@media (min-width: 1920px) {
+  .unrecuadro {
+    margin-top: 3%;
+  }
+  .dosrecuadros {
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    margin-top: -4%;
+    margin-bottom: 10%;
+    position: absolute;
+    margin-left: 5%;
+  }
+
+  .txt-container-contacto {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 130px;
+  }
+
+  .p-contacto1 {
+    text-align: left;
+    color: #6c6c6c;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .subtitulocontacto {
+    margin-top: 170px;
+    margin-left: 0px;
+    color: #5abdcf;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2.5px;
+  }
+
+  .milinea-contacto {
+    height: 1px;
+    border: none;
+    width: 100px;
+    margin-top: 180px;
+    background-color: #5abdcf;
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+
+  .linea-titulo2Con {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .titulo-Contacto {
+    font-size: 47px;
+    color: #5abdcf;
+    font-weight: 600;
+  }
+
+  .otrorecuadro {
+    margin-top: 200px;
+  }
+
+  .title-contacto {
+    color: #2a4b51;
+    font-family: Public Sans;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+
+  .txt-direccion-contacto {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .logo-txt-contacto {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .linea-contacto {
+    height: 1px;
+    border: none;
+    width: 80px;
+    background-color: #009fe3;
+    margin-left: 0px;
+  }
+
+  .vectorcontacto {
+    padding: 10px;
+    border-radius: 45%;
+    height: 16px;
+    width: 18px;
+    background: #ececec;
+  }
+
+  .vectorcontacto2 {
+    padding: 10px;
+    border-radius: 45%;
+    height: 15px;
+    width: 20px;
+    background: #ececec;
+  }
+
+  .imgcontacto {
+    width: 560px;
+    height: 280px;
+  }
+
+  .footerContacto {
+    display: flex;
+    flex-direction: row;
+    background-color: #27617b;
+    justify-content: space-between;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #fff;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: left;
+    margin-top: 95%;
+  }
+}

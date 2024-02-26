@@ -25,11 +25,14 @@ import logoneca1 from "../Assets/logoneca1.png";
 import logoneca2 from "../Assets/logoneca2.png";
 import logoneca3 from "../Assets/logoneca3.png";
 import logoneca4 from "../Assets/logoneca4.png";
-import logogrande1 from "../Assets/amauta.png";
-import logogrande2 from "../Assets/spray.png";
-import logogrande3 from "../Assets/marcasilobolsa.png";
-import logogrande4 from "../Assets/syngenta.png";
-import logogrande5 from "../Assets/nk.png";
+import logogrande1 from "../Assets/syengenta WEB@300x.png";
+import logogrande2 from "../Assets/nk WEB@300x.png";
+import logogrande3 from "../Assets/adama WEB@300x.png";
+import logogrande4 from "../Assets/sumitomo WEB@300x.png";
+import logogrande5 from "../Assets/atanor WEB@300x.png";
+import logogrande6 from "../Assets/silobolsa plastar WEB@300x.png";
+import logogrande7 from "../Assets/sigma agro WEB@300x.png";
+import logogrande8 from "../Assets/insuagro WEB@300x.png";
 import videoSourceNECA from "../Assets/NECA web v3.mp4";
 import NAVBAR from "./NavBar";
 import ExpandLessIcon from "@material-ui/icons/ExpandLess";
@@ -39,6 +42,10 @@ import "./Neca.css";
 const Navchapa = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedButton, setSelectedButton] = useState(1);
+
+    const handleDownload = () => {
+      // Aquí puedes agregar lógica adicional si es necesario
+    };
 
   const handleButtonClick = (buttonNumber) => {
     setSelectedButton(buttonNumber);
@@ -257,7 +264,9 @@ const Navchapa = () => {
                     <span className="txt-empresa-spanNeca"> eliminar </span> los posibles
                     <span className="txt-empresa-spanNeca"> patogenos </span> que tengan las semillas.
                   </p>
+                  <a href="https://drive.google.com/file/d/1Dfv1h6sfp14LATpBUoDjnKoF8fJ_Hl36/view?usp=drive_link" download onClick={handleDownload}>
                   <button className="info-btn-neca">DESCARGAR PDF</button>
+                  </a>
                 </div>
               </div>
             </>
@@ -369,11 +378,16 @@ const Navchapa = () => {
         <h2 className="neca-title">Marcas que distribuimos</h2>
         <hr className="linea-neca"></hr>
         <div className="container-logos-final">
-          <img src={logogrande1} alt="" className="logogrande1" />
-          <img src={logogrande2} alt="" className="logogrande2" />
-          <img src={logogrande3} alt="" className="logogrande3" />
-          <img src={logogrande4} alt="" className="logogrande2" />
+          <img src={logogrande1} alt="" className="logogrande" />
+          <img src={logogrande2} alt="" className="logogrande" />
+          <img src={logogrande3} alt="" className="logogrande" />
+          <img src={logogrande4} alt="" className="logogrande" />
+        </div>
+        <div className="container-logos-final">
           <img src={logogrande5} alt="" className="logogrande" />
+          <img src={logogrande6} alt="" className="logogrande" />
+          <img src={logogrande7} alt="" className="logogrande" />
+          <img src={logogrande8} alt="" className="logogrande" />
         </div>
       </div>
 

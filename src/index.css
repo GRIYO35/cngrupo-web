@@ -179,11 +179,6 @@ width: 100px;
   font-weight: 400;
 }
 
-.gerentes {
-  margin-top: 4%;
-  margin-right: 5%;
-}
-
 .txt-redes{
   display: flex;
   flex-direction: row;
@@ -532,12 +527,6 @@ text-align: left;
 
 .home-container2{
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./Assets/PORTADA\ MISION\ VIVION\ WEB.png);
-  background-size:100%;
-  background-repeat: no-repeat;
-}
-
-.home-containerQuienes{
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./Assets/GRUPAL\ sin\ carteles.png);
   background-size:100%;
   background-repeat: no-repeat;
 }
@@ -1104,88 +1093,6 @@ margin-top: -40px;
 .parrafos{
   display: flex;
   flex-direction: column;
-}
-
-.titulo-quienes{
-  font-size: 37px;
-  color: #5ABDCF;
-  font-weight: 600;
-}
-
-.quienes-info-txt{
-  font-size: 17px;
-  font-weight: 300;
-  line-height: 25px;
-  color: #878179;
-  margin-right: 100px;
-  margin-bottom: 100px;
-  }
-
-  
-.quienes-title2{color: #5ABDCF;
-  font-family: Public Sans;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 69px;
-  text-align: left;
-}
-
-.linea-quienes{
-  height: 1px; 
-  border: none; 
-  width: 80px;
-  background-color: #5ABDCF;
- margin-left: 0;
- margin-top: -30px;
-}
-
-.linea-quienes2{
-  height: 1px; 
-  border: none; 
-  width: 80px;
-  background-color: #656565;
- margin-left: 0;
-
-}
-
-
-
-.fotosdellos{
-  margin-left: 130px;
-  margin-top: 2%;
-  margin-bottom: 10%;
-}
-
-.fotoellos{
-  width: 327px;
-  height: 442px;
-
-}
-
-.container-fotosdellos{
-  display: flex;
-  margin-top: 50px;
-  gap: 50px;
-}
-
-.quienes-title-foto{color: #656565;
-  font-family: Public Sans;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 69px;
-  text-align: left;
-}
-
-.p-quienes1{
-  text-align: left;
-  color: #6C6C6C;
-font-size: 15px;
-font-weight: 400;
-line-height: 25px;
-margin-top: -30px;
-
 }
 
 /* .content{
@@ -2103,27 +2010,11 @@ ul.timeline > li.li-linea6i:before {
       letter-spacing: 1px;
       margin-bottom: 111%;
     }
-    .gerentes {
-      margin-top: 6%;
-      margin-right: 15%;
-    }
+
     .txt-container-gerentes{
       text-align: left;
       margin-left: 13%;
       margin-top: 9%;
-    }
-    .fotosdellos{
-      margin-top: 6%;
-      margin-bottom: 10%;
-      display: flex;
-      justify-content: center;
-      text-align: center;
-    }
-    .container-fotosdellos{
-      display: flex;
-      margin-top: 50px;
-      gap: 150px;
-      margin-right: 8%;
     }
 
     .botones{

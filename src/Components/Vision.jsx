@@ -110,11 +110,11 @@ const Vision = () => {
                 <hr class="mi-linea"></hr><p className="nuestra-empresa">NUESTRA EMPRESA</p></div>
               <div className="cuadros-vectores">
                 <div className="container-vector-txt">
-                    <h2 className="title-vector">Visión</h2>
+                    <h2 className="title-vector">VISIÓN</h2>
                     <p className="p-vector">"Crecer y hacer crecer."</p>
                 </div>
                 <div className="container-vector-txt">
-                    <h2 className="title-vector1">Misión</h2>
+                    <h2 className="title-vector1">MISIÓN</h2>
                     <p className="p-vector">Dar soluciones comerciales e innovadoras adaptadas a cada necesidad, construyendo relaciones a largo plazo.</p>
                 </div>
             </div>

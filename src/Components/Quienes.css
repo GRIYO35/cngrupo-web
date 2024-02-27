@@ -148,7 +148,7 @@
   .txt-redesQuienes {
     display: flex;
     flex-direction: row;
-    margin-top: -10%;
+    margin-top: -11%;
   }
   .txt-redes-quienes {
     display: flex;
@@ -256,6 +256,16 @@
     letter-spacing: 0.05px;
     color: #FFF;   
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    margin-bottom: 101%;
+    margin-bottom: 106%;
+    }
+    .mi-lineaQuienes {
+      height: 1px; 
+      border: none; 
+      width: 80px;
+      margin-top: 180px;
+      background-color: #FFF;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      margin-left: 0px;
+      margin-right: 10px;
     }
 }

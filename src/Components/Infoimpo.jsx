@@ -116,7 +116,7 @@ const Navinfo = () => {
             </div>
             </div>
 
-            <div className='logos-info'>
+            {/*<div className='logos-info'>
               <div className='logo-boton'><img src={logoinf1} alt="" className='logo-info'/>
               <button className="info-btn">DESCARGAR PDF</button></div>
               <div className='logo-boton'><img src={logoinf2} alt="" className='logo-info'/>
@@ -129,7 +129,7 @@ const Navinfo = () => {
               <button className="info-btn">DESCARGAR PDF</button></div>
               <div className='logo-boton'><img src={logoinf6} alt="" className='logo-info'/>
               <button className="info-btn">DESCARGAR PDF</button></div>
-            </div>
+    </div>*/}
 
 
             <div className="footer">

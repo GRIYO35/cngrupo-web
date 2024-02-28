@@ -34,7 +34,7 @@ const Navchapa = () => {
         <div className="content">
           <NAVBAR></NAVBAR>
           <div className="txt-redesGue">
-            <div className="txt-container-empresa">
+            <div className="txt-container-empresaGas">
               <div className="linea-titulo">
                 <hr class="mi-linea"></hr>
                 <p className="nuestra-empresa">NUESTROS NEGOCIOS</p>

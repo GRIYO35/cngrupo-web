@@ -4,7 +4,7 @@
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url(../Assets/PORTADA\ -\ DSC04714-HDR.png);
     background-size: cover;
-    height: 700px;
+    height: 600px;
   }
 
   .redes-container-empresa-chile {
@@ -206,19 +206,19 @@
   .vector-chile {
     height: 20px;
     margin-top: 20px;
-    margin-left: 25px;
+    margin-left: 10px;
   }
 
   .vector-chile2 {
     height: 18px;
     margin-top: 20px;
-    margin-left: 25px;
+    margin-left: 12px;
   }
 
   .vector-chile3 {
     height: 13px;
     margin-top: 25px;
-    margin-left: 50px;
+    margin-left: 40px;
   }
 
   .banner-chile{

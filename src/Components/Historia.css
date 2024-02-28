@@ -46,13 +46,14 @@
     margin-top: 1%;
   }
   .nuestra-historia-txt {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 25px;
     letter-spacing: 2.5px;
     color: #fff;
     margin-right: 50%;
     margin-top: -1%;
+    margin-bottom: 8%;
   }
   .txt-empresa-spanHis {
     font-weight: 600;

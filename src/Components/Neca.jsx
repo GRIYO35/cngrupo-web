@@ -264,7 +264,7 @@ const Navchapa = () => {
                     <span className="txt-empresa-spanNeca"> eliminar </span> los posibles
                     <span className="txt-empresa-spanNeca"> patogenos </span> que tengan las semillas.
                   </p>
-                  <a href="https://drive.google.com/file/d/1Dfv1h6sfp14LATpBUoDjnKoF8fJ_Hl36/view?usp=drive_link" download onClick={handleDownload}>
+                  <a href="https://drive.google.com/drive/folders/1PR5y1NpqB3MUJ3ZLA2C9YN5nvdMe_Y6h?usp=drive_link" download onClick={handleDownload}>
                   <button className="info-btn-neca">DESCARGAR PDF</button>
                   </a>
                 </div>

@@ -36,7 +36,7 @@ const Navchapa = () => {
         <NAVBAR></NAVBAR>
 
         <div className="txt-redesEst">
-            <div className="txt-container-empresa">
+            <div className="txt-container-empresaEst">
               <div className="linea-titulo">
             <hr class="mi-linea"></hr><p className="nuestra-empresa">NUESTROS NEGOCIOS</p></div>
             <h2 className="logistica-title">ESTACIONES DE SERVICIO</h2>
@@ -117,7 +117,7 @@ const Navchapa = () => {
     <div className="banner-estacion1"></div>    
 
     
-        <div className="container-txt-card">
+        <div className="container-txt-cardEst">
         <h2 className="estaciones-title">Contacto</h2>
         <hr className="linea-est"></hr>
         <p className="txt-est-card">Para contactarnos, podés hacerlo a través de estos canales:</p>

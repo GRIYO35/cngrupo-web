@@ -1,4 +1,21 @@
 @media (min-width: 801px) and (max-width: 1919px) {
+    .txt-container-empresaEst {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 7%;
+    margin-top: 17%;
+  }
+
+  .container-txt-cardEst {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  margin-left: 130px;
+  margin-top: 50px;
+  text-align: left;
+}
 
   .Lista-card-est{
     margin-left: -20px;
@@ -351,6 +368,23 @@
 
 
   @media (min-width: 1920px) {
+    .txt-container-empresaEst {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 7%;
+    margin-top: 20%;
+  }
+
+  .container-txt-cardEst {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  margin-left: 130px;
+  margin-top: 50px;
+  text-align: left;
+}
 
     .Lista-card-est{
       margin-left: -20px;
@@ -648,7 +682,7 @@
       
       .banner-estacion2{
         background: url(../Assets/1ER\ ANCHO\ -\ DSC04559-HDR\ \(1\).png);
-        height: 600px;
+        height: 800px;
         background-repeat: no-repeat;
         background-size: cover;
       }

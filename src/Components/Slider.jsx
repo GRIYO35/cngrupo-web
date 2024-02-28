@@ -12,11 +12,11 @@ import carru11 from "../Assets/redi11.png";
 import carru12 from "../Assets/redi12.png";
 import React, { useRef, useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import "./Slider.css"
 
 import { EffectCoverflow, Pagination, Navigation } from "swiper";
 

@@ -94,7 +94,7 @@ const NavbarOscura = () => {
               onMouseEnter={handleMouseEnter1}
               onMouseLeave={handleMouseLeave1}
             >
-              <Link className={i18next.language === "es" ? "liNav3Osc" : "liNav3ENOsc"} to="/">
+              <Link className={i18next.language === "es" ? "liNav3Osc" : "liNav3ENOsc"}>
               {t("li.OUR COMPANY")}
               </Link>
               {isSubMenuOpen1 && (
@@ -132,7 +132,7 @@ const NavbarOscura = () => {
               onMouseEnter={handleMouseEnter2}
               onMouseLeave={handleMouseLeave2}
             >
-              <Link className={i18next.language === "es" ? "liNavOsc" : "liNavENOsc"} to="/">
+              <Link className={i18next.language === "es" ? "liNavOsc" : "liNavENOsc"} >
               {t("li.OUR BUSINESSES")}
               </Link>
               {isSubMenuOpen2 && (
@@ -142,7 +142,7 @@ const NavbarOscura = () => {
                     onMouseEnter={handleMouseEnter4}
                     onMouseLeave={handleMouseLeave4}
                   >
-                    <Link className="liOsc" to="/">
+                    <Link className="liOsc">
                       OIL & GAS
                     </Link>
                     {isSubMenuOpen4 && (
@@ -177,7 +177,7 @@ const NavbarOscura = () => {
                     onMouseEnter={handleMouseEnter5}
                     onMouseLeave={handleMouseLeave5}
                   >
-                    <Link className="liOsc" to="/">
+                    <Link className="liOsc">
                       AGRO
                     </Link>
                     {isSubMenuOpen5 && (

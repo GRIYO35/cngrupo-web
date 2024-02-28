@@ -80,30 +80,6 @@ const Navbar = () => {
     setSubMenuOpen3(false);
   };
 
-  {/*const handleMouseEnter4 = () => {
-    setSubMenuOpen4(true);
-  };
-
-  const handleMouseLeave4 = () => {
-    setSubMenuOpen4(false);
-  };
-
-  const handleMouseEnter5 = () => {
-    setSubMenuOpen5(true);
-  };
-
-  const handleMouseLeave5 = () => {
-    setSubMenuOpen5(false);
-  };
-
-  const handleMouseEnter6 = () => {
-    setSubMenuOpen6(true);
-  };
-
-  const handleMouseLeave6 = () => {
-    setSubMenuOpen6(false);
-  };*/}
-
   return (
     <div className="nav-container">
         <Link to="/" className="LogoNav">
@@ -117,7 +93,7 @@ const Navbar = () => {
               onMouseEnter={handleMouseEnter1}
               onMouseLeave={handleMouseLeave1}
             >
-              <Link className={i18next.language === "es" ? "liNav3" : "liNav3EN"} to="/">
+              <Link className={i18next.language === "es" ? "liNav3" : "liNav3EN"}>
               {t("li.OUR COMPANY")}
               </Link>
               {isSubMenuOpen1 && (
@@ -155,7 +131,7 @@ const Navbar = () => {
               onMouseEnter={handleMouseEnter2}
               onMouseLeave={handleMouseLeave2}
             >
-              <Link className={i18next.language === "es" ? "liNav" : "liNavEN"} to="/">
+              <Link className={i18next.language === "es" ? "liNav" : "liNavEN"}>
               {t("li.OUR BUSINESSES")}
               </Link>
               {isSubMenuOpen2 && (
@@ -165,7 +141,7 @@ const Navbar = () => {
                     onMouseEnter={handleMouseEnter4}
                     onMouseLeave={handleMouseLeave4}
                   >
-                    <Link className="li" to="/">
+                    <Link className="li">
                       OIL & GAS
                     </Link>
                     {isSubMenuOpen4 && (
@@ -200,7 +176,7 @@ const Navbar = () => {
                     onMouseEnter={handleMouseEnter5}
                     onMouseLeave={handleMouseLeave5}
                   >
-                    <Link className="li" to="/">
+                    <Link className="li" >
                       AGRO
                     </Link>
                     {isSubMenuOpen5 && (
@@ -235,7 +211,7 @@ const Navbar = () => {
                     onMouseEnter={handleMouseEnter6}
                     onMouseLeave={handleMouseLeave6}
                   >
-                    <Link className="li" to="/ejes">
+                    <Link className="li">
                     {t("li.Mining")}
                     </Link>
                     {isSubMenuOpen6 && (

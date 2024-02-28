@@ -18,7 +18,7 @@ import "./Vision.css"
 
 const Vision = () => {
     const [t, i18next] = useTranslation("global");
-    const [texto, setTexto] = useState('Reconocemos el valor y los derechos de las personas. Actuamos pensando en el otro, promoviendo relaciones que destaquen franqueza, reciprocidad y libertad. Establecemos y cuidamos los acuerdos que hacemos, considerando los intereses de todos los involucrados y la construcción de confianza.');
+    const [texto, setTexto] = useState('Reconocemos el <span class="txt-empresa-spanVis">valor y los derechos de las personas.</span> Actuamos pensando en el otro, promoviendo relaciones que destaquen <span class="txt-empresa-spanVis">franqueza, reciprocidad y libertad.</span> Establecemos y cuidamos los acuerdos que hacemos, considerando los intereses de todos los involucrados y la construcción de confianza.');
     const [titulo, setTitulo] = useState('Respeto');
     const [icono, setIcono] = useState(NuevoIcono);
     const [icono1, setIcono1] = useState(mesaNuevo);
@@ -107,7 +107,8 @@ const Vision = () => {
         <div className="txt-redesVision">
             <div className="txt-container-empresaVis">
               <div className="linea-titulo">
-                <hr class="mi-linea"></hr><p className="nuestra-empresa">NUESTRA EMPRESA</p></div>
+                <hr class="mi-linea"></hr><p className="nuestra-empresa">NUESTRA EMPRESA</p>
+              </div>
               <div className="cuadros-vectores">
                 <div className="container-vector-txt">
                     <h2 className="title-vector">VISIÓN</h2>
@@ -127,11 +128,11 @@ const Vision = () => {
             <div className="Circulo-Valores">
               <div className="cositos">
                 <img src={circulo} alt="" className="circle"/>   
-                <img src={icono} alt="" className="svg-vision2" style={{ backgroundColor: colorFondo }} onMouseOver={() => { cambiarContenido('Reconocemos el valor y los derechos de las personas. Actuamos pensando en el otro, promoviendo relaciones que destaquen franqueza, reciprocidad y libertad. Establecemos y cuidamos los acuerdos que hacemos, considerando los intereses de todos los involucrados y la construcción de confianza.','Respeto'); }} />
-                <img src={icono4} alt="" className="svg-vision4" style={{ backgroundColor: colorFondoManoArriba }} onMouseOver={() => { cambiarContenido('Nos adaptamos y mantenemos abierta nuestra mente para conocer cosas nuevas y actuar en diferentes circunstancias, modificando nuestro comportamientos para mejorar nuestros acuerdos, enendimiento y convivencia con los demas.','Flexibilidad'); }} />
-                <img src={icono3} alt="" className="svg-vision5" style={{ backgroundColor: colorFondoFlecha }} onMouseOver={() =>  { cambiarContenido('Estamos convencidos que el crecimiento es posible solo si mantenemos una relacion de cooperacion permanente entre nosotros y con nuestro entorno.','Solidaridad'); }} />
-                <img src={icono2} alt="" className="svg-vision3" style={{ backgroundColor: colorFondoManos }} onMouseOver={() =>  { cambiarContenido('Nos comprometemos a lograr altos estandares de calidad y somos exigentes con nuestros cumplimientos, capitalizamos la experiencia y el conocimiento especifico que nos impulse hacia una contribucion responsable y cada vez mas efectiva.','Profesionalismo'); }} />
-                <img src={icono1} alt="" className="svg-vision1" style={{ backgroundColor: colorFondoMesa }} onMouseOver={() => { cambiarContenido('Trabajamos con pasion, compromiso y coraje, buscando proactivamente oportunidades de aprender, de crecer e innovar.','Entusiasmo'); }} />
+                <img src={icono} alt="" className="svg-vision2" style={{ backgroundColor: colorFondo }} onMouseOver={() => { cambiarContenido('Reconocemos el <span class="txt-empresa-spanVis">valor y los derechos de las personas.</span> Actuamos pensando en el otro, promoviendo relaciones que destaquen <span class="txt-empresa-spanVis">franqueza, reciprocidad y libertad.</span> Establecemos y cuidamos los acuerdos que hacemos, considerando los intereses de todos los involucrados y la construcción de confianza.','Respeto'); }} />
+                <img src={icono4} alt="" className="svg-vision4" style={{ backgroundColor: colorFondoManoArriba }} onMouseOver={() => { cambiarContenido('Nos adaptamos y <span class="txt-empresa-spanVis">mantenemos abierta nuestra mente</span> para conocer cosas nuevas y actuar en diferentes circunstancias, modificando nuestro comportamientos para <span class="txt-empresa-spanVis">mejorar nuestros acuerdos,</span> enendimiento <span class="txt-empresa-spanVis">y convivencia</span> con los demas.','Flexibilidad'); }} />
+                <img src={icono3} alt="" className="svg-vision5" style={{ backgroundColor: colorFondoFlecha }} onMouseOver={() =>  { cambiarContenido('Estamos convencidos que el crecimiento es posible solo si mantenemos una relacion de <span class="txt-empresa-spanVis">cooperacion permanente</span> entre nosotros y con nuestro <span class="txt-empresa-spanVis">entorno.</span>','Solidaridad'); }} />
+                <img src={icono2} alt="" className="svg-vision3" style={{ backgroundColor: colorFondoManos }} onMouseOver={() =>  { cambiarContenido('Nos comprometemos a lograr altos estandares de <span class="txt-empresa-spanVis">calidad</span> y somos exigentes con nuestros cumplimientos, capitalizamos la experiencia y el conocimiento especifico que nos impulse hacia una contribucion <span class="txt-empresa-spanVis">responsable</span> y cada vez mas <span class="txt-empresa-spanVis">efectiva.</span>','Profesionalismo'); }} />
+                <img src={icono1} alt="" className="svg-vision1" style={{ backgroundColor: colorFondoMesa }} onMouseOver={() => { cambiarContenido('Trabajamos con <span class="txt-empresa-spanVis">pasion, compromiso y coraje,</span> buscando proactivamente oportunidades de <span class="txt-empresa-spanVis">aprender, de crecer e innovar.</span>','Entusiasmo'); }} />
                 <h2 className="txt-cir">El cliente en el centro</h2>
               </div> 
            </div> 
@@ -140,7 +141,7 @@ const Vision = () => {
                <h2 className="circulo-titulo">Valores</h2>
                <hr class="mi-linea-carrusel"></hr>
                <h2 className="circulo-subtitulo" >{titulo}</h2>
-               <p className="p-circulo">{texto}</p>
+               <p className="p-circulo" dangerouslySetInnerHTML={{ __html: texto }}></p>
              </div> 
            </div>
           </div>

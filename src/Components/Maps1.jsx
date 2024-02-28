@@ -71,7 +71,7 @@ const MapComponent = () => {
     };
   }, []); // El arreglo de dependencias está vacío para ejecutar este efecto solo una vez al montar el componente
 
-  return <div id="map" style={{ height: '650px', width: '1450px' }} />;
+  return <div id="map" className='MapaDim' />;
 };
 
 export default MapComponent;

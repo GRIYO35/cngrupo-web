@@ -15,8 +15,8 @@ const Tarjeta = () => {
         </span>
       </div>
       <div className="contenido-trasero">
-        <h2>Equipo</h2>
-        <span>Priorizar el desarrollo del talento impulsando el aprendizaje y el liderazgo de nuestro Capital.</span>
+        <h2 className='TituloTarjeta'>Equipo</h2>
+        <span className='TextoTarjeta'>Priorizar el desarrollo del talento impulsando el aprendizaje y el liderazgo de nuestro Capital.</span>
       </div>
     </div>
     <div className="tarjeta">
@@ -26,8 +26,8 @@ const Tarjeta = () => {
         </span>
       </div>
       <div className="contenido-trasero">
-        <h2>Innovación</h2>
-        <span>Apostar a la mejora constante y planificada, priorizando las necesidades de nuestros clientes.</span>
+        <h2 className='TituloTarjeta'>Innovación</h2>
+        <span className='TextoTarjeta'>Apostar a la mejora constante y planificada, priorizando las necesidades de nuestros clientes.</span>
       </div>
     </div>
     <div className="tarjeta">
@@ -37,8 +37,8 @@ const Tarjeta = () => {
         </span>
       </div>
       <div className="contenido-trasero">
-        <h2>Sustentabilidad</h2>
-        <span>Involucrarse en nuevos hábitos de consumo y producción para ser parte de una revolución sustentable.</span>
+        <h2 className='TituloTarjeta'>Sustentabilidad</h2>
+        <span className='TextoTarjeta'>Involucrarse en nuevos hábitos de consumo y producción para ser parte de una revolución sustentable.</span>
       </div>
     </div>
     <div className="tarjeta">
@@ -48,8 +48,8 @@ const Tarjeta = () => {
         </span>
       </div>
       <div className="contenido-trasero">
-        <h2>Futuro</h2>
-        <span>Ser una marca capaz de trascender más allá del producto o servicio que ofrece y convertirse en protagonista de un futuro mejor.</span>
+        <h2 className='TituloTarjeta'>Futuro</h2>
+        <span className='TextoTarjeta'>Ser una marca capaz de trascender más allá del producto o servicio que ofrece y convertirse en protagonista de un futuro mejor.</span>
       </div>
     </div>
     </div>

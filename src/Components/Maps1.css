@@ -40,7 +40,18 @@ button.ol-full-screen-true {
   border-color: white;
   font-size: 21px;
 }
+.MapaDim{
+  width: 1070px;
+  height: 540px;
 }
+}
+
+
+
+
+
+
+
 
 @media (min-width: 1920px) {
   button.ol-full-screen-false {
@@ -83,6 +94,10 @@ button.ol-full-screen-true {
     color: white !important;
     border-color: white;
     font-size: 21px;
+  }
+  .MapaDim{
+    width: 1450px;
+    height: 650px;
   }
 }
 

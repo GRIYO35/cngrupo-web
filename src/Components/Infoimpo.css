@@ -1,0 +1,195 @@
+@media (min-width: 801px) and (max-width: 1919px) {
+    .txt-redesInfo{
+        display: flex;
+        flex-direction: row;
+        margin-top: -17%;
+        margin-bottom: 3%;
+      }
+      .txt-container-InfoImpo{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 7.2%;
+        margin-top: 15.4%;
+      }
+      .linea-tituloInfo{
+        display: flex;
+        flex-direction: row;
+      }
+      .mi-lineaInfo {
+        height: 1px; 
+        border: none; 
+        width: 80px;
+        margin-top: 180px;
+        background-color:#5ABDCF;
+        margin-left: 0px;
+        margin-right: 10px;
+      }
+      .nuestra-empresaInfo{
+        margin-top: 170px;
+        margin-left: 0px;
+        color: #5ABDCF;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 2.5px;
+        margin-left: 0px;
+      }
+      .titulo-info{
+        font-size: 40px;
+        color: #5ABDCF;
+        font-weight: 600;
+        margin-left: 0%;
+        margin-top: 1%;
+      }
+      .logos-info{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-right: 90px;
+        margin-left: 10%;
+        margin-bottom: 5%;
+      }
+    
+      .logo-info{
+        width: 350px;
+        height: 140px;
+      }
+    
+      .info-btn{
+        width: 250px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-radius: 40px;
+        background-color: transparent;
+        color: #3A93A4;
+        border: 1px solid #3A93A4;
+        font-size: 12px;
+        margin-top: -2%;
+        margin-bottom: 15%;
+        letter-spacing: 1.5px;
+        margin-left: 15%;
+        font-weight: 600;
+      }
+    
+      .info-btn:hover{
+        width: 250px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-radius: 40px;
+        background-color: #3A93A4;
+        color: white;
+        border: 1px solid #3A93A4;
+        font-size: 12px;
+        margin-top: -2%;
+        margin-bottom: 15%;
+        letter-spacing: 1.5px;
+        margin-left: 15%;
+        font-weight: 600;
+      }
+    
+    .logo-boton{
+      display: flex;
+      flex-direction: column;
+    }
+    
+}
+
+
+
+
+@media (min-width: 1920px) {
+    .txt-redesInfo{
+        display: flex;
+        flex-direction: row;
+        margin-top: -15.5%;
+        margin-bottom: 5%;
+      }
+      .txt-container-InfoImpo{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 7%;
+        margin-top: 20%;
+      }
+      .linea-tituloInfo{
+        display: flex;
+        flex-direction: row;
+      }
+      .mi-lineaInfo {
+        height: 1px; 
+        border: none; 
+        width: 80px;
+        margin-top: 180px;
+        background-color:#5ABDCF;
+        margin-left: 0px;
+        margin-right: 10px;
+      }
+      .nuestra-empresaInfo{
+        margin-top: 170px;
+        color: #5ABDCF;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 2.5px;
+      }
+      .titulo-info{
+        font-size: 40px;
+        color: #5ABDCF;
+        font-weight: 600;
+        margin-top: 1%;
+      }
+      .logos-info{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-right: 90px;
+        margin-left: 10%;
+        margin-bottom: 5%;
+      }
+    
+      .logo-info{
+        width: 455px;
+        height: 182px;
+      }
+    
+      .info-btn{
+        width: 250px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-radius: 40px;
+        background-color: transparent;
+        color: #3A93A4;
+        border: 1px solid #3A93A4;
+        font-size: 15px;
+        margin-top: -2%;
+        margin-bottom: 15%;
+        letter-spacing: 1.5px;
+        margin-left: 23%;
+        font-weight: 600;
+      }
+    
+      .info-btn:hover{
+        width: 250px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-radius: 40px;
+        background-color: #3A93A4;
+        color: white;
+        border: 1px solid #3A93A4;
+        font-size: 15px;
+        margin-top: -2%;
+        margin-bottom: 15%;
+        letter-spacing: 1.5px;
+        margin-left: 23%;
+        font-weight: 600;
+      }
+    
+    .logo-boton{
+      display: flex;
+      flex-direction: column;
+    }
+    
+}

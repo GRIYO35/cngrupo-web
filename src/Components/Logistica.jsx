@@ -21,7 +21,7 @@ const Navchapa = () => {
             <hr class="mi-linea"></hr><p className="nuestra-empresa">NUESTRA EMPRESA</p></div>
             <h2 className="logistica-title">CN LOGISTICA</h2>
             </div>
-            </div> 
+        </div> 
            
         </div>
         <div className="container-logistica">

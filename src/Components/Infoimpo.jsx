@@ -8,6 +8,7 @@ import logoinf4 from "../Assets/CN LOGISTICA - INFO IMPOSITIVA grey@300x.png";
 import logoinf5 from "../Assets/NECA - INFO IMPOSITIVA grey@300x.png";
 import logoinf6 from "../Assets/PEM - INFO IMPOSITIVA grey@300x.png";
 import NAVBAR from "./NavBarOscura";
+import "./Infoimpo.css"
 
 const Navinfo = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,11 +19,10 @@ const Navinfo = () => {
 
       <div className="txt-redesInfo">
         <div className="txt-container-InfoImpo">
-          <div className="linea-titulo2">
-            <hr class="mi-linea2"></hr>
-            <p className="nuestra-empresa3">NUESTRA EMPRESA</p>
+          <div className="linea-tituloInfo">
+            <hr class="mi-lineaInfo"></hr><p className="nuestra-empresaInfo">NUESTRA EMPRESA</p>
           </div>
-          <h2 className="titulo-info">Info impositiva</h2>
+          <h2 className="titulo-info">INFORMACIÓN IMPOSITIVA</h2>
           {/*<h2 className="nuestra-info-txt"><span className="txt-empresa-span">CN GRUPO</span> nace como una empresa familiar y cuenta con más <span className="txt-empresa-span"> 35 años </span> de trayectoria, más de <span className="txt-empresa-span"> 35 años </span> más de <span className="txt-empresa-span"> 250 colaboradores </span> y <span className="txt-empresa-span"> 6 bases operativas </span> distribuidas en puntos estratégicos de Salta y norte de Chile. </h2>*/}
         </div>
       </div>

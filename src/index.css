@@ -254,7 +254,6 @@ width: 100px;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 2.5px;
-  font-weight: 400;
 }
 
 .nuestra-empresa2{
@@ -602,11 +601,6 @@ align-items: center;
 text-align: center;
 }*/
 
-.vector-card{
-  width: 90px;
-  height: 90px;
-}
-
 .title-vector{
   font-size: 250%;
   font-weight: 500;
@@ -645,13 +639,6 @@ line-height: 25px;
 text-align: left;
 }*/
 
-
-.titulo-info{
-  font-size: 40px;
-  color: #5ABDCF;
-  font-weight: 600;
-}
-
 .mi-linea2 {
   height: 1px; 
   border: none; 
@@ -679,56 +666,6 @@ text-align: left;
   margin-right: 50%;
   margin-bottom: 100px;
   }
-
-  .logos-info{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-right: 90px;
-    margin-left: 10%;
-    margin-bottom: 5%;
-  }
-
-  .logo-info{
-    width: 350px;
-    height: 140px;
-  }
-
-  .info-btn{
-    width: 250px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    border-radius: 40px;
-    background-color: transparent;
-    color: #3A93A4;
-    border: 1px solid #3A93A4;
-    font-size: 12px;
-    margin-top: -2%;
-    margin-bottom: 15%;
-    letter-spacing: 1.5px;
-    margin-left: 15%;
-  }
-
-  .info-btn:hover{
-    width: 250px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    border-radius: 40px;
-    background-color: #3A93A4;
-    color: white;
-    border: 1px solid #3A93A4;
-    font-size: 12px;
-    margin-top: -2%;
-    margin-bottom: 15%;
-    letter-spacing: 1.5px;
-    margin-left: 15%;
-  }
-
-.logo-boton{
-  display: flex;
-  flex-direction: column;
-}
 
 .swiper, .swiper-container{
   height: 310px;
@@ -1133,14 +1070,6 @@ margin-bottom: 0%;
     margin-top: 17%;
   }
 
-  .txt-container-InfoImpo{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-left: 7%;
-    margin-top: 10%;
-  }
-
   .txt-container-gerentes{
     text-align: left;
     margin-left: 7%;
@@ -1200,14 +1129,6 @@ margin-bottom: 0%;
 
 @media (min-width: 1920px) {
   .txt-container-empresa{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-left: 7%;
-    margin-top: 20%;
-  }
-
-  .txt-container-InfoImpo{
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -1358,19 +1279,10 @@ margin-bottom: 0%;
   left: -140%;
 }*/
 
-.txt-redesInfo{
-  display: flex;
-  flex-direction: row;
-  margin-top: -17%;
-  margin-bottom: 5%;
-}
-
-
 .submenuNav-container {
   position: absolute;
   display: inline-block;
 }
-
 
 .link-nav-chapaNav{
   color: #FFF;

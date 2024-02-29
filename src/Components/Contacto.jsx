@@ -1,6 +1,6 @@
-import Logo from "../Assets/cngrupocolor.png";
-import React, { useState, useRef } from "react";
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+/*import Logo from "../Assets/cngrupocolor.png";*/
+import React from "react";
+/*import { BrowserRouter, Link, Route, Routes } from "react-router-dom";*/
 import { Contactocomponente } from "../Components/Contactocomponente";
 import imgcontacto from "../Assets/CONTACTO 537X249px.png";
 import logodireccion from "../Assets/logodireccion.png";
@@ -10,7 +10,7 @@ import NAVBAR from "./NavBarOscura";
 import "./Contacto.css";
 
 const Navinfo = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  /*const [isOpen, setIsOpen] = useState(false);*/
 
   return (
     <div className="home-container">

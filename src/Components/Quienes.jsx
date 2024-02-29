@@ -1,13 +1,13 @@
-import Logo from "../Assets/cngrupoLOGOwhite.png"
+/*import Logo from "../Assets/cngrupoLOGOwhite.png"*/
 import React, { useState, useEffect } from "react";
-import { Link} from "react-router-dom";
+/*import { Link} from "react-router-dom";*/
 import fotoellos1 from '../Assets/EDUARDO.png';
 import fotoellos4 from '../Assets/261x353 EDUARDO.png';
 import fotoellos2 from '../Assets/TOMI.png';
 import fotoellos5 from '../Assets/261x353 TOMI.png';
 import fotoellos3 from '../Assets/EDU solo.png';
 import fotoellos6 from '../Assets/261x353 EDU h.png';
-import { useTranslation } from "react-i18next";
+/*import { useTranslation } from "react-i18next";*/
 import gerentes from '../Assets/gerentes.png';
 import gerentes1 from '../Assets/479x279 GERENTES.png';
 import NAVBAR from "./NavBar"
@@ -15,8 +15,8 @@ import "./Quienes.css"
 
 
 const Navinfo = () => {
-  const [t, i18next] = useTranslation("global");
-  const [isOpen, setIsOpen] = useState(false);
+  /*const [t, i18next] = useTranslation("global");
+  const [isOpen, setIsOpen] = useState(false);*/
   const [currentImage, setCurrentImage] = useState(gerentes);
   const [currentImage1, setCurrentImage1] = useState(fotoellos1);
   const [currentImage2, setCurrentImage2] = useState(fotoellos2);
@@ -55,7 +55,7 @@ const Navinfo = () => {
        };
      }, []);
 
-  {/*const [isSubMenuOpen1, setSubMenuOpen1] = useState(false);
+  /*const [isSubMenuOpen1, setSubMenuOpen1] = useState(false);
   const [isSubMenuOpen2, setSubMenuOpen2] = useState(false);
   const [isSubMenuOpen3, setSubMenuOpen3] = useState(false);
 
@@ -90,7 +90,7 @@ const Navinfo = () => {
 
   const handleMouseLeave3 = () => {
       timer = setTimeout(() => setSubMenuOpen3(false), delay);
-  };*/}
+  };*/
 
   return (
       <div className="home-container">

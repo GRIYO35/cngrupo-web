@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { FaInstagram, FaFacebook } from "react-icons/fa";
 import logochile from "../Assets/loggo1.png";
 import mapachile from "../Assets/MAPA CHILE WEB@300x.png";
@@ -10,7 +10,7 @@ import NAVBAR from "./NavBar";
 import "./Ccnchile.css";
 
 const Navchapa = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  /*const [isOpen, setIsOpen] = useState(false);*/
 
   return (
     <div className="home-container">

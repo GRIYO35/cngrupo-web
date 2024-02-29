@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import React from "react";
+/*import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import Logo from "../Assets/cngrupoblanco.png";
 import { FaInstagram, FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
-import logochile from "../Assets/loggo1.png";
+import logochile from "../Assets/loggo1.png";*/
 import Vectorlogistica from "../Assets/vectorPersoAzul.svg";
 import Vectorlogistica1 from "../Assets/Group 94.png";
 import Vectorlogistica2 from "../Assets/Vector (2).png";
@@ -11,15 +11,15 @@ import loggo3 from "../Assets/loggo3.png";
 import videoSourceGuemes from "../Assets/Guemes web.mp4";
 import NAVBAR from "./NavBar";
 import "./Plantaguemes.css"
-import fotogas from "../Assets/autoelevadores 15 kg  1.png";
+/*import fotogas from "../Assets/autoelevadores 15 kg  1.png";
 import logodireccion from "../Assets/logodireccion.png";
 import logotelefono from "../Assets/logotelefono.png";
 import logowpp from "../Assets/logowpp.png";
 import logodelivery from "../Assets/logodelivery.png";
-import imgchile from "../Assets/TEXTO DESCRIPCION - CN GRUPO EMBARCACION Y LAJITAS (33).png";
+import imgchile from "../Assets/TEXTO DESCRIPCION - CN GRUPO EMBARCACION Y LAJITAS (33).png";*/
 
 const Navchapa = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  /*const [isOpen, setIsOpen] = useState(false);*/
 
   return (
     <div className="home-container">

@@ -6,6 +6,7 @@ import "./Contactocomponente.css";
 
 export const Contactocomponente = () => {
   const form = useRef();
+  // eslint-disable-next-line no-unused-vars
   const [emailSent, setEmailSent] = useState(false);
   const [showEmailSentMessage, setShowEmailSentMessage] = useState(false);
   const [inputValue, setInputValue] = useState({

@@ -40,7 +40,7 @@ import ScrollToTop from "react-scroll-to-top";
 import "./Neca.css";
 
 const Navchapa = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  /*const [isOpen, setIsOpen] = useState(false);*/
   const [selectedButton, setSelectedButton] = useState(1);
 
     const handleDownload = () => {

@@ -14,7 +14,7 @@ import NAVBAR from "./NavBar";
 import "./Gasdelnorte.css";
 
 const Gas = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  /*const [isOpen, setIsOpen] = useState(false);*/
 
   const [selectedButton, setSelectedButton] = useState(1);
 

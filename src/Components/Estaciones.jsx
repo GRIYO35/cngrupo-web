@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import vectorneca2 from '../Assets/Group 94 (2).png'
 import vectorneca3a from '../Assets/Vector (6).png'
 import vectorneca3b from '../Assets/Vector (7).png'
@@ -19,7 +19,7 @@ import "./Estaciones.css"
 
 
 const Navchapa = () => {
-    const [isOpen, setIsOpen] = useState(false);
+    /*const [isOpen, setIsOpen] = useState(false);*/
 
     return (
         <div className="home-container">

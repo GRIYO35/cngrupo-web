@@ -10,6 +10,7 @@ const NavbarOscura = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isSubMenuOpen1, setSubMenuOpen1] = useState(false);
   const [isSubMenuOpen2, setSubMenuOpen2] = useState(false);
+  // eslint-disable-next-line no-unused-vars
   const [isSubMenuOpen3, setSubMenuOpen3] = useState(false);
   const [isSubMenuOpen4, setSubMenuOpen4] = useState(false);
   const [isSubMenuOpen5, setSubMenuOpen5] = useState(false);

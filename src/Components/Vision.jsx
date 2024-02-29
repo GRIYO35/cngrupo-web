@@ -10,14 +10,14 @@ import IconoInicial from '../Assets/Group.svg';
 import ManoArribaNuevo from '../Assets/manoarribanuevo.svg';
 import FlechitaNuevo from '../Assets/flechitanuevo.svg';
 import ManosNuevo from '../Assets/manosnuevo.svg';
-import { useTranslation } from "react-i18next";
+/*import { useTranslation } from "react-i18next";*/
 import Tarjeta from "./Tarjeta"
 import NAVBAR from "./NavBar"
 import "./Vision.css"
 
 
 const Vision = () => {
-    const [t, i18next] = useTranslation("global");
+    /*const [t, i18next] = useTranslation("global");*/
     const [texto, setTexto] = useState('Reconocemos el <span class="txt-empresa-spanVis">valor y los derechos de las personas.</span> Actuamos pensando en el otro, promoviendo relaciones que destaquen <span class="txt-empresa-spanVis">franqueza, reciprocidad y libertad.</span> Establecemos y cuidamos los acuerdos que hacemos, considerando los intereses de todos los involucrados y la construcción de confianza.');
     const [titulo, setTitulo] = useState('Respeto');
     const [icono, setIcono] = useState(NuevoIcono);

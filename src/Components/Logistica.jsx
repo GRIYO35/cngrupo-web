@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Logologistica from '../Assets/logoinf4.png'
 import Imgvisionlogo from '../Assets/650X388px WEB descripcion.png'
 import Vectorlogistica1 from '../Assets/Group 94.png'
@@ -9,7 +9,7 @@ import "./Logistica.css"
 
 
 const Navchapa = () => {
-    const [isOpen, setIsOpen] = useState(false);
+    /*const [isOpen, setIsOpen] = useState(false);*/
 
     return (
         <div className="home-container">

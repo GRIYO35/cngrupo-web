@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 /*import ExpandLessIcon from "@material-ui/icons/ExpandLess";*/
 import "react-multi-carousel/lib/styles.css";
 import logo1 from "../Assets/PLANTAguemes WEB@300x.png";
@@ -23,6 +23,7 @@ import NAVBAR from "./NavBar";
 import "./Home.css"
 
 const Home = () => {
+  // eslint-disable-next-line no-unused-vars
   const [t, i18next] = useTranslation("global");
 
   return (

@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import videoSourceGas from "../Assets/Trabaja con nosotros Web.mp4";
 import NAVBAR from "./NavBar";
 import "./CapitalHumano.css";
 
 const CapitalH = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  /*const [isOpen, setIsOpen] = useState(false);*/
 
   return (
     <div className="home-containerCap">

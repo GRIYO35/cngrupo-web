@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 /*import ExpandLessIcon from "@material-ui/icons/ExpandLess";*/
-import { FaInstagram, FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
 import logo2 from "../Assets/CN - INFO IMPOSITIVA grey@300x.png";
 import fotocomb from "../Assets/650X388px WEB est fijas.png";
 import fotocombMob from "../Assets/650X388px WEB est moviles.png";
@@ -25,7 +25,7 @@ import "./Combustiblesdelnorte.css";
 import ScrollToTop from "react-scroll-to-top";
 
 const Navchapa = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  /*const [isOpen, setIsOpen] = useState(false);*/
   const [selectedButton, setSelectedButton] = useState(1);
 
   const handleButtonClick = (buttonNumber) => {

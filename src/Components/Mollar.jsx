@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
-import Logo from '../Assets/cngrupoblanco.png'
+import React from "react";
+/*import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import Logo from '../Assets/cngrupoblanco.png'*/
 import LogoMollar from '../Assets/PEM - INFO IMPOSITIVA grey@300x.png'
 import Logochoclo from '../Assets/Group (2).png'
 import Logosiembra from '../Assets/Group (3).png'

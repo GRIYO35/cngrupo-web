@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ExpandLessIcon from "@material-ui/icons/ExpandLess";
+/*import ExpandLessIcon from "@material-ui/icons/ExpandLess";*/
 import "react-multi-carousel/lib/styles.css";
 import logo1 from "../Assets/PLANTAguemes WEB@300x.png";
 import logo3 from "../Assets/EESS WEB@300x.png";
@@ -211,14 +211,14 @@ const Home = () => {
               justifyContent: "center",
               position: "absolute",
             }}
-            component={
+            /*component={
               <ExpandLessIcon
                 style={{
                   fontSize: 40,
                   color: "white",
                 }}
               />
-            }
+            }*/
           />
         </div>
 

@@ -9,7 +9,7 @@ import combustibles from '../Assets/combustibles.png'
 import boxes from '../Assets/boxes.png'
 import tiendafull from '../Assets/tiendafull.png'
 import accesorios from '../Assets/accesorios.png'
-import ExpandLessIcon from "@material-ui/icons/ExpandLess";
+/*import ExpandLessIcon from "@material-ui/icons/ExpandLess";*/
 import ScrollToTop from "react-scroll-to-top";
 import estacionesimg1 from '../Assets/650X388px WEB lajitas.png'
 import estacionesimg2 from '../Assets/650X388px WEB chango.png'
@@ -198,14 +198,14 @@ const Navchapa = () => {
               justifyContent: "center",
               position: "absolute",
             }}
-            component={
+            /*component={
               <ExpandLessIcon
                 style={{
                   fontSize: 40,
                   color: "white",
                 }}
               />
-            }
+            }*/
           />
         </div>
         <div className="footer">

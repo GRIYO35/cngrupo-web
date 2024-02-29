@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ExpandLessIcon from "@material-ui/icons/ExpandLess";
+/*import ExpandLessIcon from "@material-ui/icons/ExpandLess";*/
 import { FaInstagram, FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
 import logo2 from "../Assets/CN - INFO IMPOSITIVA grey@300x.png";
 import fotocomb from "../Assets/650X388px WEB est fijas.png";
@@ -553,14 +553,14 @@ const Navchapa = () => {
               justifyContent: "center",
               position: "absolute",
             }}
-            component={
+            /*component={
               <ExpandLessIcon
                 style={{
                   fontSize: 40,
                   color: "white",
                 }}
               />
-            }
+            }*/
           />
         </div>
 

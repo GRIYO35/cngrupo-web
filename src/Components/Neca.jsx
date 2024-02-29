@@ -35,7 +35,7 @@ import logogrande7 from "../Assets/sigma agro WEB@300x.png";
 import logogrande8 from "../Assets/insuagro WEB@300x.png";
 import videoSourceNECA from "../Assets/NECA web v3.mp4";
 import NAVBAR from "./NavBar";
-import ExpandLessIcon from "@material-ui/icons/ExpandLess";
+/*import ExpandLessIcon from "@material-ui/icons/ExpandLess";*/
 import ScrollToTop from "react-scroll-to-top";
 import "./Neca.css";
 
@@ -477,14 +477,14 @@ const Navchapa = () => {
               justifyContent: "center",
               position: "absolute",
             }}
-            component={
+            /*component={
               <ExpandLessIcon
                 style={{
                   fontSize: 40,
                   color: "white",
                 }}
               />
-            }
+            }*/
           />
         </div>
 

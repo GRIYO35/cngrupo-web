@@ -38,6 +38,7 @@ import NAVBAR from "./NavBar";
 /*import ExpandLessIcon from "@material-ui/icons/ExpandLess";*/
 import ScrollToTop from "react-scroll-to-top";
 import "./Neca.css";
+import FlechaScrol from "../Assets/flecha web cn grupo@300x-8.png"
 
 const Navchapa = () => {
   /*const [isOpen, setIsOpen] = useState(false);*/
@@ -477,14 +478,19 @@ const Navchapa = () => {
               justifyContent: "center",
               position: "absolute",
             }}
-            /*component={
-              <ExpandLessIcon
+            component={
+              <img
+                src={FlechaScrol}
+                alt="Icono Personalizado"
                 style={{
-                  fontSize: 40,
-                  color: "white",
+                  width: 22, 
+                  height: 11, 
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(0%, -20%)",
                 }}
               />
-            }*/
+            }
           />
         </div>
 

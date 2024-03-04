@@ -23,6 +23,7 @@ import videoSourceComb from "../Assets/COMBUSTIBLES DEL NORTE.mp4";
 import NAVBAR from "./NavBar";
 import "./Combustiblesdelnorte.css";
 import ScrollToTop from "react-scroll-to-top";
+import FlechaScrol from "../Assets/flecha web cn grupo@300x-8.png"
 
 const Navchapa = () => {
   /*const [isOpen, setIsOpen] = useState(false);*/
@@ -511,7 +512,7 @@ const Navchapa = () => {
               <h2 className="title-direccion-Combustible">Embarcacion</h2>
             </div>
             <div className="CardCombustibleContacto">
-              <div className="CombDirec">
+              <div className="CombDirec4">
                 <img src={LogoPersona} alt="" className="logoComb4" />
                 <p className="txt-direccion-Combustible">Pablo Bertolin</p>
               </div>
@@ -553,14 +554,19 @@ const Navchapa = () => {
               justifyContent: "center",
               position: "absolute",
             }}
-            /*component={
-              <ExpandLessIcon
+            component={
+              <img
+                src={FlechaScrol}
+                alt="Icono Personalizado"
                 style={{
-                  fontSize: 40,
-                  color: "white",
+                  width: 22, 
+                  height: 11, 
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(0%, -20%)",
                 }}
               />
-            }*/
+            }
           />
         </div>
 

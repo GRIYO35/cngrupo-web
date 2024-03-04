@@ -11,13 +11,13 @@
 }
 
 .language-buttonOsc:hover {
-  border-color: #ddd;
-  color: #ddd;
+  border-color: #5abdcf;
+  color: #5abdcf;
 }
 
 .language-buttonOsc.active {
-  background-color: white;
-  color: black;
+  background-color: #225065;
+  color: white;
 }
 
 .liOsc{
@@ -98,6 +98,7 @@
       flex-direction: row;
       margin-left: 2%;
       width: 142%;
+      height: 128%;
       text-align: left;
     }
 
@@ -247,6 +248,7 @@
       flex-direction: row;
       margin-left: 2%;
       width: 142%;
+      height: 128%;
       text-align: left;
     }
 

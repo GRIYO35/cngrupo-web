@@ -16,6 +16,7 @@ import estacionesimg2 from '../Assets/650X388px WEB chango.png'
 import videoSourceComb from "../Assets/YPF EESS Las lajitas web.mp4";
 import NAVBAR from "./NavBar";
 import "./Estaciones.css"
+import FlechaScrol from "../Assets/flecha web cn grupo@300x-8.png"
 
 
 const Navchapa = () => {
@@ -198,14 +199,19 @@ const Navchapa = () => {
               justifyContent: "center",
               position: "absolute",
             }}
-            /*component={
-              <ExpandLessIcon
+            component={
+              <img
+                src={FlechaScrol}
+                alt="Icono Personalizado"
                 style={{
-                  fontSize: 40,
-                  color: "white",
+                  width: 22, 
+                  height: 11, 
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(0%, -20%)",
                 }}
               />
-            }*/
+            }
           />
         </div>
         <div className="footer">

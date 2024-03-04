@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,  useEffect } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Assets/cngrupoLOGOwhite.png";
 import { useTranslation } from "react-i18next";
@@ -28,7 +28,7 @@ const Navbar = () => {
     clearTimeout(subMenuTimer);
     subMenuTimer = setTimeout(() => {
       setSubMenuOpen4(false);
-    }, 150);
+    }, 100);
   };
 
   const handleMouseEnter5 = (setSubMenuOpen) => {
@@ -41,7 +41,7 @@ const Navbar = () => {
     clearTimeout(subMenuTimer1);
     subMenuTimer1 = setTimeout(() => {
       setSubMenuOpen5(false);
-    }, 150);
+    }, 100);
   };
 
   const handleMouseEnter6 = (setSubMenuOpen) => {
@@ -54,7 +54,7 @@ const Navbar = () => {
     clearTimeout(subMenuTimer2);
     subMenuTimer2 = setTimeout(() => {
       setSubMenuOpen6(false);
-    }, 250);
+    }, 100);
   };
 
   const handleMouseEnter1 = () => {
@@ -265,7 +265,7 @@ const Navbar = () => {
                             .forEach((btn) => btn.classList.remove("active"));
                           event.target.classList.add("active");
                         }}
-                        className="language-button"
+                        className={`language-button ${i18next.language === "es" && "active"}`}
                       >
                         ES
                       </button>
@@ -278,7 +278,7 @@ const Navbar = () => {
                             .forEach((btn) => btn.classList.remove("active"));
                           event.target.classList.add("active");
                         }}
-                        className="language-button"
+                        className={`language-button ${i18next.language === "en" && "active"}`}
                       >
                         EN
                       </button>

@@ -17,7 +17,8 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "./Slider.css"
-
+import FlechaDerecha from "../Assets/flecha derecha@300x-8.png"
+import FlechaIzquierda from "../Assets/flecha izquierda@300x-8.png"
 import { EffectCoverflow, Pagination, Navigation } from "swiper";
 
 function Slider() {
@@ -63,7 +64,6 @@ function Slider() {
       }
     };
 
-    // Llamamos a la función una vez al montar el componente
     handleResize();
 
     window.addEventListener("resize", handleResize);
@@ -136,10 +136,30 @@ function Slider() {
             <span className="swiper-pagination-bullet"></span>
           </div>
           <div className="swiper-pagination"></div>
-
-          {/* Botones de siguiente y anterior */}
-          <div className="swiper-button-next" onClick={handleNext} ></div>
-          <div className="swiper-button-prev" onClick={handlePrev}></div>
+          <div className="swiper-button-next">
+          <img src={FlechaDerecha} 
+               alt="Siguiente" 
+               onClick={handleNext} 
+               style={{
+                  width: 11, 
+                  height: 22, 
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(20%, 0%)",
+                }}/>
+          </div>
+          <div className="swiper-button-prev">
+          <img src={FlechaIzquierda} 
+               alt="Siguiente" 
+               onClick={handlePrev} 
+               style={{
+                  width: 11, 
+                  height: 22, 
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-10%, 0%)",
+                }}/>
+          </div>
         </div>
       </Swiper>
     </div>

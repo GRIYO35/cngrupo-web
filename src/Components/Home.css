@@ -129,7 +129,6 @@
                 justify-content: center;
                 flex-wrap: wrap;
                 background-position-x: center;
-              
               }
               
               .card-home{
@@ -148,8 +147,8 @@
                 line-height: 25px;
                 letter-spacing: 0.5px;
                 color:#FFF;
-                margin-left: 50px;
-                margin-right: 50px;
+                margin-left: 20px;
+                margin-right: 20px;
                 margin-bottom: 50px;
               
               }
@@ -443,7 +442,7 @@
               .card-home{
                 margin-top: 40px;
                 width: 260px;
-                height: 310px;
+                height: 410px;
                 border-radius: 15px;
                 background: rgba(31, 106, 140, 0.60);
                 text-align: left;
@@ -466,16 +465,16 @@
                 background-image: url(../Assets/Group.png);
                 background-repeat: no-repeat;
                 background-size: cover;
-                height: 44px;
-                width: 44px;
+                height: 57px;
+                width: 57px;
               }
               
               .logo-home2{
                 background-image: url(../Assets/Agro\ 3\ 1.png);
                 background-repeat: no-repeat;
                 background-size: cover;
-                height: 44px;
-                width: 44px;
+                height: 57px;
+                width: 57px;
               }
               
               
@@ -483,25 +482,31 @@
                 background-image: url(../Assets/Mask\ group.png);
                 background-repeat: no-repeat;
                 background-size: cover;
-                height: 44px;
-                width: 44px;
+                height: 57px;
+                width: 57px;
               }
               
               .title-card-home{
                 font-weight: 600;
+                font-size: 30px;
               }
+
+              .texto-card-home{
+                font-size: 20px;
+              }
+
               .mi-linea-home {
-                height: 1px; 
+                height: 2px; 
                 border: none; 
                 width: 80px;
-                margin-top: 43px;
+                margin-top: 70px;
                 background-color: #FFF;
                 margin-left: 0px;
                 margin-right: 10px;
               }
               
               .mi-linea-home1 {
-                height: 1px; 
+                height: 2px; 
                 border: none; 
                 width: 80px;
                 margin-top: 20px;
@@ -511,7 +516,7 @@
               }
               
               .mi-linea-home2 {
-                height: 1px; 
+                height: 2px; 
                 border: none; 
                 width: 80px;
                 margin-top: 67px;

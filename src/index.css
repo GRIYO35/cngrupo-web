@@ -28,7 +28,7 @@ body {
   display: flex;
   flex-direction: row;
   list-style: none;
-  justify-content: start;
+  justify-content: flex-start;
   cursor: pointer;
   background-color: transparent;
   margin-right: 10%;

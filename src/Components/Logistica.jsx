@@ -55,7 +55,9 @@ const Navchapa = () => {
             <p className="txt-foo">Av. Chile 1275, A4400 Salta</p>
           </div>
           <div className="txt2">
-            <p className="txt-foo">© 2023 CN Grupo - Todos los derechos reservados</p>
+            <p className="txt-foo">
+              © 2024 CN Grupo - Todos los derechos reservados
+              </p>
           </div>
         </div>
 

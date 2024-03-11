@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 /*import { Link } from "react-router-dom";
 import Logo from "../Assets/cngrupoLOGOwhite.png";*/
-import Linea1 from "../Assets/242X177 - 1991.png";
-import Linea2 from "../Assets/242X177 - 2005.png";
-import Linea3 from "../Assets/242X177 - 2008.png";
-import Linea4 from "../Assets/242X177 - 2009.png";
-import Linea5 from "../Assets/242X177 - 2022.png";
-import Linea6 from "../Assets/242X177 - 2023.png";
+import Linea1 from "../Assets/349x209 - 1991.png";
+import Linea2 from "../Assets/349x209 - 2005.png";
+import Linea3 from "../Assets/349x209 - 2008.png";
+import Linea4 from "../Assets/349x209 - 2009.png";
+import Linea5 from "../Assets/349x209 - 2022.png";
+import Linea6 from "../Assets/349x209 - 2023.png";
 import Linea7 from "../Assets/349x209 - 1991.png";
 import Linea8 from "../Assets/349x209 - 2005.png";
 import Linea9 from "../Assets/349x209 - 2008.png";
@@ -106,7 +106,7 @@ const Navhist = () => {
             <div className="txt-linea1">EESS el Chango</div>
             <hr className="linea-linea"></hr>
             <br></br>
-            <img src={currentImage1} alt="" className="ImagenHistoria1" />
+            <img src={currentImage1} alt="" className="ImagenHistoria2" />
           </li>
 
           <li className="li-linea2i" data-aos="fade-left">
@@ -145,7 +145,7 @@ const Navhist = () => {
             <div className="txt-linea1">Sucursal Las Lajitas</div>
             <hr className="linea-linea"></hr>
             <br></br>
-            <img src={currentImage2} alt="" className="ImagenHistoria1" />
+            <img src={currentImage2} alt="" className="ImagenHistoria2" />
           </li>
 
           <li className="li-linea5" data-aos="fade-left">
@@ -161,7 +161,7 @@ const Navhist = () => {
             <div className="txt-linea1">Planta Güemes</div>
             <hr className="linea-linea"></hr>
             <br></br>
-            <img src={currentImage4} alt="" className="ImagenHistoria1" />
+            <img src={currentImage4} alt="" className="ImagenHistoria2" />
           </li>
 
           <li className="li-linea4i" data-aos="fade-left">
@@ -205,7 +205,7 @@ const Navhist = () => {
             </div>
             <hr className="linea-linea"></hr>
             <br></br>
-            <img src={currentImage6} alt="" className="ImagenHistoria1" />
+            <img src={currentImage6} alt="" className="ImagenHistoria2" />
           </li>
         </ul>
       </div>
@@ -215,7 +215,7 @@ const Navhist = () => {
         </div>
         <div className="txt2">
           <p className="txt-foo">
-            © 2023 CN Grupo - Todos los derechos reservados
+            © 2024 CN Grupo - Todos los derechos reservados
           </p>
         </div>
       </div>

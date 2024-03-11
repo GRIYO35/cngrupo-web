@@ -79,10 +79,10 @@ const Navchapa = () => {
       </div>
 
       <div className="seccion2planta">
-        <div className="numeritos">
+        <div className="numeritosPla">
           <div className="numeroytxtPlanta">
             <div className="numeroPlanta">
-              <h2 className="numerito">01</h2>
+              <h2 className="numerito1">01</h2>
               <hr className="lineanum"></hr>
             </div>
             <div className="parrafos">
@@ -94,7 +94,7 @@ const Navchapa = () => {
           </div>
 
           <div className="numeroytxtPlanta">
-            <div className="numeroPlanta">
+            <div className="numeroPlanta2">
               <h2 className="numerito">02</h2>
               <hr className="lineanum"></hr>
             </div>
@@ -120,7 +120,7 @@ const Navchapa = () => {
           </div>
 
           <div className="numeroytxtPlanta">
-            <div className="numeroPlanta">
+            <div className="numeroPlanta5">
               <h2 className="numerito">05</h2>
               <hr className="lineanum"></hr>
             </div>
@@ -185,7 +185,7 @@ const Navchapa = () => {
         </div>
         <div className="txt2">
           <p className="txt-foo">
-            © 2023 CN Grupo - Todos los derechos reservados
+            © 2024 CN Grupo - Todos los derechos reservados
           </p>
         </div>
       </div>

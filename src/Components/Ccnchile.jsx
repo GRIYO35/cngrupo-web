@@ -96,7 +96,7 @@ const Navchapa = () => {
         </div>
         <div className="txt2">
           <p className="txt-foo">
-            © 2023 CN Grupo - Todos los derechos reservados
+            © 2024 CN Grupo - Todos los derechos reservados
           </p>
         </div>
       </div>

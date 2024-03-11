@@ -1,4 +1,16 @@
 @media (min-width: 801px) and (max-width: 1919px) {
+
+  .numeritosPla {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    flex-wrap: wrap;
+  }
+
+  /*.numerito2 {
+    margin-top: 58%
+  }*/
+
     .txt-container-empresaGas {
     display: flex;
     flex-direction: column;
@@ -188,6 +200,11 @@
     text-align: left;
   }
 
+  .numeroPlanta2 {
+    text-align: left;
+    margin-left: -5%;
+  }
+
   .container-txt-card-planta1{
     display: flex;
     flex-direction: column;
@@ -211,6 +228,21 @@
 
 
 @media (min-width: 1920px) {
+  .numeritosPla {
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    flex-wrap: wrap;
+  }
+
+  .numerito {
+    margin-top: 70%;
+  }
+
+  .numerito1 {
+    margin-top: 75%;
+  }
+
     .txt-container-empresaGas {
     display: flex;
     flex-direction: column;
@@ -220,20 +252,20 @@
   }
 
   .txt-pequeño{
-    margin-top: -12px;
-    margin-left: -90px;
+    margin-top: -18px;
+    margin-left: -165px;
     font-size: 20px;
   }
 
   .txt-pequeñoA{
-    margin-top: 50px;
-    margin-left: -100px;
+    margin-top: 55px;
+    margin-left: -125px;
     font-size: 20px;
   }
   
   .txt-pequeñoB{
-    margin-top: 50px;
-    margin-left: -295px;
+    margin-top: 55px;
+    margin-left: -367px;
     font-size: 20px;
   }
 
@@ -242,7 +274,7 @@
     margin-left: 15px;
     font-weight: 600;
     text-align: left;
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .Planta-title-card {
@@ -413,5 +445,14 @@
 
   .numeroPlanta {
     text-align: left;
+  }
+
+  .numeroPlanta2 {
+    text-align: left;
+  }
+
+  .numeroPlanta5 {
+    text-align: left;
+    margin-left: 21%;
   }
 }

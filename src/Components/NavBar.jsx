@@ -17,6 +17,8 @@ const Navbar = () => {
   let subMenuTimer;
   let subMenuTimer1;
   let subMenuTimer2;
+  let subMenuTimer3;
+  let subMenuTimer4;
 
   const handleMouseEnter4 = (setSubMenuOpen) => {
     clearTimeout(subMenuTimer);
@@ -58,19 +60,27 @@ const Navbar = () => {
   };
 
   const handleMouseEnter1 = () => {
+    clearTimeout(subMenuTimer3);
     setSubMenuOpen1(true);
   };
 
   const handleMouseLeave1 = () => {
-    setSubMenuOpen1(false);
+    clearTimeout(subMenuTimer3);
+    subMenuTimer3 = setTimeout(() => {
+      setSubMenuOpen1(false);
+    }, 100);
   };
 
   const handleMouseEnter2 = () => {
+    clearTimeout(subMenuTimer4);
     setSubMenuOpen2(true);
   };
 
   const handleMouseLeave2 = () => {
-    setSubMenuOpen2(false);
+    clearTimeout(subMenuTimer4);
+    subMenuTimer4 = setTimeout(() => {
+      setSubMenuOpen2(false);
+    }, 100);
   };
 
   const handleMouseEnter3 = () => {

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1abf1bbe.css",
-    "main.js": "/static/js/main.3f3fcb74.js",
+    "main.css": "/static/css/main.23bb18b3.css",
+    "main.js": "/static/js/main.adc75411.js",
     "static/media/NECA web v3.mp4": "/static/media/NECA web v3.330a279e7eacd90e7a86.mp4",
     "static/media/Home Cn web v3 .mp4": "/static/media/Home Cn web v3 .30bee1f7079a85eb5cbe.mp4",
     "static/media/Trabaja con nosotros Web.mp4": "/static/media/Trabaja con nosotros Web.f5b1602b7133c6f1f3e5.mp4",
@@ -80,12 +80,6 @@
     "static/media/349x209 - 2023.png": "/static/media/349x209 - 2023.027215585e51ae02b991.png",
     "static/media/349x209 - 1991.png": "/static/media/349x209 - 1991.24fc6f55e81b671e4a39.png",
     "static/media/349x209 - 2005.png": "/static/media/349x209 - 2005.369ec9fb4aa3907efe4d.png",
-    "static/media/242X177 - 2008.png": "/static/media/242X177 - 2008.f663211be4dbfbc127bf.png",
-    "static/media/242X177 - 2022.png": "/static/media/242X177 - 2022.b429d7424d51ced5f9e1.png",
-    "static/media/242X177 - 2009.png": "/static/media/242X177 - 2009.af22379c5835986021f8.png",
-    "static/media/242X177 - 2023.png": "/static/media/242X177 - 2023.63fca3548068b98336ec.png",
-    "static/media/242X177 - 1991.png": "/static/media/242X177 - 1991.b1703029ad47658db0ed.png",
-    "static/media/242X177 - 2005.png": "/static/media/242X177 - 2005.07e9f16ef212d8116182.png",
     "static/media/cngrupoLOGOwhite.png": "/static/media/cngrupoLOGOwhite.e8a28e225d92e5213643.png",
     "static/media/PEM - INFO IMPOSITIVA grey@300x.png": "/static/media/PEM - INFO IMPOSITIVA grey@300x.a8de32b06b053f7e4f00.png",
     "static/media/CN LOGISTICA - INFO IMPOSITIVA grey@300x.png": "/static/media/CN LOGISTICA - INFO IMPOSITIVA grey@300x.843fa88ccbd4be32c8b9.png",
@@ -128,11 +122,11 @@
     "static/media/vectorPersoAzul.svg": "/static/media/vectorPersoAzul.f28af095a995afa8d40a1540b0de5796.svg",
     "index.html": "/index.html",
     "static/media/logomail.svg": "/static/media/logomail.250a2a2b6809a33ee82e489cd0c99de4.svg",
-    "main.1abf1bbe.css.map": "/static/css/main.1abf1bbe.css.map",
-    "main.3f3fcb74.js.map": "/static/js/main.3f3fcb74.js.map"
+    "main.23bb18b3.css.map": "/static/css/main.23bb18b3.css.map",
+    "main.adc75411.js.map": "/static/js/main.adc75411.js.map"
   },
   "entrypoints": [
-    "static/css/main.1abf1bbe.css",
-    "static/js/main.3f3fcb74.js"
+    "static/css/main.23bb18b3.css",
+    "static/js/main.adc75411.js"
   ]
 }

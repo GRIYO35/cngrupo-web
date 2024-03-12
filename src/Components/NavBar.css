@@ -259,13 +259,14 @@
     }
 
     .logo{
-      width: 40%;
-      height: 65%;
-      margin-top: 3.5%;
+      width: 400px;
+      height: 95px;
+      margin-top: 30px;
     }
     
     .LogoNav{
-      margin-left: -5%;
+      margin-left: 100px;
+      margin-right: 218px;
     }
 
     .nav-chapa{
@@ -279,10 +280,10 @@
       color:#bfc4d8;
       font-size: 22px;
       font-weight: 400;
+      margin-top: 55px;
     }
 
     .ul-nav{
-      margin-top: 5.5%;
       display: flex;
       flex-direction: row;
       list-style: none;
@@ -311,14 +312,14 @@
 
     .ul-menu  {
       position: absolute;
-      top: 9.7%;
-      left: 40.1%;
       background: rgba( 4, 68, 132, 0.45 );
       padding-top: 20px;
       padding-left: 32px;
       backdrop-filter: blur( 6px );
       -webkit-backdrop-filter: blur( 6px );
       list-style-type: none;
+      margin-left: -110px;
+      margin-top: 5px;
     }
   
   
@@ -360,8 +361,8 @@
       backdrop-filter: blur(6px);
       -webkit-backdrop-filter: blur(6px);
       list-style-type: none;
-      margin-left: -6.5%;
-      margin-top: 0.3%;
+      margin-left: -127px;
+      margin-top: 5px;
     }
     
     .ul-menuNav li {

@@ -1,4 +1,143 @@
-@media (min-width: 801px) and (max-width: 1919px) {
+@media (min-width: 801px) and (max-width: 1280px) {
+  .unrecuadro {
+    margin-top: 3%;
+  }
+  .dosrecuadros {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    margin-top: -5%;
+    margin-bottom: 10%;
+    position: absolute;
+    margin-left: 1%;
+  }
+
+  .txt-container-contacto {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 130px;
+  }
+
+  .p-contacto1 {
+    text-align: left;
+    color: #6c6c6c;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .subtitulocontacto {
+    margin-top: 170px;
+    margin-left: 0px;
+
+    color: #5abdcf;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2.5px;
+  }
+
+  .milinea-contacto {
+    height: 1px;
+    border: none;
+    width: 80px;
+    margin-top: 180px;
+    background-color: #5abdcf;
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+
+  .linea-titulo2Con {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .titulo-Contacto {
+    font-size: 37px;
+    color: #5abdcf;
+    font-weight: 600;
+  }
+
+  .otrorecuadro {
+    margin-top: 200px;
+  }
+
+  .title-contacto {
+    color: #2a4b51;
+    font-family: Public Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+
+  .txt-direccion-contacto {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .logo-txt-contacto {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .linea-contacto {
+    height: 1px;
+    border: none;
+    width: 80px;
+    background-color: #009fe3;
+    margin-left: 0px;
+  }
+
+  .vectorcontacto {
+    padding: 10px;
+    border-radius: 45%;
+    height: 16px;
+    width: 18px;
+    background: #ececec;
+  }
+
+  .vectorcontacto2 {
+    padding: 10px;
+    border-radius: 45%;
+    height: 15px;
+    width: 20px;
+    background: #ececec;
+  }
+
+  .imgcontacto {
+    width: 400px;
+    height: 200px;
+  }
+
+  .footerContacto {
+    display: flex;
+    flex-direction: row;
+    background-color: #27617b;
+    justify-content: space-between;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: left;
+    margin-top: 110%;
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1919px) {
   .unrecuadro {
     margin-top: 3%;
   }

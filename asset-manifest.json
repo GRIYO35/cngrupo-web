@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a6e2c3d9.css",
-    "main.js": "/static/js/main.a07aaa43.js",
+    "main.css": "/static/css/main.b201c2fd.css",
+    "main.js": "/static/js/main.4176722b.js",
     "static/media/NECA web v3.mp4": "/static/media/NECA web v3.330a279e7eacd90e7a86.mp4",
     "static/media/Home Cn web v3 .mp4": "/static/media/Home Cn web v3 .30bee1f7079a85eb5cbe.mp4",
     "static/media/Trabaja con nosotros Web.mp4": "/static/media/Trabaja con nosotros Web.f5b1602b7133c6f1f3e5.mp4",
@@ -122,11 +122,11 @@
     "static/media/vectorPersoAzul.svg": "/static/media/vectorPersoAzul.f28af095a995afa8d40a1540b0de5796.svg",
     "index.html": "/index.html",
     "static/media/logomail.svg": "/static/media/logomail.250a2a2b6809a33ee82e489cd0c99de4.svg",
-    "main.a6e2c3d9.css.map": "/static/css/main.a6e2c3d9.css.map",
-    "main.a07aaa43.js.map": "/static/js/main.a07aaa43.js.map"
+    "main.b201c2fd.css.map": "/static/css/main.b201c2fd.css.map",
+    "main.4176722b.js.map": "/static/js/main.4176722b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6e2c3d9.css",
-    "static/js/main.a07aaa43.js"
+    "static/css/main.b201c2fd.css",
+    "static/js/main.4176722b.js"
   ]
 }

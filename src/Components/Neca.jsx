@@ -35,17 +35,15 @@ import logogrande7 from "../Assets/sigma agro WEB@300x.png";
 import logogrande8 from "../Assets/insuagro WEB@300x.png";
 import videoSourceNECA from "../Assets/NECA web v3.mp4";
 import NAVBAR from "./NavBar";
-/*import ExpandLessIcon from "@material-ui/icons/ExpandLess";*/
 import ScrollToTop from "react-scroll-to-top";
 import "./Neca.css";
 import FlechaScrol from "../Assets/flecha web cn grupo@300x-8.png"
 
-const Navchapa = () => {
+const Neca = () => {
   /*const [isOpen, setIsOpen] = useState(false);*/
   const [selectedButton, setSelectedButton] = useState(1);
 
     const handleDownload = () => {
-      // Aquí puedes agregar lógica adicional si es necesario
     };
 
   const handleButtonClick = (buttonNumber) => {
@@ -399,7 +397,7 @@ const Navchapa = () => {
           Para contactarnos, podés hacerlo a través de estos canales:
         </p>
         <div className="container-cards-Combustible">
-          <div className="card-Comb">
+          <div className="card-Neca">
             <div className="titulo-Combustible">
               <h2 className="title-direccion-neca">Las Lajitas</h2>
             </div>
@@ -431,7 +429,7 @@ const Navchapa = () => {
           </div>
         </div>
         <div className="container-cards-estaciones">
-          <div className="card-Comb1">
+          <div className="card-Neca1">
             <div className="titulo-Combustible">
               <h2 className="title-direccion-neca">Embarcación</h2>
             </div>
@@ -509,4 +507,4 @@ const Navchapa = () => {
   );
 };
 
-export default Navchapa;
+export default Neca;

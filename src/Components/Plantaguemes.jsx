@@ -18,7 +18,7 @@ import logowpp from "../Assets/logowpp.png";
 import logodelivery from "../Assets/logodelivery.png";
 import imgchile from "../Assets/TEXTO DESCRIPCION - CN GRUPO EMBARCACION Y LAJITAS (33).png";*/
 
-const Navchapa = () => {
+const Guemes = () => {
   /*const [isOpen, setIsOpen] = useState(false);*/
 
   return (
@@ -137,7 +137,7 @@ const Navchapa = () => {
         <p className="txt-guemes-card">
           Para contactarnos, podés hacerlo a través de estos canales:
         </p>
-        <div className="container-cards-logistica">
+        <div className="container-cards-Guemes">
         <div className="card-contactoGue">
             <div className="titulo-logo-guemes">
               <h2 className="title-direccionGuemes">Responsable</h2>
@@ -193,4 +193,4 @@ const Navchapa = () => {
   );
 };
 
-export default Navchapa;
+export default Guemes;

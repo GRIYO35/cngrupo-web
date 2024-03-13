@@ -1,12 +1,11 @@
-.banner-mollar{
+.banner-mollar {
   background: url(../Assets/fotoANCHOweb\ -\ CN\ NECA\ LAS\ LAJITAS-115\ 1.png);
   background-size: cover;
   height: 600px;
 }
 
-@media (min-width: 801px) and (max-width: 1919px) {
-
-  .container-elmollar{
+@media (min-width: 801px) and (max-width: 1280px) {
+  .container-elmollar {
     display: flex;
     flex-direction: row;
     margin-top: 7%;
@@ -15,32 +14,32 @@
     margin-right: 2%;
     gap: 130px
   }
-   
-  .home-container5{
+
+  .home-container5 {
     background-size: cover;
     height: 600px;
   }
 
-  .txt-redes-mollar{
+  .txt-redes-mollar {
     display: flex;
     flex-direction: row;
     margin-top: -15%;
   }
 
-  .txt-container-mollar{
-      display: flex;
-      flex-direction: column;
-      text-align: left;
-      margin-left: 7%;
-      margin-top: 17%;
-    }
+  .txt-container-mollar {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 7%;
+    margin-top: 17%;
+  }
 
-    .logo-title-linea-mollar{
-      margin-top: 40px;
-    }
-    
-    .p-elmollar{
-      color: #6C6C6C;
+  .logo-title-linea-mollar {
+    margin-top: 40px;
+  }
+
+  .p-elmollar {
+    color: #6C6C6C;
     font-family: Public Sans;
     font-size: 15px;
     font-style: normal;
@@ -49,23 +48,23 @@
     text-align: left;
     margin-left: -15%;
     margin-right: 20%;
-    }
+  }
 
-    .logomollar{
-      width: 360px;
-      height: 140px;
-      margin-left: -60%;
-      margin-top: -5%;
-    }
+  .logomollar {
+    width: 360px;
+    height: 140px;
+    margin-left: -60%;
+    margin-top: -5%;
+  }
 
-    .my-lineaMollar{
-      width: 100px;
-      margin-left: -8%;
-      margin-top: -5%;
-    }
+  .my-lineaMollar {
+    width: 100px;
+    margin-left: -8%;
+    margin-top: -5%;
+  }
 
-    .title-elmollar{
-      color: #939E71;
+  .title-elmollar {
+    color: #939E71;
     font-family: Public Sans;
     font-size: 17px;
     font-style: normal;
@@ -73,170 +72,424 @@
     line-height: 37px;
     text-align: left;
     margin-left: -8%;
-    }
+  }
 
-    .logo-siembra{
-      display: flex;
-      flex-direction: row;
-    }
+  .logo-siembra {
+    display: flex;
+    flex-direction: row;
+  }
 
-    .logos-siembra{
-      width: 40px;
-      height: 60px;
-      margin-right: 20px;
-      margin-top: 5px;
-    }
-    
-    .logos-siembra2{
-      width: 35px;
-      height: 55px;
-      margin-right: 20px;
-      margin-top: 10px;
-    }
+  .logos-siembra {
+    width: 40px;
+    height: 60px;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
 
-    .logos-siembra-text{
-      display: flex;
-      flex-direction: row;
-      margin-left: -100px;
-      gap: 40px;
-      margin-top: 20px;
-    }
+  .logos-siembra2 {
+    width: 35px;
+    height: 55px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
 
-    .txt-siembra-c{
-      text-align: left;
-    }
+  .logos-siembra-text {
+    display: flex;
+    flex-direction: row;
+    margin-left: -100px;
+    gap: 40px;
+    margin-top: 20px;
+  }
 
-    .txt-siembra{
-      color: #6C6C6C;
+  .txt-siembra-c {
+    text-align: left;
+  }
+
+  .txt-siembra {
+    color: #6C6C6C;
     font-family: Public Sans;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 10px;
-    }
+  }
 
-    .title-logo-choclo{
-      color: #939E71;
+  .title-logo-choclo {
+    color: #939E71;
     font-family: Public Sans;
     font-size: 18px;
     font-weight: 400;
     line-height: 10px;
-    }
+  }
 
-    .container-txt-cardMollar{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: left;
-      margin-left: 130px;
-      margin-top: 5%;
-      margin-bottom: 9%;
-      text-align: left;
-    }
+  .container-txt-cardMollar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-left: 130px;
+    margin-top: 5%;
+    margin-bottom: 9%;
+    text-align: left;
+  }
 
-    .mollar-card{color: #939E71;
-      font-family: Public Sans;
-      font-size: 25px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 69px;}
+  .mollar-card {
+    color: #939E71;
+    font-family: Public Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69px;
+  }
 
-    .linea-mollar{
-      height: 1px; 
-      border: none; 
-      width: 80px;
-      background-color:#939E71;
-      margin-left: 0;
-      margin-top: -30px;
-      }
-  
-      .txt-mollar-card{
-        color: #656565;
-        font-family: Public Sans;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 30px;
-        }
+  .linea-mollar {
+    height: 1px;
+    border: none;
+    width: 80px;
+    background-color: #939E71;
+    margin-left: 0;
+    margin-top: -30px;
+  }
 
-        .container-cards-mollar{
-          display: flex;
-          flex-direction: row;
-          gap: 50px;
-          margin-top: 50px;
-          margin-right: 100px;
-        }
+  .txt-mollar-card {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
 
-        .card-mollar{
-          border-radius: 15px;
-          background: #F4F4F4;
-          width: 245px;
-          height: 120px;
-          flex-shrink: 0;
-          }
+  .container-cards-mollar {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 50px;
+    margin-right: 100px;
+  }
 
-          .logistica-mollar-card{color: #939E71;
-              font-family: Public Sans;
-              font-size: 25px;
-              font-style: normal;
-              font-weight: 700;
-              line-height: 69px;}
-            
-              .title-direccion-mollar, .txt-direccion-mollar{
-                margin-left: 20px;
-                margin-top: 20px;
-              }
+  .card-mollar {
+    border-radius: 15px;
+    background: #F4F4F4;
+    width: 245px;
+    height: 120px;
+    flex-shrink: 0;
+  }
 
-          .title-direccion-mollar{
-              color:#939E71;
-              font-family: Public Sans;
-              font-size: 18px;
-              font-weight: 600;
-              line-height: 40px;
-              margin-bottom: -10px;}
-            
-              .txt-direccion-mollar{
-              color: #656565;
-            font-family: Public Sans;
-            font-size: 15px;
-            font-style: normal;
-            font-weight: 300;
-            line-height: 18px; }
-            
-            
-            .titulo-mollar{
-              display: flex;
-              flex-direction: row;
-            }
-            
-            .vectormollar1
-            {
-              height: 18px;
-              width: 18px;
-              margin-top: 10px;
-              margin-left: 90px;
-            }
-            
-            .vectormollar4{
-              height: 20px;
-              width: 20px;
-              margin-top: 10px;
-              margin-left: 118px;
-            }
-            
-            .vectormollar3{
-              height: 20px;
-              width: 20px;
-              margin-top: 12px;
-              margin-left: 120px;
-            }
-            
-            .vectormollar2{
-              height: 15px;
-              width: 20px;
-              margin-top: 18px;
-              margin-left: 147px;
-            }
+  .logistica-mollar-card {
+    color: #939E71;
+    font-family: Public Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69px;
+  }
+
+  .title-direccion-mollar,
+  .txt-direccion-mollar {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .title-direccion-mollar {
+    color: #939E71;
+    font-family: Public Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: -10px;
+  }
+
+  .txt-direccion-mollar {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+  }
+
+
+  .titulo-mollar {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .vectormollar1 {
+    height: 18px;
+    width: 18px;
+    margin-top: 10px;
+    margin-left: 90px;
+  }
+
+  .vectormollar4 {
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+    margin-left: 118px;
+  }
+
+  .vectormollar3 {
+    height: 20px;
+    width: 20px;
+    margin-top: 12px;
+    margin-left: 120px;
+  }
+
+  .vectormollar2 {
+    height: 15px;
+    width: 20px;
+    margin-top: 18px;
+    margin-left: 147px;
+  }
+}
+
+
+
+
+
+
+
+
+@media (min-width: 1281px) and (max-width: 1919px) {
+
+  .container-elmollar {
+    display: flex;
+    flex-direction: row;
+    margin-top: 7%;
+    margin-bottom: 9%;
+    margin-left: 15%;
+    margin-right: 2%;
+    gap: 130px
+  }
+
+  .home-container5 {
+    background-size: cover;
+    height: 600px;
+  }
+
+  .txt-redes-mollar {
+    display: flex;
+    flex-direction: row;
+    margin-top: -15%;
+  }
+
+  .txt-container-mollar {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 7%;
+    margin-top: 17%;
+  }
+
+  .logo-title-linea-mollar {
+    margin-top: 40px;
+  }
+
+  .p-elmollar {
+    color: #6C6C6C;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-left: -15%;
+    margin-right: 20%;
+  }
+
+  .logomollar {
+    width: 360px;
+    height: 140px;
+    margin-left: -60%;
+    margin-top: -5%;
+  }
+
+  .my-lineaMollar {
+    width: 100px;
+    margin-left: -8%;
+    margin-top: -5%;
+  }
+
+  .title-elmollar {
+    color: #939E71;
+    font-family: Public Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37px;
+    text-align: left;
+    margin-left: -8%;
+  }
+
+  .logo-siembra {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .logos-siembra {
+    width: 40px;
+    height: 60px;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+
+  .logos-siembra2 {
+    width: 35px;
+    height: 55px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+
+  .logos-siembra-text {
+    display: flex;
+    flex-direction: row;
+    margin-left: -100px;
+    gap: 40px;
+    margin-top: 20px;
+  }
+
+  .txt-siembra-c {
+    text-align: left;
+  }
+
+  .txt-siembra {
+    color: #6C6C6C;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+  }
+
+  .title-logo-choclo {
+    color: #939E71;
+    font-family: Public Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 10px;
+  }
+
+  .container-txt-cardMollar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-left: 130px;
+    margin-top: 5%;
+    margin-bottom: 9%;
+    text-align: left;
+  }
+
+  .mollar-card {
+    color: #939E71;
+    font-family: Public Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69px;
+  }
+
+  .linea-mollar {
+    height: 1px;
+    border: none;
+    width: 80px;
+    background-color: #939E71;
+    margin-left: 0;
+    margin-top: -30px;
+  }
+
+  .txt-mollar-card {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  .container-cards-mollar {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 50px;
+    margin-right: 100px;
+  }
+
+  .card-mollar {
+    border-radius: 15px;
+    background: #F4F4F4;
+    width: 245px;
+    height: 120px;
+    flex-shrink: 0;
+  }
+
+  .logistica-mollar-card {
+    color: #939E71;
+    font-family: Public Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69px;
+  }
+
+  .title-direccion-mollar,
+  .txt-direccion-mollar {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .title-direccion-mollar {
+    color: #939E71;
+    font-family: Public Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: -10px;
+  }
+
+  .txt-direccion-mollar {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+  }
+
+
+  .titulo-mollar {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .vectormollar1 {
+    height: 18px;
+    width: 18px;
+    margin-top: 10px;
+    margin-left: 90px;
+  }
+
+  .vectormollar4 {
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+    margin-left: 118px;
+  }
+
+  .vectormollar3 {
+    height: 20px;
+    width: 20px;
+    margin-top: 12px;
+    margin-left: 120px;
+  }
+
+  .vectormollar2 {
+    height: 15px;
+    width: 20px;
+    margin-top: 18px;
+    margin-left: 147px;
+  }
 }
 
 
@@ -252,7 +505,7 @@
 
 @media (min-width: 1920px) {
 
-  .container-elmollar{
+  .container-elmollar {
     display: flex;
     flex-direction: row;
     margin-top: 7%;
@@ -262,31 +515,31 @@
     gap: 130px
   }
 
-  .home-container5{
-      background-size: cover;
-      height: 700px;
-    }
+  .home-container5 {
+    background-size: cover;
+    height: 700px;
+  }
 
-    .txt-redes-mollar{
-      display: flex;
-      flex-direction: row;
-      margin-top: -10%;
-    }
+  .txt-redes-mollar {
+    display: flex;
+    flex-direction: row;
+    margin-top: -10%;
+  }
 
-  .txt-container-mollar{
-      display: flex;
-      flex-direction: column;
-      text-align: left;
-      margin-left: 7%;
-      margin-top: 17%;
-    }
+  .txt-container-mollar {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 7%;
+    margin-top: 17%;
+  }
 
-    .logo-title-linea-mollar{
-      margin-top:20px;
-      margin-left: -10%;
-    }
-    
-    .p-elmollar{
+  .logo-title-linea-mollar {
+    margin-top: 20px;
+    margin-left: -10%;
+  }
+
+  .p-elmollar {
     color: #6C6C6C;
     font-family: Public Sans;
     font-size: 20px;
@@ -297,22 +550,22 @@
     margin-left: 70px;
     margin-right: 10%;
     margin-left: -10%;
-    }
+  }
 
-    .logomollar{
-      width: 560px;
-      height: 190px;
-      margin-top: -2%;
-    }
+  .logomollar {
+    width: 560px;
+    height: 190px;
+    margin-top: -2%;
+  }
 
-    .my-lineaMollar{
-      width: 100px;
-      margin-left: 22%;
-      margin-top: -5%;
-    }
+  .my-lineaMollar {
+    width: 100px;
+    margin-left: 22%;
+    margin-top: -5%;
+  }
 
-    .title-elmollar{
-      color: #939E71;
+  .title-elmollar {
+    color: #939E71;
     font-family: Public Sans;
     font-size: 20px;
     font-style: normal;
@@ -320,174 +573,178 @@
     line-height: 37px;
     text-align: left;
     margin-left: 22%;
-    }
+  }
 
-    .logo-siembra{
-      display: flex;
-      flex-direction: row;
-    }
+  .logo-siembra {
+    display: flex;
+    flex-direction: row;
+  }
 
-    .logos-siembra{
-      width: 40px;
-      height: 60px;
-      margin-right: 20px;
-      margin-top: 5px;
-    }
-    
-    .logos-siembra2{
-      width: 35px;
-      height: 55px;
-      margin-right: 20px;
-      margin-top: 10px;
-    }
+  .logos-siembra {
+    width: 40px;
+    height: 60px;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
 
-    .logos-siembra-text{
-      display: flex;
-      flex-direction: row;
-      margin-left: 60px;
-      gap: 40px;
-      margin-top: 30px;
-    }
+  .logos-siembra2 {
+    width: 35px;
+    height: 55px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
 
-    .txt-siembra-c{
-      text-align: left;
-    }
+  .logos-siembra-text {
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    gap: 40px;
+    margin-top: 30px;
+  }
 
-    .txt-siembra{
-      color: #6C6C6C;
+  .txt-siembra-c {
+    text-align: left;
+  }
+
+  .txt-siembra {
+    color: #6C6C6C;
     font-family: Public Sans;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 10px;
-    }
+  }
 
-    .title-logo-choclo{
-      color: #939E71;
+  .title-logo-choclo {
+    color: #939E71;
     font-family: Public Sans;
     font-size: 18px;
     font-weight: 400;
     line-height: 10px;
-    }
+  }
 
-    .container-txt-cardMollar{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: left;
-      margin-left: 130px;
-      margin-top: 50px;
-      text-align: left;
-    }
+  .container-txt-cardMollar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-left: 130px;
+    margin-top: 50px;
+    text-align: left;
+  }
 
-    .mollar-card {
-      color: #939E71;
-      font-family: Public Sans;
-      font-size: 35px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 69px;}
+  .mollar-card {
+    color: #939E71;
+    font-family: Public Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69px;
+  }
 
-      .linea-mollar{
-          height: 1px; 
-          border: none; 
-          width: 80px;
-          background-color:#939E71;
-         margin-left: 0;
-         margin-top: -30px;
-        }
+  .linea-mollar {
+    height: 1px;
+    border: none;
+    width: 80px;
+    background-color: #939E71;
+    margin-left: 0;
+    margin-top: -30px;
+  }
 
-        .txt-mollar-card{
-          color: #656565;
-          font-family: Public Sans;
-          font-size: 20px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 30px;
-        }
+  .txt-mollar-card {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
 
-        .container-cards-mollar{
-          display: flex;
-          flex-direction: row;
-          gap: 50px;
-          margin-top: 50px;
-          margin-bottom: 100px;
-          margin-left: 4%;
-        }
-      
-        .card-mollar{
-          border-radius: 15px;
-          background: #F4F4F4;
-          width: 20%;
-          height: 25%;
-          flex-shrink: 0;
-          }
+  .container-cards-mollar {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 4%;
+  }
 
-          .logistica-mollar-card{color: #939E71;
-              font-family: Public Sans;
-              font-size: 25px;
-              font-style: normal;
-              font-weight: 700;
-              line-height: 69px;}
-            
-              .title-direccion-mollar, .txt-direccion-mollar{
-                margin-left: 20px;
-                margin-top: 20px;
-              }
+  .card-mollar {
+    border-radius: 15px;
+    background: #F4F4F4;
+    width: 20%;
+    height: 25%;
+    flex-shrink: 0;
+  }
 
-          .title-direccion-mollar{
-              color:#939E71;
-              font-family: Public Sans;
-              font-size: 25px;
-              font-weight: 600;
-              line-height: 40px;
-              margin-top: 12%;
-              margin-left: 10%;
-          }
-            
-              .txt-direccion-mollar{
-              color: #656565;
-            font-family: Public Sans;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 300;
-            line-height: 18px; 
-            margin-top: -3%;
-            margin-bottom: 18%;
-            margin-left: 10%;
-          }
-            
-            
-            .titulo-mollar {
-              display: flex;
-              flex-direction: row;
-            }
-            
-            .vectormollar1 {
-              height: 22px;
-              width: 21px;
-              margin-top: 15px;
-              margin-left: 35%;
-            }
-            
-            .vectormollar4 {
-              height: 23px;
-              width: 22px;
-              margin-top: 15px;
-              margin-left: 47%;
-            }
-            
-            .vectormollar3{
-              height: 23px;
-              width: 23px;
-              margin-top: 15px;
-              margin-left: 49%;
-            }
-            
-            .vectormollar2{
-              height: 18px;
-              width: 22px;
-              margin-top: 15px;
-              margin-left: 60%;
-            }
+  .logistica-mollar-card {
+    color: #939E71;
+    font-family: Public Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69px;
+  }
+
+  .title-direccion-mollar,
+  .txt-direccion-mollar {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .title-direccion-mollar {
+    color: #939E71;
+    font-family: Public Sans;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-top: 12%;
+    margin-left: 10%;
+  }
+
+  .txt-direccion-mollar {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    margin-top: -3%;
+    margin-bottom: 18%;
+    margin-left: 10%;
+  }
+
+
+  .titulo-mollar {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .vectormollar1 {
+    height: 22px;
+    width: 21px;
+    margin-top: 15px;
+    margin-left: 35%;
+  }
+
+  .vectormollar4 {
+    height: 23px;
+    width: 22px;
+    margin-top: 15px;
+    margin-left: 47%;
+  }
+
+  .vectormollar3 {
+    height: 23px;
+    width: 23px;
+    margin-top: 15px;
+    margin-left: 49%;
+  }
+
+  .vectormollar2 {
+    height: 18px;
+    width: 22px;
+    margin-top: 15px;
+    margin-left: 60%;
+  }
 }

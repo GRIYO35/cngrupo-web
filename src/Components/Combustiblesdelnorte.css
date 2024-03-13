@@ -1,4 +1,434 @@
-@media (min-width: 801px) and (max-width: 1919px) {
+@media (min-width: 801px) and (max-width: 1280px) {
+  .home-container9 {
+    background-size: cover;
+    height: 600px;
+  }
+
+  .redes-container-empresa-comb {
+    position: fixed;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+    font-size: 25px;
+    color: #fff;
+    height: 110px;
+    padding-top: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: rgba(0, 159, 227, 0.6);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    gap: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .txt-redesComb {
+    display: flex;
+    flex-direction: row;
+    margin-top: -15%;
+  }
+
+  .txt-container-empresaComb {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 7%;
+    margin-top: 17%;
+  }
+
+  .container-comb {
+    display: flex;
+    flex-direction: row;
+    margin-left: 13%;
+    margin-right: 7%;
+    gap: 20px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+  }
+
+  .containter-logo-img-comb {
+    text-align: left;
+  }
+
+  .banner-comb {
+    background: url(../Assets/primer\ ancho\ web\ -DSC04696-HDR\ 1\ \(1\).png);
+    height: 600px;
+    background-repeat: no-repeat;
+  }
+
+  .banner-comb2 {
+    background: url(../Assets/ANCHO\ WEB\ 1\ -\ DJI_0016.png);
+    height: 600px;
+    background-repeat: no-repeat;
+  }
+
+  .banner-comb3 {
+    background: url(../Assets/ANCHO\ WEB\ 2\ -\ Copia\ de\ DJI_0363.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+  }
+
+  .socios-comb {
+    color: #6c6c6c;
+    font-family: Public Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    margin-right: 200px;
+  }
+
+  .h3sub-combus {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+  }
+
+  .Comb-title {
+    color: #009fe3;
+    font-family: Public Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69px;
+  }
+
+  .linea-Comb {
+    height: 1px;
+    border: none;
+    width: 80px;
+    background-color: #009fe3;
+    margin-left: 0;
+    margin-top: -30px;
+  }
+
+  .p-Comb1 {
+    text-align: left;
+    color: #6c6c6c;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-right: 150px;
+  }
+
+  .txt-empresa-spanComb {
+    font-weight: 600;
+  }
+
+  .container-txt-cardCombustible {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 1%;
+    text-align: left;
+  }
+
+  .container-txt-cardCombustible1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: -5%;
+    text-align: left;
+  }
+
+  .CardCombustibleContacto{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .CombDirec{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .CombDirec1{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+  }
+
+  .CombDirec2{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+  }
+
+  .CombDirec3{
+    display: flex;
+    flex-direction: row;
+  }
+  .CombDirec4{
+    display: flex;
+    flex-direction: row;
+    margin-right: 6.3%;
+    margin-left: 5%;
+  }
+
+  .txt-comb-boton {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 650px;
+  }
+
+  .Comb-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+
+  .info-btn-Comb {
+    width: 200px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 40px;
+    border: 1px solid #009fe3;
+    color: #009fe3;
+    background-color: white;
+    font-size: 9px;
+    margin-top: 30px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .containerfoto-botones-Comb {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .fotobotonesComb {
+    width: 450px;
+    height: 290px;
+    margin-top: 0px;
+  }
+
+  .Comb-title2 {
+    color: #6c6c6c;
+    font-family: Public Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 200px;
+  }
+
+  .lista-Comb {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 220px;
+  }
+
+  .txt-Comb-boton2 {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 220px;
+  }
+
+  .container-completoComb {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .txt-Combustible-card {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  .fotosgris1 {
+    width: 450px;
+    height: 290px;
+    margin-left: 50px;
+  }
+
+  .fotosgris2 {
+    width: 450px;
+    height: 290px;
+    margin-left: 50px;
+  }
+
+  .viales {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 30px;
+  }
+
+  .seccion2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .numerocomb {
+    text-align: left;
+  }
+
+  .numeritos {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+
+  .numeroytxt {
+    display: flex;
+    flex-direction: row;
+    color: #656565;
+  }
+
+  .lineanum {
+    height: 1px;
+    border: none;
+    width: 30px;
+    background-color: #656565;
+    margin-left: 0;
+    margin-top: -20px;
+  }
+
+  .txt-num {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .Combimg1 {
+    width: 400px;
+    height: 150px;
+    margin-top: 50px;
+  }
+
+  .Combimg2 {
+    width: 400px;
+    height: 150px;
+    margin-top: 100px;
+  }
+
+  .container-cards-Combustible {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 50px;
+    margin-right: 100px;
+  }
+
+  .card-Comb {
+    border-radius: 15px;
+    background: #f4f4f4;
+    width: 98%;
+    height: 30%;
+    flex-shrink: 0;
+    padding-bottom: 1%;
+  }
+
+  .card-Comb1 {
+    border-radius: 15px;
+    background: #f4f4f4;
+    width: 98%;
+    height: 30%;
+    flex-shrink: 0;
+    padding-bottom: 1%;
+    margin-bottom: 10%;
+  }
+
+  .title-direccion-Combustible {
+    color: #009FE3;
+    font-family: Public Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 0px;
+  }
+
+  .titulo-Combustible {
+    margin-left: 3.5%;
+  }
+
+  .logoComb1 {
+    height: 18px;
+    width: 18px;
+    margin-top: 15px;
+    margin-right: 5px;
+  }
+  .logoComb2 {
+    height: 18px;
+    width: 18px;
+    margin-top: 15px;
+    margin-right: 5px;
+  }
+
+  .logoComb3 {
+    height: 18px;
+    width: 18px;
+    margin-top: 15px;
+    margin-right: 5px;
+  }
+
+  .logoComb4 {
+    height: 16px;
+    width: 18px;
+    margin-top: 16px;
+    margin-right: 5px;
+  }
+
+  .vectorComb4 {
+    height: 16px;
+    width: 18px;
+    margin-top: 18px;
+    margin-right: 5px;
+  }
+  .titulo-linea-p-comb {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .container-gris {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    padding-left: 130px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background: #f4f4f4;
+    margin-top: 100px;
+    padding-top: 50px;
+  }
+}
+@media (min-width: 1281px) and (max-width: 1919px) {
   .home-container9 {
     background-size: cover;
     height: 600px;

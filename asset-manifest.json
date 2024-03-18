@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b201c2fd.css",
-    "main.js": "/static/js/main.4176722b.js",
+    "main.js": "/static/js/main.22d2b3f5.js",
     "static/media/NECA web v3.mp4": "/static/media/NECA web v3.330a279e7eacd90e7a86.mp4",
     "static/media/Home Cn web v3 .mp4": "/static/media/Home Cn web v3 .30bee1f7079a85eb5cbe.mp4",
     "static/media/Trabaja con nosotros Web.mp4": "/static/media/Trabaja con nosotros Web.f5b1602b7133c6f1f3e5.mp4",
@@ -67,12 +67,18 @@
     "static/media/redi3.png": "/static/media/redi3.d5f1836ac02e2ee0bc4d.png",
     "static/media/479x279 GERENTES.png": "/static/media/479x279 GERENTES.10353f6f9a4dc690447b.png",
     "static/media/redi4.png": "/static/media/redi4.188a2f340585f283b32a.png",
+    "static/media/453x271 2008.png": "/static/media/453x271 2008.1e60a89fc151275892fe.png",
+    "static/media/453x271 2009.png": "/static/media/453x271 2009.5dd0c23dfe926ebace02.png",
     "static/media/redi2.png": "/static/media/redi2.4d15e61fd4db0ea4e133.png",
     "static/media/CONTACTO 537X249px.png": "/static/media/CONTACTO 537X249px.e53423ee00bbbab20962.png",
     "static/media/redi5.png": "/static/media/redi5.68b6e1c979ec6262ef90.png",
+    "static/media/453x271 2022.png": "/static/media/453x271 2022.a5bd080aac37a27ebbdb.png",
+    "static/media/453x271 2023.png": "/static/media/453x271 2023.98c77ef0e24b505e4500.png",
+    "static/media/453x271 1991.png": "/static/media/453x271 1991.12d186e8178c61abcd6f.png",
     "static/media/261x353 EDU h.png": "/static/media/261x353 EDU h.b9c85b3604ecbccc3068.png",
     "static/media/261x353 TOMI.png": "/static/media/261x353 TOMI.34ecf540eff537a5b3ee.png",
     "static/media/261x353 EDUARDO.png": "/static/media/261x353 EDUARDO.de788c67fa12d23be62b.png",
+    "static/media/453x271 2005.png": "/static/media/453x271 2005.e34bc11d949bffe76087.png",
     "static/media/349x209 - 2008.png": "/static/media/349x209 - 2008.00ef602c23f24ce8ce42.png",
     "static/media/349x209 - 2009.png": "/static/media/349x209 - 2009.2cc9b884387d2319af56.png",
     "static/media/349x209 - 2022.png": "/static/media/349x209 - 2022.b02ca8a0fbebf5446cc2.png",
@@ -123,10 +129,10 @@
     "index.html": "/index.html",
     "static/media/logomail.svg": "/static/media/logomail.250a2a2b6809a33ee82e489cd0c99de4.svg",
     "main.b201c2fd.css.map": "/static/css/main.b201c2fd.css.map",
-    "main.4176722b.js.map": "/static/js/main.4176722b.js.map"
+    "main.22d2b3f5.js.map": "/static/js/main.22d2b3f5.js.map"
   },
   "entrypoints": [
     "static/css/main.b201c2fd.css",
-    "static/js/main.4176722b.js"
+    "static/js/main.22d2b3f5.js"
   ]
 }

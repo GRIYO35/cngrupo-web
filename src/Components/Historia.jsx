@@ -7,12 +7,12 @@ import Linea3 from "../Assets/349x209 - 2008.png";
 import Linea4 from "../Assets/349x209 - 2009.png";
 import Linea5 from "../Assets/349x209 - 2022.png";
 import Linea6 from "../Assets/349x209 - 2023.png";
-import Linea7 from "../Assets/349x209 - 1991.png";
-import Linea8 from "../Assets/349x209 - 2005.png";
-import Linea9 from "../Assets/349x209 - 2008.png";
-import Linea10 from "../Assets/349x209 - 2009.png";
-import Linea11 from "../Assets/349x209 - 2022.png";
-import Linea12 from "../Assets/349x209 - 2023.png";
+import Linea7 from "../Assets/453x271 1991.png";
+import Linea8 from "../Assets/453x271 2005.png";
+import Linea9 from "../Assets/453x271 2008.png";
+import Linea10 from "../Assets/453x271 2009.png";
+import Linea11 from "../Assets/453x271 2022.png";
+import Linea12 from "../Assets/453x271 2023.png";
 /*import Vector from "../Assets/Vector.jpg";*/
 import Aos from "aos";
 import "aos/dist/aos.css";

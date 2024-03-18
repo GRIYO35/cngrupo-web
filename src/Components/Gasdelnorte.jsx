@@ -162,8 +162,8 @@ const Gas = () => {
                     Cilindros 45 Kg: Representan la mejor solución para{" "}
                     <span className="txt-empresa-spanGas">cocinar</span>{" "}
                     y{" "}
-                    <span className="txt-empresa-spanGas">calefaccionar</span>
-                    en zonas muy frías u cuando se requiere obtener una{" "}
+                    <span className="txt-empresa-spanGas">calefaccionar </span>
+                    en zonas muy frías y cuando se requiere obtener una{" "}
                     <span className="txt-empresa-spanGas">
                       mayor autonomía.
                     </span>

@@ -1,4 +1,57 @@
-@media (min-width: 801px) and (max-width: 1919px) {
+@media (min-width: 801px) and (max-width: 1280px) {
+  button.ol-full-screen-false {
+    background-color: #225065;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    border: 2px solid white;
+    position: absolute !important;
+    top: 10px !important;
+    left: 10px !important;
+    z-index: 1000 !important;
+  }
+  
+  button.ol-full-screen-true {
+    background-color: #225065;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    border: 2px solid white;
+    position: absolute !important;
+    top: 10px !important;
+    left: 10px !important;
+    z-index: 1000 !important;
+  }
+  
+  .ol-zoom {
+    position: absolute !important;
+    top: 10px !important;
+    right: 10px !important;
+    z-index: 1000 !important;
+  }
+  
+  .ol-zoom button.ol-zoom-in, .ol-zoom button.ol-zoom-out {
+    background-color: #225065 !important;
+    color: white !important;
+    border-color: white;
+    font-size: 21px;
+  }
+  .MapaDim{
+    width: 991px;
+    height: 450px;
+  }
+}
+
+
+
+
+
+
+@media (min-width: 1281px) and (max-width: 1919px) {
 button.ol-full-screen-false {
   background-color: #225065;
   color: white;

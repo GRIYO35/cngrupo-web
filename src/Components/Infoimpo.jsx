@@ -1,6 +1,4 @@
-/*import Logo from "../Assets/cngrupocolor.png";*/
 import React from "react";
-/*import { Link } from "react-router-dom";*/
 import logoinf1 from "../Assets/CN - INFO IMPOSITIVA grey@300x.png";
 import logoinf2 from "../Assets/CHANGO - INFO IMPOSITIVA grey@300x.png";
 import logoinf3 from "../Assets/GAS DEL NORTE - INFO IMPOSITIVA grey@300x.png";
@@ -10,7 +8,7 @@ import logoinf6 from "../Assets/PEM - INFO IMPOSITIVA grey@300x.png";
 import NAVBAR from "./NavBarOscura";
 import "./Infoimpo.css"
 
-const Navinfo = () => {
+const Info = () => {
   /*const [isOpen, setIsOpen] = useState(false);*/
 
   return (
@@ -68,4 +66,4 @@ const Navinfo = () => {
   );
 };
 
-export default Navinfo;
+export default Info;

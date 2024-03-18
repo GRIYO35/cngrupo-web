@@ -13,6 +13,7 @@ const Navbar = () => {
   const [isSubMenuOpen3, setSubMenuOpen3] = useState(false);
   const [isSubMenuOpen4, setSubMenuOpen4] = useState(false);
   const [isSubMenuOpen5, setSubMenuOpen5] = useState(false);
+  // eslint-disable-next-line no-unused-vars
   const [isSubMenuOpen6, setSubMenuOpen6] = useState(false);
   let subMenuTimer;
   let subMenuTimer1;
@@ -222,10 +223,10 @@ const Navbar = () => {
                     onMouseEnter={handleMouseEnter6}
                     onMouseLeave={handleMouseLeave6}
                   >
-                    <Link className="li">
+                    <Link className="li" to="/logistica">
                     {t("li.Mining")}
                     </Link>
-                    {isSubMenuOpen6 && (
+                    {/*{isSubMenuOpen6 && (
                       <div className="submenuNav-box">
                       <ul className="link-nav-submenuNuevo">
                         <li>
@@ -235,7 +236,7 @@ const Navbar = () => {
                         </li>
                       </ul>
                     </div>
-                    )}
+                    )}*/}
                   </li>
                 </li>
               )}

@@ -9,7 +9,7 @@ import imgchile from "../Assets/650X388px WEB descripcion chile.png";
 import NAVBAR from "./NavBar";
 import "./Ccnchile.css";
 
-const Navchapa = () => {
+const Ccn = () => {
   /*const [isOpen, setIsOpen] = useState(false);*/
 
   return (
@@ -104,4 +104,4 @@ const Navchapa = () => {
   );
 };
 
-export default Navchapa;
+export default Ccn;

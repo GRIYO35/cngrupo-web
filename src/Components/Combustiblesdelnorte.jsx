@@ -25,7 +25,7 @@ import "./Combustiblesdelnorte.css";
 import ScrollToTop from "react-scroll-to-top";
 import FlechaScrol from "../Assets/flecha web cn grupo@300x-8.png"
 
-const Navchapa = () => {
+const Combustibles = () => {
   /*const [isOpen, setIsOpen] = useState(false);*/
   const [selectedButton, setSelectedButton] = useState(1);
 
@@ -584,4 +584,4 @@ const Navchapa = () => {
   );
 };
 
-export default Navchapa;
+export default Combustibles;

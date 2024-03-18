@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-/*import { Link } from "react-router-dom";
-import Logo from "../Assets/cngrupoLOGOwhite.png";*/
 import Linea1 from "../Assets/349x209 - 1991.png";
 import Linea2 from "../Assets/349x209 - 2005.png";
 import Linea3 from "../Assets/349x209 - 2008.png";
@@ -19,7 +17,7 @@ import "aos/dist/aos.css";
 import NAVBAR from "./NavBar";
 import "./Historia.css";
 
-const Navhist = () => {
+const Historia = () => {
   /*const [isOpen, setIsOpen] = useState(false);*/
   const [currentImage1, setCurrentImage1] = useState(Linea1);
   const [currentImage2, setCurrentImage2] = useState(Linea2);
@@ -223,4 +221,4 @@ const Navhist = () => {
   );
 };
 
-export default Navhist;
+export default Historia;

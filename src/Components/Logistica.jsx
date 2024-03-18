@@ -8,7 +8,7 @@ import NAVBAR from "./NavBar";
 import "./Logistica.css"
 
 
-const Navchapa = () => {
+const Logistica = () => {
     /*const [isOpen, setIsOpen] = useState(false);*/
 
     return (
@@ -65,4 +65,4 @@ const Navchapa = () => {
     )
 }
 
-export default Navchapa
+export default Logistica;

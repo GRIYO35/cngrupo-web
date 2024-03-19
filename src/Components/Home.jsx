@@ -229,7 +229,7 @@ const Home = () => {
           />
         </div>
 
-        <div className="footer">
+        <div className="footer1">
           <div className="txt1">
             <p className="txt-foo">CRECER & HACER CRECER</p>
           </div>

@@ -674,6 +674,15 @@ text-align: left;
     /*-webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: #bbbcb8;*/
   }
+  .scroll-to-top {
+    transition: background-color 0.3s ease;
+    margin-right: 35%;
+    margin-bottom: -7%;
+  }
+
+  .scroll-to-top:hover {
+    background-color: #1f6a8c !important;
+  }
 }
 
 @media (min-width: 801px) and (max-width: 1919px) {

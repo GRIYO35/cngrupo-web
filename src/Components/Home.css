@@ -9,7 +9,7 @@
     flex-direction: column;
     text-align: left;
     margin-left: 7%;
-    margin-top: 300px;
+    margin-top: 80%;
   }
   .nuestra-empresa-txtHome{
     font-size: 130%;
@@ -29,11 +29,11 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-          margin-top: 797px;
+          bottom: 0;
           font-size: 150%;
           color: #FFF;
           height: 30px;
-          width: 100%;
+          width: 98%;
           padding-right: 1%;
           padding-left:1%;
           padding-top: 1.5%;
@@ -127,7 +127,7 @@
           }
           
           .card-home{
-            margin-top: 40px;
+            margin-top: 25px;
             width: 260px;
             height: 310px;
             border-radius: 15px;
@@ -209,9 +209,8 @@
             display: flex;
             text-align: left;
             flex-direction: column;
-            margin-left: 100px;
-            margin-top: 50px;
-          
+            margin-left: 7%;
+            margin-top: 2%;
           }
           
           .micarrusel-titulo{
@@ -227,7 +226,7 @@
             }
             
             .Logos1{
-              margin-top: -10%;
+              margin-top: -20%;
             }
             
             .imgWrapper3 {
@@ -242,7 +241,7 @@
               font-size: 0;
               text-align: center;
               margin-top: 3%;
-              padding-bottom: 8%;
+              padding-bottom: 15%;
               padding-right: 15%;
               padding-left: 11%;
             }
@@ -253,8 +252,8 @@
                 font-size: inherit;
             }
             
-            .imgWrapper4 .imgResponsiva {width: 25%; max-width: 345px;}
-            .imgWrapper3 .imgResponsiva {width: 25%; max-width: 345px;}
+            .imgWrapper4 .imgResponsiva {width: 50%; max-width: 345px;}
+            .imgWrapper3 .imgResponsiva {width: 50%; max-width: 345px;}
             
             .imgResponsiva img {
                 height: auto;
@@ -265,7 +264,7 @@
               display: flex;
               text-align: left;
               flex-direction: column;
-              margin-left: 100px;
+              margin-left: 7%;
               margin-top: 50px;
               padding-top: 50px;
             
@@ -280,12 +279,52 @@
               margin-top: -10px;
               margin-bottom: 70px;
             }
+
+            .mi-linea-carrusel{
+              height: 1px; 
+              border: none; 
+              width: 80px;
+              background-color:  #3A93A4; 
+              margin-left: 0px;
+              margin-top: -10px;
+              margin-bottom: 70px;
+            }
             
             .micarrusel-titulo-logos{
               font-weight: 600;
               color: #3A93A4; 
             }
+            .footer1 {
+              display: flex;
+              flex-direction: column;
+              background-color: #27617b;
+              padding-top: 5px;
+              padding-bottom: 5px;
+              color: #fff;
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 300;
+              line-height: 25px;
+              text-align: center;
+              align-items: center;
+            }
+            .txt1{
+              text-align: center;
+              align-items: center;
+            }
+            .txt-foo {
+              margin: auto; /* Centrar el texto horizontalmente */
+            }
 }
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 801px) and (max-width: 1919px) {
     .txt-redesHome{
@@ -578,6 +617,27 @@
                 .micarrusel-titulo-logos{
                   font-weight: 600;
                   color: #3A93A4; 
+                }
+                .footer1 {
+                  display: flex;
+                  flex-direction: row;
+                  background-color: #27617b;
+                  justify-content: space-between;
+                  padding-right: 200px;
+                  padding-left: 200px;
+                  padding-top: 20px;
+                  padding-bottom: 20px;
+                  color: #fff;
+                  font-size: 10px;
+                  font-style: normal;
+                  font-weight: 300;
+                  line-height: 25px;
+                  text-align: left;
+                  margin-top: auto;
+                }
+                
+                .txt2 {
+                  margin-top: 0%;
                 }
           
 }
@@ -892,6 +952,27 @@
                 .micarrusel-titulo-logos{
                   font-weight: 600;
                   color: #3A93A4; 
+                }
+                .footer1 {
+                  display: flex;
+                  flex-direction: row;
+                  background-color: #27617b;
+                  justify-content: space-between;
+                  padding-right: 200px;
+                  padding-left: 200px;
+                  padding-top: 20px;
+                  padding-bottom: 20px;
+                  color: #fff;
+                  font-size: 10px;
+                  font-style: normal;
+                  font-weight: 300;
+                  line-height: 25px;
+                  text-align: left;
+                  margin-top: auto;
+                }
+                
+                .txt2 {
+                  margin-top: 0%;
                 }
           
 }

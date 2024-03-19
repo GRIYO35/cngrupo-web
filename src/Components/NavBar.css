@@ -117,7 +117,7 @@
   }
   
   .LogoNav{
-    margin-left: -15px;
+    margin-left: -4%;
   }
 
   .nav-chapa{
@@ -134,14 +134,14 @@
   }
 
   .ul-nav{
-    margin-top: 47px;
+    margin-top: 2%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     list-style:none;
     justify-content: flex-start;
     cursor: pointer;
     background-color: transparent;
-    margin-right: 55%;
+    margin-right: 2%;
   }
 
   .ul-nav li {
@@ -151,15 +151,49 @@
   .liNav1{
     color: inherit;
     text-decoration: inherit;
-    margin-left: -320%;
-    margin-right: -40%;
+    display: flex;
+    text-align: left;
   }
 
   .liNav1EN{
     color: inherit;
     text-decoration: inherit;
-    margin-left: -330%;
-    margin-right: -40%;
+  }
+
+  .liNav{
+    color: inherit;
+    text-decoration: inherit;
+    display: flex;
+    text-align: left;
+  }
+  
+  .liNavEN{
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+  .liNav2{
+    color: inherit;
+    text-decoration: inherit;
+    display: flex;
+    text-align: left;
+  }
+  
+  .liNav2EN{
+    color: inherit;
+    text-decoration: inherit;
+  }
+  
+  .liNav3{
+    color: inherit;
+    text-decoration: inherit;
+    display: flex;
+    text-align: left;
+  }
+  
+  .liNav3EN{
+    color: inherit;
+    text-decoration: inherit;
   }
 
   .ul-menu  {

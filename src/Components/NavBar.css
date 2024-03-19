@@ -85,6 +85,146 @@
   margin-left: -50%;
 }
 
+@media (max-width: 800px) {
+  .submenuNav-box {
+    position: absolute;
+    top: 0;
+    left: 100%; 
+    background: rgba(44, 45, 46, 0.45);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    width: 142%;
+    height: 128%;
+    text-align: left;
+  }
+
+  .nav-container{
+    display: flex;
+    justify-content: space-between;
+    background-image:  #0c0c0c;
+    background: linear-gradient(to bottom, rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0));
+    padding-bottom: 2%;
+  }
+
+  .logo{
+    width: 175px;
+    height: 42px;
+    margin-top: 10px;
+  }
+  
+  .LogoNav{
+    margin-left: -15px;
+  }
+
+  .nav-chapa{
+    display: flex;
+    align-items: left;
+  } 
+
+  .navbar-links-container{
+    margin-right: 3rem;
+    text-decoration: none;
+    color:#bfc4d8;
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .ul-nav{
+    margin-top: 47px;
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    justify-content: flex-start;
+    cursor: pointer;
+    background-color: transparent;
+    margin-right: 55%;
+  }
+
+  .ul-nav li {
+    order: 1; 
+  }
+
+  .liNav1{
+    color: inherit;
+    text-decoration: inherit;
+    margin-left: -320%;
+    margin-right: -40%;
+  }
+
+  .liNav1EN{
+    color: inherit;
+    text-decoration: inherit;
+    margin-left: -330%;
+    margin-right: -40%;
+  }
+
+  .ul-menu  {
+    position: absolute;
+    top: 67px;
+    left: 410px;
+    background: rgba( 4, 68, 132, 0.45 );
+    padding-top: 20px;
+    padding-left: 32px;
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    list-style-type: none;
+  }
+
+
+  .ul-menu li {
+    /* border-bottom: 0.01px solid #FFF;  */
+    margin-bottom: 15px;
+  }
+
+  .link-nav-submenu{
+    color: #FFF;
+    font-family: Public Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 1.8px;
+    margin-right: 10px;
+    margin-left: -20px;
+  }
+  
+  .link-nav-submenuNuevo{
+    color: #FFF;
+    font-family: Public Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 1.8px;
+    margin-right: 10px;
+    margin-left: -20px;
+    list-style-type: none;
+  }
+
+  .ul-menuNav {
+    position: absolute; 
+    top: 10.5%;
+    left: 54%;
+    background: rgba(4, 68, 132, 0.45);
+    padding-left: 65px;
+    padding-right: 38px;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    list-style-type: none;
+    margin-left: -7.1%;
+    margin-top: 0.6%;
+  }
+  
+  .ul-menuNav li {
+    margin-top: 13px;
+    margin-bottom: 15px;
+  }
+}
+
 @media (min-width: 801px) and (max-width: 1280px) {
   .submenuNav-box {
       position: absolute;

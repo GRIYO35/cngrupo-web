@@ -1,3 +1,292 @@
+@media (max-width: 800px) {
+  .txt-redesHome{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+  }
+  .txt-container-empresaHome{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 7%;
+    margin-top: 300px;
+  }
+  .nuestra-empresa-txtHome{
+    font-size: 130%;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #FFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /*-webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #bbbcb8;*/
+    }
+    .txt-empresa-spanHome{
+        font-weight: 600;
+      }
+      .redes-container-empresa{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+          margin-top: 797px;
+          font-size: 150%;
+          color: #FFF;
+          height: 30px;
+          width: 100%;
+          padding-right: 1%;
+          padding-left:1%;
+          padding-top: 1.5%;
+          padding-bottom: 1%;
+          background: rgba(0, 0, 0, 0.40);
+          backdrop-filter: blur( 6px );
+          -webkit-backdrop-filter: blur( 6px );
+          gap: 10%;
+          z-index: 3;
+        }
+        .icono-red-social {
+            color: white;
+          }
+          .recuadros{
+            display: flex;
+            flex-direction: center;
+            text-align: left;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 25px;
+            letter-spacing: 1.5px;
+            color: #656565;
+            margin-bottom: 100px;
+            margin-top: 100px;
+            flex-wrap: wrap;
+            padding-left: 13.5%;
+            padding-right: 10%;
+          }
+          
+          .recuadros .imgResponsiva1 {width: 100%; max-width: 345px; display: inline-block; font-size: inherit;}
+          
+          .imgResponsiva1 img {
+              height: auto;
+              width: 100%;
+              padding: 1%;
+          }
+          
+          
+          .number{
+            color:#225065;
+            font-size: 55px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 69px;
+          }
+          
+          .number1{
+            color:#5ABDCF;
+            font-size: 55px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 69px;
+          }
+          
+          .number2{
+            color:#3A93A4;
+            font-size: 55px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 69px;
+          }
+          
+          .number3{
+            color:#225065;
+            font-size: 55px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 69px;
+          }
+          
+          .mi-linea-ver{
+            border: 10px solid#5ABDCF;
+          }
+          
+          .recuadros-span{
+            font-weight: 500;
+          }
+          
+          .containerfoto-cards{
+            height: 100%;
+            background-image: url(../Assets/OPCION1\ 1.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-right: 0%;
+            margin-left: 0%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            background-position-x: center;
+          }
+          
+          .card-home{
+            margin-top: 40px;
+            width: 260px;
+            height: 310px;
+            border-radius: 15px;
+            background: rgba(31, 106, 140, 0.60);
+            text-align: left;
+            color: #FFF;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 40px;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 25px;
+            letter-spacing: 0.5px;
+            color:#FFF;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 50px;
+          
+          }
+          
+          .logo-home{
+            background-image: url(../Assets/Group.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 44px;
+            width: 44px;
+          }
+          
+          .logo-home2{
+            background-image: url(../Assets/Agro\ 3\ 1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 44px;
+            width: 44px;
+          }
+          
+          
+          .logo-home3{
+            background-image: url(../Assets/Mask\ group.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 44px;
+            width: 44px;
+          }
+          
+          .title-card-home{
+            font-weight: 600;
+          }
+          .mi-linea-home {
+            height: 1px; 
+            border: none; 
+            width: 80px;
+            margin-top: 43px;
+            background-color: #FFF;
+            margin-left: 0px;
+            margin-right: 10px;
+          }
+          
+          .mi-linea-home1 {
+            height: 1px; 
+            border: none; 
+            width: 80px;
+            margin-top: 20px;
+            background-color: #FFF;
+            margin-left: 0px;
+            margin-right: 10px;
+          }
+          
+          .mi-linea-home2 {
+            height: 1px; 
+            border: none; 
+            width: 80px;
+            margin-top: 67px;
+            background-color: #FFF;
+            margin-left: 0px;
+            margin-right: 10px;
+          }
+          .my-carousel{
+            display: flex;
+            text-align: left;
+            flex-direction: column;
+            margin-left: 100px;
+            margin-top: 50px;
+          
+          }
+          
+          .micarrusel-titulo{
+            font-weight: 600;
+            color: #3A93A4; 
+          }
+          .foot {
+            margin: 0%;
+          }
+          .Logos-empresa{
+            background: #f4f4f4;
+            margin-bottom: 0%;
+            }
+            
+            .Logos1{
+              margin-top: -10%;
+            }
+            
+            .imgWrapper3 {
+                font-size: 0;
+                text-align: center;
+                margin-top: 3%;
+                padding-top: 5%;
+                padding-right: 15%;
+                padding-left: 11%; 
+            }
+            .imgWrapper4 {
+              font-size: 0;
+              text-align: center;
+              margin-top: 3%;
+              padding-bottom: 8%;
+              padding-right: 15%;
+              padding-left: 11%;
+            }
+            
+            .imgWrapper4 .imgResponsiva,
+            .imgWrapper3 .imgResponsiva {
+                display: inline-block;
+                font-size: inherit;
+            }
+            
+            .imgWrapper4 .imgResponsiva {width: 25%; max-width: 345px;}
+            .imgWrapper3 .imgResponsiva {width: 25%; max-width: 345px;}
+            
+            .imgResponsiva img {
+                height: auto;
+                width: 120%;
+            }
+            
+            .my-carousel-logos{
+              display: flex;
+              text-align: left;
+              flex-direction: column;
+              margin-left: 100px;
+              margin-top: 50px;
+              padding-top: 50px;
+            
+            }
+            
+            .mi-linea-carrusel-logos{
+              height: 1px; 
+              border: none; 
+              width: 80px;
+              background-color:  #3A93A4; 
+              margin-left: 0px;
+              margin-top: -10px;
+              margin-bottom: 70px;
+            }
+            
+            .micarrusel-titulo-logos{
+              font-weight: 600;
+              color: #3A93A4; 
+            }
+}
+
 @media (min-width: 801px) and (max-width: 1919px) {
     .txt-redesHome{
         display: flex;

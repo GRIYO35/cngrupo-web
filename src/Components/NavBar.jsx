@@ -211,7 +211,7 @@ const Navbar = () => {
                         </li>
                         <li>
                           <Link className="li" to="/plantaguemes">
-                            PLANTA GUEMES
+                            PLANTA GÜEMES
                           </Link>
                         </li>
                       </ul>

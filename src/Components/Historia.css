@@ -405,17 +405,18 @@
     margin-top: 1%;
   }
   .nuestra-historia-txt {
+    font-family: Public Sans;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 200;
     line-height: 25px;
-    letter-spacing: 2.5px;
     color: #fff;
     margin-right: 50%;
     margin-top: -1%;
     margin-bottom: 8%;
+    letter-spacing: 1px;
   }
   .txt-empresa-spanHis {
-    font-weight: 600;
+    font-weight: 590;
   }
   .ImagenHistoria1 {
     margin-top: -6%;
@@ -763,17 +764,18 @@
     margin-top: 0%;
   }
   .nuestra-historia-txt {
+    font-family: Public Sans;
     font-size: 180%;
-    font-weight: 300;
+    font-weight: 200;
     line-height: 35px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: #fff;
     margin-right: 50%;
-    margin-bottom: -7%;
+    margin-bottom: -7.2%;
     margin-top: -0.5%;
   }
   .txt-empresa-spanHis {
-    font-weight: 600;
+    font-weight: 590;
   }
 
   .timeline {

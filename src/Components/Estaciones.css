@@ -263,7 +263,7 @@
   .productos-protección-esta{
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 60px;
     text-align: center;
     flex-wrap: wrap;
     margin-top: 50px;
@@ -279,12 +279,13 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-left: 30px;
+    margin-left: 20px;
+    margin-top: -35px;
   }
   
   .producto-est{
-    width: 100px;
-    height: 100px;
+    width: 55px;
+    height: 55px;
   }
   
   .title-container-estacion{
@@ -638,7 +639,7 @@
       .productos-protección-esta{
         display: flex;
         flex-direction: row;
-        gap: 40px;
+        gap: 120px;
         text-align: center;
         flex-wrap: wrap;
         margin-top: 50px;
@@ -654,13 +655,13 @@
         display: flex;
         flex-direction: column;
         text-align: left;
-        margin-left: 30px;
+        margin-left: 40px;
+        margin-top: -35px;
       }
       
       .producto-est{
-        width: 100px;
-        height: 100px;
-        margin-top: 4%;
+        width: 71px;
+        height: 71px;
       }
       
       .title-container-estacion{

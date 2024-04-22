@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import videoSourceGas from "../Assets/Trabaja con nosotros Web.mp4";
 import NAVBAR from "./NavBar";
 import "./CapitalHumano.css";
@@ -26,9 +25,14 @@ const CapitalH = () => {
                 <p className="nuestra-empresa">NUESTROS NEGOCIOS</p>
               </div>
               <h2 className="logistica-title">CAPITAL HUMANO</h2>
-              <Link to="https://cngrupo.pandape.computrabajo.com/Vacancies">
-                <button className="info-btnCapi">Postulate</button>
-              </Link>
+              <a
+                href="https://cngrupo.pandape.computrabajo.com/Vacancies"
+                target="_blank"
+                rel="noopener noreferrer" 
+                className="info-btnCapi"
+              >
+                Postulate
+              </a>
             </div>
           </div>
         </div>

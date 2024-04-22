@@ -44,6 +44,9 @@
     width: 991px;
     height: 450px;
   }
+  #map {
+    filter: grayscale(100%);
+  }
 }
 
 
@@ -53,7 +56,7 @@
 
 @media (min-width: 1281px) and (max-width: 1919px) {
 button.ol-full-screen-false {
-  background-color: #225065;
+  background-color: #0A0A0A;
   color: white;
   border: none;
   padding: 5px 10px;
@@ -67,7 +70,7 @@ button.ol-full-screen-false {
 }
 
 button.ol-full-screen-true {
-  background-color: #225065;
+  background-color: #0A0A0A;
   color: white;
   border: none;
   padding: 5px 10px;
@@ -88,7 +91,7 @@ button.ol-full-screen-true {
 }
 
 .ol-zoom button.ol-zoom-in, .ol-zoom button.ol-zoom-out {
-  background-color: #225065 !important;
+  background-color: #0A0A0A !important;
   color: white !important;
   border-color: white;
   font-size: 21px;
@@ -96,6 +99,9 @@ button.ol-full-screen-true {
 .MapaDim{
   width: 1070px;
   height: 540px;
+}
+#map {
+  filter: grayscale(100%);
 }
 }
 
@@ -108,7 +114,7 @@ button.ol-full-screen-true {
 
 @media (min-width: 1920px) {
   button.ol-full-screen-false {
-    background-color: #225065;
+    background-color: #0A0A0A;
     color: white;
     border: none;
     padding: 5px 10px;
@@ -122,7 +128,7 @@ button.ol-full-screen-true {
   }
   
   button.ol-full-screen-true {
-    background-color: #225065;
+    background-color: #0A0A0A;
     color: white;
     border: none;
     padding: 5px 10px;
@@ -143,7 +149,7 @@ button.ol-full-screen-true {
   }
   
   .ol-zoom button.ol-zoom-in, .ol-zoom button.ol-zoom-out {
-    background-color: #225065 !important;
+    background-color: #0A0A0A !important;
     color: white !important;
     border-color: white;
     font-size: 21px;
@@ -151,6 +157,9 @@ button.ol-full-screen-true {
   .MapaDim{
     width: 1450px;
     height: 650px;
+  }
+  #map {
+    filter: grayscale(100%);
   }
 }
 

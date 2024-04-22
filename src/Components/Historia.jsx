@@ -88,7 +88,6 @@ const Historia = () => {
               una empresa familiar y cuenta con más{" "}
               <span className="txt-empresa-spanHis"> 35 años </span> de
               trayectoria, más de{" "}
-              <span className="txt-empresa-spanHis"> 35 años </span> más de{" "}
               <span className="txt-empresa-spanHis"> 250 colaboradores </span> y{" "}
               <span className="txt-empresa-spanHis"> 6 bases operativas </span>{" "}
               distribuidas en puntos estratégicos de Salta y norte de Chile.{" "}

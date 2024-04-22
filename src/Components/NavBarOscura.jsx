@@ -212,7 +212,7 @@ const NavbarOscura = () => {
                         </li>
                         <li>
                           <Link className="liOsc" to="/estaciones">
-                            PLANTA GUEMES
+                            PLANTA GÜEMES
                           </Link>
                         </li>
                       </ul>

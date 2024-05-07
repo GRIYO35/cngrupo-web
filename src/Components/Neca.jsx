@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import {Link} from "react-router-dom";
+import { FaInstagram, FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
 import necaimg1 from "../Assets/Frame (2).png";
 import vectorneca1 from "../Assets/Capa_2 (1).png";
 import vectorneca2 from "../Assets/Group 94 (2).png";
@@ -63,6 +64,36 @@ const Neca = () => {
         </video>
         <div className="content">
         <NAVBAR></NAVBAR>
+        <div className="redes-container-empresa-nec">
+        <a
+                href="https://www.linkedin.com/company/combustibles-del-norte-sa"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin className="icono-red-social" />
+              </a>
+              <a
+                href="https://www.instagram.com/neca_agro/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram className="icono-red-social" />
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UCKgtqquVfnw9rKAim7BfyFQ"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaYoutube className="icono-red-social" />
+              </a>
+              <a
+                href="https://www.facebook.com/CNAgro"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaFacebook className="icono-red-social" />
+              </a>
+        </div>
         <div className="txt-redesNeca">
           <div className="txt-container-empresaNeca">
             <div className="linea-titulo">
@@ -110,19 +141,19 @@ const Neca = () => {
               <p className="txt-productoNeca">HERBICIDAS</p>
             </div>
             <div className="container-producto-protección">
-              <img src={insecticida} alt="" className="producto" />
+              <img src={insecticida} alt="" className="productoINS" />
               <p className="txt-productoNeca">INSECTICIDAS</p>
             </div>
             <div className="container-producto-protección">
-              <img src={fungicida} alt="" className="producto" />
+              <img src={fungicida} alt="" className="productoFUN" />
               <p className="txt-productoNeca">FUNGICIDAS</p>
             </div>
             <div className="container-producto-protección">
-              <img src={coadyuvante} alt="" className="producto" />
+              <img src={coadyuvante} alt="" className="productoCOA" />
               <p className="txt-productoNeca">COADYUVANTES</p>
             </div>
             <div className="container-producto-protección">
-              <img src={tratamiento} alt="" className="producto" />
+              <img src={tratamiento} alt="" className="productoSEM" />
               <p className="txt-productoNeca">
                 TRATAMIENTO <br></br>DE SEMILLAS
               </p>
@@ -136,11 +167,11 @@ const Neca = () => {
           <h3 className="neca-subtitle">NK semillas</h3>
           <div className="productos-protección2">
             <div className="container-producto-protección-e">
-              <img src={soja} alt="" className="producto1" />
+              <img src={soja} alt="" className="productoSOJ" />
               <p className="txt-productoNeca">SOJA</p>
             </div>
             <div className="container-producto-protección">
-              <img src={maiz} alt="" className="producto" />
+              <img src={maiz} alt="" className="productoMAI" />
               <p className="txt-productoNeca">MAÍZ</p>
             </div>
           </div>
@@ -150,7 +181,7 @@ const Neca = () => {
           <h3 className="neca-subtitle">Nutrición de cultivos</h3>
           <div className="productos-protección2">
             <div className="container-producto-protección">
-              <img src={fertilizante} alt="" className="producto" />
+              <img src={fertilizante} alt="" className="productoFER" />
               <p className="txt-productoNeca">FERTILIZANTES</p>
             </div>
           </div>
@@ -160,7 +191,7 @@ const Neca = () => {
           <h3 className="neca-subtitle">Almacenamiento de granos</h3>
           <div className="productos-protección2">
             <div className="container-producto-protección">
-              <img src={silobolsa} alt="" className="producto" />
+              <img src={silobolsa} alt="" className="productoSIL" />
               <p className="txt-productoNeca">SILOBOLSAS</p>
             </div>
           </div>

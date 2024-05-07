@@ -36,9 +36,27 @@ const Gas = () => {
           <NAVBAR></NAVBAR>
 
           <div className="redes-container-empresa-gas">
-            <FaInstagram />
-            <FaFacebook />
-            <FaLinkedin />
+          <a
+                href="https://www.linkedin.com/company/combustibles-del-norte-sa"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin className="icono-red-social" />
+              </a>
+              <a
+                href="https://www.instagram.com/gasdelnorteypf/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram className="icono-red-social" />
+              </a>
+              <a
+                href="https://www.facebook.com/gasdelnorte"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaFacebook className="icono-red-social" />
+              </a>
           </div>
           <div className="txt-redesGas">
             <div className="txt-container-empresaGas">

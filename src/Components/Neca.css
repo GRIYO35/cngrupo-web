@@ -228,23 +228,23 @@
   }
 
   .logo-neca2 {
-    width: 60px;
-    height: 18px;
+    width: 68px;
+    height: 21.8px;
   }
 
   .logo-neca2a {
-    width: 63px;
-    height: 18px;
+    width: 104px;
+    height: 20.2px;
   }
 
   .logo-neca2b {
-    width: 83px;
-    height: 22px;
+    width: 135.6px;
+    height: 21.8px;
   }
 
   .logo-neca2c {
-    width: 60px;
-    height: 20px;
+    width: 45.6px;
+    height: 22px;
   }
 
   .banner-necaflor {
@@ -288,14 +288,57 @@
   }
 
   .producto{
-    width: 70px;
-    height: 60px;
+    width: 80px;
+    height: 43.2px;
   }
-  .producto1{
-    width: 70px;
-    height: 60px;
+
+  .productoINS{
+    width: 70.4px;
+    height: 49.7px;
+    margin-top: -8px;
+  }
+
+  .productoFUN{
+    width: 68.4px;
+    height: 48.2px;
     margin-top: -5px;
   }
+  
+  .productoCOA{
+    width: 42.5px;
+    height: 53px; 
+    margin-top: -10px;
+  }
+  .productoSEM{
+    width: 36.2px;
+    height: 53.5px; 
+    margin-top: -10px;
+  }
+
+  .productoSOJ{
+    width: 52.6px;
+    height: 52.6px;
+    margin-top: -14px;
+  }
+
+  .productoMAI{
+    width: 39.1px;
+    height: 54.2px;
+    margin-top: -11px;
+  }
+
+  .productoFER{
+    width: 41.8px;
+    height: 50.2px;
+    margin-top: -5px;
+  }
+
+  .productoSIL{
+    width: 44.6px;
+    height: 56.4px;
+    margin-top: -12px;
+  }
+
 
   .NecaDirec{
     display: flex;
@@ -387,6 +430,29 @@
   padding-bottom: 1%;
   margin-bottom: 10%;
 }
+
+.redes-container-empresa-nec{
+  position: fixed;
+  right: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    margin-top: 210px;
+    font-size: 150%;
+    color: #FFF;
+    height: 25%;
+    padding-right: 1%;
+    padding-left:1%;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+    background: rgba(0, 0, 0, 0.40);
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    gap: 10%;
+    z-index: 3;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
 }
 
 
@@ -626,23 +692,23 @@
   }
 
   .logo-neca2 {
-    width: 60px;
-    height: 18px;
+    width: 68px;
+    height: 21.8px;
   }
 
   .logo-neca2a {
-    width: 63px;
-    height: 18px;
+    width: 104px;
+    height: 20.2px;
   }
 
   .logo-neca2b {
-    width: 83px;
-    height: 22px;
+    width: 135.6px;
+    height: 21.8px;
   }
 
   .logo-neca2c {
-    width: 60px;
-    height: 20px;
+    width: 45.6px;
+    height: 22px;
   }
 
   .banner-necaflor {
@@ -686,13 +752,55 @@
   }
 
   .producto{
-    width: 70px;
-    height: 60px;
+    width: 100px;
+    height: 54px;
   }
-  .producto1{
-    width: 70px;
-    height: 60px;
+
+  .productoINS{
+    width: 88px;
+    height: 62.1px;
+    margin-top: -8px;
+  }
+
+  .productoFUN{
+    width: 85.5px;
+    height: 60.3px;
     margin-top: -5px;
+  }
+  
+  .productoCOA{
+    width: 53.1px;
+    height: 66.3px; 
+    margin-top: -10px;
+  }
+  .productoSEM{
+    width: 45.3px;
+    height: 66.9px; 
+    margin-top: -10px;
+  }
+
+  .productoSOJ{
+    width: 65.7px;
+    height: 65.7px;
+    margin-top: -14px;
+  }
+
+  .productoMAI{
+    width: 48.9px;
+    height: 67.8px;
+    margin-top: -11px;
+  }
+
+  .productoFER{
+    width: 52.2px;
+    height: 62.7px;
+    margin-top: -5px;
+  }
+
+  .productoSIL{
+    width: 55.8px;
+    height: 70.5px;
+    margin-top: -12px;
   }
 
   .NecaDirec{
@@ -785,6 +893,28 @@
   padding-bottom: 1%;
   margin-bottom: 10%;
 }
+.redes-container-empresa-nec{
+  position: fixed;
+  right: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    margin-top: 210px;
+    font-size: 150%;
+    color: #FFF;
+    height: 25%;
+    padding-right: 1%;
+    padding-left:1%;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+    background: rgba(0, 0, 0, 0.40);
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    gap: 10%;
+    z-index: 3;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
 }
 
 
@@ -1031,23 +1161,23 @@
   }
 
   .logo-neca2 {
-    width: 60px;
-    height: 18px;
+    width: 81.6px;
+    height: 26.7px;
   }
 
   .logo-neca2a {
-    width: 63px;
-    height: 18px;
+    width: 124.8px;
+    height: 24.2px;
   }
 
   .logo-neca2b {
-    width: 83px;
-    height: 22px;
+    width: 162.7px;
+    height: 26.2px;
   }
 
   .logo-neca2c {
-    width: 60px;
-    height: 20px;
+    width: 54.7px;
+    height: 26.4px;
   }
 
   .banner-necaflor {
@@ -1091,13 +1221,55 @@
   }
 
   .producto{
-    width: 100px;
-    height: 85px;
+    width: 166.5px;
+    height: 90px;
   }
-  .producto1{
-    width: 100px;
-    height: 85px;
+
+  .productoINS{
+    width: 146.5px;
+    height: 103.5px;
+    margin-top: -14px;
+  }
+
+  .productoFUN{
+    width: 142.5px;
+    height: 100.5px;
+    margin-top: -11px;
+  }
+  
+  .productoCOA{
+    width: 88.5px;
+    height: 110.5px; 
+    margin-top: -20px;
+  }
+  .productoSEM{
+    width: 75.5px;
+    height: 111.5px; 
+    margin-top: -20px;
+  }
+
+  .productoSOJ{
+    width: 109.5px;
+    height: 109.5px;
+    margin-top: -15px;
+  }
+
+  .productoMAI{
+    width: 81.5px;
+    height: 113px;
+    margin-top: -14px;
+  }
+
+  .productoFER{
+    width: 87px;
+    height: 104.5spx;
     margin-top: -5px;
+  }
+
+  .productoSIL{
+    width: 93px;
+    height: 117.5px;
+    margin-top: -15px;
   }
 
   .txt-direccion-neca{
@@ -1201,4 +1373,26 @@
   padding-bottom: 1%;
   margin-bottom: 10%;
 }
+.redes-container-empresa-nec{
+  position: fixed;
+  right: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    margin-top: 230px;
+    font-size: 150%;
+    color: #FFF;
+    height: 25%;
+    padding-right: 1%;
+    padding-left:1%;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+    background: rgba(0, 0, 0, 0.40);
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    gap: 10%;
+    z-index: 3;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
 }

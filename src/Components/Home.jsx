@@ -59,28 +59,28 @@ const Home = () => {
 
             <div className="redes-container-empresa">
               <a
-                href="https://www.linkedin.com/in/marcos-albarado?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
+                href="https://www.linkedin.com/company/combustibles-del-norte-sa"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedin className="icono-red-social" />
               </a>
               <a
-                href="URL_DE_INSTAGRAM"
+                href="https://www.instagram.com/cngrupo/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaInstagram className="icono-red-social" />
               </a>
               <a
-                href="URL_DE_YOUTUBE"
+                href="https://www.youtube.com/channel/UCBk3n8zBDz-0OkLbmszciLA"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaYoutube className="icono-red-social" />
               </a>
               <a
-                href="URL_DE_FACEBOOK"
+                href="https://www.facebook.com/CNGRUPO"
                 target="_blank"
                 rel="noopener noreferrer"
               >

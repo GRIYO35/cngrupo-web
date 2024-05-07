@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 /*import ExpandLessIcon from "@material-ui/icons/ExpandLess";*/
-import { FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
 import logo2 from "../Assets/CN - INFO IMPOSITIVA grey@300x.png";
 import fotocomb from "../Assets/650X388px WEB est fijas.png";
 import fotocombMob from "../Assets/650X388px WEB est moviles.png";
@@ -53,9 +53,34 @@ const Combustibles = () => {
         <div className="content">
         <NAVBAR></NAVBAR>
         <div className="redes-container-empresa-comb">
-          <FaInstagram />
-          <FaFacebook />
-          <FaLinkedin />
+        <a
+                href="https://www.linkedin.com/company/combustibles-del-norte-sa"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin className="icono-red-social" />
+              </a>
+              <a
+                href="https://www.instagram.com/combustiblesdelnorte/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram className="icono-red-social" />
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UCC-Vygd1j-0AuZImFoso-eg"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaYoutube className="icono-red-social" />
+              </a>
+              <a
+                href="https://www.facebook.com/people/Combustibles-del-Norte/100083683570651/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaFacebook className="icono-red-social" />
+              </a>
         </div>
         <div className="txt-redesComb">
           <div className="txt-container-empresaComb">

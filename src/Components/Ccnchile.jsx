@@ -17,8 +17,20 @@ const Ccn = () => {
       <div className="home-container8">
         <NAVBAR></NAVBAR>
         <div className="redes-container-empresa-chile">
-          <FaInstagram />
-          <FaFacebook />
+              <a
+                href="https://www.instagram.com/ccn.chile?igsh=MWNrY3ZwOGg0emtybQ=="
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram className="icono-red-social" />
+              </a>
+              <a
+                href="https://www.facebook.com/profile.php?id=61559402910576"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaFacebook className="icono-red-social" />
+              </a>
         </div>
         <div className="txt-redesChile">
           <div className="txt-container-empresaChile">

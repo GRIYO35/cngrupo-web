@@ -120,6 +120,15 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     margin-bottom: 74%;
     }
+    .Quienes-titleEN{
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 25px;
+      letter-spacing: 0.05px;
+      color: #FFF;   
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      margin-bottom: 108%;
+      }
     .mi-lineaQuienes {
         height: 1px; 
         border: none; 
@@ -257,6 +266,15 @@
     color: #FFF;   
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     margin-bottom: 74%;
+    }
+  .Quienes-titleEN{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.05px;
+    color: #FFF;   
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 108%;
     }
     .mi-lineaQuienes {
         height: 1px; 
@@ -397,6 +415,15 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     margin-bottom: 106%;
     }
+    .Quienes-titleEN{
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 25px;
+      letter-spacing: 0.05px;
+      color: #FFF;   
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      margin-bottom: 171%;
+      }
     .mi-lineaQuienes {
       height: 1px; 
       border: none; 

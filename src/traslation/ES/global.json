@@ -1,4 +1,9 @@
-{ "li":{
+{ 
+"ComentarioNav":{
+    "//": "A partir de aqui comienzan los Textos de la Barra de Navegacion"
+},
+
+"li":{
     "Who are we?":"¿QUIÉNES SOMOS?",
     "Vision and mission":"VISIÓN Y MISIÓN",
     "History":"HISTORIA",
@@ -12,6 +17,10 @@
     "SERVICE STATIONS": "ESTACIONES DE SERVICIO",
     "Our culture":"Nuestra cultura",
     "Our business portfolio": "Nuestra Cartera de Negocios"
+},
+
+"ComentarioHome":{
+    "//": "A partir de aqui comienzan los Textos de la pantalla Home"
 },
 
 "nuestra-empresa-txt":{
@@ -53,10 +62,35 @@
     "completo": "Somos distribuidores oficiales de YPF, tanto de Diésel como de Gas envasado. Contamos con dos estaciones de servicio YPF ubicadas en Salta Capital y Las Lajitas.",
     "completo2":"Ofrecemos soluciones integrales al campo a través de la distribución de productos y servicios para la Protección y Nutrición de cultivos.",
     "completo3":"Proporcionamos soluciones integrales y customizadas de gerenciamiento de proyectos para empresas mineras."
+},
+
+"ComentarioQuienes":{
+    "//": "A partir de aqui comienzan los Textos de la pantalla Quienes"
+}, 
+
+"quienes":{
+    "about us": "QUIÉNES SOMOS"
+},
+
+"txtQuines":{
+    "txt1": "CN GRUPO",
+    "txt2": "nace como una empresa familiar y cuenta con más",
+    "txt3": "35 años",
+    "txt4": "de trayectoria, mas de",
+    "txt5": "250 colaboradores y 6 bases operativas",
+    "txt6": "distribuidas en puntos estratégicos de Salta y norte de Chile.",
+    "txt7": "En el transcurso de nuestro desarrollo empresario hemos ido diversificando negocios, apostando siempre a",
+    "txt8": "innovación, al desarrollo profesional ",
+    "txt9": "de nuestros equipos y a las relaciones estratégicas con nuestros proveedores, clientes y comunidad."
+},
+
+"txtDirectorio":{
+    "txt1": "Fundador y CEO de CN Grupo",
+    "txt2": "Director de Negocios",
+    "txt3": "Director de Áreas Staff"
 }
 
 }
-
 
 
 

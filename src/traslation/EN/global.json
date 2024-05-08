@@ -1,4 +1,9 @@
-{ "li":{
+{ 
+"ComentarioNav":{
+    "//": "A partir de aqui comienzan los Textos de la Barra de Navegacion"
+},  
+
+"li":{
     "Who are we?":"?WHO ARE WE",
     "Vision and mission":"VISION AND MISSION",
     "History":"HISTORY",
@@ -13,6 +18,10 @@
     "Our culture":"Our culture",
     "Our business portfolio": "Our business portfolio"
 },
+
+"ComentarioHome":{
+    "//": "A partir de aqui comienzan los Textos de la pantalla Home"
+}, 
 
 "nuestra-empresa-txt":{
     "text1":"We are a group of companies that aim to provide",
@@ -29,7 +38,6 @@
 "conocenos-btn":{
     "KNOW MORE": "KNOW MORE"
 },
-
 
 "recuadros-span":{
     "Leading companies": "leading companies",
@@ -52,7 +60,32 @@
     "completo": "We are official distributors of YPF, both Diesel and Packaged Gas. We have two YPF service stations located in Salta Capital and Las Lajitas.",
     "completo2":"We offer comprehensive solutions to the field through the distribution of products and services for Crop Protection and Nutrition.",
     "completo3":"We provide comprehensive and customized project management solutions for mining companies."
+},
 
+"ComentarioQuienes":{
+    "//": "A partir de aqui comienzan los Textos de la pantalla Quienes"
+}, 
+
+"quienes":{
+    "about us": "ABOUT US"
+},
+
+"txtQuines":{
+    "txt1": "CN GRUPO",
+    "txt2": "was born as a family business and has more than",
+    "txt3": "35 years",
+    "txt4": "of experience, more than",
+    "txt5": "250 team members and 6 operating bases",
+    "txt6": "distributed in strategic points of Salta and northern Chile.",
+    "txt7": "Over the course of our corporate development, we have diversified businesses, always promoting",
+    "txt8": "innovation, the professional development ",
+    "txt9": "of our teams, and strategic relationships with our suppliers, clients and community."
+},
+
+"txtDirectorio":{
+    "txt1": "Founder and CEO of CN Grupo",
+    "txt2": "Business Director",
+    "txt3": "Director of Personnel"
 }
 
 

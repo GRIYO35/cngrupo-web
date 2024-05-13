@@ -20,6 +20,7 @@ import logoneca4 from "../Assets/logoneca4.png";
 import vectorneca4 from "../Assets/logomail.svg";
 import LogoPersona from "../Assets/logoPersona.svg";
 import videoSourceComb from "../Assets/COMBUSTIBLES DEL NORTE.mp4";
+import videoSourceComb1 from "../Assets/COMBUSTIBLES-DEL-NORTE.av1.mp4";
 import NAVBAR from "./NavBar";
 import "./Combustiblesdelnorte.css";
 import ScrollToTop from "react-scroll-to-top";
@@ -43,12 +44,13 @@ const Combustibles = () => {
     <div className="home-container">
       <div className="video">
       <video
-          src={videoSourceComb}
           autoPlay
           loop
           muted
           className="tuvideo"
         >
+          <source src={videoSourceComb1} type="video/mp4; codecs=av01" />
+          <source src={videoSourceComb} type="video/mp4" />
         </video>
         <div className="content">
         <NAVBAR></NAVBAR>

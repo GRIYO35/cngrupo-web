@@ -144,12 +144,12 @@
 
 
 
-
+/*../Assets/GRUPAL\ sin\ carteles.png*/
 
 @media (min-width: 1281px) and (max-width: 1919px) {
   .home-containerQuienes {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url(../Assets/GRUPAL\ sin\ carteles.png);
+      url(../Assets/GRUPAL-sin-carteles.avif), url(../Assets/GRUPAL\ sin\ carteles.png);
     background-size: 100%;
     background-repeat: no-repeat;
   }

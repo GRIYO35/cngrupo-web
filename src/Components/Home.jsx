@@ -16,6 +16,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import videoSource from "../Assets/Home Cn web v3 .mp4";
+import videoSource1 from "../Assets/Home-Cn-web-v3-.av1.mp4";
 import { useTranslation } from "react-i18next";
 import Slider from "./Slider";
 import ScrollToTop from "react-scroll-to-top";
@@ -31,12 +32,14 @@ const Home = () => {
     <div className="home-container">
       <div className="video">
         <video
-          src={videoSource}
           autoPlay
           loop
           muted
           className="tuvideo"
-        ></video>
+        >
+          <source src={videoSource1} type="video/mp4; codecs=av01" />
+          <source src={videoSource} type="video/mp4" />
+        </video>
         <div className="content">
           <NAVBAR></NAVBAR>
           <div className="txt-redesHome">

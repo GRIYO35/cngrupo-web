@@ -32,7 +32,8 @@
 },
 
 "txt-foo2":{
-    "Footer":" © 2024 CN Group - All rights reserved"
+    "Footer":" © 2024 CN Group - All rights reserved",
+    "Footer1":"GROW AND MAKE GROW"
 },
 
 "conocenos-btn":{
@@ -86,6 +87,70 @@
     "txt1": "Founder and CEO of CN Grupo",
     "txt2": "Business Director",
     "txt3": "Director of Personnel"
+},
+
+"ComentarioVision":{
+    "//": "A partir de aqui comienzan los Textos de la pantalla Vision"
+},
+
+"txtTituloVision":{
+    "txt1": "VISION",
+    "txt2": "Grow and make grow.",
+    "txt3": "MISSION",
+    "txt4": "Provide commercial and innovative solutions adapted to each need, building long-term relationships."
+},
+
+"txtCliente":{
+    "txt1": "Values",
+    "txt2": "The client at the center",
+    "txt3": "Respect",
+    "txt4": "Flexibility",
+    "txt5": "Solidarity",
+    "txt6": "Professionalism",
+    "txt7": "Enthusiasm"
+},
+
+"txtEjes":{
+    "txt1": "Commitment axis",
+    "txt2": "Team",
+    "txt3": "Prioritize the development of talent by promoting learning and leadership in our Human Capital.",
+    "txt4": "Innovation",
+    "txt5": "Commit to constant and planned improvement, prioritizing the needs of our clients.",
+    "txt6": "Sustainability",
+    "txt7": "Engage in new consumption and production habits to be part of a sustainable revolution.",
+    "txt8": "Future",
+    "txt9": "Being a brand capable of transcending beyond the product or service it offers and becoming the protagonist of a better future."
+},
+
+"ComentarioHistoria":{
+    "//": "A partir de aqui comienzan los Textos de la pantalla Home"
+},
+
+"txtTituloHistoria":{
+    "txt1": "HISTORY"
+},
+
+"txtLienaTiempo": {
+    "txt1": "El Chango Gas Station",
+    "txt2": "Lubricants Wholesaler",
+    "txt3": "Fertilizer Distribution",
+    "txt4": "Las Lajitas Branch",
+    "txt5": "Embarcación Branch",
+    "txt6": "Chile lubricants",
+    "txt7": "CN Agro warehouse in Las Lajitas",
+    "txt8": "CN Agro evolves and becomes NECA.",
+    "txt9": "NECA warehouse in Embarcacion.",
+    "txt10": "New gas Station in Las Lajitas,",
+    "txt11": "the station of the future."
+},
+
+"ComentarioInfo":{
+    "//": "A partir de aqui comienzan los Textos de la pantalla Vision"
+},
+
+"txtInfo":{
+    "txt1": "TAX INFORMATION",
+    "txt2": "DOWNLOAD PDF"
 }
 
 

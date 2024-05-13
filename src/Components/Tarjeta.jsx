@@ -1,11 +1,15 @@
 import React from 'react';
 import './Tarjeta.css'; 
-import VectorCard from "../Assets/vec1.png"
-import VectorCard1 from "../Assets/vec2.png"
-import VectorCard2 from "../Assets/vec3.png"
-import VectorCard3 from "../Assets/vec4.png"
+import VectorCard from "../Assets/vec1.png";
+import VectorCard1 from "../Assets/vec2.png";
+import VectorCard2 from "../Assets/vec3.png";
+import VectorCard3 from "../Assets/vec4.png";
+import { useTranslation } from "react-i18next";
 
 const Tarjeta = () => {
+// eslint-disable-next-line no-unused-vars
+const [t, i18next] = useTranslation("global");
+
   return (
     <div className='tarjetas'>
     <div className="tarjeta">
@@ -15,8 +19,8 @@ const Tarjeta = () => {
         </span>
       </div>
       <div className="contenido-trasero">
-        <h2 className='TituloTarjeta'>Equipo</h2>
-        <span className='TextoTarjeta'>Priorizar el desarrollo del talento impulsando el aprendizaje y el liderazgo de nuestro Capital.</span>
+        <h2 className='TituloTarjeta'>{t("txtEjes.txt2")}</h2>
+        <span className='TextoTarjeta'>{t("txtEjes.txt3")}</span>
       </div>
     </div>
     <div className="tarjeta">
@@ -26,8 +30,8 @@ const Tarjeta = () => {
         </span>
       </div>
       <div className="contenido-trasero">
-        <h2 className='TituloTarjeta'>Innovación</h2>
-        <span className='TextoTarjeta'>Apostar a la mejora constante y planificada, priorizando las necesidades de nuestros clientes.</span>
+        <h2 className='TituloTarjeta'>{t("txtEjes.txt4")}</h2>
+        <span className='TextoTarjeta'>{t("txtEjes.txt5")}</span>
       </div>
     </div>
     <div className="tarjeta">
@@ -37,8 +41,8 @@ const Tarjeta = () => {
         </span>
       </div>
       <div className="contenido-trasero">
-        <h2 className='TituloTarjeta'>Sustentabilidad</h2>
-        <span className='TextoTarjeta'>Involucrarse en nuevos hábitos de consumo y producción para ser parte de una revolución sustentable.</span>
+        <h2 className='TituloTarjeta'>{t("txtEjes.txt6")}</h2>
+        <span className='TextoTarjeta'>{t("txtEjes.txt7")}</span>
       </div>
     </div>
     <div className="tarjeta">
@@ -48,8 +52,8 @@ const Tarjeta = () => {
         </span>
       </div>
       <div className="contenido-trasero">
-        <h2 className='TituloTarjeta'>Futuro</h2>
-        <span className='TextoTarjeta'>Ser una marca capaz de trascender más allá del producto o servicio que ofrece y convertirse en protagonista de un futuro mejor.</span>
+        <h2 className='TituloTarjeta'>{t("txtEjes.txt8")}</h2>
+        <span className='TextoTarjeta'>{t("txtEjes.txt9")}</span>
       </div>
     </div>
     </div>

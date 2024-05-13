@@ -102,7 +102,7 @@ const Quienes = () => {
              </div>
             <div className="footer">
           <div className="txt1">
-            <p className="txt-foo">CRECER & HACER CRECER</p>
+            <p className="txt-foo">{t("txt-foo2.Footer1")}</p>
           </div>
           <div className="txt2">
             <p className="txt-foo">{t("txt-foo2.Footer")}</p>

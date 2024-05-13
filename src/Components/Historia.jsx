@@ -12,13 +12,15 @@ import Linea10 from "../Assets/453x271 2009.png";
 import Linea11 from "../Assets/453x271 2022.png";
 import Linea12 from "../Assets/453x271 2023.png";
 /*import Vector from "../Assets/Vector.jpg";*/
+import { useTranslation } from "react-i18next";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import NAVBAR from "./NavBar";
 import "./Historia.css";
 
 const Historia = () => {
-  /*const [isOpen, setIsOpen] = useState(false);*/
+  // eslint-disable-next-line no-unused-vars
+  const [t, i18next] = useTranslation("global");
   const [currentImage1, setCurrentImage1] = useState(Linea1);
   const [currentImage2, setCurrentImage2] = useState(Linea2);
   const [currentImage3, setCurrentImage3] = useState(Linea3);
@@ -80,9 +82,9 @@ const Historia = () => {
           <div className="txt-container-empresaHistoria">
             <div className="linea-titulo2">
               <hr class="mi-lineaHis"></hr>
-              <p className="nuestra-empresaHis">NUESTRA EMPRESA</p>
+              <p className="nuestra-empresaHis">{t("li.OUR COMPANY")}</p>
             </div>
-            <h2 className="titulo-historia">HISTORIA</h2>
+            <h2 className="titulo-historia">{t("txtTituloHistoria.txt1")}</h2>
             <h2 className="nuestra-historia-txt">
               <span className="txt-empresa-spanHis">CN GRUPO</span> nace como
               una empresa familiar y cuenta con más{" "}
@@ -100,7 +102,7 @@ const Historia = () => {
         <ul className="timeline">
           <li className="li-linea1" data-aos="fade-right">
             1991<br></br>
-            <div className="txt-linea1">EESS el Chango</div>
+            <div className="txt-linea1">{t("txtLienaTiempo.txt1")}</div>
             <hr className="linea-linea"></hr>
             <br></br>
             <img src={currentImage1} alt="" className="ImagenHistoria2" />
@@ -115,13 +117,13 @@ const Historia = () => {
 
           <li className="li-linea3" data-aos="fade-right">
             1996<br></br>
-            <div className="txt-linea1">Mayorista Lubricantes</div>
+            <div className="txt-linea1">{t("txtLienaTiempo.txt2")}</div>
             <hr className="linea-linea"></hr>
           </li>
 
           <li className="li-linea4i" data-aos="fade-left">
             2000<br></br>
-            <div className="txt-linea1">Distribución de fertilizantes</div>
+            <div className="txt-linea1">{t("txtLienaTiempo.txt3")}</div>
             <hr className="linea-linea2"></hr>
           </li>
 
@@ -139,7 +141,7 @@ const Historia = () => {
 
           <li className="li-linea1" data-aos="fade-right">
             2005<br></br>
-            <div className="txt-linea1">Sucursal Las Lajitas</div>
+            <div className="txt-linea1">{t("txtLienaTiempo.txt4")}</div>
             <hr className="linea-linea"></hr>
             <br></br>
             <img src={currentImage2} alt="" className="ImagenHistoria2" />
@@ -147,7 +149,7 @@ const Historia = () => {
 
           <li className="li-linea5" data-aos="fade-left">
             2008<br></br>
-            <div className="txt-linea1">Sucursal Embarcación</div>
+            <div className="txt-linea1">{t("txtLienaTiempo.txt5")}</div>
             <hr className="linea-linea2"></hr>
             <br></br>
             <img src={currentImage3} alt="" className="ImagenHistoria1" />
@@ -163,7 +165,7 @@ const Historia = () => {
 
           <li className="li-linea4i" data-aos="fade-left">
             2014<br></br>
-            <div className="txt-linea1">Lubricantes Chile</div>
+            <div className="txt-linea1">{t("txtLienaTiempo.txt6")}</div>
             <hr className="linea-linea2"></hr>
           </li>
 
@@ -181,14 +183,14 @@ const Historia = () => {
 
           <li className="li-linea4" data-aos="fade-right">
             2021<br></br>
-            <div className="txt-linea1">Galpón CN Agro en Las Lajitas</div>
+            <div className="txt-linea1">{t("txtLienaTiempo.txt7")}</div>
             <hr className="linea-linea"></hr>
           </li>
 
           <li className="li-linea5" data-aos="fade-left">
             2022<br></br>
             <div className="txt-linea1">
-              CN Agro se transforma en NECA.<br></br>Galpón Embarcación NECA.
+            {t("txtLienaTiempo.txt8")}<br></br>{t("txtLienaTiempo.txt9")}
             </div>
             <hr className="linea-linea2"></hr>
             <br></br>
@@ -198,7 +200,7 @@ const Historia = () => {
           <li className="li-linea6i" data-aos="fade-right">
             2023<br></br>
             <div className="txt-linea1">
-              Nueva EESS en Las Lajitas,<br></br>la estación del futuro
+            {t("txtLienaTiempo.txt10")}<br></br>{t("txtLienaTiempo.txt11")}
             </div>
             <hr className="linea-linea"></hr>
             <br></br>
@@ -208,11 +210,11 @@ const Historia = () => {
       </div>
       <div className="footerHis">
         <div className="txt1">
-          <p className="txt-foo">Av. Chile 1275, A4400 Salta</p>
+          <p className="txt-foo">{t("txt-foo2.Footer1")}</p>
         </div>
         <div className="txt2">
           <p className="txt-foo">
-            © 2024 CN Grupo - Todos los derechos reservados
+          {t("txt-foo2.Footer")}
           </p>
         </div>
       </div>

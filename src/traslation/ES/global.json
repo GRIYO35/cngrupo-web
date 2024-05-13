@@ -33,7 +33,8 @@
 },
 
 "txt-foo2":{
-    "Footer":" © 2024 CN Grupo - Todos los derechos reservados"
+    "Footer":" © 2024 CN Grupo - Todos los derechos reservados",
+    "Footer1":"CRECER & HACER CRECER"
 },
 
 "conocenos-btn":{
@@ -88,7 +89,72 @@
     "txt1": "Fundador y CEO de CN Grupo",
     "txt2": "Director de Negocios",
     "txt3": "Director de Áreas Staff"
+},
+
+"ComentarioVision":{
+    "//": "A partir de aqui comienzan los Textos de la pantalla Vision"
+},
+
+"txtTituloVision":{
+    "txt1": "VISIÓN",
+    "txt2": "Crecer y hacer crecer.",
+    "txt3": "MISIÓN",
+    "txt4": "Dar soluciones comerciales e innovadoras adaptadas a cada necesidad, construyendo relaciones a largo plazo."
+},
+
+"txtCliente":{
+    "txt1": "Valores",
+    "txt2": "El cliente en el centro",
+    "txt3": "Respeto",
+    "txt4": "Flexibilidad",
+    "txt5": "Solidaridad",
+    "txt6": "Profesionalismo",
+    "txt7": "Entusiasmo"
+},
+
+"txtEjes":{
+    "txt1": "Ejes de compromiso",
+    "txt2": "Equipo",
+    "txt3": "Priorizar el desarrollo del talento impulsando el aprendizaje y el liderazgo de nuestro Capital.",
+    "txt4": "Innovación",
+    "txt5": "Apostar a la mejora constante y planificada, priorizando las necesidades de nuestros clientes.",
+    "txt6": "Sustentabilidad",
+    "txt7": "Involucrarse en nuevos hábitos de consumo y producción para ser parte de una revolución sustentable.",
+    "txt8": "Futuro",
+    "txt9": "Ser una marca capaz de trascender más allá del producto o servicio que ofrece y convertirse en protagonista de un futuro mejor."
+},
+
+"ComentarioHistoria":{
+    "//": "A partir de aqui comienzan los Textos de la pantalla Home"
+},
+
+"txtTituloHistoria":{
+    "txt1": "HISTORIA"
+},
+
+"txtLienaTiempo": {
+    "txt1": "EESS el Chango",
+    "txt2": "Mayorista Lubricantes",
+    "txt3": "Distribución de fertilizantes",
+    "txt4": "Sucursal Las Lajitas",
+    "txt5": "Sucursal Embarcación",
+    "txt6": "Lubricantes Chile",
+    "txt7": "Galpón CN Agro en Las Lajitas",
+    "txt8": "CN Agro se transforma en NECA.",
+    "txt9": "Galpón Embarcación NECA.",
+    "txt10": "Nueva EESS en Las Lajitas,",
+    "txt11": "la estación del futuro"
+},
+
+"ComentarioInfo":{
+    "//": "A partir de aqui comienzan los Textos de la pantalla Vision"
+},
+
+"txtInfo":{
+    "txt1": "NFORMACIÓN IMPOSITIVA",
+    "txt2": "DESCARGAR PDF"
 }
+
 
 }
 

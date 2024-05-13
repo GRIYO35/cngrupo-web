@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.54cd7333.css",
-    "main.js": "/static/js/main.5f890a50.js",
+    "main.js": "/static/js/main.be6db806.js",
     "static/media/NECA web v3.mp4": "/static/media/NECA web v3.330a279e7eacd90e7a86.mp4",
     "static/media/Home Cn web v3 .mp4": "/static/media/Home Cn web v3 .30bee1f7079a85eb5cbe.mp4",
     "static/media/Trabaja con nosotros Web.mp4": "/static/media/Trabaja con nosotros Web.f5b1602b7133c6f1f3e5.mp4",
@@ -132,10 +132,10 @@
     "index.html": "/index.html",
     "static/media/logomail.svg": "/static/media/logomail.250a2a2b6809a33ee82e489cd0c99de4.svg",
     "main.54cd7333.css.map": "/static/css/main.54cd7333.css.map",
-    "main.5f890a50.js.map": "/static/js/main.5f890a50.js.map"
+    "main.be6db806.js.map": "/static/js/main.be6db806.js.map"
   },
   "entrypoints": [
     "static/css/main.54cd7333.css",
-    "static/js/main.5f890a50.js"
+    "static/js/main.be6db806.js"
   ]
 }

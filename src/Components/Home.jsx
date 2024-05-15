@@ -95,7 +95,7 @@ const Home = () => {
       </div>
       <div className="recuadros">
         <div className="imgResponsiva1">
-          <div className="number">8</div>
+          <div className="number">9</div>
           <span className="recuadros-span">
             {t("recuadros-span.Leading companies")}
           </span>{" "}
@@ -115,7 +115,7 @@ const Home = () => {
         </div>
         <hr class="mi-linea-ver"></hr>
         <div className="imgResponsiva1">
-          <div className="number2">6</div>{" "}
+          <div className="number2">11</div>{" "}
           <span className="recuadros-span">
             {t("recuadros-span.operational bases")}
           </span>
@@ -126,7 +126,7 @@ const Home = () => {
         </div>
         <hr class="mi-linea-ver"></hr>
         <div className="imgResponsiva1">
-          <div className="number3">+250</div>{" "}
+          <div className="number3">+270</div>{" "}
           <span className="recuadros-span">
             {t("recuadros-span.collaborators")}
           </span>{" "}

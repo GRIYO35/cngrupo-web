@@ -51,11 +51,11 @@
     "fields of oil & gas, agriculture,": " en los rubros de Oil & Gas, Agricultura y MINERÍA.",
     "and MINING": "y MINERÍA.",
     "operational bases":"bases operativas",
-    "distributed in Salta and":"distribuidas en Salta y el",
-    "northern Chile": "norte de Chile",
+    "distributed in Salta and":"distribuidas en Salta y",
+    "northern Chile": "Region I y V de Chile",
     "collaborators": "colaboradores",
-    "in constant":"en constante",
-    "professional growth":"crecimiento profesional."
+    "in constant":"en constante crecimiento",
+    "professional growth":"profesional."
 
 },
 
@@ -153,8 +153,141 @@
 "txtInfo":{
     "txt1": "NFORMACIÓN IMPOSITIVA",
     "txt2": "DESCARGAR PDF"
-}
+},
 
+"ComentarioCombustibles":{
+    "//": "A partir de aqui comienzan los Textos de la pantalla CombustiblesDelNorte"
+},
+
+"txtOil": {
+    "txt1": "Somos una empresa que ofrece",
+    "txt2": "soluciones integrales",
+    "txt3": "adaptadas a las necesidades de nuestros clientes a través de la distribución mayorista de Diesel. Asimismo somos distribuidores oficiales de",
+    "txt4": "lubricantes y asfalto YPF."
+},
+
+"txtSoluciones": {
+    "txt1": "Soluciones Oil",
+    "txt2": "MIC - Manejo Integral de Combustible",
+    "txt3": "ESTACIONES FIJAS",
+    "txt4": "ESTACIONES MÓVILES",
+    "txt5": "DISTRIBUCIÓN CAPILAR",
+    "txt6": "Estaciones Fijas",
+    "txt7": "Estaciones Móviles",
+    "txt8": "Distribución Capilar" 
+},
+
+"txtLubricentro": {
+    "txt1": "Lubricentro",
+    "txt2": "Distribuimos",
+    "txt3": "ELAION",
+    "txt4": "la línea de lubricantes de",
+    "txt5": "YPF",
+    "txt6": "empleados en el rubro agrícola, automotriz, industrial, náutico, de transporte, para motos y aceites agrícolas. Los lubricantes",
+    "txt7": "son aptos para todos los vehículos equipados con motores 4 tiempos que utilicen cualquier tipo de combustible", 
+    "txt8": "ELAION"
+},
+
+"txtAsfalto": {
+    "txt1": "YPF Asfaltos",
+    "txt2": "Somos representantes oficiales y distribuidores exclusivos en toda la provincia de Salta de",
+    "txt3": "YPF ASFALTOS",
+    "txt4": "líderes en la comercialización de",
+    "txt5": "asfaltos",
+    "txt6": "e insumos energéticos",
+    "txt7": "para la construcción, asegurando un",
+    "txt8": "servicio personalizado",
+    "txt9": "para cada cliente."
+},
+
+"txtViales": {
+    "txt1": "Viales",
+    "txt2": "CEMENTOS ASFÁLTICOS",
+    "txt3": "ASFALTOS MODIFICADOS",
+    "txt4": "EMULSIONES ASFÁLTICAS",
+    "txt5": "ASFALTOS TIBIOS",
+    "txt6": "SELLADORES ASFÁLTICOS"
+},
+
+"txtIndustriales": {
+    "txt1": "Industriales",
+    "txt2": "ASFALTO BASE PLÁSTICO",
+    "txt3": "PINTURA ALFÁLTICA",
+    "txt4": "ASFALTO PLÁSTICO N°1"
+},
+
+"txtAgroCN": {
+    "txt1": "Agro",
+    "txt2": "Somos representantes oficiales de",
+    "txt3": "YPF AGRO",
+    "txt4": "empresa líder en potenciar el desarrollo integral del campo argentino, a través de la provisión de los",
+    "txt5": "insumos y la energía",
+    "txt6": "necesaria para producir más y mejor."
+},
+
+"txtAgroCN1": {
+    "txt1": "Buscamos",
+    "txt2": "transformar",
+    "txt3": "el trabajo de nuestros clientes agricultores, brindándoles",
+    "txt4": "soluciones concretas",
+    "txt5": "y una amplia gama de productos y servicios para",
+    "txt6": "protección y nutrición",
+    "txt7": "de cultivos, semillas, bolsas para silo."
+},
+
+"txtSolucionesAgro": {
+    "txt1": "Soluciones Agro",
+    "txt2": "MUESTREO DIRIGIDO",
+    "txt3": "SUMMA",
+    "txt4": "SOLUCIONES FINANCIERAS"
+},
+
+"txtMuestreo": {
+    "txt1": "Muestreo Dirigido"
+},
+
+"txtSumma": {
+    "txt1": "Summa",
+    "txt2": "Propuesta integral",
+    "txt3": "de agricultura de precisión de máxima tecnología en cada etapa para la",
+    "txt4": "nutrición",
+    "txt5": "de tus",
+    "txt6": "cultivos."
+},
+
+"txtSolucionesFinancieras": {
+    "txt1": "Soluciones Financieras",
+    "txt2": "Tenemos una diversidad de",
+    "txt3": "herramientas financieras",
+    "txt4": "adaptadas para cada sector y al contexto económico mundial.",
+    "txt5": "Nuestros socios estratégicos"
+},
+
+"ComentarioGenerico":{
+    "//": "A partir de aqui comienzan los Textos que se utilizan en varias pantallas"
+},
+
+"txtContacto": {
+    "txt1": "Contacto",
+    "txt2": "Para contactarnos, podés hacerlo a través de estos canales:",
+    "txt3": "Dirección",
+    "txt4": "Teléfono",
+    "txt5": "Email"
+},
+
+"ComentarioCCNChile":{
+    "//": "A partir de aqui comienzan los Textos de la pantalla Ccnchile"
+},
+
+"txtChile": {
+    "txt1": "En el año 2014 CN Grupo llegó a Chile con su designación como",
+    "txt2": "único proveedor oficial de la marca YPF",
+    "txt3": "en el norte del país.",
+    "txt4": "El negocio se enfoca en la",
+    "txt5": "venta y distribución de productos lubricantes YPF",
+    "txt6": "como aceites y grasas, brindando soluciones adaptadas a las necesidades de nuestros clientes (lubricentros, talleres, empresas proveedoras de minería, entre otros).",
+    "txt7": "Zonas en las que operamos"
+}
 
 }
 

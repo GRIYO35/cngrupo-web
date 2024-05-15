@@ -200,7 +200,10 @@ const Navbar = () => {
                           </Link>
                         </li>
                         <li>
-                          <Link className="li" to="/combustiblesdelnorte">
+                          <Link 
+                          className="li" 
+                          to="/combustiblesdelnorte"
+                          >
                           COMBUSTIBLES DEL NORTE
                           </Link>
                         </li>

@@ -21,13 +21,15 @@ import vectorneca4 from "../Assets/logomail.svg";
 import LogoPersona from "../Assets/logoPersona.svg";
 import videoSourceComb from "../Assets/COMBUSTIBLES DEL NORTE.mp4";
 import videoSourceComb1 from "../Assets/COMBUSTIBLES-DEL-NORTE.av1.mp4";
+import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBar";
 import "./Combustiblesdelnorte.css";
 import ScrollToTop from "react-scroll-to-top";
 import FlechaScrol from "../Assets/flecha web cn grupo@300x-8.png"
 
 const Combustibles = () => {
-  /*const [isOpen, setIsOpen] = useState(false);*/
+  // eslint-disable-next-line no-unused-vars
+  const [t, i18next] = useTranslation("global");
   const [selectedButton, setSelectedButton] = useState(1);
 
   const handleButtonClick = (buttonNumber) => {
@@ -88,7 +90,7 @@ const Combustibles = () => {
           <div className="txt-container-empresaComb">
             <div className="linea-titulo">
               <hr class="mi-linea"></hr>
-              <p className="nuestra-empresa">NUESTROS NEGOCIOS</p>
+              <p className="nuestra-empresa">{t("li.OUR BUSINESSES")}</p>
             </div>
             <h2 className="logistica-title">COMBUSTIBLES DEL NORTE</h2>
           </div>
@@ -103,15 +105,13 @@ const Combustibles = () => {
           <hr className="linea-Comb"></hr>
           <p className="p-Comb1">
             {" "}
-            Somos una empresa que ofrece
+            {t("txtOil.txt1")}{" "}
             <span className="txt-empresa-spanComb">
-              soluciones integrales
+            {t("txtOil.txt2")}
             </span>{" "}
-            adaptadas a las necesidades de nuestros clientes a través de la
-            distribución mayorista de Diesel. Asimismo somos distribuidores
-            oficiales de{" "}
+            {t("txtOil.txt3")}{" "}
             <span className="txt-empresa-spanComb">
-              lubricantes y asfalto YPF.
+            {t("txtOil.txt4")}
             </span>
           </p>
         </div>
@@ -119,9 +119,9 @@ const Combustibles = () => {
       <div className="banner-comb"></div>
 
       <div className="container-txt-cardCombustible">
-        <h2 className="Comb-title">Soluciones Oil</h2>
+        <h2 className="Comb-title">{t("txtSoluciones.txt1")}</h2>
         <hr className="linea-Comb"></hr>
-        <h3 className="h3sub-combus">MIC - manejo integral de combustible </h3>
+        <h3 className="h3sub-combus">{t("txtSoluciones.txt2")} </h3>
         <p className="txt-comb-boton">
           soluciones digitales de distribución de{" "}
           <span className="txt-empresa-spanComb">combustible</span> para
@@ -129,7 +129,7 @@ const Combustibles = () => {
           estaciones
           <span className="txt-empresa-spanComb">
             {" "}
-            moviles y distribución capilar.
+            móviles y distribución capilar.
           </span>
         </p>
         <div className="Comb-buttons">
@@ -141,7 +141,7 @@ const Combustibles = () => {
               color: selectedButton === 1 ? "white" : "#009fe3",
             }}
           >
-            ESTACIONES FIJAS
+            {t("txtSoluciones.txt3")}
           </button>
           <button
             className="info-btn-Comb"
@@ -151,7 +151,7 @@ const Combustibles = () => {
               color: selectedButton === 2 ? "white" : "#009fe3",
             }}
           >
-            ESTACIONES MOVILES
+            {t("txtSoluciones.txt4")}
           </button>
           <button
             className="info-btn-Comb"
@@ -161,7 +161,7 @@ const Combustibles = () => {
               color: selectedButton === 3 ? "white" : "#009fe3",
             }}
           >
-            DISTRIBUCIÓN CAPILAR
+            {t("txtSoluciones.txt5")}
           </button>
         </div>
         <div className="card">
@@ -170,7 +170,7 @@ const Combustibles = () => {
               <div className="containerfoto-botones-Comb">
                 <img src={fotocomb} alt="" className="fotobotonesComb" />
                 <div className="txt-logos-Com">
-                  <h2 className="Comb-title2">Estaciones Fijas</h2>
+                  <h2 className="Comb-title2">{t("txtSoluciones.txt6")}</h2>
                   <p className="txt-Comb-boton2">
                     Es una solución
                     <span className="txt-empresa-spanComb">
@@ -189,7 +189,7 @@ const Combustibles = () => {
               <div className="containerfoto-botones-Comb">
                 <img src={fotocombMob} alt="" className="fotobotonesComb" />
                 <div className="txt-logos-Com">
-                  <h2 className="Comb-title2">Estaciones Movíles</h2>
+                  <h2 className="Comb-title2">{t("txtSoluciones.txt7")}</h2>
                   <p className="txt-Comb-boton2">
                     Es una solución
                     <span className="txt-empresa-spanComb">
@@ -208,12 +208,12 @@ const Combustibles = () => {
               <div className="containerfoto-botones-Comb">
                 <img src={fotocombDis} alt="" className="fotobotonesComb" />
                 <div className="txt-logos-Com">
-                  <h2 className="Comb-title2">Distribucion Capilar</h2>
+                  <h2 className="Comb-title2">{t("txtSoluciones.txt8")}</h2>
                   <p className="txt-Comb-boton2">
                     Es un
                     <span className="txt-empresa-spanComb">
                       {" "}
-                      servicio logistico
+                      servicio logístico
                     </span>{" "}
                     de entrega de combustible en el útimo tramo en el proceso de
                     suministro. Abastecemos cada máquina utilizando camiones
@@ -238,17 +238,13 @@ const Combustibles = () => {
       <div className="container-gris">
         <div className="container-completoComb">
           <div className="titulo-linea-p-comb">
-            <h2 className="Comb-title">Lubricentro</h2>
+            <h2 className="Comb-title">{t("txtLubricentro.txt1")}</h2>
             <hr className="linea-Comb"></hr>
             <p className="txt-Combustible-card">
-              Distribuimos <span className="txt-empresa-spanComb">ELAION</span>,
-              la línea de lubricantes de{" "}
-              <span className="txt-empresa-spanComb">YPF </span>empleados en el
-              rubro agrícola, automotriz, industrial, náutico, de transporte,
-              para motos y aceites agrícolas. Los lubricantes{" "}
-              <span className="txt-empresa-spanComb">ELAION</span> son aptos
-              para todos los vehículos equipados con motores 4 tiempos que
-              utilicen cualquier tipo de combustible
+            {t("txtLubricentro.txt2")} <span className="txt-empresa-spanComb">{t("txtLubricentro.txt3")}</span>,
+            {" "}{t("txtLubricentro.txt4")}{" "}
+              <span className="txt-empresa-spanComb">{t("txtLubricentro.txt5")} </span>{t("txtLubricentro.txt6")}{" "}
+              <span className="txt-empresa-spanComb">{t("txtLubricentro.txt8")}</span> {t("txtLubricentro.txt7")}
             </p>
           </div>
           <img src={fotolubri} alt="" className="fotosgris1" />
@@ -256,27 +252,25 @@ const Combustibles = () => {
 
         <div className="container-completoComb">
           <div className="titulo-linea-p-comb">
-            <h2 className="Comb-title">YPF Asfaltos</h2>
+            <h2 className="Comb-title">{t("txtAsfalto.txt1")}</h2>
             <hr className="linea-Comb"></hr>
             <p className="txt-Combustible-card">
-              Somos representantes oficiales y distribuidores exclusivos en toda
-              la provincia de Salta de{" "}
-              <span className="txt-empresa-spanComb">YPF ASFALTOS</span>,
-              líderes en la comercialización de{" "}
-              <span className="txt-empresa-spanComb">asfaltos</span> e insumos{" "}
-              <span className="txt-empresa-spanComb">energéticos</span> para la
-              construcción, asegurando un{" "}
+            {t("txtAsfalto.txt2")}{" "}
+              <span className="txt-empresa-spanComb">{t("txtAsfalto.txt3")}</span>,
+              {" "}{t("txtAsfalto.txt4")}{" "}
+              <span className="txt-empresa-spanComb">{t("txtAsfalto.txt5")}</span> 
+              <span className="txt-empresa-spanComb">{" "}{t("txtAsfalto.txt6")}</span> {t("txtAsfalto.txt7")}{" "}
               <span className="txt-empresa-spanComb">
-                servicio personalizado
+              {t("txtAsfalto.txt8")}
               </span>{" "}
-              para cada cliente.
+              {t("txtAsfalto.txt9")}
             </p>
           </div>
           <img src={fotoasfalto} alt="" className="fotosgris2" />
         </div>
 
         <div className="seccion2">
-          <h3 className="viales">Viales</h3>
+          <h3 className="viales">{t("txtViales.txt1")}</h3>
 
           <div className="numeritos">
             <div className="numeroytxt">
@@ -284,7 +278,7 @@ const Combustibles = () => {
                 <h2 className="numerito">01</h2>
                 <hr className="lineanum"></hr>
               </div>
-              <p className="txt-num">CEMENTOS ASFÁLTICOS</p>
+              <p className="txt-num">{t("txtViales.txt2")}</p>
             </div>
 
             <div className="numeroytxt">
@@ -292,7 +286,7 @@ const Combustibles = () => {
                 <h2 className="numerito">02</h2>
                 <hr className="lineanum"></hr>
               </div>
-              <p className="txt-num">ASFALTOS MODIFICADOS</p>
+              <p className="txt-num">{t("txtViales.txt3")}</p>
             </div>
 
             <div className="numeroytxt">
@@ -300,7 +294,7 @@ const Combustibles = () => {
                 <h2 className="numerito">03</h2>
                 <hr className="lineanum"></hr>
               </div>
-              <p className="txt-num">EMULSIONES ASFÁLTICAS</p>
+              <p className="txt-num">{t("txtViales.txt4")}</p>
             </div>
 
             <div className="numeroytxt">
@@ -308,7 +302,7 @@ const Combustibles = () => {
                 <h2 className="numerito">04</h2>
                 <hr className="lineanum"></hr>
               </div>
-              <p className="txt-num">ASFALTOS TIBIOS</p>
+              <p className="txt-num">{t("txtViales.txt5")}</p>
             </div>
 
             <div className="numeroytxt">
@@ -316,17 +310,17 @@ const Combustibles = () => {
                 <h2 className="numerito">05</h2>
                 <hr className="lineanum"></hr>
               </div>
-              <p className="txt-num">SELLADORES ASFÁLTICOS</p>
+              <p className="txt-num">{t("txtViales.txt6")}</p>
             </div>
           </div>
-          <h3 className="viales">Industriales</h3>
+          <h3 className="viales">{t("txtIndustriales.txt1")}</h3>
           <div className="numeritos">
             <div className="numeroytxt">
               <div className="numerocomb">
                 <h2 className="numerito">01</h2>
                 <hr className="lineanum"></hr>
               </div>
-              <p className="txt-num">ASFALTO BASE PLÁSTICO</p>
+              <p className="txt-num">{t("txtIndustriales.txt2")}</p>
             </div>
 
             <div className="numeroytxt">
@@ -334,7 +328,7 @@ const Combustibles = () => {
                 <h2 className="numerito">02</h2>
                 <hr className="lineanum"></hr>
               </div>
-              <p className="txt-num">PINTURA ALFÁLTICA</p>
+              <p className="txt-num">{t("txtIndustriales.txt3")}</p>
             </div>
 
             <div className="numeroytxt">
@@ -342,7 +336,7 @@ const Combustibles = () => {
                 <h2 className="numerito">03</h2>
                 <hr className="lineanum"></hr>
               </div>
-              <p className="txt-num">ASFALTO PLÁSTICO N°1</p>
+              <p className="txt-num">{t("txtIndustriales.txt4")}</p>
             </div>
           </div>
         </div>
@@ -353,34 +347,31 @@ const Combustibles = () => {
       <div className="container-comb">
         <img src={logo2} alt="" className="Combimg2" />
         <div className="containter-logo-img-comb">
-          <h2 className="Comb-title">Agro</h2>
+          <h2 className="Comb-title">{t("txtAgroCN.txt1")}</h2>
           <hr className="linea-Comb"></hr>
           <p className="p-Comb1">
             {" "}
-            Somos representantes oficiales de
-            <span className="txt-empresa-spanComb">YPF AGRO</span> empresa líder
-            en potenciar el desarrollo integral del campo argentino, a través de
-            la provisión de los{" "}
-            <span className="txt-empresa-spanComb"> insumos y la energía</span>{" "}
-            necesaria para producir más y mejor.<br></br>
+            {t("txtAgroCN.txt2")}
+            <span className="txt-empresa-spanComb">{" "}{t("txtAgroCN.txt3")}</span> {t("txtAgroCN.txt4")}{" "}
+            <span className="txt-empresa-spanComb"> {t("txtAgroCN.txt5")}</span>{" "}
+            {t("txtAgroCN.txt6")}<br></br>
             <br></br>
-            Buscamos <span className="txt-empresa-spanComb">
-              transformar
+            {t("txtAgroCN1.txt1")} <span className="txt-empresa-spanComb">
+            {t("txtAgroCN1.txt2")}
             </span>{" "}
-            el trabajo de nuestros clientes agricultores, brindándoles
-            <span className="txt-empresa-spanComb">soluciones concretas</span> y
-            una amplia gama de productos y servicios para
+            {t("txtAgroCN1.txt3")}{" "}
+            <span className="txt-empresa-spanComb">{t("txtAgroCN1.txt4")}</span> {t("txtAgroCN1.txt5")}
             <span className="txt-empresa-spanComb">
               {" "}
-              protección y nutrición
+              {t("txtAgroCN1.txt6")}{" "}
             </span>
-            de cultivos, semillas, bolsas para silo.
+            {t("txtAgroCN1.txt7")}
           </p>
         </div>
       </div>
 
       <div className="container-txt-cardCombustible1">
-        <h2 className="Comb-title">Soluciones Agro</h2>
+        <h2 className="Comb-title">{t("txtSolucionesAgro.txt1")}</h2>
         <hr className="linea-Comb"></hr>
         <div className="Comb-buttons">
           <button
@@ -392,7 +383,7 @@ const Combustibles = () => {
               color: selectedButton1 === 1 ? "white" : "#009fe3",
             }}
           >
-            MUESTREO DIRIGIDO
+            {t("txtSolucionesAgro.txt2")}
           </button>
           <button
             className="info-btn-Comb"
@@ -403,7 +394,7 @@ const Combustibles = () => {
               color: selectedButton1 === 2 ? "white" : "#009fe3",
             }}
           >
-            SUMMA
+            {t("txtSolucionesAgro.txt3")}
           </button>
           <button
             className="info-btn-Comb"
@@ -414,7 +405,7 @@ const Combustibles = () => {
               color: selectedButton1 === 3 ? "white" : "#009fe3",
             }}
           >
-            SOLUCIONES FINANCIERAS
+            {t("txtSolucionesAgro.txt4")}
           </button>
         </div>
         <div className="card">
@@ -423,7 +414,7 @@ const Combustibles = () => {
               <div className="containerfoto-botones-Comb">
                 <img src={fotocombMD} alt="" className="fotobotonesComb" />
                 <div className="txt-logos-Com">
-                  <h2 className="Comb-title2">Muestreo Dirigido</h2>
+                  <h2 className="Comb-title2">{t("txtMuestreo.txt1")}</h2>
                   <ul className="lista-Comb">
                     <li>Servicio de muestreo y análisis de suelo.</li>
                     <li>Extracción de muestras compuestas con calador hidráulico automático.</li>
@@ -431,7 +422,7 @@ const Combustibles = () => {
                     <li>Agua útil de suelo.</li>
                     <li>Análisis de laboratorio.</li>
                   </ul>
-                  <button className="info-btn-Comb">DESCARGAR PDF</button>
+                  <button className="info-btn-Comb">{t("txtInfo.txt2")}</button>
                 </div>
               </div>
             </>
@@ -441,25 +432,24 @@ const Combustibles = () => {
               <div className="containerfoto-botones-Comb">
                 <img src={fotocombSum} alt="" className="fotobotonesComb" />
                 <div className="txt-logos-Com">
-                  <h2 className="Comb-title2">Summa</h2>
+                  <h2 className="Comb-title2">{t("txtSumma.txt1")}</h2>
                   <p className="txt-Comb-boton2">
-                    Propuesta
                     <span className="txt-empresa-spanComb">
                       {" "}
-                      integral{" "}
+                      {t("txtSumma.txt2")}{" "}
                     </span>{" "}
-                    de agricultura de precisión de máxima tecnología en cada etapa para la
+                    {t("txtSumma.txt3")}
                     <span className="txt-empresa-spanComb">
                       {" "}
-                      nutrición{" "}
+                      {t("txtSumma.txt4")}{" "}
                     </span>{" "}
-                    de tus
+                    {t("txtSumma.txt5")}
                     <span className="txt-empresa-spanComb">
                       {" "}
-                      cultivos.
+                      {t("txtSumma.txt6")}
                     </span>
                   </p>
-                  <button className="info-btn-Comb">DESCARGAR PDF</button>
+                  <button className="info-btn-Comb">{t("txtInfo.txt2")}</button>
                 </div>
               </div>
             </>
@@ -469,16 +459,16 @@ const Combustibles = () => {
               <div className="containerfoto-botones-Comb">
                 <img src={fotocombSF} alt="" className="fotobotonesComb" />
                 <div className="txt-logos-Com">
-                  <h2 className="Comb-title2">Soluciones Financieras</h2>
+                  <h2 className="Comb-title2">{t("txtSolucionesFinancieras.txt1")}</h2>
                   <p className="txt-Comb-boton2">
-                    Tenemos una diversidad de
+                  {t("txtSolucionesFinancieras.txt2")}
                     <span className="txt-empresa-spanComb">
                       {" "}
-                      herramientas financieras{" "}
+                      {t("txtSolucionesFinancieras.txt3")}{" "}
                     </span>{" "}
-                    adaptadas para cada sector y al contexto económico mundial.
+                    {t("txtSolucionesFinancieras.txt4")}
                   </p>
-                  <h3 className="socios-comb">Nuestros socios estratégicos </h3>
+                  <h3 className="socios-comb">{t("txtSolucionesFinancieras.txt5")}</h3>
                   <div className="logos-neca2">
                     <img src={logoneca1} alt="" className="logo-neca2" />
                     <img src={logoneca2} alt="" className="logo-neca2a" />
@@ -495,10 +485,10 @@ const Combustibles = () => {
       <div className="banner-comb3"></div>
 
       <div className="container-txt-cardCombustible">
-        <h2 className="Comb-title">Contacto</h2>
+        <h2 className="Comb-title">{t("txtContacto.txt1")}</h2>
         <hr className="linea-Comb"></hr>
         <p className="txt-Combustible-card">
-          Para contactarnos, podés hacerlo a través de estos canales:
+        {t("txtContacto.txt2")}
         </p>
         <div className="container-cards-Combustible">
           <div className="card-Comb">
@@ -536,7 +526,7 @@ const Combustibles = () => {
         <div className="container-cards-Combustible">
           <div className="card-Comb1">
             <div className="titulo-Combustible">
-              <h2 className="title-direccion-Combustible">Embarcacion</h2>
+              <h2 className="title-direccion-Combustible">Embarcación</h2>
             </div>
             <div className="CardCombustibleContacto">
               <div className="CombDirec4">
@@ -548,7 +538,7 @@ const Combustibles = () => {
                 <p className="txt-direccion-Combustible">
                   Ruta Nacional 34, KM1344,
                   <br />
-                  Embarcacion, Salta (4400)
+                  Embarcación, Salta (4400)
                 </p>
               </div>
               <div className="CombDirec2">
@@ -599,11 +589,11 @@ const Combustibles = () => {
 
       <div className="footer">
         <div className="txt1">
-          <p className="txt-foo">Av. Chile 1275, A4400 Salta</p>
+          <p className="txt-foo">{t("txt-foo2.Footer1")}</p>
         </div>
         <div className="txt2">
           <p className="txt-foo">
-            © 2024 CN Grupo - Todos los derechos reservados
+          {t("txt-foo2.Footer")}
           </p>
         </div>
       </div>

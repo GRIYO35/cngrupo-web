@@ -452,7 +452,7 @@
   .card-contactoChile {
     border-radius: 15px;
     background: #f4f4f4;
-    width: 300px;
+    width: 320px;
     height: 140px;
     flex-shrink: 0;
   }
@@ -460,13 +460,13 @@
   .titulo-logo-chile {
     display: flex;
     flex-direction: row;
-    gap: 130px;
+    gap: 100px;
   }
 
   .title-direccionChile,
   .txt-direccionChile {
     margin-left: 50px;
-    margin-top: 20px;
+    margin-top: 25px;
   }
 
   .title-direccionChile {
@@ -489,19 +489,25 @@
   .vector-chile {
     height: 20px;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 55px;
   }
 
   .vector-chile2 {
     height: 18px;
     margin-top: 20px;
-    margin-left: 12px;
+    margin-left: 57px;
+  }
+
+  .vector-chile2EN {
+    height: 18px;
+    margin-top: 20px;
+    margin-left: 6px;
   }
 
   .vector-chile3 {
     height: 13px;
     margin-top: 25px;
-    margin-left: 40px;
+    margin-left: 85px;
   }
 
   .banner-chile{

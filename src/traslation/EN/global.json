@@ -51,7 +51,7 @@
     "and MINING": "and MINING",
     "operational bases":"operational bases",
     "distributed in Salta and":"distributed in Salta and",
-    "northern Chile": "northern Chile",
+    "northern Chile": "Region I y V of Chile",
     "collaborators": "collaborators",
     "in constant":"in constant",
     "professional growth":"professional growth."
@@ -151,7 +151,140 @@
 "txtInfo":{
     "txt1": "TAX INFORMATION",
     "txt2": "DOWNLOAD PDF"
-}
+},
 
+"ComentarioCombustibles":{
+    "//": "A partir de aqui comienzan los Textos de la pantalla CombustiblesDelNorte"
+},
+
+"txtOil": {
+    "txt1": "We are a company that offers",
+    "txt2": "comprehensive solutions",
+    "txt3": "adapted to the needs of our clients through Diesel wholesale distribution. We are also official distributors of",
+    "txt4": "YPF lubricants and asphalt."
+},
+
+"txtSoluciones": {
+    "txt1": "Oil solutions",
+    "txt2": "MIC - Integral Fuel Management",
+    "txt3": "FIXED STATIONS",
+    "txt4": "MOBILE STATIONS",
+    "txt5": "CAPILLARY DISTRIBUTION",
+    "txt6": "Fixed Stations",
+    "txt7": "Mobile Stations",
+    "txt8": "Capillary Distribution"
+},
+
+"txtLubricentro": {
+    "txt1": "Lube Center",
+    "txt2": "We distribute",
+    "txt3": "ELAION, YPF's",
+    "txt4": "line of lubricants used in the agricultural,",
+    "txt5": "",
+    "txt6": "industrial, nautical, transport, motorcycle and agricultural oils sectors.",
+    "txt7": "lubricants are suitable for all vehicles equipped with four-stroke engines that use any type of fuel.",
+    "txt8": "ELAION"
+},
+
+"txtAsfalto": {
+    "txt1": "YPF Asphalts",
+    "txt2": "We are official representatives and exclusive distributors throughout the province of Salta of",
+    "txt3": "YPF ASPHALTS",
+    "txt4": "leaders in the commercialization of",
+    "txt5": "asphalts",
+    "txt6": "and energy supplies",
+    "txt7": "for construction, ensuring a",
+    "txt8": "personalized service ",
+    "txt9": "for each client."
+},
+
+"txtViales": {
+    "txt1": "Roads",
+    "txt2": "ASPHALT CEMENTS",
+    "txt3": "MODIFIED ASPHALTS",
+    "txt4": "ASPHALT EMULSIONS",
+    "txt5": "WARM ASPHALTS",
+    "txt6": "ASPHALT SEALANTS"
+},
+
+"txtIndustriales": {
+    "txt1": "industrials",
+    "txt2": "PLASTIC ASPHALT",
+    "txt3": "ASPHALT PAINT A",
+    "txt4": "PLASTIC ASPHALT N°1"
+},
+
+"txtAgroCN": {
+    "txt1": "Farmland",
+    "txt2": "We are official representatives of",
+    "txt3": "YPF AGRO",
+    "txt4": "a leading company in promoting the integral development of the Argentine land through the provision of the",
+    "txt5": "supplies and energy",
+    "txt6": "necessary to produce more and better."
+},
+
+"txtAgroCN1": {
+    "txt1": "We seek to",
+    "txt2": "transform",
+    "txt3": "the work of our farming clients, providing them with",
+    "txt4": "concrete solutions",
+    "txt5": "and a wide range of products and services for crop",
+    "txt6": "protection and nutrition",
+    "txt7": "seeds and silo bags."
+},
+
+"txtSolucionesAgro": {
+    "txt1": "Agricultural Solutions",
+    "txt2": "DIRECT SAMPLING",
+    "txt3": "SUMMA",
+    "txt4": "FINANCIAL SOLUTIONS"
+},
+
+"txtMuestreo": {
+    "txt1": "Direct Sampling"
+},
+
+"txtSumma": {
+    "txt1": "Summa",
+    "txt2": "Comprehensive proposal",
+    "txt3": "of precision agriculture of maximum technology at each stage for the",
+    "txt4": "nutrition",
+    "txt5": "of your",
+    "txt6": "crops."
+},
+
+"txtSolucionesFinancieras": {
+    "txt1": "Financial Solutions",
+    "txt2": "We have a diversity of",
+    "txt3": "financial tools",
+    "txt4": "adapted to each sector and the global economic context.",
+    "txt5": "Strategic Partners"
+},
+
+"ComentarioGenerico":{
+    "//": "A partir de aqui comienzan los Textos que se utilizan en varias pantallas"
+},
+
+"txtContacto": {
+    "txt1": "Contact",
+    "txt2": "Para contactarnos, podés hacerlo a través de estos canales:",
+    "txt3": "Address",
+    "txt4": "Phone Number",
+    "txt5": "Email"
+},
+
+"ComentarioCCNChile":{
+    "//": "A partir de aqui comienzan los Textos de la pantalla Ccnchile"
+},
+
+"txtChile": {
+    "txt1": "In 2014, CN Grupo arrived in Chile with its designation as the",
+    "txt2": "only official supplier of the YPF brand",
+    "txt3": "in the North of the country.",
+    "txt4": "The business focuses on the",
+    "txt5": "sale and distribution of YPF lubricant products,",
+    "txt6": "such as oils and greases, providing solutions adapted to the needs of our clients (lube centers, workshops, and mining supplier companies, among others).",
+    "txt7": "The areas in which we currently operate are:"
+}
 
 }

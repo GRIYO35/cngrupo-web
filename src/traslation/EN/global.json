@@ -270,7 +270,8 @@
     "txt2": "Para contactarnos, podés hacerlo a través de estos canales:",
     "txt3": "Address",
     "txt4": "Phone Number",
-    "txt5": "Email"
+    "txt5": "Email",
+    "txt6": "Delivery app"
 },
 
 "ComentarioCCNChile":{
@@ -285,6 +286,229 @@
     "txt5": "sale and distribution of YPF lubricant products,",
     "txt6": "such as oils and greases, providing solutions adapted to the needs of our clients (lube centers, workshops, and mining supplier companies, among others).",
     "txt7": "The areas in which we currently operate are:"
+},
+
+"ComentarioGasDelNorte":{
+    "//": "A partir de aqui comienzan los Textos de la pantalla Gasdelnorte"
+},
+
+"txtGas": {
+    "txt1": "Gas del Norte",
+    "txt2": "has been our business unit responsible for the trade and exclusive distribution of",
+    "txt3": "YPF GAS",
+    "txt4": "bottled gas in the province of",
+    "txt5": "Salta",
+    "txt6": "for 20 years.",
+    "txt7": "We were recognized numerous times by",
+    "txt8": "as the best distributor in the country's distributor network, a distinction that confirms that we are on the right track, betting on",
+    "txt9": "technology",
+    "txt10": "and keeping the",
+    "txt11": "client",
+    "txt12": "at the center of all decisions.",
+    "txt13": "Closeness",
+    "txt14": "Service",
+    "txt15": "Security"
+},
+
+"txtProductosGas": {
+    "txt1": "Our Products and Services",
+    "txt2": "Our",
+    "txt3": "home delivery service",
+    "txt4": "is our added value. We make sure to deliver",
+    "txt5": "quality and safety",
+    "txt6": "to your home."
+},
+
+"txtButano": {
+    "txt1": "BUTANE GAS",
+    "txt2": "Butane Gas",
+    "txt3": "10 and 15 kg cylinders: Mainly for",
+    "txt4": "domestic use",
+    "txt5": "(cooking, heating, boiling water)."
+},
+
+"txtPropano": {
+    "txt1": "PROPANE GAS",
+    "txt2": "Propane Gas",
+    "txt3": "45 kg cylinders:  They represent the best solution for",
+    "txt4": "cooking in",
+    "txt5": "and",
+    "txt6": "heating up",
+    "txt7": "very cold areas, and when you want to obtain a",
+    "txt8": "better range."
+},
+
+"txtGarrafa15": {
+    "txt1": "15KG CYLINDER",
+    "txt2": "15 kg cylinder for forklifts",
+    "txt3": "Using LPG as fuel for forklifts has different benefits. It is",
+    "txt4": "more economical",
+    "txt5": "since gasoline machines converted to LPG are more efficient than diesel ones, in terms of operation and maintenance cost;",
+    "txt6": "it is ecological",
+    "txt7": "reducing the polluting emission by up to 60% compared to other fuels; and it produces a",
+    "txt8": "better engine operation",
+    "txt9": ", achieving a smoother ride."
+},
+
+"txtGarrafa13": {
+    "txt1": "13,5KG CYLINDER",
+    "txt2": "13,5 kg plastic bottle for forklifts",
+    "txt3": "We incorporated a new product category,",
+    "txt4": "innovative",
+    "txt5": "in our country, seeking to meet the demands of the current market, with a focus on the user and being sustainable. Plastic bottles are",
+    "txt6": "65% lighter than",
+    "txt7": "steel ones, making them",
+    "txt8": "easier to handle",
+    "txt9": "and reducing the risk of injury of the personnel in the workplace."
+},
+
+"ComentarioEstaciones": {
+    "//": "A partir de aqui comienzan los Textos de la pantalla Estaciones"
+},
+
+"txtEstaciones": {
+    "txt1": "GAS STATIONS"
+},
+
+"txtChango": {
+    "txt1": "El Chango Gas Station",
+    "txt2": "El Chango Gas Station is located in Salta Capital and is one of the first business units of CN Grupo. Throughout its years it has collected",
+    "txt3": "dozens of recognitions and awards",
+    "txt4": "due to compliance with",
+    "txt5": "+YPF standards",
+    "txt6": ", a comprehensive management quality program that seeks",
+    "txt7": "excellence in the image and quality of service",
+    "txt8": "in the national network of YPF Gas Stations, distinguishing itself from its competitors."
+},
+
+"txtLajitasEstacion": {
+    "txt1": "Las Lajitas Gas Station",
+    "txt2": "Las Lajitas Gas Station is the",
+    "txt3": "first point of sale",
+    "txt4": "of Combustibles del Norte",
+    "txt5": "outside the city of Salta",
+    "txt6": "and it is located in the municipality of Las Lajitas, Anta Department. It was created in response to the demanding clients of that area in 1996.",
+    "txt7": "We work every day to distinguish ourselves by",
+    "txt8": "the quality of management, excellence in image and exceptional",
+    "txt9": "client-oriented service."
+},
+
+"ComentarioNECA": {
+    "//": "A partir de aqui comienzan los Textos de la pantalla Neca"
+},
+
+"txtNeca": {
+    "txt1": "After several years of work and growth, ",
+    "txt2": "CN Agro",
+    "txt3": "evolved and became",
+    "txt4": ", which results from the union of the words",
+    "txt5": "and",
+    "txt6": "CAMPO",
+    "txt7": "(field in Spanish). Both words represent the essence of the brand that serves as a connecting network between the field and new market opportunities.",
+    "txt8": "Through NECA, we provide the most precise",
+    "txt9": "solutions",
+    "txt10": "for the land, the best product",
+    "txt11": "quality",
+    "txt12": "and the ",
+    "txt13": "excellent service",
+    "txt14": "that characterizes us."
+},
+
+"txtNecaProductos": {
+    "txt1": "Our Products",
+    "txt2": "Crop Protection",
+    "txt3": "HERBICIDES",
+    "txt4": "INSECTICIDES",
+    "txt5": "FUNGICIDES",
+    "txt6": "ADJUVANTS",
+    "txt7": "SEED",
+    "txt8": "TREATMENTS",
+    "txt9": "NK Seeds",
+    "txt10": "SOYBEAN",
+    "txt11": "CORN",
+    "txt12": "Crop Nutrition",
+    "txt13": "FERTILIZERS",
+    "txt14": "Grain Storage",
+    "txt15": "SILO BAGS"
+},
+
+"txtServiciosNECA": {
+    "txt1": "Services and Solutions",
+    "txt2": "Nuestro servicio de",
+    "txt3": "entrega a domicilio",
+    "txt4": "es nuestro valor agregado. Nos aseguramos de entregar",
+    "txt5": "calidad y seguridad",
+    "txt6": "a tu hogar."
+},
+
+"txtCurado": {
+    "txt1": "SEED CURING",
+    "txt2": "Professional Seed Curing",
+    "txt3": "The",
+    "txt4": "curing of the seed",
+    "txt5": "before sowing is a very important practice because it is the first step to obtain a good stand of plants in the crop that we are going to set up and, especially, to",
+    "txt6": "eliminate",
+    "txt7": "the possible",
+    "txt8": "pathogens",
+    "txt9": "that the seeds may have."
+},
+
+"txtSolucionesDigitalesNECA": {
+    "txt1": "SOLUCIONES DIGITALES",
+    "txt2": "Soluciones Digitales",
+    "txt3": "La solución digital",
+    "txt4": "Cropwise",
+    "txt5": "te ayuda a trabajar de manera más fácil, rentable y sostenible.",
+    "txt6": "Recopila datos",
+    "txt7": "geolocalizados de todas las plagas, malezas y enfermedades. obtiene una visión de lo que sucede en tu finca",
+    "txt8": "en tiempo real",
+    "txt9": "y recibe notificaciones sobre el estado de tu cultivo. Analiza la salud de tu cultivo",
+    "txt10": "desde cualquier sitio",
+    "txt11": "y accede a imagenes de alta resolución y mayor frecuencia para identificar problemas en tus parecelas."
+},
+
+"txtSolucionesFinancierasNECA": {
+    "txt1": "FINANCIAL SOLUTIONS",
+    "txt2": "Financial Solutions",
+    "txt3": "We have a diversity of financial tools adapted to each sector and the global economic context.",
+    "txt4": "Financing in dollars",
+    "txt5": "Financing in Argentinian pesos",
+    "txt6": "Cards – Available grain exchanges",
+    "txt7": "Canjes de granos disponibles",
+    "txt8": "Future grain exchanges",
+    "txt9": "*Consult the current tools or solutions on a monthly basis."
+},
+
+"txtAsesoramiento": {
+    "txt1": "TECHNICAL ADVICE",
+    "txt2": "Technical Advice",
+    "txt3": "We have a team of",
+    "txt4": "professionals",
+    "txt5": "who can provide you with solid advice according to the",
+    "txt6": "needs",
+    "txt7": "and",
+    "txt8": "concerns",
+    "txt9": "raised."
+},
+
+"txtSiembra": {
+    "txt1": "SOWING",
+    "txt2": "Sowing",
+    "txt3": "Cultivos con Agricultura de Precisión.",
+    "txt4": "IR A PUESTO EL MOLLAR"
+},
+
+"txtGranos": {
+    "txt1": "GRAIN",
+    "txt2": "Grain",
+    "txt3": "Desde la",
+    "txt4": "Unidad de Negocios de Granos",
+    "txt5": "tenemos como objetivo ofrecer asesoramiento integral en la comercialización de",
+    "txt6": "comodities y especialidades.",
+    "txt7": "Brindamos herramientas al productor para tomar decisiones",
+    "txt8": "eficientes",
+    "txt9": "en contextos extremadamente complejos, a través de opciones de canje por insumos, charlas de mercados (nacionales e internacionales) y asesoramiento en lo",
+    "txt10": "comercial y financiero."
 }
 
 }

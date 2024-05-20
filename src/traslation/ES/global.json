@@ -272,7 +272,8 @@
     "txt2": "Para contactarnos, podés hacerlo a través de estos canales:",
     "txt3": "Dirección",
     "txt4": "Teléfono",
-    "txt5": "Email"
+    "txt5": "Email",
+    "txt6": "App Delivery"
 },
 
 "ComentarioCCNChile":{
@@ -287,10 +288,233 @@
     "txt5": "venta y distribución de productos lubricantes YPF",
     "txt6": "como aceites y grasas, brindando soluciones adaptadas a las necesidades de nuestros clientes (lubricentros, talleres, empresas proveedoras de minería, entre otros).",
     "txt7": "Zonas en las que operamos"
+},
+
+"ComentarioGasDelNorte":{
+    "//": "A partir de aqui comienzan los Textos de la pantalla Gasdelnorte"
+},
+
+"txtGas": {
+    "txt1": "Gas del Norte",
+    "txt2": "es nuestra unidad de negocio encargada del comercio y la distribución exclusiva de gas envasado",
+    "txt3": "YPF GAS",
+    "txt4": "en la provincia de",
+    "txt5": "Salta",
+    "txt6": "desde hace veinte años.",
+    "txt7": "Fuimos reconocidos en numerosas oportunidades por",
+    "txt8": "como mejor distribuidor de la red de distribuidores del país, distinción que nos confirma que estamos en el rumbo correcto, apostando a la",
+    "txt9": "tecnología",
+    "txt10": "y manteniendo al",
+    "txt11": "cliente",
+    "txt12": "en el centro de todas las decisiones.",
+    "txt13": "Cercanía",
+    "txt14": "Servicio",
+    "txt15": "Seguridad"
+},
+
+"txtProductosGas": {
+    "txt1": "Nuestros Productos y Servicios",
+    "txt2": "Nuestro servicio de",
+    "txt3": "entrega a domicilio",
+    "txt4": "es nuestro valor agregado. Nos aseguramos de entregar",
+    "txt5": "calidad y seguridad",
+    "txt6": "a tu hogar."
+},
+
+"txtButano": {
+    "txt1": "GAS BUTANO",
+    "txt2": "Gas Butano",
+    "txt3": "Garrafas de 10 y 15 Kg: Principalmente para",
+    "txt4": "uso doméstico",
+    "txt5": "(cocinar, calefaccionar, calentaragua, etc)."
+},
+
+"txtPropano": {
+    "txt1": "GAS PROPANO",
+    "txt2": "Gas Propano",
+    "txt3": "Cilindros 45 Kg: Representan la mejor solución para",
+    "txt4": "cocinar",
+    "txt5": "y",
+    "txt6": "calefaccionar",
+    "txt7": "en zonas muy frías y cuando se requiere obtener una",
+    "txt8": "mayor autonomía."
+},
+
+"txtGarrafa15": {
+    "txt1": "GARRAFAS 15KG",
+    "txt2": "Garrafas de 15kg para autoelevadores",
+    "txt3": "Utilizar GLP como combustible para autoelevadores trae diferentes beneficios. Es",
+    "txt4": "más económico",
+    "txt5": "ya que las máquinas nafteras convertidas a GLP son más eficientes que las diesel, en cuanto a costo de operación y mantenimiento; es",
+    "txt6": "ecológico",
+    "txt7": ", se reduce la emisión contaminante hasta un 60% respecto a otros combustibles y; genera un",
+    "txt8": "mejor funcionamiento ",
+    "txt9": "del motor, logrando una marcha más suave."
+},
+
+"txtGarrafa13": {
+    "txt1": "GARRAFAS 13,5KG",
+    "txt2": "Garrafas plásticas  de 13.5 Kg para autoelevadores",
+    "txt3": "Incorporamos una nueva categoría de producto,",
+    "txt4": "innovadora",
+    "txt5": "en nuestro país, buscando satisfacer las exigencias del mercado actual, con foco en el usuario y siendo sustentables. Las garrafasplásticas son un",
+    "txt6": "65% más livianas",
+    "txt7": "que las de acero, permitiendo que sean más",
+    "txt8": "faciles de manipular",
+    "txt9": "y se reduzca el riesgo de lesiones del personal en el lugar de trabajo."
+},
+
+"ComentarioEstaciones": {
+    "//": "A partir de aqui comienzan los Textos de la pantalla Estaciones"
+},
+
+"txtEstaciones": {
+    "txt1": "ESTACIONES DE SERVICIO"
+},
+
+"txtChango": {
+    "txt1": "EESS El Chango",
+    "txt2": "EESS El Chango está ubicada en Salta Capital y es una de las primeras unidades de negocio de CN Grupo. A lo largo de sus años ha recopilado",
+    "txt3": "decenas de reconocimientos y premios",
+    "txt4": "debido al cumplimiento de",
+    "txt5": "normas +YPF",
+    "txt6": ",  un programa integral de calidad de gestión que busca la",
+    "txt7": "excelencia en la imagen y la calidad de servicio",
+    "txt8": "en la red nacional de Estaciones de Servicio YPF distinguiéndose entre sus competidores."
+},
+
+"txtLajitasEstacion": {
+    "txt1": "EESS Las Lajitas",
+    "txt2": "EESS Las Lajitas es el",
+    "txt3": "primer punto de venta",
+    "txt4": "de Combustibles del Norte",
+    "txt5": "fuera de la ciudad de Salta",
+    "txt6": ", ubicada en el municipio de Las Lajitas, Departamento Anta. Surge como respuesta a los exigentes clientes de esa zona en el año 1996.",
+    "txt7": "Trabajamos día a día para lograr distinguirnos por",
+    "txt8": "la calidad de gestión, la excelencia en la imagen y un servicio excepcional",
+    "txt9": "orientado al cliente."
+},
+
+"ComentarioNECA": {
+    "//": "A partir de aqui comienzan los Textos de la pantalla Neca"
+},
+
+"txtNeca": {
+    "txt1": "Luego de varios años de trabajo y crecimiento,",
+    "txt2": "CN Agro",
+    "txt3": "evolucionó y se transformó en",
+    "txt4": ", que surge de la unión de las palabras",
+    "txt5": "(red en inglés) y",
+    "txt6": "CAMPO.",
+    "txt7": "Ambas palabras representan la esencia de la marca que funciona como una red de conexión entre el campo y las nuevas oportunidades del mercado.",
+    "txt8": "A través de NECA brindamos las",
+    "txt9": "soluciones",
+    "txt10": "más precisas para cada uno de sus campos, la mejor",
+    "txt11": "calidad",
+    "txt12": "de productos y el servicio de",
+    "txt13": "excelencia",
+    "txt14": "que nos caracteriza."
+},
+
+"txtNecaProductos": {
+    "txt1": "Nuestros productos",
+    "txt2": "Protección de cultivos",
+    "txt3": "HERBICIDAS",
+    "txt4": "INSECTICIDAS",
+    "txt5": "FUNGICIDAS",
+    "txt6": "COADYUVANTES",
+    "txt7": "TRATAMIENTO",
+    "txt8": "DE SEMILLAS",
+    "txt9": "NK semillas",
+    "txt10": "SOJA",
+    "txt11": "MAÍZ",
+    "txt12": "Nutrición de cultivos",
+    "txt13": "FERTILIZANTES",
+    "txt14": "Almacenamiento de granos",
+    "txt15": "SILOBOLSAS"
+},
+
+"txtServiciosNECA": {
+    "txt1": "Servicios y Soluciones",
+    "txt2": "Nuestro servicio de",
+    "txt3": "entrega a domicilio",
+    "txt4": "es nuestro valor agregado. Nos aseguramos de entregar",
+    "txt5": "calidad y seguridad",
+    "txt6": "a tu hogar."
+},
+
+"txtCurado": {
+    "txt1": "CURADO DE SEMILLAS",
+    "txt2": "Curado profesional de semillas",
+    "txt3": "El",
+    "txt4": "curado de la semilla,",
+    "txt5": "antes de la siembra, es una practica muy importante, porque es el primer paso para obtener un buen stand de plantas en el cultivo que vamos a implantar y, fundamentalmente para",
+    "txt6": "eliminar",
+    "txt7": "los posibles",
+    "txt8": "patogenos",
+    "txt9": "que tengan las semillas."
+},
+
+"txtSolucionesDigitalesNECA": {
+    "txt1": "SOLUCIONES DIGITALES",
+    "txt2": "Soluciones Digitales",
+    "txt3": "La solución digital",
+    "txt4": "Cropwise",
+    "txt5": "te ayuda a trabajar de manera más fácil, rentable y sostenible.",
+    "txt6": "Recopila datos",
+    "txt7": "geolocalizados de todas las plagas, malezas y enfermedades. obtiene una visión de lo que sucede en tu finca",
+    "txt8": "en tiempo real",
+    "txt9": "y recibe notificaciones sobre el estado de tu cultivo. Analiza la salud de tu cultivo",
+    "txt10": "desde cualquier sitio",
+    "txt11": "y accede a imagenes de alta resolución y mayor frecuencia para identificar problemas en tus parecelas."
+},
+
+"txtSolucionesFinancierasNECA": {
+    "txt1": "SOLUCIONES FINANCIERAS",
+    "txt2": "Soluciones Financieras",
+    "txt3": "Tenemos una diversidad de herramientas financieras adaptadas para cada sector y al contexto económico mundial.",
+    "txt4": "Financiaciones en dólares",
+    "txt5": "Financiación en pesos",
+    "txt6": "Tarjetas",
+    "txt7": "Canjes de granos disponibles",
+    "txt8": "Canjes de granos a futuro",
+    "txt9": "*Consultar mensualmente las herramientas o soluciones vigentes."
+},
+
+"txtAsesoramiento": {
+    "txt1": "ASESORAMIENTO TÉCNICO",
+    "txt2": "Asesoramiento Técnico",
+    "txt3": "Contamos con un equipo de",
+    "txt4": "profesionales",
+    "txt5": "que pueden brindarte un sólido asesoramiento de acuerdo a las",
+    "txt6": "necesidades",
+    "txt7": "e",
+    "txt8": "inquietudes",
+    "txt9": "planteadas."
+},
+
+"txtSiembra": {
+    "txt1": "SIEMBRAS",
+    "txt2": "Siembras",
+    "txt3": "Cultivos con Agricultura de Precisión.",
+    "txt4": "IR A PUESTO EL MOLLAR"
+},
+
+"txtGranos": {
+    "txt1": "GRANOS",
+    "txt2": "Granos",
+    "txt3": "Desde la",
+    "txt4": "Unidad de Negocios de Granos",
+    "txt5": "tenemos como objetivo ofrecer asesoramiento integral en la comercialización de",
+    "txt6": "comodities y especialidades.",
+    "txt7": "Brindamos herramientas al productor para tomar decisiones",
+    "txt8": "eficientes",
+    "txt9": "en contextos extremadamente complejos, a través de opciones de canje por insumos, charlas de mercados (nacionales e internacionales) y asesoramiento en lo",
+    "txt10": "comercial y financiero."
 }
 
-}
 
+}
 
 
 

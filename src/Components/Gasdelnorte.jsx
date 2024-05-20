@@ -10,11 +10,13 @@ import logotelefono from "../Assets/logotelefono.png";
 import logowpp from "../Assets/logowpp.png";
 import logodelivery from "../Assets/logodelivery.png";
 import videoSourceGas from "../Assets/Gas del norte web v2.mp4";
+import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBar";
 import "./Gasdelnorte.css";
 
 const Gas = () => {
-  /*const [isOpen, setIsOpen] = useState(false);*/
+  // eslint-disable-next-line no-unused-vars
+  const [t, i18next] = useTranslation("global");
 
   const [selectedButton, setSelectedButton] = useState(1);
 
@@ -62,7 +64,7 @@ const Gas = () => {
             <div className="txt-container-empresaGas">
               <div className="linea-titulo">
                 <hr class="mi-linea"></hr>
-                <p className="nuestra-empresa">NUESTROS NEGOCIOS</p>
+                <p className="nuestra-empresa">{t("li.OUR BUSINESSES")}</p>
               </div>
               <h2 className="logistica-title">GAS DEL NORTE</h2>
             </div>
@@ -74,39 +76,33 @@ const Gas = () => {
         <img src={logo2} alt="" className="gasimg1" />
         <p className="p-gas1">
           {" "}
-          <span className="txt-empresa-spanGas">Gas del Norte</span> es nuestra
-          unidad de negocio encargada del comercio y la distribución exclusiva
-          de gas envasado <span className="txt-empresa-spanGas">YPF GAS</span>{" "}
-          en la provincia de <span className="txt-empresa-spanGas">Salta</span>
-          desde hace veinte años<br></br>
+          <span className="txt-empresa-spanGas">{t("txtGas.txt1")}</span> {t("txtGas.txt2")}
+          <span className="txt-empresa-spanGas">{" "}{t("txtGas.txt3")}</span>{" "}
+          {t("txtGas.txt4")}<span className="txt-empresa-spanGas">{" "}{t("txtGas.txt5")}{" "}</span>
+          {t("txtGas.txt6")}<br></br>
           <br></br>
-          Fuimos reconocidos en numerosas oportunidades por
-          <span className="txt-empresa-spanGas">YPF GAS</span>como mejor
-          distribuidor de la red de distribuidores del país, distinción que nos
-          confirma que estamos en el rumbo correcto, apostando a la
-          <span className="txt-empresa-spanGas">tecnología</span> y manteniendo
-          al <span className="txt-empresa-spanGas">cliente</span> en el centro
-          de todas las decisiones.
+          {t("txtGas.txt7")}
+          <span className="txt-empresa-spanGas">{" "}{t("txtGas.txt3")}{" "}</span>{t("txtGas.txt8")}
+          <span className="txt-empresa-spanGas">{" "}{t("txtGas.txt9")}</span> {t("txtGas.txt10")}
+          <span className="txt-empresa-spanGas">{" "}{t("txtGas.txt11")}{" "}</span>{t("txtGas.txt12")}
           <br></br>
           <br></br>
-          <span className="txt-empresa-spangGas">Cercanía</span>{" "}
+          <span className="txt-empresa-spangGas">{t("txtGas.txt13")}</span>{" "}
           <span className="lineagas"></span>
-          <span className="txt-empresa-spangGas">Servicio</span>
+          <span className="txt-empresa-spangGas">{t("txtGas.txt14")}</span>
           <span className="lineagas"></span>
-          <span className="txt-empresa-spangGas">Seguridad</span>
+          <span className="txt-empresa-spangGas">{t("txtGas.txt15")}</span>
         </p>
       </div>
       <div className="banner-gas"></div>
 
       <div className="container-txt-cardGas">
-        <h2 className="gas-title">Nuestros Productos y Servicios</h2>
+        <h2 className="gas-title">{t("txtProductosGas.txt1")}</h2>
         <hr className="linea-gas"></hr>
         <p className="txt-gas-boton">
-          Nuestro servicio de{" "}
-          <span className="txt-empresa-spanGas">entrega a domicilio</span> es
-          nuestro valor agregado. Nos aseguramos de entregar
-          <span className="txt-empresa-spanGas"> calidad y seguridad</span> a tu
-          hogar.
+        {t("txtProductosGas.txt2")}{" "}
+          <span className="txt-empresa-spanGas">{t("txtProductosGas.txt3")}</span> {t("txtProductosGas.txt4")}
+          <span className="txt-empresa-spanGas">{" "}{t("txtProductosGas.txt5")}</span> {t("txtProductosGas.txt6")}
         </p>
         <div className="gas-buttons">
           <button
@@ -117,7 +113,7 @@ const Gas = () => {
               color: selectedButton === 1 ? "white" : "#009fe3",
             }}
           >
-            GAS BUTANO
+            {t("txtButano.txt1")}
           </button>
           <button
             className="info-btn-gas"
@@ -127,7 +123,7 @@ const Gas = () => {
               color: selectedButton === 2 ? "white" : "#009fe3",
             }}
           >
-            GAS PROPANO
+            {t("txtPropano.txt1")}
           </button>
           <button
             className="info-btn-gas"
@@ -137,7 +133,7 @@ const Gas = () => {
               color: selectedButton === 3 ? "white" : "#009fe3",
             }}
           >
-            GARRAFAS 15KG
+            {t("txtGarrafa15.txt1")}
           </button>
           <button
             className="info-btn-gas"
@@ -147,7 +143,7 @@ const Gas = () => {
               color: selectedButton === 4 ? "white" : "#009fe3",
             }}
           >
-            GARRAFAS 13,5KG
+            {t("txtGarrafa13.txt1")}
           </button>
         </div>
         <div className="card">
@@ -157,12 +153,12 @@ const Gas = () => {
                 <img src={fotogasBu} alt="" className="fotobotonesgas" />
                 <div className="txt-logos-neca">
                   <h2 className="gas-title2">
-                    Gas Butano
+                  {t("txtButano.txt2")}
                   </h2>
                   <p className="txt-gas-boton2">
-                    Garrafas de 10 y 15 Kg: Principalmente para{" "}
-                    <span className="txt-empresa-spanGas">uso doméstico</span>{" "}
-                    (cocinar, calefaccionar, calentaragua, etc).
+                  {t("txtButano.txt3")}{" "}
+                    <span className="txt-empresa-spanGas">{t("txtButano.txt4")}</span>{" "}
+                    {t("txtButano.txt5")}
                   </p>
                 </div>
               </div>
@@ -174,16 +170,16 @@ const Gas = () => {
                 <img src={fotogasPro} alt="" className="fotobotonesgas" />
                 <div className="txt-logos-neca">
                   <h2 className="gas-title2">
-                    Gas Propano
+                  {t("txtPropano.txt2")}
                   </h2>
                   <p className="txt-gas-boton2">
-                    Cilindros 45 Kg: Representan la mejor solución para{" "}
-                    <span className="txt-empresa-spanGas">cocinar</span>{" "}
-                    y{" "}
-                    <span className="txt-empresa-spanGas">calefaccionar </span>
-                    en zonas muy frías y cuando se requiere obtener una{" "}
+                  {t("txtPropano.txt3")}{" "}
+                    <span className="txt-empresa-spanGas">{t("txtPropano.txt4")}</span>{" "}
+                    {t("txtPropano.txt5")}{" "}
+                    <span className="txt-empresa-spanGas">{t("txtPropano.txt6")}{" "}</span>
+                    {t("txtPropano.txt7")}{" "}
                     <span className="txt-empresa-spanGas">
-                      mayor autonomía.
+                    {t("txtPropano.txt8")}
                     </span>
                   </p>
                 </div>
@@ -196,22 +192,17 @@ const Gas = () => {
                 <img src={fotogas15} alt="" className="fotobotonesgas" />
                 <div className="txt-logos-neca">
                   <h2 className="gas-title2">
-                    Garrafas de 15kg para autoelevadores
+                  {t("txtGarrafa15.txt2")}
                   </h2>
                   <p className="txt-gas-boton2">
-                    Utilizar GLP como combustible para autoelevadores trae
-                    diferentes beneficios. Es{" "}
-                    <span className="txt-empresa-spanGas">más económico</span>{" "}
-                    ya que las máquinas nafteras convertidas a GLP son más
-                    eficientes que las diesel, en cuanto a costo de operación y
-                    mantenimiento; es{" "}
-                    <span className="txt-empresa-spanGas">ecológico</span>, se
-                    reduce la emisión contaminante hasta un 60% respecto a otros
-                    combustibles y; genera un{" "}
+                  {t("txtGarrafa15.txt3")}{" "}
+                    <span className="txt-empresa-spanGas">{t("txtGarrafa15.txt4")}</span>{" "}
+                    {t("txtGarrafa15.txt5")}{" "}
+                    <span className="txt-empresa-spanGas">{t("txtGarrafa15.txt6")}{" "}</span>{t("txtGarrafa15.txt7")}{" "}
                     <span className="txt-empresa-spanGas">
-                      mejor funcionamiento
-                    </span>{" "}
-                    del motor, logrando una marcha más suave.
+                    {t("txtGarrafa15.txt8")}
+                    </span>
+                    {t("txtGarrafa15.txt9")}
                   </p>
                 </div>
               </div>
@@ -223,18 +214,18 @@ const Gas = () => {
                 <img src={fotogasPla} alt="" className="fotobotonesgas" />
                 <div className="txt-logos-neca">
                   <h2 className="gas-title2">
-                    Garrafas plásticas  de 13.5 Kg para autoelevadores
+                  {t("txtGarrafa13.txt2")}
                   </h2>
                   <p className="txt-gas-boton2">
-                    Incorporamos una nueva categoría de producto,{" "}
-                    <span className="txt-empresa-spanGas">innovadora</span>{" "}
-                    en nuestro país, buscando satisfacer las exigencias del mercado actual, con foco en el usuario y siendo sustentables. Las garrafasplásticas son un{" "}
-                    <span className="txt-empresa-spanGas">65% más livianas</span>
-                    que las de acero, permitiendo que sean más{" "}
+                  {t("txtGarrafa13.txt3")}{" "}
+                    <span className="txt-empresa-spanGas">{t("txtGarrafa13.txt4")}</span>{" "}
+                    {t("txtGarrafa13.txt5")}{" "}
+                    <span className="txt-empresa-spanGas">{t("txtGarrafa13.txt6")}{" "}</span>
+                    {t("txtGarrafa13.txt7")}{" "}
                     <span className="txt-empresa-spanGas">
-                      faciles de manipular
+                    {t("txtGarrafa13.txt8")}
                     </span>{" "}
-                    y se reduzca el riesgo de lesiones del personal en el lugar de trabajo.
+                    {t("txtGarrafa13.txt9")}
                   </p>
                 </div>
               </div>
@@ -244,15 +235,15 @@ const Gas = () => {
       </div>
 
       <div className="container-txt-cardGas">
-        <h2 className="gas-title">Contacto</h2>
+        <h2 className="gas-title">{t("txtContacto.txt1")}</h2>
         <hr className="linea-gas"></hr>
         <p className="txt-gas-card">
-          Para contactarnos, podés hacerlo a través de estos canales:
+        {t("txtContacto.txt2")}
         </p>
         <div className="container-cards-gas">
           <div className="card-gas">
             <div className="titulo-gas">
-              <h2 className="title-direccion-gas">Dirección</h2>
+              <h2 className="title-direccion-gas">{t("txtContacto.txt3")}</h2>
               <img src={logodireccion} alt="" className="logogas1" />
             </div>
             <p className="txt-direccion-mollar">
@@ -262,8 +253,8 @@ const Gas = () => {
 
           <div className="card-gas">
             <div className="titulo-gas">
-              <h2 className="title-direccion-gas">Teléfono 0800</h2>
-              <img src={logotelefono} alt="" className="logogas2" />
+              <h2 className="title-direccion-gas">{t("txtContacto.txt4")}</h2>
+              <img src={logotelefono} alt="" className={i18next.language === "es" ? "logogas2" : "logogas2EN"} />
             </div>
             <p className="txt-direccion-mollar">0800-122-5800</p>
           </div>
@@ -278,7 +269,7 @@ const Gas = () => {
 
           <div className="card-gas">
             <div className="titulo-gas">
-              <h2 className="title-direccion-gas">App Delivery</h2>
+              <h2 className="title-direccion-gas">{t("txtContacto.txt6")}</h2>
               <img src={logodelivery} alt="" className="logogas4" />
             </div>
             <p className="txt-direccion-mollar">Gas del Norte - YPF Gas</p>
@@ -288,11 +279,11 @@ const Gas = () => {
 
       <div className="footer">
         <div className="txt1">
-          <p className="txt-foo">Av. Chile 1275, A4400 Salta</p>
+          <p className="txt-foo">{t("txt-foo2.Footer1")}</p>
         </div>
         <div className="txt2">
           <p className="txt-foo">
-            © 2024 CN Grupo - Todos los derechos reservados
+          {t("txt-foo2.Footer")}
           </p>
         </div>
       </div>

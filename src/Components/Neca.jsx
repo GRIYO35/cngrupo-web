@@ -35,13 +35,15 @@ import logogrande6 from "../Assets/silobolsa plastar WEB@300x.png";
 import logogrande7 from "../Assets/sigma agro WEB@300x.png";
 import logogrande8 from "../Assets/insuagro WEB@300x.png";
 import videoSourceNECA from "../Assets/NECA web v3.mp4";
+import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBar";
 import ScrollToTop from "react-scroll-to-top";
 import "./Neca.css";
 import FlechaScrol from "../Assets/flecha web cn grupo@300x-8.png"
 
 const Neca = () => {
-  /*const [isOpen, setIsOpen] = useState(false);*/
+  // eslint-disable-next-line no-unused-vars
+  const [t, i18next] = useTranslation("global");
   const [selectedButton, setSelectedButton] = useState(1);
 
     const handleDownload = () => {
@@ -98,7 +100,7 @@ const Neca = () => {
           <div className="txt-container-empresaNeca">
             <div className="linea-titulo">
               <hr class="mi-linea"></hr>
-              <p className="nuestra-empresa">NUESTROS NEGOCIOS</p>
+              <p className="nuestra-empresa">{t("li.OUR BUSINESSES")}</p>
             </div>
             <h2 className="logistica-title">NECA</h2>
           </div>
@@ -110,52 +112,46 @@ const Neca = () => {
         <img src={necaimg1} alt="" className="necaimg1" />
         <p className="p-neca1">
           {" "}
-          Luego de varios años de trabajo y crecimiento,{" "}
-          <span className="txt-empresa-spanNeca">CN Agro</span> evolucionó y se
-          transformó en <span className="txt-empresa-spanNeca">NECA</span>, que
-          surge de la unión de las palabras{" "}
-          <span className="txt-empresa-spanNeca">NET</span>(red en inglés) y{" "}
-          <span className="txt-empresa-spanNeca">CAMPO</span>. Ambas palabras
-          representan la esencia de la marca que funciona como una red de
-          conexión entre el campo y las nuevas oportunidades del mercado.
+          {t("txtNeca.txt1")}{" "}
+          <span className="txt-empresa-spanNeca">{t("txtNeca.txt2")}</span> {t("txtNeca.txt3")}{" "}
+          <span className="txt-empresa-spanNeca">NECA</span>{t("txtNeca.txt4")}{" "}
+          <span className="txt-empresa-spanNeca">NET</span>{" "}{t("txtNeca.txt5")}{" "}
+          <span className="txt-empresa-spanNeca">{t("txtNeca.txt6")}{" "}</span>{t("txtNeca.txt7")}
           <br></br>
-          <br></br>A través de NECA brindamos las{" "}
-          <span className="txt-empresa-spanNeca">soluciones </span>más precisas
-          para cada uno de sus campos, la mejor{" "}
-          <span className="txt-empresa-spanNeca">calidad</span> de productos y
-          el servicio de
-          <span className="txt-empresa-spanNeca"> excelencia</span> que nos
-          caracteriza.
+          <br></br>{t("txtNeca.txt8")}{" "}
+          <span className="txt-empresa-spanNeca">{t("txtNeca.txt9")}{" "}</span>{t("txtNeca.txt10")}{" "}
+          <span className="txt-empresa-spanNeca">{t("txtNeca.txt11")}</span> {t("txtNeca.txt12")}
+          <span className="txt-empresa-spanNeca">{" "}{t("txtNeca.txt13")}{" "}</span>{t("txtNeca.txt14")}
         </p>
       </div>
       <div className="banner-neca1"></div>
 
       <div className="container-dibujitos">
-        <h2 className="neca-title">Nuestros productos</h2>
+        <h2 className="neca-title">{t("txtNecaProductos.txt1")}</h2>
         <hr className="linea-neca"></hr>
         <div className="container-proteccion">
-          <h3 className="neca-subtitle">Protección de cultivos</h3>
+          <h3 className="neca-subtitle">{t("txtNecaProductos.txt2")}</h3>
           <div className="productos-protección">
             <div className="container-producto-protección">
               <img src={hervicida} alt="" className="producto" />
-              <p className="txt-productoNeca">HERBICIDAS</p>
+              <p className="txt-productoNeca">{t("txtNecaProductos.txt3")}</p>
             </div>
             <div className="container-producto-protección">
               <img src={insecticida} alt="" className="productoINS" />
-              <p className="txt-productoNeca">INSECTICIDAS</p>
+              <p className="txt-productoNeca">{t("txtNecaProductos.txt4")}</p>
             </div>
             <div className="container-producto-protección">
               <img src={fungicida} alt="" className="productoFUN" />
-              <p className="txt-productoNeca">FUNGICIDAS</p>
+              <p className="txt-productoNeca">{t("txtNecaProductos.txt5")}</p>
             </div>
             <div className="container-producto-protección">
               <img src={coadyuvante} alt="" className="productoCOA" />
-              <p className="txt-productoNeca">COADYUVANTES</p>
+              <p className="txt-productoNeca">{t("txtNecaProductos.txt6")}</p>
             </div>
             <div className="container-producto-protección">
               <img src={tratamiento} alt="" className="productoSEM" />
               <p className="txt-productoNeca">
-                TRATAMIENTO <br></br>DE SEMILLAS
+              {t("txtNecaProductos.txt7")}<br></br>{t("txtNecaProductos.txt8")}
               </p>
             </div>
           </div>
@@ -164,49 +160,47 @@ const Neca = () => {
 
       <div className="container-tresproductosNeca">
         <div className="container-proteccion">
-          <h3 className="neca-subtitle">NK semillas</h3>
+          <h3 className="neca-subtitle">{t("txtNecaProductos.txt9")}</h3>
           <div className="productos-protección2">
             <div className="container-producto-protección-e">
               <img src={soja} alt="" className="productoSOJ" />
-              <p className="txt-productoNeca">SOJA</p>
+              <p className="txt-productoNeca">{t("txtNecaProductos.txt10")}</p>
             </div>
             <div className="container-producto-protección">
               <img src={maiz} alt="" className="productoMAI" />
-              <p className="txt-productoNeca">MAÍZ</p>
+              <p className="txt-productoNeca">{t("txtNecaProductos.txt11")}</p>
             </div>
           </div>
         </div>
 
         <div className="container-proteccion">
-          <h3 className="neca-subtitle">Nutrición de cultivos</h3>
+          <h3 className="neca-subtitle">{t("txtNecaProductos.txt12")}</h3>
           <div className="productos-protección2">
             <div className="container-producto-protección">
               <img src={fertilizante} alt="" className="productoFER" />
-              <p className="txt-productoNeca">FERTILIZANTES</p>
+              <p className="txt-productoNeca">{t("txtNecaProductos.txt13")}</p>
             </div>
           </div>
         </div>
 
         <div className="container-proteccion">
-          <h3 className="neca-subtitle">Almacenamiento de granos</h3>
+          <h3 className="neca-subtitle">{t("txtNecaProductos.txt14")}</h3>
           <div className="productos-protección2">
             <div className="container-producto-protección">
               <img src={silobolsa} alt="" className="productoSIL" />
-              <p className="txt-productoNeca">SILOBOLSAS</p>
+              <p className="txt-productoNeca">{t("txtNecaProductos.txt15")}</p>
             </div>
           </div>
         </div>
       </div>
 
       <div className="container-txt-cardNeca">
-        <h2 className="neca-title">Servicios y Soluciones</h2>
+        <h2 className="neca-title">{t("txtServiciosNECA.txt1")}</h2>
         <hr className="linea-neca"></hr>
         <p className="txt-neca-boton">
-          Nuestro servicio de{" "}
-          <span className="txt-empresa-spanNeca">entrega a domicilio</span> es
-          nuestro valor agregado. Nos aseguramos de entregar
-          <span className="txt-empresa-spanNeca"> calidad y seguridad</span> a
-          tu hogar.
+        {t("txtServiciosNECA.txt2")}{" "}
+          <span className="txt-empresa-spanNeca">{t("txtServiciosNECA.txt3")}</span> {t("txtServiciosNECA.txt4")}
+          <span className="txt-empresa-spanNeca"> {t("txtServiciosNECA.txt5")}</span> {t("txtServiciosNECA.txt6")}
         </p>
         <div className="neca-org">
           <div className="neca-buttons">
@@ -219,7 +213,7 @@ const Neca = () => {
                 color: selectedButton === 1 ? "white" : "#225065",
               }}
             >
-              CURADO DE SEMILLAS
+              {t("txtCurado.txt1")}
             </button>
             <button
               className="info-btn-neca"
@@ -230,7 +224,7 @@ const Neca = () => {
                 color: selectedButton === 2 ? "white" : "#225065",
               }}
             >
-              SOLUCIONES DIGITALES
+              {t("txtSolucionesDigitalesNECA.txt1")}
             </button>
             <button
               className="info-btn-neca"
@@ -241,7 +235,7 @@ const Neca = () => {
                 color: selectedButton === 3 ? "white" : "#225065",
               }}
             >
-              SOLUCIONES FINANCIERAS
+              {t("txtSolucionesFinancierasNECA.txt1")}
             </button>
             <button
               className="info-btn-neca"
@@ -252,7 +246,7 @@ const Neca = () => {
                 color: selectedButton === 4 ? "white" : "#225065",
               }}
             >
-              ASESORAMIENTO TÉCNICO
+              {t("txtAsesoramiento.txt1")}
             </button>
           </div>
           <div className="neca-buttons1">
@@ -265,7 +259,7 @@ const Neca = () => {
                 color: selectedButton === 5 ? "white" : "#225065",
               }}
             >
-              SIEMBRAS
+              {t("txtSiembra.txt1")}
             </button>
             <button
               className="info-btn-neca"
@@ -276,7 +270,7 @@ const Neca = () => {
                 color: selectedButton === 6 ? "white" : "#225065",
               }}
             >
-              GRANOS
+              {t("txtGranos.txt1")}
             </button>
           </div>
         </div>
@@ -287,15 +281,15 @@ const Neca = () => {
               <div className="containerfoto-botones-neca1">
                 <img src={fotobotones2} alt="" className="fotobotonesNeca" />
                 <div className="txt-logos-neca">
-                  <h2 className="neca-title2">Curado profesional de semillas</h2>
+                  <h2 className="neca-title2">{t("txtCurado.txt2")}</h2>
                   <p className="txt-neca-boton2">
-                    El <span className="txt-empresa-spanNeca"> curado de la semilla, </span>
-                    antes de la siembra, es una practica muy importante, porque es el primer paso para obtener un buen stand de plantas en el cultivo que vamos a implantar y, fundamentyalmente para 
-                    <span className="txt-empresa-spanNeca"> eliminar </span> los posibles
-                    <span className="txt-empresa-spanNeca"> patogenos </span> que tengan las semillas.
+                  {t("txtCurado.txt3")} <span className="txt-empresa-spanNeca">{t("txtCurado.txt4")}{" "}</span>
+                  {t("txtCurado.txt5")}{" "} 
+                    <span className="txt-empresa-spanNeca">{t("txtCurado.txt6")}{" "}</span>{t("txtCurado.txt7")}{" "}
+                    <span className="txt-empresa-spanNeca">{t("txtCurado.txt8")}{" "}</span>{t("txtCurado.txt9")}
                   </p>
                   <a href="https://drive.google.com/drive/folders/1PR5y1NpqB3MUJ3ZLA2C9YN5nvdMe_Y6h?usp=drive_link" download onClick={handleDownload}>
-                  <button className="info-btn-neca">DESCARGAR PDF</button>
+                  <button className="info-btn-neca">{t("txtInfo.txt2")}</button>
                   </a>
                 </div>
               </div>
@@ -306,18 +300,18 @@ const Neca = () => {
               <div className="containerfoto-botones-neca1">
                 <img src={fotobotones5} alt="" className="fotobotonesNeca" />
                 <div className="txt-logos-neca">
-                  <h2 className="neca-title2">Soluciones Digitales</h2>
+                  <h2 className="neca-title2">{t("txtSolucionesDigitalesNECA.txt2")}</h2>
                   <p className="txt-neca-boton2">
-                    La solución digital <span className="txt-empresa-spanNeca"> Cropwise </span>
-                    te ayuda a trabajar de manera más fácil, rentable y sostenible.  
-                    <span className="txt-empresa-spanNeca"> Recopila datos </span> 
-                    geolocalizados de todas las plagas, malezas y enfermedades. obtiene una visión de lo que sucede en tu finca
-                    <span className="txt-empresa-spanNeca"> en tiempo real </span> 
-                    y recibe notificaciones sobre el estado de tu cultivo. Analiza la salud de tu cultivo
-                    <span className="txt-empresa-spanNeca"> desde cualquier sitio </span>
-                    y accede a imagenes de alta resolución y mayor frecuencia para identificar problemas en tus parecelas.
+                  {t("txtSolucionesDigitalesNECA.txt3")}{" "}<span className="txt-empresa-spanNeca">{t("txtSolucionesDigitalesNECA.txt4")}{" "}</span>
+                  {t("txtSolucionesDigitalesNECA.txt5")}{" "}  
+                    <span className="txt-empresa-spanNeca">{t("txtSolucionesDigitalesNECA.txt6")}{" "}</span> 
+                    {t("txtSolucionesDigitalesNECA.txt7")}{" "}
+                    <span className="txt-empresa-spanNeca">{t("txtSolucionesDigitalesNECA.txt8")}{" "}</span> 
+                    {t("txtSolucionesDigitalesNECA.txt9")}{" "}
+                    <span className="txt-empresa-spanNeca">{t("txtSolucionesDigitalesNECA.txt10")}{" "}</span>
+                    {t("txtSolucionesDigitalesNECA.txt11")}
                   </p>
-                  <button className="info-btn-neca">DESCARGAR PDF</button>
+                  <button className="info-btn-neca">{t("txtInfo.txt2")}</button>
                 </div>
               </div>
             </>
@@ -327,15 +321,13 @@ const Neca = () => {
               <div className="containerfoto-botones-neca1">
                 <img src={fotobotones} alt="" className="fotobotonesNeca" />
                 <div className="txt-logos-neca">
-                  <h2 className="neca-title2">Soluciones Financieras</h2>
+                  <h2 className="neca-title2">{t("txtSolucionesFinancierasNECA.txt2")}</h2>
                   <p className="txt-neca-boton2">
-                    Tenemos una diversidad de herramientas financieras adaptadas
-                    para cada sector y al contexto económico mundial.<br></br>
-                    <br></br>– Financiaciones en dólares<br></br>– Financiación
-                    en pesos<br></br>– Tarjetas <br></br>– Canjes de granos
-                    disponibles<br></br>– Canjes de granos a futuro<br></br>
-                    *Consultar mensualmente las herramientas o soluciones
-                    vigentes.
+                  {t("txtSolucionesFinancierasNECA.txt3")}<br></br>
+                    <br></br>– {t("txtSolucionesFinancierasNECA.txt4")}<br></br>– {t("txtSolucionesFinancierasNECA.txt5")}
+                    <br></br>– {t("txtSolucionesFinancierasNECA.txt6")}<br></br>– {t("txtSolucionesFinancierasNECA.txt7")}
+                    <br></br>– {t("txtSolucionesFinancierasNECA.txt8")}<br></br>
+                    {t("txtSolucionesFinancierasNECA.txt9")}
                   </p>
                   <div className="logos-neca2">
                     <img src={logoneca1} alt="" className="logo-neca2" />
@@ -352,14 +344,14 @@ const Neca = () => {
               <div className="containerfoto-botones-neca1">
                 <img src={fotobotones1} alt="" className="fotobotonesNeca" />
                 <div className="txt-logos-neca">
-                  <h2 className="neca-title2">Asesoramiento Técnico</h2>
+                  <h2 className="neca-title2">{t("txtAsesoramiento.txt2")}</h2>
                   <p className="txt-neca-boton2">
-                    Contamos con un equipo de <span className="txt-empresa-spanNeca"> profesionales </span>
-                    que pueden brindarte un sólido asesoramiento de acuerdo a las   
-                    <span className="txt-empresa-spanNeca"> necesidades </span> 
-                     e
-                    <span className="txt-empresa-spanNeca"> inquietudes </span> 
-                    planteadas.
+                  {t("txtAsesoramiento.txt3")}{" "}<span className="txt-empresa-spanNeca">{t("txtAsesoramiento.txt4")}{" "}</span>
+                  {t("txtAsesoramiento.txt5")}{" "}   
+                    <span className="txt-empresa-spanNeca">{t("txtAsesoramiento.txt6")}{" "}</span> 
+                    {t("txtAsesoramiento.txt7")}{" "}
+                    <span className="txt-empresa-spanNeca">{t("txtAsesoramiento.txt8")}{" "}</span> 
+                    {t("txtAsesoramiento.txt9")}
                   </p>
                 </div>
               </div>
@@ -370,12 +362,12 @@ const Neca = () => {
               <div className="containerfoto-botones-neca1">
                 <img src={fotobotones4} alt="" className="fotobotonesNeca" />
                 <div className="txt-logos-neca">
-                  <h2 className="neca-title2">Siembras</h2>
+                  <h2 className="neca-title2">{t("txtSiembra.txt2")}</h2>
                   <p className="txt-neca-boton2">
-                    Cultivos con Agricultura de Precisión. 
+                  {t("txtSiembra.txt3")} 
                   </p>
                   <button className="info-btn-neca">
-                  <Link className="info-btn-neca1" to ="/mollar">IR A PUESTO EL MOLLAR</Link>
+                  <Link className="info-btn-neca1" to ="/mollar">{t("txtSiembra.txt4")}</Link>
                   </button>
                 </div>
               </div>
@@ -386,15 +378,15 @@ const Neca = () => {
               <div className="containerfoto-botones-neca1">
                 <img src={fotobotones3} alt="" className="fotobotonesNeca" />
                 <div className="txt-logos-neca">
-                  <h2 className="neca-title2">Granos</h2>
+                  <h2 className="neca-title2">{t("txtGranos.txt2")}</h2>
                   <p className="txt-neca-boton2">
-                    Desde la <span className="txt-empresa-spanNeca"> Unidad de Negocios de Granos </span>
-                    tenemos como objetivo ofrecer asesoramiento integral en la comercialización de 
-                    <span className="txt-empresa-spanNeca"> comodities y especialidades. </span> 
-                    Brindamos herramientas al productor para tomar decisiones
-                    <span className="txt-empresa-spanNeca"> eficientes </span> 
-                    en contextos extremadamente complejos, a través de opciones de canje por insumos, charlas de mercados (nacionales e internacionales) y asesoramiento en lo
-                    <span className="txt-empresa-spanNeca"> comercial y financiero. </span>
+                  {t("txtGranos.txt3")}{" "}<span className="txt-empresa-spanNeca">{t("txtGranos.txt4")}{" "}</span>
+                  {t("txtGranos.txt5")}{" "} 
+                    <span className="txt-empresa-spanNeca">{t("txtGranos.txt6")}{" "}</span> 
+                    {t("txtGranos.txt7")}{" "}
+                    <span className="txt-empresa-spanNeca">{t("txtGranos.txt8")}{" "}</span> 
+                    {t("txtGranos.txt9")}{" "}
+                    <span className="txt-empresa-spanNeca">{t("txtGranos.txt10")}</span>
                   </p>
                 </div>
               </div>
@@ -422,10 +414,10 @@ const Neca = () => {
       </div>
 
       <div className="container-txt-cardNeca">
-        <h2 className="neca-title">Contacto</h2>
+        <h2 className="neca-title">{t("txtContacto.txt1")}</h2>
         <hr className="linea-neca"></hr>
         <p className="txt-neca-boton">
-          Para contactarnos, podés hacerlo a través de estos canales:
+        {t("txtContacto.txt2")}
         </p>
         <div className="container-cards-Combustible">
           <div className="card-Neca">
@@ -526,11 +518,11 @@ const Neca = () => {
 
       <div className="footer">
         <div className="txt1">
-          <p className="txt-foo">Av. Chile 1275, A4400 Salta</p>
+          <p className="txt-foo">{t("txt-foo2.Footer1")}</p>
         </div>
         <div className="txt2">
           <p className="txt-foo">
-            © 2024 CN Grupo - Todos los derechos reservados
+          {t("txt-foo2.Footer1")}
           </p>
         </div>
       </div>

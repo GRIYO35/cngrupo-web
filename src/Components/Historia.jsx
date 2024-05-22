@@ -87,7 +87,7 @@ const Historia = () => {
             <h2 className="titulo-historia">{t("txtTituloHistoria.txt1")}</h2>
             <h2 className="nuestra-historia-txt">
               <span className="txt-empresa-spanHis">CN GRUPO</span> nace como
-              una empresa familiar y cuenta con más{" "}
+              una empresa familiar y cuenta con más de{" "}
               <span className="txt-empresa-spanHis"> 35 años </span> de
               trayectoria, más de{" "}
               <span className="txt-empresa-spanHis"> 250 colaboradores </span> y{" "}

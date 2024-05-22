@@ -9,6 +9,7 @@ import Vectorlogistica2 from "../Assets/Vector (2).png";
 import Vectorlogistica3 from "../Assets/Vector (3).png";
 import loggo3 from "../Assets/loggo3.png";
 import videoSourceGuemes from "../Assets/Guemes web.mp4";
+import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBar";
 import "./Plantaguemes.css"
 /*import fotogas from "../Assets/autoelevadores 15 kg  1.png";
@@ -19,7 +20,8 @@ import logodelivery from "../Assets/logodelivery.png";
 import imgchile from "../Assets/TEXTO DESCRIPCION - CN GRUPO EMBARCACION Y LAJITAS (33).png";*/
 
 const Guemes = () => {
-  /*const [isOpen, setIsOpen] = useState(false);*/
+  // eslint-disable-next-line no-unused-vars
+  const [t, i18next] = useTranslation("global");
 
   return (
     <div className="home-container">
@@ -37,7 +39,7 @@ const Guemes = () => {
             <div className="txt-container-empresaGas">
               <div className="linea-titulo">
                 <hr class="mi-linea"></hr>
-                <p className="nuestra-empresa">NUESTROS NEGOCIOS</p>
+                <p className="nuestra-empresa">{t("li.OUR COMPANY")}</p>
               </div>
               <h2 className="logistica-title">PLANTA GÜEMES</h2>
             </div>
@@ -48,33 +50,28 @@ const Guemes = () => {
       <div className="container-planta">
         <img src={loggo3} alt="" className="logoplanta" />
         <p className="p-planta">
-          La <span className="txt-empresa-spanGue">Planta Güemes</span> es nuestra
-          terminal logística de
-          <span className="txt-empresa-spanGue"> fertilizantes</span> al servicio
-          de YPF en la provincia de Salta. <br></br>
+        {t("txtGuemes.txt1")}{" "}<span className="txt-empresa-spanGue">{t("txtGuemes.txt2")}{" "}</span> 
+        {t("txtGuemes.txt3")}{" "}
+          <span className="txt-empresa-spanGue">{t("txtGuemes.txt4")}</span> {t("txtGuemes.txt5")}<br></br>
           <br></br>
-          La planta se encuentra ubicada en el Parque Industrial General Güemes,
-          punto estratégico para el abastecimiento de los principales mercados
-          del <span className="txt-empresa-spanGue"> NOA.</span>
+          {t("txtGuemes.txt6")}<span className="txt-empresa-spanGue">{" "}{t("txtGuemes.txt7")}</span>
         </p>
       </div>
 
       <div className="banner-planta"></div>
 
       <div className="container-txt-card-planta">
-        <h2 className="Planta-title-card">Nuestros Productos y Servicios</h2>
+        <h2 className="Planta-title-card">{t("txtProductosGuemes.txt1")}</h2>
         <hr className="linea-Guemes"></hr>
         <p className="p-planta">
-          Realizamos la{" "}
+        {t("txtProductosGuemes.txt2")}{" "}
           <span className="txt-empresa-spanGue">
             {" "}
-            formulación, mezclado y embolsado
+            {t("txtProductosGuemes.txt3")}
           </span>{" "}
-          de fertilizantes granulados, ofreciendo al cliente final la
-          posibilidad de{" "}
-          <span className="txt-empresa-spanGue"> armar su propia mezcla</span> “a
-          medida” y de acuerdo con los requerimientos que su cultivo y su suelo
-          necesitan.
+          {t("txtProductosGuemes.txt4")}{" "}
+          <span className="txt-empresa-spanGue">{t("txtProductosGuemes.txt5")}{" "}</span>
+          {t("txtProductosGuemes.txt6")}
         </p>
       </div>
 
@@ -87,9 +84,9 @@ const Guemes = () => {
             </div>
             <div className="parrafos">
               <p className="txt-numAPlanta">
-                EN BOLSAS DE BOCA ABIERTA<br></br> O DE BOCA VALVULADA
+              {t("txtVentasGuemes.txt1")}<br></br>{t("txtVentasGuemes.txt2")}
               </p>
-              <p className="txt-pequeño">Papel/ Polipropileno</p>
+              <p className={i18next.language === "es" ? "txt-pequeño" : "txt-pequeñoEN"}>{t("txtVentasGuemes.txt3")}</p>
             </div>
           </div>
 
@@ -98,7 +95,7 @@ const Guemes = () => {
               <h2 className="numerito">02</h2>
               <hr className="lineanum"></hr>
             </div>
-            <p className="txt-numAPlanta">EN BIG BAGS DE 1.000 KG</p>
+            <p className="txt-numAPlanta">{t("txtVentasGuemes.txt4")}</p>
           </div>
 
           <div className="numeroytxtPlanta">
@@ -106,8 +103,8 @@ const Guemes = () => {
               <h2 className="numerito">03</h2>
               <hr className="lineanum"></hr>
             </div>
-            <p className="txt-numAPlanta">A GRANEL</p>
-            <p className="txt-pequeñoA">Puros y Mezclas</p>
+            <p className="txt-numAPlanta">{t("txtVentasGuemes.txt5")}</p>
+            <p className={i18next.language === "es" ? "txt-pequeñoA" : "txt-pequeñoAEN"}>{t("txtVentasGuemes.txt6")}</p>
           </div>
 
           <div className="numeroytxtPlanta">
@@ -115,8 +112,8 @@ const Guemes = () => {
               <h2 className="numerito">04</h2>
               <hr className="lineanum"></hr>
             </div>
-            <p className="txt-numAPlanta">PUROS Y MEZCLAS DIVERSAS</p>
-            <p className="txt-pequeñoB">Tabacaleras, Triple 15 y otros</p>
+            <p className="txt-numAPlanta">{t("txtVentasGuemes.txt7")}</p>
+            <p className={i18next.language === "es" ? "txt-pequeñoB" : "txt-pequeñoBEN"}>{t("txtVentasGuemes.txt8")}</p>
           </div>
 
           <div className="numeroytxtPlanta">
@@ -125,50 +122,50 @@ const Guemes = () => {
               <hr className="lineanum"></hr>
             </div>
             <p className="txt-numAPlanta">
-              NITROGENADOS, FOSFATADOS,<br></br> POTÁSICOS
+            {t("txtVentasGuemes.txt9")}<br></br>{t("txtVentasGuemes.txt10")}
             </p>
           </div>
         </div>
       </div>
 
       <div className="container-txt-card-planta1">
-        <h2 className="Planta-title-card">Contacto</h2>
+        <h2 className="Planta-title-card">{t("txtContacto.txt1")}</h2>
         <hr className="linea-Guemes"></hr>
         <p className="txt-guemes-card">
-          Para contactarnos, podés hacerlo a través de estos canales:
+        {t("txtContacto.txt2")}
         </p>
         <div className="container-cards-Guemes">
         <div className="card-contactoGue">
             <div className="titulo-logo-guemes">
-              <h2 className="title-direccionGuemes">Responsable</h2>
+              <h2 className="title-direccionGuemes">{t("txtContacto.txt7")}</h2>
               <img src={Vectorlogistica} alt="" className="vector-guemes" />
             </div>
             <p className="txt-direccionGuemes">Jorge Tiscornia</p>
           </div>
           <div className="card-contactoGue">
             <div className="titulo-logo-guemes">
-              <h2 className="title-direccionGuemes">Dirección</h2>
+              <h2 className="title-direccionGuemes">{t("txtContacto.txt3")}</h2>
               <img src={Vectorlogistica1} alt="" className="vector-guemes1" />
             </div>
-            <p className="txt-direccionGuemes">Parque Industrial General <br></br>
-            Güemes Seccion F Mz <br></br>
-            14 (4430)
+            <p className="txt-direccionGuemes">{t("txtDireccionGuemes.txt1")}<br></br>
+            {t("txtDireccionGuemes.txt2")}<br></br>
+            {t("txtDireccionGuemes.txt3")}
             </p>
           </div>
           <div className="card-contactoGue">
             <div className="titulo-logo-guemes">
-              <h2 className="title-direccionGuemes">Teléfono</h2>
+              <h2 className="title-direccionGuemes">{t("txtContacto.txt4")}</h2>
               <img
                 src={Vectorlogistica2}
                 alt=""
-                className="vector-guemes2"
+                className={i18next.language === "es" ? "vector-guemes2" : "vector-guemes2EN"}
               />
             </div>
             <p className="txt-direccionGuemes">(0387) 473-1429</p>
           </div>
           <div className="card-contactoGue">
             <div className="titulo-logo-guemes">
-              <h2 className="title-direccionGuemes">Email</h2>
+              <h2 className="title-direccionGuemes">{t("txtContacto.txt5")}</h2>
               <img
                 src={Vectorlogistica3}
                 alt=""
@@ -181,11 +178,11 @@ const Guemes = () => {
       </div>
       <div className="footer">
         <div className="txt1">
-          <p className="txt-foo">Av. Chile 1275, A4400 Salta</p>
+          <p className="txt-foo">{t("txt-foo2.Footer1")}</p>
         </div>
         <div className="txt2">
           <p className="txt-foo">
-            © 2024 CN Grupo - Todos los derechos reservados
+          {t("txt-foo2.Footer")}
           </p>
         </div>
       </div>

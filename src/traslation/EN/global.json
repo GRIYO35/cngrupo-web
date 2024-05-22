@@ -271,7 +271,8 @@
     "txt3": "Address",
     "txt4": "Phone Number",
     "txt5": "Email",
-    "txt6": "Delivery app"
+    "txt6": "Delivery app",
+    "txt7": "Responsible"
 },
 
 "ComentarioCCNChile":{
@@ -509,6 +510,86 @@
     "txt8": "eficientes",
     "txt9": "en contextos extremadamente complejos, a través de opciones de canje por insumos, charlas de mercados (nacionales e internacionales) y asesoramiento en lo",
     "txt10": "comercial y financiero."
+},
+
+"ComentarioMollar": {
+    "//": "A partir de aqui comienzan los Textos de la pantalla Mollar"
+},
+
+"txtMollar": {
+    "txt1": "We are a company dedicated to independent sowing and sharecropping. Together with producers of Salta, we constantly seek to maximize profitability through",
+    "txt2": "innovation and sustainability.",
+    "txt3": "We provide",
+    "txt4": "transparency and professionalism",
+    "txt5": "in management to foster long-term relationships with mutual benefit.",
+    "txt6": "Independent sowing",
+    "txt7": "1,000 ha - Soybean and Corn.",
+    "txt8": "Shared sowing",
+    "txt9": "3,000 ha - Specialties."
+},
+
+"ComentarioPlantaGuemes": {
+    "//": "A partir de aqui comienzan los Textos de la pantalla Plantaguemes"
+},
+
+"txtGuemes": {
+    "txt1": "",
+    "txt2": "Planta Güemes",
+    "txt3": "is our",
+    "txt4": "fertilizer",
+    "txt5": "logistics terminal at the service of YPF in the province of Salta.",
+    "txt6": "The plant is located in the General Güemes Industrial Park, a strategic point for supplying the main markets of the ",
+    "txt7": "Argentine Northwest."
+},
+
+"txtProductosGuemes": {
+    "txt1": "Our Products and Services",
+    "txt2": "We carry out the",
+    "txt3": "formulation, mixing and bagging",
+    "txt4": "of granulated fertilizers, offering the end client the possibility of",
+    "txt5": "making their own “personalized” mix",
+    "txt6": "according to the requirements that their crop and soil need."
+},
+
+"txtVentasGuemes": {
+    "txt1": "IN OPEN-MOUTH ",
+    "txt2": "OR VALVE BAGS",
+    "txt3": "Paper / Polypropylene.",
+    "txt4": "IN BIG BAGS OF 1,000 KG",
+    "txt5": "IN BULK",
+    "txt6": "Pure and Blends.",
+    "txt7": "PURE AND DIVERSE BLENDS",
+    "txt8": "Tobacco companies, Triple 15 and others.",
+    "txt9": "NITROGENATED, PHOSPHATED,",
+    "txt10": "POTASSIUM."
+},
+
+"txtDireccionGuemes": {
+    "txt1": "General Güemes Industrial",
+    "txt2": "Park, Section F, Block",
+    "txt3": "14 (4430)"
+},
+
+"ComentarioLogistica": {
+    "//": "A partir de aqui comienzan los Textos de la pantalla Logistica"
+},
+
+"txtLogistica": {
+    "txt1": "CN Logística",
+    "txt2": "emerges as a",
+    "txt3": "comprehensive solution",
+    "txt4": "for those companies that decide to outsource",
+    "txt5": "fuel",
+    "txt6": "management in order to focus on their main activity.",
+    "txt7": "One of our main objectives is to",
+    "txt8": "facilitate",
+    "txt9": "the work of our clients, providing them with",
+    "txt10": "products",
+    "txt11": "and",
+    "txt12": "services",
+    "txt13": "that allow them to optimize their processes and improve their",
+    "txt14": "profitability"
 }
+
 
 }

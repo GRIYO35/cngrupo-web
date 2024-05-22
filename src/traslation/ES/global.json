@@ -273,7 +273,8 @@
     "txt3": "Dirección",
     "txt4": "Teléfono",
     "txt5": "Email",
-    "txt6": "App Delivery"
+    "txt6": "App Delivery",
+    "txt7": "Responsable"
 },
 
 "ComentarioCCNChile":{
@@ -511,7 +512,87 @@
     "txt8": "eficientes",
     "txt9": "en contextos extremadamente complejos, a través de opciones de canje por insumos, charlas de mercados (nacionales e internacionales) y asesoramiento en lo",
     "txt10": "comercial y financiero."
+},
+
+"ComentarioMollar": {
+    "//": "A partir de aqui comienzan los Textos de la pantalla Mollar"
+},
+
+"txtMollar": {
+    "txt1": "Somos una empresa dedicada a siembra propia y aparcería. Junto con productores de Salta, buscamos constantemente maximizar la rentabilidad de la mano de la",
+    "txt2": "innovación y sustentabilidad.",
+    "txt3": "Aportamos",
+    "txt4": "transparencia y profesionalización",
+    "txt5": "en la gestión para fomentar relaciones a largo plazo con beneficio mutuo.",
+    "txt6": "Siembra propia",
+    "txt7": "Soja y Maíz  -  1000 ha",
+    "txt8": "Siembra asociada",
+    "txt9": "Especialidades  -  3000 ha"
+},
+
+"ComentarioPlantaGuemes": {
+    "//": "A partir de aqui comienzan los Textos de la pantalla Plantaguemes"
+},
+
+"txtGuemes": {
+    "txt1": "La",
+    "txt2": "Planta Güemes",
+    "txt3": "es nuestra terminal logística de",
+    "txt4": "fertilizantes",
+    "txt5": "al servicio de YPF en la provincia de Salta.",
+    "txt6": "La planta se encuentra ubicada en el Parque Industrial General Güemes, punto estratégico para el abastecimiento de los principales mercados del",
+    "txt7": "NOA."
+},
+
+"txtProductosGuemes": {
+    "txt1": "Nuestros Productos y Servicios",
+    "txt2": "Realizamos la",
+    "txt3": "formulación, mezclado y embolsado",
+    "txt4": "de fertilizantes granulados, ofreciendo al cliente final la posibilidad de",
+    "txt5": "armar su propia mezcla",
+    "txt6": "“a medida” y de acuerdo con los requerimientos que su cultivo y su suelo ecesitan."
+},
+
+"txtVentasGuemes": {
+    "txt1": "EN BOLSAS DE BOCA ABIERTA",
+    "txt2": "O DE BOCA VALVULADA",
+    "txt3": "Papel/ Polipropileno",
+    "txt4": "EN BIG BAGS DE 1.000 KG",
+    "txt5": "A GRANEL",
+    "txt6": "Puros y Mezclas",
+    "txt7": "PUROS Y MEZCLAS DIVERSAS",
+    "txt8": "Tabacaleras, Triple 15 y otros",
+    "txt9": "NITROGENADOS, FOSFATADOS,",
+    "txt10": "POTÁSICOS"
+},
+
+"txtDireccionGuemes": {
+    "txt1": "Parque Industrial General",
+    "txt2": "Güemes Seccion F Mz",
+    "txt3": "14 (4430)"
+},
+
+"ComentarioLogistica": {
+    "//": "A partir de aqui comienzan los Textos de la pantalla Logistica"
+},
+
+"txtLogistica": {
+    "txt1": "CN Logística",
+    "txt2": "surge como una",
+    "txt3": "solución integral",
+    "txt4": "para aquellas empresas que deciden tercerizar el manejo del",
+    "txt5": "combustible",
+    "txt6": "para poder enfocarse en su actividad principal.",
+    "txt7": "Uno de nuestros objetivos principales es",
+    "txt8": "facilitar",
+    "txt9": "el trabajo a nuestros clientes, proporcionándoles",
+    "txt10": "productos",
+    "txt11": "y",
+    "txt12": "servicios",
+    "txt13": "que les permitan optimizar sus procesos y mejorar su",
+    "txt14": "rentabilidad"
 }
+
 
 
 }

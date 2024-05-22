@@ -33,14 +33,29 @@
     margin-left: -80px;
   }
 
+  .txt-pequeñoEN{
+    margin-top: -10px;
+    margin-left: 10px;
+  }
+
   .txt-pequeñoA{
     margin-top: 40px;
     margin-left: -80px;
+  }
+
+  .txt-pequeñoAEN{
+    margin-top: 45px;
+    margin-left: -62px;
   }
   
   .txt-pequeñoB{
     margin-top: 45px;
     margin-left: -235px;
+  }
+
+  .txt-pequeñoBEN{
+    margin-top: 45px;
+    margin-left: -220px;
   }
 
   .txt-numAPlanta{
@@ -193,6 +208,12 @@
     margin-left: -10%;
   }
 
+  .vector-guemes2EN {
+    height: 18px;
+    margin-top: 20px;
+    margin-left: -32%;
+  }
+
   .vector-guemes3 {
     height: 13px;
     margin-top: 25px;
@@ -266,14 +287,29 @@
     margin-left: -80px;
   }
 
+  .txt-pequeñoEN{
+    margin-top: -10px;
+    margin-left: 10px;
+  }
+
   .txt-pequeñoA{
     margin-top: 40px;
     margin-left: -80px;
+  }
+
+  .txt-pequeñoAEN{
+    margin-top: 45px;
+    margin-left: -62px;
   }
   
   .txt-pequeñoB{
     margin-top: 45px;
     margin-left: -235px;
+  }
+
+  .txt-pequeñoBEN{
+    margin-top: 45px;
+    margin-left: -220px;
   }
 
   .txt-numAPlanta{
@@ -426,6 +462,12 @@
     margin-left: -10%;
   }
 
+  .vector-guemes2EN {
+    height: 18px;
+    margin-top: 20px;
+    margin-left: -32%;
+  }
+
   .vector-guemes3 {
     height: 13px;
     margin-top: 25px;
@@ -509,15 +551,33 @@
     font-size: 20px;
   }
 
+  .txt-pequeñoEN{
+    margin-top: -18px;
+    margin-left: 15px;
+    font-size: 20px;
+  }
+
   .txt-pequeñoA{
     margin-top: 55px;
     margin-left: -125px;
+    font-size: 20px;
+  }
+
+  .txt-pequeñoAEN{
+    margin-top: 55px;
+    margin-left: -97px;
     font-size: 20px;
   }
   
   .txt-pequeñoB{
     margin-top: 55px;
     margin-left: -367px;
+    font-size: 20px;
+  }
+
+  .txt-pequeñoBEN{
+    margin-top: 55px;
+    margin-left: -343px;
     font-size: 20px;
   }
 
@@ -681,6 +741,12 @@
     height: 21px;
     margin-top: 21px;
     margin-left: 12%;
+  }
+
+  .vector-guemes2EN {
+    height: 21px;
+    margin-top: 21px;
+    margin-left: -9%;
   }
 
   .vector-guemes3 {

@@ -236,11 +236,22 @@
     margin-left: 120px;
   }
 
+  .vectormollar3EN {
+    height: 20px;
+    width: 20px;
+    margin-top: 12px;
+    margin-left: 65px;
+  }
+
   .vectormollar2 {
     height: 15px;
     width: 20px;
     margin-top: 18px;
     margin-left: 147px;
+  }
+
+  .txt-empresa-spanMol{
+    font-weight: 600;
   }
 }
 
@@ -484,11 +495,22 @@
     margin-left: 120px;
   }
 
+  .vectormollar3EN {
+    height: 20px;
+    width: 20px;
+    margin-top: 12px;
+    margin-left: 65px;
+  }
+
   .vectormollar2 {
     height: 15px;
     width: 20px;
     margin-top: 18px;
     margin-left: 147px;
+  }
+
+  .txt-empresa-spanMol{
+    font-weight: 600;
   }
 }
 
@@ -741,10 +763,21 @@
     margin-left: 49%;
   }
 
+  .vectormollar3EN {
+    height: 23px;
+    width: 23px;
+    margin-top: 15px;
+    margin-left: 26%;
+  }
+
   .vectormollar2 {
     height: 18px;
     width: 22px;
     margin-top: 15px;
     margin-left: 60%;
   }
+
+  .txt-empresa-spanMol{
+  font-weight: 600;
+}
 }

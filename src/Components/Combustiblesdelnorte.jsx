@@ -2,12 +2,16 @@ import React, { useState } from "react";
 /*import ExpandLessIcon from "@material-ui/icons/ExpandLess";*/
 import { FaInstagram, FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
 import logo2 from "../Assets/CN - INFO IMPOSITIVA grey@300x.png";
-import fotocomb from "../Assets/650X388px WEB est fijas.png";
-import fotocombMob from "../Assets/650X388px WEB est moviles.png";
+/*import fotocomb from "../Assets/650X388px WEB est fijas.png";*/
+import fotocomb from "../Assets/Est. Fijas.jpg";
+/*import fotocombMob from "../Assets/650X388px WEB est moviles.png";*/
+import fotocombMob from "../Assets/Est. Móviles.jpg";
 import fotocombDis from "../Assets/650X388px WEB dd.png";
 import fotocombSF from "../Assets/650X388px WEB ss financieras.png";
 import fotocombSum from "../Assets/650X388px WEB summa.png";
 import fotocombMD from "../Assets/650X388px WEB md.png";
+import fotocombHibridas from "../Assets/Est. Híbridas.jpg";
+import fotocombAuto from "../Assets/Autogestión.jpg";
 import logodireccion from "../Assets/logodireccion.png";
 import logotelefono from "../Assets/logotelefono.png";
 import logowpp from "../Assets/logowpp.png";
@@ -123,14 +127,13 @@ const Combustibles = () => {
         <hr className="linea-Comb"></hr>
         <h3 className="h3sub-combus">{t("txtSoluciones.txt2")} </h3>
         <p className="txt-comb-boton">
-          soluciones digitales de distribución de{" "}
-          <span className="txt-empresa-spanComb">combustible</span> para
-          estaciones<span className="txt-empresa-spanComb"> fijas </span>{" "}
-          estaciones
-          <span className="txt-empresa-spanComb">
-            {" "}
-            móviles y distribución capilar.
-          </span>
+          Ofrecemos{" "}
+          <span className="txt-empresa-spanComb">soluciones digitales{" "}</span> 
+          avanzadas para la gestión y distribución de combustible en diversas configuraciones. 
+          Nuestros proyectos abarcan estaciones fijas, estaciones móviles, estaciones híbridas, 
+          distribución capilar y autogestión, proporcionando
+          <span className="txt-empresa-spanComb"> control, eficiencia y seguridad </span>{" "}
+          en todas las etapas del proceso.
         </p>
         <div className="Comb-buttons">
           <button
@@ -163,6 +166,26 @@ const Combustibles = () => {
           >
             {t("txtSoluciones.txt5")}
           </button>
+          <button
+            className="info-btn-Comb"
+            onClick={() => handleButtonClick(4)}
+            style={{
+              backgroundColor: selectedButton === 4 ? "#009fe3" : "transparent",
+              color: selectedButton === 4 ? "white" : "#009fe3",
+            }}
+          >
+            {t("txtSoluciones.txt11")}
+          </button>
+          <button
+            className="info-btn-Comb"
+            onClick={() => handleButtonClick(5)}
+            style={{
+              backgroundColor: selectedButton === 5 ? "#009fe3" : "transparent",
+              color: selectedButton === 5 ? "white" : "#009fe3",
+            }}
+          >
+            {t("txtSoluciones.txt12")}
+          </button>
         </div>
         <div className="card">
           {selectedButton === 1 && (
@@ -172,13 +195,14 @@ const Combustibles = () => {
                 <div className="txt-logos-Com">
                   <h2 className="Comb-title2">{t("txtSoluciones.txt6")}</h2>
                   <p className="txt-Comb-boton2">
-                    Es una solución
-                    <span className="txt-empresa-spanComb">
-                      {" "}
-                      inteligente y customizada
-                    </span>{" "}
-                    del manejo de combustible para estaciones
-                    <span className="txt-empresa-spanComb"> fijas.</span>
+                  Proporcionamos una
+                    <span className="txt-empresa-spanComb">{" "}solución inteligente y personalizada</span>
+                    {" "}para el manejo de combustible. Mediante la tecnología MIC, ofrecemos{" "}
+                    <span className="txt-empresa-spanComb"> telemedición y control integral{" "}</span>
+                    del combustible, permitiendo la gestión remota e integrada de todas las operaciones de 
+                    abastecimiento y despacho. Los beneficios clave incluyen la optimización de procesos, 
+                    seguridad en el despacho y monitoreo continuo de niveles y equipos.
+
                   </p>
                 </div>
               </div>
@@ -191,13 +215,13 @@ const Combustibles = () => {
                 <div className="txt-logos-Com">
                   <h2 className="Comb-title2">{t("txtSoluciones.txt7")}</h2>
                   <p className="txt-Comb-boton2">
-                    Es una solución
-                    <span className="txt-empresa-spanComb">
-                      {" "}
-                      inteligente y customizada
-                    </span>{" "}
-                    del manejo de combustible para estaciones
-                    <span className="txt-empresa-spanComb"> movíles.</span>
+                  Nuestras soluciones están adaptadas para la gestión remota del combustible 
+                  en movimiento. Integramos la tecnología de
+                    <span className="txt-empresa-spanComb">{" "}telemedición y control</span>
+                    {" "}de combustible en{" "}
+                    <span className="txt-empresa-spanComb">camiones cisterna y batanes,{" "}</span>
+                    proporcionando autorización segura de despachos y monitoreo constante de los 
+                    niveles de combustible, accesible desde cualquier lugar y dispositivo.
                   </p>
                 </div>
               </div>
@@ -210,23 +234,55 @@ const Combustibles = () => {
                 <div className="txt-logos-Com">
                   <h2 className="Comb-title2">{t("txtSoluciones.txt8")}</h2>
                   <p className="txt-Comb-boton2">
-                    Es un
-                    <span className="txt-empresa-spanComb">
-                      {" "}
-                      servicio logístico
-                    </span>{" "}
-                    de entrega de combustible en el útimo tramo en el proceso de
-                    suministro. Abastecemos cada máquina utilizando camiones
-                    provistos de
-                    <span className="txt-empresa-spanComb"> cisternas</span> y
-                    sistemas de bombas de
-                    <span className="txt-empresa-spanComb">
-                      {" "}
-                      superalto caudal{" "}
-                    </span>{" "}
-                    (250 lpm) con los más altos estándares de seguridad y
-                    tecnología para lograr un abastecimiento con trazabilidad,
-                    precisión e información clave para la toma de desiciones.
+                  Ofrecemos un
+                    <span className="txt-empresa-spanComb">{" "}servicio logístico</span>
+                    {" "}especializado en la entrega de combustible en el último tramo del 
+                    proceso de suministro. Utilizamos{" "}   
+                    <span className="txt-empresa-spanComb">camiones cisterna</span>
+                    {" "}equipados con bombas de{" "}
+                    <span className="txt-empresa-spanComb">superalto caudal</span>
+                    {" "}(250 lpm) y los más altos estándares de seguridad y tecnología. 
+                    Aseguramos un abastecimiento preciso, trazable y eficiente, permitiendo 
+                    obtener información clave para la toma de decisiones estratégicas y operativas.
+                  </p>
+                </div>
+              </div>
+            </>
+          )}
+          {selectedButton === 4 && (
+            <>
+              <div className="containerfoto-botones-Comb">
+                <img src={fotocombHibridas} alt="" className="fotobotonesComb" />
+                <div className="txt-logos-Com">
+                  <h2 className="Comb-title2">{t("txtSoluciones.txt9")}</h2>
+                  <p className="txt-Comb-boton2">
+                  Combinamos la estabilidad de las estaciones fijas con la
+                    <span className="txt-empresa-spanComb">{" "}flexibilidad</span>
+                    {" "}de ser reubicadas en cualquier lugar. Esta solución es ideal 
+                    para entornos que requieren movilidad sin perder el{" "}   
+                    <span className="txt-empresa-spanComb">control</span>
+                    {" "}y la eficiencia en la{" "}
+                    <span className="txt-empresa-spanComb">gestión remota</span>
+                    {" "}del combustible.
+                  </p>
+                </div>
+              </div>
+            </>
+          )}
+          {selectedButton === 5 && (
+            <>
+              <div className="containerfoto-botones-Comb">
+                <img src={fotocombAuto} alt="" className="fotobotonesComb" />
+                <div className="txt-logos-Com">
+                  <h2 className="Comb-title2">{t("txtSoluciones.txt10")}</h2>
+                  <p className="txt-Comb-boton2">
+                  Permitimos a los usuarios
+                    <span className="txt-empresa-spanComb">{" "}autogestionar abastecimientos</span>
+                    {" "}de manera eficiente. A través de un{" "}   
+                    <span className="txt-empresa-spanComb">bot de WhatsApp,</span>
+                    {" "}los clientes pueden solicitar combustible y autosurtirse tras validar la 
+                    información. Esta solución en proceso de construcción promete reducir tiempos 
+                    de espera y mejorar la autonomía del cliente en el manejo de combustible.{" "}
                   </p>
                 </div>
               </div>

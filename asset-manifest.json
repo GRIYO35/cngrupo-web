@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.41180375.css",
-    "main.js": "/static/js/main.dcd07a0a.js",
+    "main.css": "/static/css/main.37a68978.css",
+    "main.js": "/static/js/main.70fffcfd.js",
     "static/media/NECA web v3.mp4": "/static/media/NECA web v3.330a279e7eacd90e7a86.mp4",
     "static/media/Home Cn web v3 .mp4": "/static/media/Home Cn web v3 .30bee1f7079a85eb5cbe.mp4",
     "static/media/Trabaja con nosotros Web.mp4": "/static/media/Trabaja con nosotros Web.f5b1602b7133c6f1f3e5.mp4",
@@ -27,10 +27,14 @@
     "static/media/PORTADA - DSC04714-HDR.png": "/static/media/PORTADA - DSC04714-HDR.9e69c8b5f74f00c86143.png",
     "static/media/fotoANCHOweb - CN NECA LAS LAJITAS-115 1.png": "/static/media/fotoANCHOweb - CN NECA LAS LAJITAS-115 1.00b561c308f72a637532.png",
     "static/media/2do ANCHO - CN NECA LAS LAJITAS-132.png": "/static/media/2do ANCHO - CN NECA LAS LAJITAS-132.344d26f0564036f1ee8d.png",
+    "static/media/Est. Híbridas.jpg": "/static/media/Est. Híbridas.38819576a6f0085f88a1.jpg",
     "static/media/DSC04779-HDR.png": "/static/media/DSC04779-HDR.4fcbfc86a1453d611708.png",
+    "static/media/Est. Móviles.jpg": "/static/media/Est. Móviles.0af86852065808517126.jpg",
     "static/media/2DO ANCHO - YPF CHANGO OCT-305 (1).png": "/static/media/2DO ANCHO - YPF CHANGO OCT-305 (1).24ff3a17f01344197589.png",
     "static/media/1ER ANCHO - DSC04559-HDR (1).png": "/static/media/1ER ANCHO - DSC04559-HDR (1).53517f2dee257d630edc.png",
+    "static/media/Est. Fijas.jpg": "/static/media/Est. Fijas.d40ef26b429eb263250f.jpg",
     "static/media/GN RAW-185 BANNER 1 (1).png": "/static/media/GN RAW-185 BANNER 1 (1).acf944dc27a60c521510.png",
+    "static/media/Autogestión.jpg": "/static/media/Autogestión.57aeb03c789c3b0750c1.jpg",
     "static/media/redi12.png": "/static/media/redi12.5db97dd5fedf456ac39a.png",
     "static/media/primer ancho web -DSC04696-HDR 1 (1).png": "/static/media/primer ancho web -DSC04696-HDR 1 (1).28213a3d5282d147c527.png",
     "static/media/redi9.png": "/static/media/redi9.f162926bb54f100525f3.png",
@@ -41,7 +45,6 @@
     "static/media/650X388px WEB ss digitales.png": "/static/media/650X388px WEB ss digitales.fe7884c3eba0cc89f707.png",
     "static/media/650X388px WEB curado semillas.png": "/static/media/650X388px WEB curado semillas.822b332a4fa52a914be0.png",
     "static/media/650X388px WEB granos.png": "/static/media/650X388px WEB granos.f248d75533d1ccaa4914.png",
-    "static/media/650X388px WEB est fijas.png": "/static/media/650X388px WEB est fijas.aae1dc55c8c7728a3526.png",
     "static/media/650X388px WEB lajitas.png": "/static/media/650X388px WEB lajitas.9bba779f78ac4f68a6b3.png",
     "static/media/650X388px WEB propano.png": "/static/media/650X388px WEB propano.16db6810b7132202de81.png",
     "static/media/650X388px WEB ase tecnico.png": "/static/media/650X388px WEB ase tecnico.5d9453b2f51e4d6230bd.png",
@@ -51,7 +54,6 @@
     "static/media/650X388px WEB descripcion.png": "/static/media/650X388px WEB descripcion.ec2e6cf64935db6c30e4.png",
     "static/media/650X388px WEB summa.png": "/static/media/650X388px WEB summa.e07588575c2051874f5a.png",
     "static/media/650X388px WEB ss financieras.png": "/static/media/650X388px WEB ss financieras.0a4f8eb3f53ba4a154d7.png",
-    "static/media/650X388px WEB est moviles.png": "/static/media/650X388px WEB est moviles.14d8b5f9be3e8266b052.png",
     "static/media/EDUARDO.png": "/static/media/EDUARDO.862532ba649d24e1a198.png",
     "static/media/650X388px WEB autoelevadores.png": "/static/media/650X388px WEB autoelevadores.dd25c015c6d7a803d674.png",
     "static/media/EDU solo.png": "/static/media/EDU solo.5a0b7378e51f15dacf47.png",
@@ -131,11 +133,11 @@
     "static/media/vectorPersoAzul.svg": "/static/media/vectorPersoAzul.f28af095a995afa8d40a1540b0de5796.svg",
     "index.html": "/index.html",
     "static/media/logomail.svg": "/static/media/logomail.250a2a2b6809a33ee82e489cd0c99de4.svg",
-    "main.41180375.css.map": "/static/css/main.41180375.css.map",
-    "main.dcd07a0a.js.map": "/static/js/main.dcd07a0a.js.map"
+    "main.37a68978.css.map": "/static/css/main.37a68978.css.map",
+    "main.70fffcfd.js.map": "/static/js/main.70fffcfd.js.map"
   },
   "entrypoints": [
-    "static/css/main.41180375.css",
-    "static/js/main.dcd07a0a.js"
+    "static/css/main.37a68978.css",
+    "static/js/main.70fffcfd.js"
   ]
 }

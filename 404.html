@@ -4,20 +4,21 @@
     <meta charset="utf-8">
     <title>Page Not Found</title>
     <script type="text/javascript">
+      // Save the pathname to use after redirection
       var pathname = window.location.pathname;
       var origin = window.location.origin;
-      
-      // Check if the pathname is exactly "/"
-      if (pathname === "/") {
-        window.location.href = origin + "/";
+
+      // Redirect to the root with the correct pathname as a query parameter
+      if (pathname !== "/") {
+        window.location.replace(`${origin}/?redirect=${pathname}`);
       } else {
-        // Redirect to the root with the correct pathname, without appending extra slashes
-        window.location.href = origin + "/#" + pathname;
+        window.location.replace(origin + "/");
       }
     </script>
   </head>
   <body>
   </body>
 </html>
+
 
 

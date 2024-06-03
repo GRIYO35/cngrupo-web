@@ -1,10 +1,12 @@
 import React from "react";
 import videoSourceGas from "../Assets/Trabaja con nosotros Web.mp4";
+import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBar";
 import "./CapitalHumano.css";
 
 const CapitalH = () => {
-  /*const [isOpen, setIsOpen] = useState(false);*/
+  // eslint-disable-next-line no-unused-vars
+  const [t, i18next] = useTranslation("global");
 
   return (
     <div className="home-containerCap">
@@ -22,16 +24,16 @@ const CapitalH = () => {
             <div className="txt-container-empresaCap">
               <div className="linea-titulo">
                 <hr class="mi-linea"></hr>
-                <p className="nuestra-empresa">NUESTROS NEGOCIOS</p>
+                <p className="nuestra-empresa">{t("li.WORK AT CN GROUP")}</p>
               </div>
-              <h2 className="logistica-title">CAPITAL HUMANO</h2>
+              <h2 className="logistica-title">{t("li.HUMAN CAPITAL")}</h2>
               <a
                 href="https://cngrupo.pandape.computrabajo.com/Vacancies"
                 target="_blank"
                 rel="noopener noreferrer" 
                 className="info-btnCapi"
               >
-                Postulate
+                {t("li.Apply")}
               </a>
             </div>
           </div>

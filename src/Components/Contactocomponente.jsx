@@ -1,10 +1,13 @@
 import { useState, useRef, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import { FaSpinner } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 import MAPA from "./Maps1"
 import "./Contactocomponente.css";
 
 export const Contactocomponente = () => {
+  // eslint-disable-next-line no-unused-vars
+  const [t, i18next] = useTranslation("global");
   const form = useRef();
   // eslint-disable-next-line no-unused-vars
   const [emailSent, setEmailSent] = useState(false);
@@ -122,7 +125,7 @@ export const Contactocomponente = () => {
               onBlur={handleBlur}
               className="input-contacto"
               name="user_name"
-              placeholder="Nombre"
+              placeholder={t("ComponenteContacto.txt1")}
             />
           </div>
 
@@ -134,7 +137,7 @@ export const Contactocomponente = () => {
               onBlur={handleBlur}
               className="input-contacto"
               name="user_email"
-              placeholder="Email"
+              placeholder={t("ComponenteContacto.txt2")}
             />
           </div>
 
@@ -146,7 +149,7 @@ export const Contactocomponente = () => {
               onBlur={handleBlur}
               className="input-contacto"
               name="asunto"
-              placeholder="Asunto"
+              placeholder={t("ComponenteContacto.txt3")}
             />
           </div>
 
@@ -157,7 +160,7 @@ export const Contactocomponente = () => {
               onBlur={handleBlur}
               className="input-contacto2"
               name="message"
-              placeholder="Mensaje"
+              placeholder={t("ComponenteContacto.txt4")}
             ></textarea>
           </div>
 
@@ -168,10 +171,10 @@ export const Contactocomponente = () => {
               value="Send"
               disabled={sendingEmail}
             >
-              {sendingEmail ? <FaSpinner className="spinner" /> : "ENVIAR"}
+              {sendingEmail ? <FaSpinner className="spinner" /> : t("ComponenteContacto.txt5")}
             </button>
           </p>
-          {showEmailSentMessage && <p className="p-enviado">Email enviado.</p>}
+          {showEmailSentMessage && <p className="p-enviado">{t("ComponenteContacto.txt6")}</p>}
         </form>
         <MAPA></MAPA>
       </div>

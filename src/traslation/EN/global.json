@@ -13,10 +13,12 @@
     "Mining":"MINING",
     "WORK AT CN GROUP": "WORK AT CN GROUP",
     "human capital": "Human capital",
+    "HUMAN CAPITAL": "HUMAN CAPITAL",
     "CONTACT": "CONTACT",
     "SERVICE STATIONS": "SERVICE STATIONS",
     "Our culture":"Our culture",
-    "Our business portfolio": "Our business portfolio"
+    "Our business portfolio": "Our business portfolio",
+    "Apply": "Apply"
 },
 
 "ComentarioHome":{
@@ -593,6 +595,19 @@
     "txt12": "services",
     "txt13": "that allow them to optimize their processes and improve their",
     "txt14": "profitability"
+},
+
+"ComentarioContacto": {
+    "//": "A partir de aqui comienzan los Textos de la pantalla Contacto y Contactocomponente"
+},
+
+"ComponenteContacto": {
+    "txt1": "Name",
+    "txt2": "Email",
+    "txt3": "Subject",
+    "txt4": "Message",
+    "txt5": "SEND",
+    "txt6": "Email sent"
 }
 
 

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Page Not Found</title>
+    <meta http-equiv="refresh" content="0; URL='https://cn-grupo.com/'">
+    <script type="text/javascript">
+      var pathname = window.location.pathname;
+      var origin = window.location.origin;
+      // This script will redirect all requests to the index.html of your React app
+      if (pathname === "/") {
+        window.location.href = origin + "/";
+      } else {
+        window.location.href = origin + pathname + "/";
+      }
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
+

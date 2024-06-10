@@ -5,17 +5,17 @@ import { Routes, Route } from 'react-router-dom';
 import Historia from './Historia';
 import Info from './Infoimpo';
 import Logistica from './Logistica';
-import Mollar from './Mollar'
-import Neca from './Neca'
-import Gasdelnorte from './Gasdelnorte'
-import Ccnchile from './Ccnchile'
-import Combustiblesdelnorte from './Combustiblesdelnorte'
-import Plantaguemes from './Plantaguemes'
-import Estaciones from './Estaciones'
-import Quienes from './Quienes'
-import Contacto from './Contacto'
-import Navbar from './NavBar'
-import RRHH from './CapitalHumano'
+import Mollar from './Mollar';
+import Neca from './Neca';
+import Gasdelnorte from './Gasdelnorte';
+import Ccnchile from './Ccnchile';
+import Combustiblesdelnorte from './Combustiblesdelnorte';
+import Plantaguemes from './Plantaguemes';
+import Estaciones from './Estaciones';
+import Quienes from './Quienes';
+import Contacto from './Contacto';
+import Navbar from './NavBar';
+import RRHH from './CapitalHumano';
 
 const Myroutes = () => {
   return (

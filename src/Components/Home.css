@@ -390,10 +390,15 @@
                 margin-top: 100px;
                 flex-wrap: wrap;
                 padding-left: 13.5%;
-                padding-right: 10%;
+                padding-right: 7%;
               }
               
-              .recuadros .imgResponsiva1 {width: 22%; max-width: 345px; display: inline-block; font-size: inherit;}
+              .recuadros .imgResponsiva1 {
+                width: 22%; 
+                max-width: 345px; 
+                display: inline-block; 
+                font-size: inherit;
+              }
               
               .imgResponsiva1 img {
                   height: auto;

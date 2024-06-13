@@ -151,7 +151,7 @@ const Home = () => {
         </div>
         <div className="card-home">
           <div className="logo-home3"></div>
-          <h2 className="title-card-home">{t("li.Mining")}</h2>
+          <h2 className="title-card-home">{t("li.MINING")}</h2>
           <p className="texto-card-home">{t("texto-card-home.completo3")}</p>
           <hr class="mi-linea-home2"></hr>
         </div>

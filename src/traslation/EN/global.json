@@ -4,21 +4,23 @@
 },  
 
 "li":{
-    "Who are we?":"?WHO ARE WE",
+    "Who are we?":"ABOUT US",
     "Vision and mission":"VISION AND MISSION",
     "History":"HISTORY",
     "Tax information":"TAX INFORMATION",
     "OUR COMPANY":"OUR COMPANY",
     "OUR BUSINESSES":"OUR BUSINESSES",
     "Mining":"MINING",
-    "WORK AT CN GROUP": "WORK AT CN GROUP",
+    "WORK AT CN GROUP": "WORK WITH US",
     "human capital": "Human capital",
     "HUMAN CAPITAL": "HUMAN CAPITAL",
-    "CONTACT": "CONTACT",
-    "SERVICE STATIONS": "SERVICE STATIONS",
+    "CONTACT": "CONTACT US",
+    "SERVICE STATIONS": "GAS STATIONS",
     "Our culture":"Our culture",
     "Our business portfolio": "Our business portfolio",
-    "Apply": "Apply"
+    "Apply": "Apply",
+    "MINING":"Mining",
+    "FARMLAND": "FARMLAND"
 },
 
 "ComentarioHome":{
@@ -26,11 +28,11 @@
 }, 
 
 "nuestra-empresa-txt":{
-    "text1":"We are a group of companies that aim to provide",
+    "text1":"We are a group of companies that seeks to provide",
     "text2":"comprehensive distribution solutions",
-    "text3":"through various business units",
-    "text4":"related to",
-    "text5":" Oil&Gas, Agriculture, and Mining."
+    "text3":"through different business units related",
+    "text4":"to",
+    "text5":" Oil & Gas, Farmland and Mining."
 },
 
 "txt-foo2":{
@@ -46,22 +48,22 @@
     "Leading companies": "Leading companies",
     "in their":"in their",
     "region promoting":"region promoting",
-    "innovation and excellence":"innovation and excellence",
+    "innovation and excellence":"innovation and excellence.",
     "years of experience":"Years of experience",
     "in the":"in the",
     "fields of oil & gas, agriculture,": " fields of Oil & Gas, Agriculture, and Mining.",
     "and MINING": "and MINING",
-    "operational bases":"Operational bases",
+    "operational bases":"Operating bases",
     "distributed in Salta and":"distributed in Salta and",
-    "northern Chile": "Region I y V of Chile",
+    "northern Chile": "Region I y V of Chile.",
     "collaborators": "Collaborators",
     "in constant":"in constant",
     "professional growth":"professional growth."
 },
 
 "texto-card-home":{
-    "completo": "We are official distributors of YPF, both Diesel and Packaged Gas. We have two YPF service stations located in Salta Capital and Las Lajitas.",
-    "completo2":"We offer comprehensive solutions to the field through the distribution of products and services for Crop Protection and Nutrition.",
+    "completo": "We are official distributors of YPF, both Diesel and Bottled Gas. We have two YPF Gas Stations located in Salta Capital and Las Lajitas.",
+    "completo2":"We offer comprehensive solutions for the field through the distribution of products and services for crop Protection and Nutrition.",
     "completo3":"We provide comprehensive and customized project management solutions for mining companies."
 },
 
@@ -78,8 +80,8 @@
     "txt2": "was born as a family business and has more than",
     "txt3": "35 years",
     "txt4": "of experience, more than",
-    "txt5": "250 team members and 6 operating bases",
-    "txt6": "distributed in strategic points of Salta and northern Chile.",
+    "txt5": "270 team members and 11 operating bases",
+    "txt6": "distributed in strategic points of Salta and Region I y V of Chile.",
     "txt7": "Over the course of our corporate development, we have diversified businesses, always promoting",
     "txt8": "innovation, the professional development ",
     "txt9": "of our teams, and strategic relationships with our suppliers, clients and community."
@@ -124,12 +126,63 @@
     "txt9": "Being a brand capable of transcending beyond the product or service it offers and becoming the protagonist of a better future."
 },
 
+"txtRespeto":{
+    "txt1": "We recognize the",
+    "txt2": " value and rights of people.",
+    "txt3": " We act keeping others in mind, promoting relationships that focus on",
+    "txt4": " openness, reciprocity and freedom.",
+    "txt5": " We establish and take care of the agreements we make, considering the interests of all those involved and building trust."
+},
+
+"txtEntusiasmo":{
+    "txt1": "We work with",
+    "txt2": " passion, commitment and courage,",
+    "txt3": " proactively seeking opportunities to",
+    "txt4": " learn, grow and innovate."
+},
+
+"txtSolidaridad":{
+    "txt1": "We are convinced that growth is possible only if we maintain a",
+    "txt2": " permanent cooperative",
+    "txt3": " relationship between ourselves and our",
+    "txt4": " environment."
+},
+
+"txtProfesionalismo":{
+    "txt1": "We are committed to achieving high",
+    "txt2": " quality",
+    "txt3": " standards and we are demanding with our compliance. We capitalize on the experience and specific knowledge that drives us towards a",
+    "txt4": " responsible",
+    "txt5": " and increasingly",
+    "txt6": " effective",
+    "txt7": " contribution."
+},
+
+"txtFlexibilidad":{
+    "txt1": "We adapt and",
+    "txt2": " keep our minds open",
+    "txt3": " to learn new things and act in different circumstances, modifying our behavior to",
+    "txt4": " improve our agreements,",
+    "txt5": " understanding and",
+    "txt6": " coexistence with others.",
+    "txt7": ""
+},
+
+
 "ComentarioHistoria":{
     "//": "A partir de aqui comienzan los Textos de la pantalla Home"
 },
 
 "txtTituloHistoria":{
-    "txt1": "HISTORY"
+    "txt1": "HISTORY",
+    "txt2": "CN GRUPO",
+    "txt3": "was born as a family business and has more than",
+    "txt4": "35 years",
+    "txt5": "of experience, more than",
+    "txt6": "270 collaborators",
+    "txt7": "and",
+    "txt8": "11 operating bases",
+    "txt9": "distributed in strategic points of Salta and Chile."
 },
 
 "txtLienaTiempo": {
@@ -180,6 +233,59 @@
     "txt11": "ESTACIONES HÍBRIDAS",
     "txt12": "AUTOGESTIÓN"
 },
+
+"txtMIC": {
+    "txt1": "We offer advanced",
+    "txt2": "digital solutions for fuel",
+    "txt3": "management and distribution in various configurations. Our projects cover fixed stations, mobile stations, hybrid stations, capillary distribution and self-management, providing",
+    "txt4": "control, efficiency and safety",
+    "txt5": "at all stages of the process."
+},
+
+"txtEstacionesFijas": {
+    "txt1": "We provide a",
+    "txt2": "smart and customized solution",
+    "txt3": "for fuel management. With MIC technology, we offer",
+    "txt4": "telemetering and integral control",
+    "txt5": "of fuel, allowing remote and integrated management of all supply and dispatch operations. Key benefits include process optimization, dispatch security, and continuous monitoring of levels and equipment."
+},
+
+"txtEstacionesMoviles": {
+    "txt1": "Our solutions are adapted for remote fuel management on the move. We integrate the technology of",
+    "txt2": "telemetering and control",
+    "txt3": "of fuel in",
+    "txt4": "tank trucks and fuel trailers,",
+    "txt5": "providing secure authorization of dispatches and constant monitoring of fuel levels. It is accessible from any place and device."
+},
+
+"txtDistribucionCapilar": {
+    "txt1": "We offer a",
+    "txt2": "logistics service",
+    "txt3": "specialized in the delivery of fuel in the last stage of the supply process. We use",
+    "txt4": "tank trucks",
+    "txt5": "equipped with",
+    "txt6": "super-high flow",
+    "txt7": "pumps (250 LPM) and the highest safety and technology standards. We ensure an accurate, traceable and efficient supply, which provides key information for strategic and operational decision making."
+},
+
+"txtEstacionesHibridas": {
+    "txt1": "We combine the stability of fixed stations with the",
+    "txt2": "flexibility",
+    "txt3": "of being relocated anywhere. This solution is ideal for environments that require mobility without losing",
+    "txt4": "control",
+    "txt5": "and efficiency in the",
+    "txt6": "remote management",
+    "txt7": "of fuel."
+},
+
+"txtAutogestion": {
+    "txt1": "We allow users to efficiently",
+    "txt2": "self-manage supplies.",
+    "txt3": "Through a",
+    "txt4": "WhatsApp bot,",
+    "txt5": "customers can request fuel and supply themselves after validating the information. This solution, which is under development, promises to reduce waiting times and improve customer autonomy in fuel handling."
+},
+
 
 "txtLubricentro": {
     "txt1": "Lube Center",
@@ -247,7 +353,12 @@
 },
 
 "txtMuestreo": {
-    "txt1": "Direct Sampling"
+    "txt1": "Direct Sampling",
+    "txt2": "Soil sampling and analysis service.",
+    "txt3": "Extraction of composite samples with automatic hydraulic sampler.",
+    "txt4": "Soil fertility.",
+    "txt5": "Usable soil water.",
+    "txt6": "Laboratory analyses."
 },
 
 "txtSumma": {
@@ -273,7 +384,7 @@
 
 "txtContacto": {
     "txt1": "Contact",
-    "txt2": "Para contactarnos, podés hacerlo a través de estos canales:",
+    "txt2": "You can contact us through these channels:",
     "txt3": "Address",
     "txt4": "Phone Number",
     "txt5": "Email",
@@ -388,6 +499,31 @@
     "txt8": "in the national network of YPF Gas Stations, distinguishing itself from its competitors."
 },
 
+"txtChangoProductos": {
+    "txt1": "Our products and services",
+    "txt2": "The products and services we offer are:",
+    "txt3": "CNG",
+    "txt4": "Compressed natural",
+    "txt5": "gas station.",
+    "txt6": "BOXES",
+    "txt7": "Lubricant and diagnostic",
+    "txt8": "service for your car.",
+    "txt9": "FULL STORE",
+    "txt10": "Sale of coffee, lunches,",
+    "txt11": "groceries and assorted items.",
+    "txt12": "ACCESSORIES",
+    "txt13": "Sale of lubricants, filters",
+    "txt14": "and assorted accessories.",
+    "txt15": "BOTTLED GAS",
+    "txt16": "Sale of bottled gas.",
+    "txt17": "FUELS",
+    "txt18": "With high-flow pumps",
+    "txt19": "for trucks.",
+    "txt20": "ESTACIONAMIENTO",
+    "txt21": "PARKING",
+    "txt22": "Parking for carriers, among others."
+},
+
 "txtLajitasEstacion": {
     "txt1": "Las Lajitas Gas Station",
     "txt2": "Las Lajitas Gas Station is the",
@@ -441,11 +577,11 @@
 
 "txtServiciosNECA": {
     "txt1": "Services and Solutions",
-    "txt2": "Nuestro servicio de",
-    "txt3": "entrega a domicilio",
-    "txt4": "es nuestro valor agregado. Nos aseguramos de entregar",
-    "txt5": "calidad y seguridad",
-    "txt6": "a tu hogar."
+    "txt2": "Our",
+    "txt3": "home delivery",
+    "txt4": "service is our added value. We make sure to deliver",
+    "txt5": "quality and safety",
+    "txt6": "to your home."
 },
 
 "txtCurado": {
@@ -461,17 +597,17 @@
 },
 
 "txtSolucionesDigitalesNECA": {
-    "txt1": "SOLUCIONES DIGITALES",
-    "txt2": "Soluciones Digitales",
-    "txt3": "La solución digital",
+    "txt1": "DIGITAL SOLUTIONS",
+    "txt2": "Digital Solutions",
+    "txt3": "The digital solution",
     "txt4": "Cropwise",
-    "txt5": "te ayuda a trabajar de manera más fácil, rentable y sostenible.",
-    "txt6": "Recopila datos",
-    "txt7": "geolocalizados de todas las plagas, malezas y enfermedades. obtiene una visión de lo que sucede en tu finca",
-    "txt8": "en tiempo real",
-    "txt9": "y recibe notificaciones sobre el estado de tu cultivo. Analiza la salud de tu cultivo",
-    "txt10": "desde cualquier sitio",
-    "txt11": "y accede a imagenes de alta resolución y mayor frecuencia para identificar problemas en tus parecelas."
+    "txt5": "helps you work easier, more profitably and sustainably. Collect geolocated data on all pests, weeds and diseases. Get a",
+    "txt6": "real-time",
+    "txt7": "view of what's happening on your farm and receive notifications about the status of your crop. Analyze the health of your crop",
+    "txt8": "from anywhere",
+    "txt9": "and gain access to high-resolution and higher-frequency images to identify problems in your plots.",
+    "txt10": "",
+    "txt11": ""
 },
 
 "txtSolucionesFinancierasNECA": {
@@ -481,7 +617,7 @@
     "txt4": "Financing in dollars",
     "txt5": "Financing in Argentinian pesos",
     "txt6": "Cards – Available grain exchanges",
-    "txt7": "Canjes de granos disponibles",
+    "txt7": "Grain redemptions available",
     "txt8": "Future grain exchanges",
     "txt9": "*Consult the current tools or solutions on a monthly basis."
 },
@@ -501,21 +637,22 @@
 "txtSiembra": {
     "txt1": "SOWING",
     "txt2": "Sowing",
-    "txt3": "Cultivos con Agricultura de Precisión.",
-    "txt4": "IR A PUESTO EL MOLLAR"
+    "txt3": "Crops with Precision Agriculture.",
+    "txt4": "GO TO PUESTO EL MOLLAR"
 },
 
 "txtGranos": {
     "txt1": "GRAIN",
     "txt2": "Grain",
-    "txt3": "Desde la",
-    "txt4": "Unidad de Negocios de Granos",
-    "txt5": "tenemos como objetivo ofrecer asesoramiento integral en la comercialización de",
-    "txt6": "comodities y especialidades.",
-    "txt7": "Brindamos herramientas al productor para tomar decisiones",
-    "txt8": "eficientes",
-    "txt9": "en contextos extremadamente complejos, a través de opciones de canje por insumos, charlas de mercados (nacionales e internacionales) y asesoramiento en lo",
-    "txt10": "comercial y financiero."
+    "txt3": "The",
+    "txt4": "Grains Business Unit",
+    "txt5": "aims to offer comprehensive advice in the commercialization of",
+    "txt6": "commodities and specialties.",
+    "txt7": "We provide the producer with tools to make",
+    "txt8": "efficient",
+    "txt9": "decisions in extremely complex contexts, through exchange options for supplies, market talks (national and international), and advice on",
+    "txt10": "commercial and financial",
+    "txt11": " matters."
 },
 
 "ComentarioMollar": {
@@ -531,7 +668,11 @@
     "txt6": "Independent sowing",
     "txt7": "1,000 ha - Soybean and Corn.",
     "txt8": "Shared sowing",
-    "txt9": "3,000 ha - Specialties."
+    "txt9": "3,000 ha - Specialties.",
+    "txt10": "Crops with",
+    "txt11": "Precision Agriculture",
+    "txt12": "",
+    "txt13": ""
 },
 
 "ComentarioPlantaGuemes": {
@@ -608,7 +749,14 @@
     "txt4": "Message",
     "txt5": "SEND",
     "txt6": "Email sent"
+},
+
+"txtContactoPagina": {
+    "txt1": "Thank you for your interest",
+    "txt2": "in our company.",
+    "txt3": "Send us your inquiry and we will send you a response via e-mail."
 }
+
 
 
 }

@@ -42,9 +42,9 @@ const Puesto = () => {
         <div className="logo-title-linea-mollar">
           <img src={LogoMollar} alt="" className="logomollar" />
           <hr class="my-lineaMollar"></hr>
-          <h2 className="title-elmollar">Cultivos con{" "} 
-          <span className="txt-empresa-spanMol">Agricultura{" "}</span> 
-          de <span className="txt-empresa-spanMol">Precisión</span></h2>
+          <h2 className="title-elmollar">{t("txtMollar.txt10")}{" "} 
+          <span className="txt-empresa-spanMol">{t("txtMollar.txt11")}{" "}</span> 
+          {t("txtMollar.txt12")}<span className="txt-empresa-spanMol">{t("txtMollar.txt13")}</span></h2>
         </div>
 
         <div className="container-elmollar2">

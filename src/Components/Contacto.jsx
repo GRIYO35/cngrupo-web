@@ -25,11 +25,10 @@ const Navinfo = () => {
               <p className="subtitulocontacto">{t("li.CONTACT")}</p>
             </div>
             <h2 className="titulo-Contacto">
-              Gracias por tu interés<br></br> en nuestra empresa
+            {t("txtContactoPagina.txt1")}<br></br>{t("txtContactoPagina.txt2")}
             </h2>
             <p className="p-contacto1">
-              Envianos tu consulta y recibirás la respuesta en tu casilla de
-              e-mail
+            {t("txtContactoPagina.txt3")}
             </p>
           </div>
         </div>

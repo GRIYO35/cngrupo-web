@@ -19,7 +19,7 @@ import "./Vision.css"
 const Vision = () => {
     // eslint-disable-next-line no-unused-vars
     const [t, i18next] = useTranslation("global");
-    const [texto, setTexto] = useState('Reconocemos el <span class="txt-empresa-spanVis">valor y los derechos de las personas.</span> Actuamos pensando en el otro, promoviendo relaciones que destaquen <span class="txt-empresa-spanVis">franqueza, reciprocidad y libertad.</span> Establecemos y cuidamos los acuerdos que hacemos, considerando los intereses de todos los involucrados y la construcción de confianza.');
+    const [texto, setTexto] = useState(`${t('txtRespeto.txt1')} <span class="txt-empresa-spanVis">${t('txtRespeto.txt2')}</span>${t('txtRespeto.txt3')}<span class="txt-empresa-spanVis">${t('txtRespeto.txt4')}</span>${t('txtRespeto.txt5')}`);
     const [titulo, setTitulo] = useState('Respeto');
     const [icono, setIcono] = useState(NuevoIcono);
     const [icono1, setIcono1] = useState(mesaNuevo);
@@ -32,73 +32,79 @@ const Vision = () => {
     const [colorFondoFlecha, setColorFondoFlecha] = useState('white');
     const [colorFondoManoArriba, setColorFondoManoArriba] = useState('white');
 
-
-    const cambiarContenido = (nuevoTexto, nuevoTitulo) => {
-        setTexto(nuevoTexto);
-        setTitulo(nuevoTitulo);
-        if (nuevoTitulo === "Respeto") {
-          setColorFondoManos("white");
-          setColorFondo ('#3A93A4');
-          setColorFondoMesa ("white");
-          setColorFondoFlecha ("white")
-          setColorFondoManoArriba ("white")
-          setIcono(NuevoIcono)
-          setIcono1(mesaNuevo)
-          setIcono2(manos)
-          setIcono3(flechita)
-          setIcono4(manoarriba)
-        } 
-        if (nuevoTitulo === "Entusiasmo") {
-          setColorFondoManos("white");
-          setColorFondo ('white');
-          setColorFondoMesa ('#3A93A4')
-          setColorFondoFlecha ("white")
-          setColorFondoManoArriba ("white")
-          setIcono(IconoInicial)
-          setIcono1 (mesa)
-          setIcono2(manos)
-          setIcono3(flechita)
-          setIcono4(manoarriba)
-        }
-        if (nuevoTitulo === "Profesionalismo") {
-          setColorFondoManos("#3A93A4");
-          setColorFondo ('white');
-          setColorFondoMesa ('white')
-          setColorFondoFlecha ("white")
-          setColorFondoManoArriba ("white")
-          setIcono(IconoInicial)
-          setIcono1 (mesaNuevo)
-          setIcono2(ManosNuevo)
-          setIcono3(flechita)
-          setIcono4(manoarriba)
-        }
-        if (nuevoTitulo === "Solidaridad") {
-          setColorFondoManos("white");
-          setColorFondo ('white');
-          setColorFondoMesa ('white')
-          setColorFondoFlecha ("#3A93A4")
-          setColorFondoManoArriba ("white")
-          setIcono(IconoInicial)
-          setIcono1 (mesaNuevo)
-          setIcono2(manos)
-          setIcono3(FlechitaNuevo)
-          setIcono4(manoarriba)
-        }
-        if (nuevoTitulo === "Flexibilidad") {
-          setColorFondoManos("white");
-          setColorFondo ('white');
-          setColorFondoMesa ('white')
-          setColorFondoFlecha ("white")
-          setColorFondoManoArriba ("#3A93A4")
-          setIcono(IconoInicial)
-          setIcono1 (mesaNuevo)
-          setIcono2(manos)
-          setIcono3(flechita)
-          setIcono4(ManoArribaNuevo)
-        }
-      }
-    
-
+      const cambiarContenido = (nuevoTexto, nuevoTitulo) => {
+          setTexto(nuevoTexto);
+          setTitulo(nuevoTitulo);
+          switch (nuevoTitulo) {
+              case 'Respeto':
+              case 'Respect':
+                  setColorFondoManos('white');
+                  setColorFondo('#3A93A4');
+                  setColorFondoMesa('white');
+                  setColorFondoFlecha('white');
+                  setColorFondoManoArriba('white');
+                  setIcono(NuevoIcono);
+                  setIcono1(mesaNuevo);
+                  setIcono2(manos);
+                  setIcono3(flechita);
+                  setIcono4(manoarriba);
+                  break;
+              case 'Entusiasmo':
+              case 'Enthusiasm':
+                  setColorFondoManos('white');
+                  setColorFondo('white');
+                  setColorFondoMesa('#3A93A4');
+                  setColorFondoFlecha('white');
+                  setColorFondoManoArriba('white');
+                  setIcono(IconoInicial);
+                  setIcono1(mesa);
+                  setIcono2(manos);
+                  setIcono3(flechita);
+                  setIcono4(manoarriba);
+                  break;
+              case 'Profesionalismo':
+              case 'Professionalism':
+                  setColorFondoManos('#3A93A4');
+                  setColorFondo('white');
+                  setColorFondoMesa('white');
+                  setColorFondoFlecha('white');
+                  setColorFondoManoArriba('white');
+                  setIcono(IconoInicial);
+                  setIcono1(mesaNuevo);
+                  setIcono2(ManosNuevo);
+                  setIcono3(flechita);
+                  setIcono4(manoarriba);
+                  break;
+              case 'Solidaridad':
+              case 'Solidarity':
+                  setColorFondoManos('white');
+                  setColorFondo('white');
+                  setColorFondoMesa('white');
+                  setColorFondoFlecha('#3A93A4');
+                  setColorFondoManoArriba('white');
+                  setIcono(IconoInicial);
+                  setIcono1(mesaNuevo);
+                  setIcono2(manos);
+                  setIcono3(FlechitaNuevo);
+                  setIcono4(manoarriba);
+                  break;
+              case 'Flexibilidad':
+              case 'Flexibility':
+                  setColorFondoManos('white');
+                  setColorFondo('white');
+                  setColorFondoMesa('white');
+                  setColorFondoFlecha('white');
+                  setColorFondoManoArriba('#3A93A4');
+                  setIcono(IconoInicial);
+                  setIcono1(mesaNuevo);
+                  setIcono2(manos);
+                  setIcono3(flechita);
+                  setIcono4(ManoArribaNuevo);
+                  break;
+              default:
+                  break;
+          }
+        };
     
 
     return (
@@ -129,11 +135,71 @@ const Vision = () => {
             <div className="Circulo-Valores">
               <div className="cositos">
                 <img src={circulo} alt="" className="circle"/>   
-                <img src={icono} alt="" className="svg-vision2" style={{ backgroundColor: colorFondo }} onMouseOver={() => { cambiarContenido('Reconocemos el <span class="txt-empresa-spanVis">valor y los derechos de las personas.</span> Actuamos pensando en el otro, promoviendo relaciones que destaquen <span class="txt-empresa-spanVis">franqueza, reciprocidad y libertad.</span> Establecemos y cuidamos los acuerdos que hacemos, considerando los intereses de todos los involucrados y la construcción de confianza.',t("txtCliente.txt3")); }} />
-                <img src={icono4} alt="" className="svg-vision4" style={{ backgroundColor: colorFondoManoArriba }} onMouseOver={() => { cambiarContenido('Nos adaptamos y <span class="txt-empresa-spanVis">mantenemos abierta nuestra mente</span> para conocer cosas nuevas y actuar en diferentes circunstancias, modificando nuestro comportamientos para <span class="txt-empresa-spanVis">mejorar nuestros acuerdos,</span> enendimiento <span class="txt-empresa-spanVis">y convivencia</span> con los demas.',t("txtCliente.txt4")); }} />
-                <img src={icono3} alt="" className="svg-vision5" style={{ backgroundColor: colorFondoFlecha }} onMouseOver={() =>  { cambiarContenido('Estamos convencidos que el crecimiento es posible solo si mantenemos una relacion de <span class="txt-empresa-spanVis">cooperacion permanente</span> entre nosotros y con nuestro <span class="txt-empresa-spanVis">entorno.</span>',t("txtCliente.txt5")); }} />
-                <img src={icono2} alt="" className="svg-vision3" style={{ backgroundColor: colorFondoManos }} onMouseOver={() =>  { cambiarContenido('Nos comprometemos a lograr altos estandares de <span class="txt-empresa-spanVis">calidad</span> y somos exigentes con nuestros cumplimientos, capitalizamos la experiencia y el conocimiento especifico que nos impulse hacia una contribucion <span class="txt-empresa-spanVis">responsable</span> y cada vez mas <span class="txt-empresa-spanVis">efectiva.</span>',t("txtCliente.txt6")); }} />
-                <img src={icono1} alt="" className="svg-vision1" style={{ backgroundColor: colorFondoMesa }} onMouseOver={() => { cambiarContenido('Trabajamos con <span class="txt-empresa-spanVis">pasion, compromiso y coraje,</span> buscando proactivamente oportunidades de <span class="txt-empresa-spanVis">aprender, de crecer e innovar.</span>',t("txtCliente.txt7")); }} />
+                <img
+                                src={icono}
+                                alt=""
+                                className="svg-vision2"
+                                style={{ backgroundColor: colorFondo }}
+                                onMouseOver={() => {
+                                  cambiarContenido(
+                                    `${t('txtRespeto.txt1')} <span class="txt-empresa-spanVis">${t('txtRespeto.txt2')}</span>${t('txtRespeto.txt3')}<span class="txt-empresa-spanVis">${t('txtRespeto.txt4')}</span>${t('txtRespeto.txt5')}`,
+                                    t('txtCliente.txt3')
+                                );
+                                
+                                }}
+                />
+                <img
+                                src={icono4}
+                                alt=""
+                                className="svg-vision4"
+                                style={{ backgroundColor: colorFondoManoArriba }}
+                                onMouseOver={() => {
+                                  cambiarContenido(
+                                    `${t('txtFlexibilidad.txt1')}<span class="txt-empresa-spanVis">${t('txtFlexibilidad.txt2')}</span>${t('txtFlexibilidad.txt3')}<span class="txt-empresa-spanVis">${t('txtFlexibilidad.txt4')}</span>${t('txtFlexibilidad.txt5')}<span class="txt-empresa-spanVis">${t('txtFlexibilidad.txt6')}</span>${t('txtFlexibilidad.txt7')}`,
+                                    t("txtCliente.txt4")
+                                );
+                                
+                                }}
+                />
+                <img
+                                src={icono3}
+                                alt=""
+                                className="svg-vision5"
+                                style={{ backgroundColor: colorFondoFlecha }}
+                                onMouseOver={() => {
+                                  cambiarContenido(
+                                    `${t('txtSolidaridad.txt1')}<span class="txt-empresa-spanVis">${t('txtSolidaridad.txt2')}</span>${t('txtSolidaridad.txt3')}<span class="txt-empresa-spanVis">${t('txtSolidaridad.txt4')}</span>`,
+                                    t("txtCliente.txt5")
+                                );
+                                
+                                }}
+                />
+                <img
+                                src={icono2}
+                                alt=""
+                                className="svg-vision3"
+                                style={{ backgroundColor: colorFondoManos }}
+                                onMouseOver={() => {
+                                  cambiarContenido(
+                                    `${t('txtProfesionalismo.txt1')}<span class="txt-empresa-spanVis">${t('txtProfesionalismo.txt2')}</span>${t('txtProfesionalismo.txt3')}<span class="txt-empresa-spanVis">${t('txtProfesionalismo.txt4')}</span>${t('txtProfesionalismo.txt5')}<span class="txt-empresa-spanVis">${t('txtProfesionalismo.txt6')}</span>${t('txtProfesionalismo.txt7')}`,
+                                    t("txtCliente.txt6")
+                                );
+                                
+                                }}
+                />
+                <img
+                                src={icono1}
+                                alt=""
+                                className="svg-vision1"
+                                style={{ backgroundColor: colorFondoMesa }}
+                                onMouseOver={() => {
+                                  cambiarContenido(
+                                    `${t('txtEntusiasmo.txt1')}<span class="txt-empresa-spanVis">${t('txtEntusiasmo.txt4')}</span>${t('txtEntusiasmo.txt3')}<span class="txt-empresa-spanVis">${t('txtEntusiasmo.txt4')}</span>`,
+                                    t("txtCliente.txt7")
+                                );
+                                
+                                }}
+                />
                 <h2 className="txt-cir">{t("txtCliente.txt2")}</h2>
               </div> 
            </div> 

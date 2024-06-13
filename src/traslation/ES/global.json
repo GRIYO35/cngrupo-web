@@ -18,7 +18,9 @@
     "SERVICE STATIONS": "ESTACIONES DE SERVICIO",
     "Our culture":"Nuestra cultura",
     "Our business portfolio": "Nuestra Cartera de Negocios",
-    "Apply": "Postulate"
+    "Apply": "Postulate",
+    "MINING":"Minería",
+    "FARMLAND": "AGRO"
 },
 
 "ComentarioHome":{
@@ -54,7 +56,7 @@
     "and MINING": "y MINERÍA.",
     "operational bases":"Bases operativas",
     "distributed in Salta and":"distribuidas en Salta y",
-    "northern Chile": "Region I y V de Chile.",
+    "northern Chile": "Región I y V de Chile.",
     "collaborators": "Colaboradores",
     "in constant":"en constante crecimiento",
     "professional growth":"profesional."
@@ -80,8 +82,8 @@
     "txt2": "nace como una empresa familiar y cuenta con más",
     "txt3": "35 años",
     "txt4": "de trayectoria, mas de",
-    "txt5": "250 colaboradores y 6 bases operativas",
-    "txt6": "distribuidas en puntos estratégicos de Salta y norte de Chile.",
+    "txt5": "270 colaboradores y 11 bases operativas",
+    "txt6": "distribuidas en puntos estratégicos de Salta y Región I y V de Chile.",
     "txt7": "En el transcurso de nuestro desarrollo empresario hemos ido diversificando negocios, apostando siempre a",
     "txt8": "innovación, al desarrollo profesional ",
     "txt9": "de nuestros equipos y a las relaciones estratégicas con nuestros proveedores, clientes y comunidad."
@@ -126,12 +128,63 @@
     "txt9": "Ser una marca capaz de trascender más allá del producto o servicio que ofrece y convertirse en protagonista de un futuro mejor."
 },
 
+"txtRespeto":{
+    "txt1": "Reconocemos el",
+    "txt2": " valor y los derechos de las personas.",
+    "txt3": " Actuamos pensando en el otro, promoviendo relaciones que destaquen",
+    "txt4": " franqueza, reciprocidad y libertad.",
+    "txt5": " Establecemos y cuidamos los acuerdos que hacemos, considerando los intereses de todos los involucrados y la construcción de confianza."
+},
+
+"txtEntusiasmo":{
+    "txt1": "Trabajamos con",
+    "txt2": " pasión, compromiso y coraje,",
+    "txt3": " buscando proactivamente oportunidades de",
+    "txt4": " aprender, de crecer e innovar."
+},
+
+"txtSolidaridad":{
+    "txt1": "Estamos convencidos que el crecimiento es posible solo si mantenemos una relación de",
+    "txt2": " cooperación permanente",
+    "txt3": " entre nosotros y con nuestro",
+    "txt4": " entorno."
+},
+
+"txtProfesionalismo":{
+    "txt1": "Nos comprometemos a lograr altos estándares de",
+    "txt2": " calidad",
+    "txt3": " y somos exigentes con nuestros cumplimientos, capitalizamos la experiencia y el conocimiento especifico que nos impulse hacia una contribución",
+    "txt4": " responsable",
+    "txt5": " y cada vez más",
+    "txt6": " efectiva.",
+    "txt7": ""
+},
+
+"txtFlexibilidad":{
+    "txt1": "Nos adaptamos y",
+    "txt2": " mantenemos abierta nuestra mente",
+    "txt3": " para conocer cosas nuevas y actuar en diferentes circunstancias, modificando nuestro comportamiento para",
+    "txt4": " mejorar nuestros acuerdos,",
+    "txt5": " entendimiento",
+    "txt6": " y convivencia",
+    "txt7": " con los demás."
+},
+
+
 "ComentarioHistoria":{
     "//": "A partir de aqui comienzan los Textos de la pantalla Home"
 },
 
 "txtTituloHistoria":{
-    "txt1": "HISTORIA"
+    "txt1": "HISTORIA",
+    "txt2": "CN GRUPO",
+    "txt3": "nace como una empresa familiar y cuenta con más de",
+    "txt4": "35 años",
+    "txt5": "de trayectoria, más de",
+    "txt6": "270 colaboradores",
+    "txt7": "y",
+    "txt8": "11 bases operativas",
+    "txt9": "distribuidas en puntos estratégicos de Salta y Región I y V de Chile."
 },
 
 "txtLienaTiempo": {
@@ -181,6 +234,58 @@
     "txt10": "Autogestión",
     "txt11": "ESTACIONES HÍBRIDAS",
     "txt12": "AUTOGESTIÓN"
+},
+
+"txtMIC": {
+    "txt1": "Ofrecemos",
+    "txt2": "soluciones digitales",
+    "txt3": "avanzadas para la gestión y distribución de combustible en diversas configuraciones. Nuestros proyectos abarcan estaciones fijas, estaciones móviles, estaciones híbridas, distribución capilar y autogestión, proporcionando",
+    "txt4": "control, eficiencia y seguridad",
+    "txt5": "en todas las etapas del proceso."
+},
+
+"txtEstacionesFijas": {
+    "txt1": "Proporcionamos una",
+    "txt2": "solución inteligente y personalizada",
+    "txt3": "para el manejo de combustible. Mediante la tecnología MIC, ofrecemos",
+    "txt4": "telemedición y control integral",
+    "txt5": "del combustible, permitiendo la gestión remota e integrada de todas las operaciones de abastecimiento y despacho. Los beneficios clave incluyen la optimización de procesos, seguridad en el despacho y monitoreo continuo de niveles y equipos."
+},
+
+"txtEstacionesMoviles": {
+    "txt1": "Nuestras soluciones están adaptadas para la gestión remota del combustible en movimiento. Integramos la tecnología de",
+    "txt2": "telemedición y control",
+    "txt3": "de combustible en",
+    "txt4": "camiones cisterna y batanes,",
+    "txt5": "proporcionando autorización segura de despachos y monitoreo constante de los niveles de combustible, accesible desde cualquier lugar y dispositivo."
+},
+
+"txtDistribucionCapilar": {
+    "txt1": "Ofrecemos un",
+    "txt2": "servicio logístico",
+    "txt3": "especializado en la entrega de combustible en el último tramo del proceso de suministro. Utilizamos",
+    "txt4": "camiones cisterna",
+    "txt5": "equipados con bombas de",
+    "txt6": "superalto caudal",
+    "txt7": "(250 lpm) y los más altos estándares de seguridad y tecnología. Aseguramos un abastecimiento preciso, trazable y eficiente, permitiendo obtener información clave para la toma de decisiones estratégicas y operativas."
+},
+
+"txtEstacionesHibridas": {
+    "txt1": "Combinamos la estabilidad de las estaciones fijas con la",
+    "txt2": "flexibilidad",
+    "txt3": "de ser reubicadas en cualquier lugar. Esta solución es ideal para entornos que requieren movilidad sin perder el",
+    "txt4": "control",
+    "txt5": "y la eficiencia en la",
+    "txt6": "gestión remota",
+    "txt7": "del combustible."
+},
+
+"txtAutogestion": {
+    "txt1": "Permitimos a los usuarios",
+    "txt2": "autogestionar abastecimientos",
+    "txt3": "de manera eficiente. A través de un",
+    "txt4": "bot de WhatsApp,",
+    "txt5": "los clientes pueden solicitar combustible y autosurtirse tras validar la información. Esta solución en proceso de construcción promete reducir tiempos de espera y mejorar la autonomía del cliente en el manejo de combustible."
 },
 
 "txtLubricentro": {
@@ -249,7 +354,12 @@
 },
 
 "txtMuestreo": {
-    "txt1": "Muestreo Dirigido"
+    "txt1": "Muestreo Dirigido",
+    "txt2": "Servicio de muestreo y análisis de suelo.",
+    "txt3": "Extracción de muestras compuestas con calador hidráulico automático.",
+    "txt4": "Fertilidad de suelo.",
+    "txt5": "Agua útil de suelo.",
+    "txt6": "Análisis de laboratorio."
 },
 
 "txtSumma": {
@@ -390,6 +500,31 @@
     "txt8": "en la red nacional de Estaciones de Servicio YPF distinguiéndose entre sus competidores."
 },
 
+"txtChangoProductos": {
+    "txt1": "Nuestros productos y servicios",
+    "txt2": "Los productos y servicios que ofrecemos son:",
+    "txt3": "GNC",
+    "txt4": "Estación de gas natural",
+    "txt5": "comprimido",
+    "txt6": "BOXES",
+    "txt7": "Servicio de lubricantes y",
+    "txt8": "diagnóstico para tu auto",
+    "txt9": "TIENDA FULL",
+    "txt10": "Venta de cafetería, almuerzos,",
+    "txt11": "comestibles y artículos varios",
+    "txt12": "ACCESORIOS",
+    "txt13": "Venta de lubricantes, filtros",
+    "txt14": "y accesorios varios",
+    "txt15": "GAS ENVASADO",
+    "txt16": "Venta de gas envasado",
+    "txt17": "COMBUSTIBLES",
+    "txt18": "Con surtidores de auto",
+    "txt19": "caudal para camiones",
+    "txt20": "ESTACIONAMIENTO",
+    "txt21": "Estacionamiento",
+    "txt22": "para transportistas, entre otros"
+},
+
 "txtLajitasEstacion": {
     "txt1": "EESS Las Lajitas",
     "txt2": "EESS Las Lajitas es el",
@@ -455,10 +590,10 @@
     "txt2": "Curado profesional de semillas",
     "txt3": "El",
     "txt4": "curado de la semilla,",
-    "txt5": "antes de la siembra, es una practica muy importante, porque es el primer paso para obtener un buen stand de plantas en el cultivo que vamos a implantar y, fundamentalmente para",
+    "txt5": "antes de la siembra, es una práctica muy importante, porque es el primer paso para obtener un buen stand de plantas en el cultivo que vamos a implantar y, fundamentalmente para",
     "txt6": "eliminar",
     "txt7": "los posibles",
-    "txt8": "patogenos",
+    "txt8": "patógenos",
     "txt9": "que tengan las semillas."
 },
 
@@ -473,7 +608,7 @@
     "txt8": "en tiempo real",
     "txt9": "y recibe notificaciones sobre el estado de tu cultivo. Analiza la salud de tu cultivo",
     "txt10": "desde cualquier sitio",
-    "txt11": "y accede a imagenes de alta resolución y mayor frecuencia para identificar problemas en tus parecelas."
+    "txt11": "y accede a imágenes de alta resolución y mayor frecuencia para identificar problemas en tus parcelas."
 },
 
 "txtSolucionesFinancierasNECA": {
@@ -517,7 +652,8 @@
     "txt7": "Brindamos herramientas al productor para tomar decisiones",
     "txt8": "eficientes",
     "txt9": "en contextos extremadamente complejos, a través de opciones de canje por insumos, charlas de mercados (nacionales e internacionales) y asesoramiento en lo",
-    "txt10": "comercial y financiero."
+    "txt10": "comercial y financiero.",
+    "txt11": ""
 },
 
 "ComentarioMollar": {
@@ -533,7 +669,11 @@
     "txt6": "Siembra propia",
     "txt7": "Soja y Maíz  -  1000 ha",
     "txt8": "Siembra asociada",
-    "txt9": "Especialidades  -  3000 ha"
+    "txt9": "Especialidades  -  3000 ha",
+    "txt10": "Cultivos con",
+    "txt11": "Agricultura",
+    "txt12": "de",
+    "txt13": " Precisión"
 },
 
 "ComentarioPlantaGuemes": {
@@ -556,7 +696,7 @@
     "txt3": "formulación, mezclado y embolsado",
     "txt4": "de fertilizantes granulados, ofreciendo al cliente final la posibilidad de",
     "txt5": "armar su propia mezcla",
-    "txt6": "“a medida” y de acuerdo con los requerimientos que su cultivo y su suelo ecesitan."
+    "txt6": "“a medida” y de acuerdo con los requerimientos que su cultivo y su suelo necesitan."
 },
 
 "txtVentasGuemes": {
@@ -610,6 +750,12 @@
     "txt4": "Mensaje",
     "txt5": "ENVIAR",
     "txt6": "Email enviado."
+},
+
+"txtContactoPagina": {
+    "txt1": "Gracias por tu interés",
+    "txt2": "en nuestra empresa",
+    "txt3": "Envianos tu consulta y recibirás la respuesta en tu casilla de e-mail"
 }
 
 }

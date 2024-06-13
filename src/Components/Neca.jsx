@@ -386,7 +386,7 @@ const Neca = () => {
                     {t("txtGranos.txt7")}{" "}
                     <span className="txt-empresa-spanNeca">{t("txtGranos.txt8")}{" "}</span> 
                     {t("txtGranos.txt9")}{" "}
-                    <span className="txt-empresa-spanNeca">{t("txtGranos.txt10")}</span>
+                    <span className="txt-empresa-spanNeca">{t("txtGranos.txt10")}</span>{t("txtGranos.txt11")}
                   </p>
                 </div>
               </div>

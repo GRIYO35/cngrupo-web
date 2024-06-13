@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
 import logo2 from "../Assets/loggo2.png";
-import fotogas15 from "../Assets/650X388px WEB autoelevadores.png";
+import fotogas15 from "../Assets/GAS 15.png";
 import fotogasBu from "../Assets/650X388px WEB gas butano.png";
-import fotogasPla from "../Assets/650X388px WEB plasticas.png";
-import fotogasPro from "../Assets/650X388px WEB propano.png";
+import fotogasPla from "../Assets/650X388px WEB autoelevadores.png";
+import fotogasPro from "../Assets/GAS 45.png";
 import logodireccion from "../Assets/logodireccion.png";
 import logotelefono from "../Assets/logotelefono.png";
 import logowpp from "../Assets/logowpp.png";

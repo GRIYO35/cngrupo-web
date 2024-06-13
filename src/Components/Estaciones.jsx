@@ -59,44 +59,44 @@ const Estacion = () => {
         <img src={estacionesimg2} alt="" className="fotobotonesEst" />
       </div>
       <div className="container-dibujitos">
-        <h2 className="estaciones-title">Nuestros productos y servicios</h2>
+        <h2 className="estaciones-title">{t("txtChangoProductos.txt1")}</h2>
         <hr className="linea-est"></hr>
         <div className="container-proteccion">
-          <p className="p-estaciones1">Los productos y servicios que ofrecemos son:</p>
-          <div className="productos-protección-esta">
+          <p className="p-estaciones1">{t("txtChangoProductos.txt2")}</p>
+          <div className={i18next.language === "es" ? "productos-protección-esta" : "productos-protección-estaEN"}>
             <div className="container-producto-estaciones">
               <img src={combustibles} alt="" className="producto-est" />
               <div className="icons-est-text">
-                <h4 className="title-container-estacion">GNC</h4>
-                <p className="p-estaciones1">Estación de gas natural<br></br> comprimido</p>
+                <h4 className="title-container-estacion">{t("txtChangoProductos.txt3")}</h4>
+                <p className="p-estaciones1">{t("txtChangoProductos.txt4")}<br></br>{t("txtChangoProductos.txt5")}</p>
               </div>
             </div>
             <div className="container-producto-estaciones">
               <img src={boxes} alt="" className="producto-est" />
               <div className="icons-est-text">
-                <h4 className="title-container-estacion">BOXES</h4>
-                <p className="p-estaciones1">Servicio de lubricantes y <br></br>diagnóstico para tu auto</p>
+                <h4 className="title-container-estacion">{t("txtChangoProductos.txt6")}</h4>
+                <p className="p-estaciones1">{t("txtChangoProductos.txt7")}<br></br>{t("txtChangoProductos.txt8")}</p>
               </div>
             </div>
             <div className="container-producto-estaciones">
               <img src={tiendafull} alt="" className="producto-est" />
               <div className="icons-est-text">
-                <h4 className="title-container-estacion">TIENDA FULL</h4>
-                <p className="p-estaciones1">Venta de cafetería, almuerzos, <br></br>comestibles y artículos varios</p>
+                <h4 className="title-container-estacion">{t("txtChangoProductos.txt9")}</h4>
+                <p className="p-estaciones1">{t("txtChangoProductos.txt10")}<br></br>{t("txtChangoProductos.txt11")}</p>
               </div>
             </div>
             <div className="container-producto-estaciones">
               <img src={accesorios} alt="" className="producto-est" />
               <div className="icons-est-text">
-                <h4 className="title-container-estacion">ACCESORIOS</h4>
-                <p className="p-estaciones1">Venta de lubricantes, filtros<br></br> y accesorios varios</p>
+                <h4 className="title-container-estacion">{t("txtChangoProductos.txt12")}</h4>
+                <p className="p-estaciones1">{t("txtChangoProductos.txt13")}<br></br>{t("txtChangoProductos.txt14")}</p>
               </div>
             </div>
             <div className="container-producto-estaciones">
               <img src={gasenvasado} alt="" className="producto-est" />
               <div className="icons-est-text">
-                <h4 className="title-container-estacion">GAS ENVASADO</h4>
-                <p className="p-estaciones1">Venta de gas envasado</p>
+                <h4 className="title-container-estacion">{t("txtChangoProductos.txt15")}</h4>
+                <p className="p-estaciones1">{t("txtChangoProductos.txt16")}</p>
               </div>
             </div>
           </div>
@@ -122,51 +122,51 @@ const Estacion = () => {
         <img src={estacionesimg1} alt="" className="fotobotonesEst" />
       </div>
       <div className="container-dibujitos">
-        <h2 className="estaciones-title">Nuestros productos y servicios</h2>
+        <h2 className="estaciones-title">{t("txtChangoProductos.txt1")}</h2>
         <hr className="linea-est"></hr>
         <div className="container-proteccion">
-          <p className="p-estaciones1">Los productos y servicios que ofrecemos son:</p>
-          <div className="productos-protección-esta">
+          <p className="p-estaciones1">{t("txtChangoProductos.txt2")}</p>
+          <div className={i18next.language === "es" ? "productos-protección-esta" : "productos-protección-estaEN"}>
             <div className="container-producto-estaciones">
               <img src={combustibles} alt="" className="producto-est" />
               <div className="icons-est-text">
-                <h4 className="title-container-estacion">COMBUSTIBLES</h4>
-                <p className="p-estaciones1">Con surtidores de auto <br></br>caudal para camiones</p>
+                <h4 className="title-container-estacion">{t("txtChangoProductos.txt17")}</h4>
+                <p className="p-estaciones1">{t("txtChangoProductos.txt18")}<br></br>{t("txtChangoProductos.txt19")}</p>
               </div>
             </div>
             <div className="container-producto-estaciones">
               <img src={boxes} alt="" className="producto-est" />
               <div className="icons-est-text">
-                <h4 className="title-container-estacion">BOXES</h4>
-                <p className="p-estaciones1">Servicio de lubricantes y <br></br>diagnóstico para tu auto</p>
+                <h4 className="title-container-estacion">{t("txtChangoProductos.txt6")}</h4>
+                <p className="p-estaciones1">{t("txtChangoProductos.txt7")}<br></br>{t("txtChangoProductos.txt8")}</p>
               </div>
             </div>
             <div className="container-producto-estaciones">
               <img src={tiendafull} alt="" className="producto-est" />
               <div className="icons-est-text">
-                <h4 className="title-container-estacion">TIENDA FULL</h4>
-                <p className="p-estaciones1">Venta de cafetería, almuerzos, <br></br>comestibles y artículos varios</p>
+                <h4 className="title-container-estacion">{t("txtChangoProductos.txt9")}</h4>
+                <p className="p-estaciones1">{t("txtChangoProductos.txt10")}<br></br>{t("txtChangoProductos.txt11")}</p>
               </div>
             </div>
             <div className="container-producto-estaciones">
               <img src={accesorios} alt="" className="producto-est" />
               <div className="icons-est-text">
-                <h4 className="title-container-estacion">ACCESORIOS</h4>
-                <p className="p-estaciones1">Venta de lubricantes, filtros<br></br> y accesorios varios</p>
+                <h4 className="title-container-estacion">{t("txtChangoProductos.txt12")}</h4>
+                <p className="p-estaciones1">{t("txtChangoProductos.txt13")}<br></br>{t("txtChangoProductos.txt14")}</p>
               </div>
             </div>
             <div className="container-producto-estaciones">
               <img src={gasenvasado} alt="" className="producto-est" />
               <div className="icons-est-text">
-                <h4 className="title-container-estacion">GAS ENVASADO</h4>
-                <p className="p-estaciones1">Venta de gas envasado</p>
+                <h4 className="title-container-estacion">{t("txtChangoProductos.txt15")}</h4>
+                <p className="p-estaciones1">{t("txtChangoProductos.txt16")}</p>
               </div>
             </div>
             <div className="container-producto-estaciones">
               <img src={estacionamiento} alt="" className="producto-est" />
               <div className="icons-est-text">
-                <h4 className="title-container-estacion">ESTACIONAMIENTO</h4>
-                <p className="p-estaciones1">Estacionamiento <br></br>para transportistas, entre otros</p>
+                <h4 className="title-container-estacion">{t("txtChangoProductos.txt20")}</h4>
+                <p className="p-estaciones1">{t("txtChangoProductos.txt21")}<br></br>{t("txtChangoProductos.txt22")}</p>
               </div>
             </div>
           </div>

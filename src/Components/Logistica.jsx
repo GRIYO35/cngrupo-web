@@ -39,7 +39,6 @@ const Logistica = () => {
             {t("txtLogistica.txt4")}{" "} 
             <span className="txt-empresa-spanLog">{t("txtLogistica.txt5")}{" "}</span> 
             {t("txtLogistica.txt6")}
-            <br></br>
             <br></br><br></br>{t("txtLogistica.txt7")}{" "} 
             <span className="txt-empresa-spanLog">{t("txtLogistica.txt8")}{" "}</span> 
             {t("txtLogistica.txt9")}{" "}

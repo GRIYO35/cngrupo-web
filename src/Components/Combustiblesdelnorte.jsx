@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 /*import ExpandLessIcon from "@material-ui/icons/ExpandLess";*/
 import { FaInstagram, FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
 import logo2 from "../Assets/CN - INFO IMPOSITIVA grey@300x.png";
@@ -24,7 +24,8 @@ import logoneca4 from "../Assets/logoneca4.png";
 import vectorneca4 from "../Assets/logomail.svg";
 import LogoPersona from "../Assets/logoPersona.svg";
 import videoSourceComb from "../Assets/COMBUSTIBLES DEL NORTE.mp4";
-import videoSourceComb1 from "../Assets/COMBUSTIBLES-DEL-NORTE.av1.mp4";
+//import videoSourceComb1 from "../Assets/COMBUSTIBLES-DEL-NORTE.av1.mp4";
+import videoSourceComb2 from "../Assets/ESTACIONFIJA1.mp4";
 import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBar";
 import "./Combustiblesdelnorte.css";
@@ -46,6 +47,25 @@ const Combustibles = () => {
     setSelectedButton1(buttonNumber1);
   };
 
+  const [dimensions, setDimensions] = useState({
+    width: window.innerWidth,
+    height: window.innerHeight
+  });
+
+  const handleResize = () => {
+    setDimensions({
+      width: window.innerWidth,
+      height: window.innerHeight
+    });
+  };
+
+  useEffect(() => {
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <div className="home-container">
       <div className="video">
@@ -55,7 +75,7 @@ const Combustibles = () => {
           muted
           className="tuvideo"
         >
-          <source src={videoSourceComb1} type="video/mp4; codecs=av01" />
+          <source src={videoSourceComb} type="video/mp4; codecs=av01" />
           <source src={videoSourceComb} type="video/mp4" />
         </video>
         <div className="content">
@@ -120,20 +140,28 @@ const Combustibles = () => {
           </p>
         </div>
       </div>
-      <div className="banner-comb"></div>
+      {/*<div className="banner-comb"></div>*/}
+      <video
+          autoPlay
+          loop
+          muted
+          className="tuvideo"
+          style={{ width: `${dimensions.width}px`, height: `${dimensions.height}px` }}
+        >
+          <source src={videoSourceComb2} type="video/mp4; codecs=av01" />
+          <source src={videoSourceComb2} type="video/mp4" />
+        </video>
 
       <div className="container-txt-cardCombustible">
         <h2 className="Comb-title">{t("txtSoluciones.txt1")}</h2>
         <hr className="linea-Comb"></hr>
-        <h3 className="h3sub-combus">{t("txtSoluciones.txt2")} </h3>
+        <h3 className="h3sub-combus">{t("txtSoluciones.txt2")}</h3>
         <p className="txt-comb-boton">
-          Ofrecemos{" "}
-          <span className="txt-empresa-spanComb">soluciones digitales{" "}</span> 
-          avanzadas para la gestión y distribución de combustible en diversas configuraciones. 
-          Nuestros proyectos abarcan estaciones fijas, estaciones móviles, estaciones híbridas, 
-          distribución capilar y autogestión, proporcionando
-          <span className="txt-empresa-spanComb"> control, eficiencia y seguridad </span>{" "}
-          en todas las etapas del proceso.
+        {t("txtMIC.txt1")}{" "}
+          <span className="txt-empresa-spanComb">{t("txtMIC.txt2")}{" "}</span> 
+          {t("txtMIC.txt3")}{" "}
+          <span className="txt-empresa-spanComb">{t("txtMIC.txt4")}</span>{" "}
+          {t("txtMIC.txt5")}
         </p>
         <div className="Comb-buttons">
           <button
@@ -195,13 +223,11 @@ const Combustibles = () => {
                 <div className="txt-logos-Com">
                   <h2 className="Comb-title2">{t("txtSoluciones.txt6")}</h2>
                   <p className="txt-Comb-boton2">
-                  Proporcionamos una
-                    <span className="txt-empresa-spanComb">{" "}solución inteligente y personalizada</span>
-                    {" "}para el manejo de combustible. Mediante la tecnología MIC, ofrecemos{" "}
-                    <span className="txt-empresa-spanComb"> telemedición y control integral{" "}</span>
-                    del combustible, permitiendo la gestión remota e integrada de todas las operaciones de 
-                    abastecimiento y despacho. Los beneficios clave incluyen la optimización de procesos, 
-                    seguridad en el despacho y monitoreo continuo de niveles y equipos.
+                  {t("txtEstacionesFijas.txt1")}
+                    <span className="txt-empresa-spanComb">{" "}{t("txtEstacionesFijas.txt2")}</span>
+                    {" "}{t("txtEstacionesFijas.txt3")}{" "}
+                    <span className="txt-empresa-spanComb">{t("txtEstacionesFijas.txt4")}{" "}</span>
+                    {t("txtEstacionesFijas.txt5")}
 
                   </p>
                 </div>
@@ -215,13 +241,11 @@ const Combustibles = () => {
                 <div className="txt-logos-Com">
                   <h2 className="Comb-title2">{t("txtSoluciones.txt7")}</h2>
                   <p className="txt-Comb-boton2">
-                  Nuestras soluciones están adaptadas para la gestión remota del combustible 
-                  en movimiento. Integramos la tecnología de
-                    <span className="txt-empresa-spanComb">{" "}telemedición y control</span>
-                    {" "}de combustible en{" "}
-                    <span className="txt-empresa-spanComb">camiones cisterna y batanes,{" "}</span>
-                    proporcionando autorización segura de despachos y monitoreo constante de los 
-                    niveles de combustible, accesible desde cualquier lugar y dispositivo.
+                  {t("txtEstacionesMoviles.txt1")}
+                    <span className="txt-empresa-spanComb">{" "}{t("txtEstacionesMoviles.txt2")}</span>
+                    {" "}{t("txtEstacionesMoviles.txt3")}{" "}
+                    <span className="txt-empresa-spanComb">{t("txtEstacionesMoviles.txt4")}{" "}</span>
+                    {t("txtEstacionesMoviles.txt5")}
                   </p>
                 </div>
               </div>
@@ -234,16 +258,13 @@ const Combustibles = () => {
                 <div className="txt-logos-Com">
                   <h2 className="Comb-title2">{t("txtSoluciones.txt8")}</h2>
                   <p className="txt-Comb-boton2">
-                  Ofrecemos un
-                    <span className="txt-empresa-spanComb">{" "}servicio logístico</span>
-                    {" "}especializado en la entrega de combustible en el último tramo del 
-                    proceso de suministro. Utilizamos{" "}   
-                    <span className="txt-empresa-spanComb">camiones cisterna</span>
-                    {" "}equipados con bombas de{" "}
-                    <span className="txt-empresa-spanComb">superalto caudal</span>
-                    {" "}(250 lpm) y los más altos estándares de seguridad y tecnología. 
-                    Aseguramos un abastecimiento preciso, trazable y eficiente, permitiendo 
-                    obtener información clave para la toma de decisiones estratégicas y operativas.
+                  {t("txtDistribucionCapilar.txt1")}
+                    <span className="txt-empresa-spanComb">{" "}{t("txtDistribucionCapilar.txt2")}</span>
+                    {" "}{t("txtDistribucionCapilar.txt3")}{" "}   
+                    <span className="txt-empresa-spanComb">{t("txtDistribucionCapilar.txt4")}</span>
+                    {" "}{t("txtDistribucionCapilar.txt5")}{" "}
+                    <span className="txt-empresa-spanComb">{t("txtDistribucionCapilar.txt6")}</span>
+                    {" "}{t("txtDistribucionCapilar.txt7")}
                   </p>
                 </div>
               </div>
@@ -256,14 +277,13 @@ const Combustibles = () => {
                 <div className="txt-logos-Com">
                   <h2 className="Comb-title2">{t("txtSoluciones.txt9")}</h2>
                   <p className="txt-Comb-boton2">
-                  Combinamos la estabilidad de las estaciones fijas con la
-                    <span className="txt-empresa-spanComb">{" "}flexibilidad</span>
-                    {" "}de ser reubicadas en cualquier lugar. Esta solución es ideal 
-                    para entornos que requieren movilidad sin perder el{" "}   
-                    <span className="txt-empresa-spanComb">control</span>
-                    {" "}y la eficiencia en la{" "}
-                    <span className="txt-empresa-spanComb">gestión remota</span>
-                    {" "}del combustible.
+                  {t("txtEstacionesHibridas.txt1")}
+                    <span className="txt-empresa-spanComb">{" "}{t("txtEstacionesHibridas.txt2")}</span>
+                    {" "}{t("txtEstacionesHibridas.txt3")}{" "}   
+                    <span className="txt-empresa-spanComb">{t("txtEstacionesHibridas.txt4")}</span>
+                    {" "}{t("txtEstacionesHibridas.txt5")}{" "}
+                    <span className="txt-empresa-spanComb">{t("txtEstacionesHibridas.txt6")}</span>
+                    {" "}{t("txtEstacionesHibridas.txt7")}
                   </p>
                 </div>
               </div>
@@ -276,13 +296,11 @@ const Combustibles = () => {
                 <div className="txt-logos-Com">
                   <h2 className="Comb-title2">{t("txtSoluciones.txt10")}</h2>
                   <p className="txt-Comb-boton2">
-                  Permitimos a los usuarios
-                    <span className="txt-empresa-spanComb">{" "}autogestionar abastecimientos</span>
-                    {" "}de manera eficiente. A través de un{" "}   
-                    <span className="txt-empresa-spanComb">bot de WhatsApp,</span>
-                    {" "}los clientes pueden solicitar combustible y autosurtirse tras validar la 
-                    información. Esta solución en proceso de construcción promete reducir tiempos 
-                    de espera y mejorar la autonomía del cliente en el manejo de combustible.{" "}
+                  {t("txtAutogestion.txt1")}
+                    <span className="txt-empresa-spanComb">{" "}{t("txtAutogestion.txt2")}</span>
+                    {" "}{t("txtAutogestion.txt3")}{" "}   
+                    <span className="txt-empresa-spanComb">{t("txtAutogestion.txt4")}</span>
+                    {" "}{t("txtAutogestion.txt5")}{" "}
                   </p>
                 </div>
               </div>
@@ -472,11 +490,11 @@ const Combustibles = () => {
                 <div className="txt-logos-Com">
                   <h2 className="Comb-title2">{t("txtMuestreo.txt1")}</h2>
                   <ul className="lista-Comb">
-                    <li>Servicio de muestreo y análisis de suelo.</li>
-                    <li>Extracción de muestras compuestas con calador hidráulico automático.</li>
-                    <li>Fertilidad de suelo.</li>
-                    <li>Agua útil de suelo.</li>
-                    <li>Análisis de laboratorio.</li>
+                    <li>{t("txtMuestreo.txt2")}</li>
+                    <li>{t("txtMuestreo.txt3")}</li>
+                    <li>{t("txtMuestreo.txt4")}</li>
+                    <li>{t("txtMuestreo.txt5")}</li>
+                    <li>{t("txtMuestreo.txt6")}</li>
                   </ul>
                   <button className="info-btn-Comb">{t("txtInfo.txt2")}</button>
                 </div>

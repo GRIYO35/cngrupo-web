@@ -189,7 +189,7 @@ const Navbar = () => {
                     onMouseLeave={handleMouseLeave5}
                   >
                     <Link className="li" >
-                      AGRO
+                    {t("li.FARMLAND")}
                     </Link>
                     {isSubMenuOpen5 && (
                       <div className="submenuNav-box">

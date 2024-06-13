@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.1f4a5eb1.css",
-    "main.js": "/static/js/main.9ef0e329.js",
+    "main.css": "/static/css/main.16eddb48.css",
+    "main.js": "/static/js/main.50b89e15.js",
     "static/media/NECA web v3.mp4": "/static/media/NECA web v3.330a279e7eacd90e7a86.mp4",
     "static/media/Home Cn web v3 .mp4": "/static/media/Home Cn web v3 .30bee1f7079a85eb5cbe.mp4",
     "static/media/Trabaja con nosotros Web.mp4": "/static/media/Trabaja con nosotros Web.f5b1602b7133c6f1f3e5.mp4",
     "static/media/COMBUSTIBLES DEL NORTE.mp4": "/static/media/COMBUSTIBLES DEL NORTE.70de15f75c257d562fba.mp4",
     "static/media/Puesto el mollar web v3.mp4": "/static/media/Puesto el mollar web v3.cfda3da7d6e81621e535.mp4",
+    "static/media/ESTACIONFIJA1.mp4": "/static/media/ESTACIONFIJA1.82b2a31476dc45542029.mp4",
     "static/media/Home-Cn-web-v3-.av1.mp4": "/static/media/Home-Cn-web-v3-.av1.470f148a2cc0502ef690.mp4",
     "static/media/YPF EESS Las lajitas web.mp4": "/static/media/YPF EESS Las lajitas web.c84a46bc3e9528939509.mp4",
     "static/media/Gas del norte web v2.mp4": "/static/media/Gas del norte web v2.1c9020677beae2da4f9b.mp4",
     "static/media/Guemes web.mp4": "/static/media/Guemes web.55ea961ea6ffdc4a9119.mp4",
-    "static/media/COMBUSTIBLES-DEL-NORTE.av1.mp4": "/static/media/COMBUSTIBLES-DEL-NORTE.av1.de4631195298a60d3342.mp4",
     "static/media/PORTADA - DJI_0321.jpg": "/static/media/PORTADA - DJI_0321.72d93713397b0a5e9008.jpg",
     "static/media/GRUPAL sin carteles.png": "/static/media/GRUPAL sin carteles.76514b850fc2c7acd994.png",
     "static/media/PORTADA MISION VIVION WEB.png": "/static/media/PORTADA MISION VIVION WEB.9be3ad388447098f69b2.png",
@@ -46,7 +46,6 @@
     "static/media/650X388px WEB curado semillas.png": "/static/media/650X388px WEB curado semillas.822b332a4fa52a914be0.png",
     "static/media/650X388px WEB granos.png": "/static/media/650X388px WEB granos.f248d75533d1ccaa4914.png",
     "static/media/650X388px WEB lajitas.png": "/static/media/650X388px WEB lajitas.9bba779f78ac4f68a6b3.png",
-    "static/media/650X388px WEB propano.png": "/static/media/650X388px WEB propano.16db6810b7132202de81.png",
     "static/media/650X388px WEB ase tecnico.png": "/static/media/650X388px WEB ase tecnico.5d9453b2f51e4d6230bd.png",
     "static/media/650X388px WEB dd.png": "/static/media/650X388px WEB dd.dc69b52e170d7f065055.png",
     "static/media/650X388px WEB md.png": "/static/media/650X388px WEB md.ce6e258025a2d7adaa39.png",
@@ -65,12 +64,12 @@
     "static/media/650X388px WEB gas butano.png": "/static/media/650X388px WEB gas butano.c59780e77183af61c50f.png",
     "static/media/650X388px SS financieras.png": "/static/media/650X388px SS financieras.a855ef32c9c2b28414ef.png",
     "static/media/650X388px WEB chango.png": "/static/media/650X388px WEB chango.baef2beeee5f7eea981f.png",
-    "static/media/650X388px WEB plasticas.png": "/static/media/650X388px WEB plasticas.44317fce81167a70e2e6.png",
     "static/media/redi6.png": "/static/media/redi6.a4bcf8e7a3827b682993.png",
     "static/media/redi1.png": "/static/media/redi1.be2475051a0a21aa6840.png",
     "static/media/redi3.png": "/static/media/redi3.d5f1836ac02e2ee0bc4d.png",
     "static/media/479x279 GERENTES.png": "/static/media/479x279 GERENTES.10353f6f9a4dc690447b.png",
     "static/media/redi4.png": "/static/media/redi4.188a2f340585f283b32a.png",
+    "static/media/GAS 15.png": "/static/media/GAS 15.2c80d522b229ac27c808.png",
     "static/media/453x271 2008.png": "/static/media/453x271 2008.1e60a89fc151275892fe.png",
     "static/media/453x271 2009.png": "/static/media/453x271 2009.5dd0c23dfe926ebace02.png",
     "static/media/redi2.png": "/static/media/redi2.4d15e61fd4db0ea4e133.png",
@@ -79,6 +78,7 @@
     "static/media/redi5.png": "/static/media/redi5.68b6e1c979ec6262ef90.png",
     "static/media/453x271 2022.png": "/static/media/453x271 2022.a5bd080aac37a27ebbdb.png",
     "static/media/453x271 2023.png": "/static/media/453x271 2023.98c77ef0e24b505e4500.png",
+    "static/media/GAS 45.png": "/static/media/GAS 45.84bf3fdbac489295cbe5.png",
     "static/media/453x271 1991.png": "/static/media/453x271 1991.12d186e8178c61abcd6f.png",
     "static/media/261x353 EDU h.png": "/static/media/261x353 EDU h.b9c85b3604ecbccc3068.png",
     "static/media/261x353 TOMI.png": "/static/media/261x353 TOMI.34ecf540eff537a5b3ee.png",
@@ -133,11 +133,11 @@
     "static/media/vectorPersoAzul.svg": "/static/media/vectorPersoAzul.f28af095a995afa8d40a1540b0de5796.svg",
     "index.html": "/index.html",
     "static/media/logomail.svg": "/static/media/logomail.250a2a2b6809a33ee82e489cd0c99de4.svg",
-    "main.1f4a5eb1.css.map": "/static/css/main.1f4a5eb1.css.map",
-    "main.9ef0e329.js.map": "/static/js/main.9ef0e329.js.map"
+    "main.16eddb48.css.map": "/static/css/main.16eddb48.css.map",
+    "main.50b89e15.js.map": "/static/js/main.50b89e15.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f4a5eb1.css",
-    "static/js/main.9ef0e329.js"
+    "static/css/main.16eddb48.css",
+    "static/js/main.50b89e15.js"
   ]
 }

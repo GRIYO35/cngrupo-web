@@ -187,7 +187,7 @@ margin-top: 30px;
 
 
 
-@media (min-width: 1281px) and (max-width: 1919px) {
+@media (min-width: 1281px) and (max-width: 1679px) {
   .Logimg1 {
       width: 250px;
       height: 65px;
@@ -373,6 +373,197 @@ margin-top: 30px;
 }
 
 
+
+
+
+
+
+
+
+@media (min-width: 1680px) and (max-width: 1919px) {
+  .Logimg1 {
+      width: 250px;
+      height: 65px;
+      margin-top: 1%;
+      margin-left: -9%;
+    }
+
+.home-containerLog {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../Assets/PORTADA\ -\ DJI_0321.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.txt-redesLog {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+}
+
+.txt-container-empresaLog {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 7%;
+  margin-top: -2%;
+  margin-bottom: 15%;
+}
+
+.fotoLog {
+  width: 450px;
+  height: 290px;
+  margin-top: 0px;
+  margin-right: 5%;
+}
+
+.container-cards-logistica {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-bottom: 10%;
+}
+
+.container-logistica {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-logistica {
+  color: #6c6c6c;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  font-size: 15px;
+  font-family: Public Sans;
+  line-height: 25px;
+
+}
+
+.container-logistica {
+  margin-top: 100px;
+  margin-left: 130px;
+  margin-right: 100px;
+}
+
+.logologistica {
+  margin-left: -40%;
+}
+
+.txt-empresa-spanLog {
+  font-weight: 600;
+}
+
+.separadorfoto {
+  margin-top: 100px;
+  background-image: url(../Assets/ANCHO\ WEB\ -\ 7S303513.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.container-txt-cardLog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  margin-left: 130px;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.logistica-title-card {
+  color: #00448a;
+  font-family: Public Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 69px;
+}
+
+.linea-logistica {
+  height: 1px;
+  border: none;
+  width: 80px;
+  background-color: #00448a;
+  margin-left: 0;
+  margin-top: -30px;
+}
+
+.txt-logistica-card {
+  color: #656565;
+  font-family: Public Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.titulo-logo-logistica {
+  display: flex;
+  flex-direction: row;
+  gap: 130px;
+}
+
+.vector-logistica {
+  height: 20px;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+.vector-logistica2 {
+  height: 18px;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+.vector-logistica2EN {
+  height: 18px;
+  margin-top: 20px;
+  margin-left: -25px;
+}
+
+.vector-logistica3 {
+  height: 13px;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+.card-contactoLog {
+  border-radius: 15px;
+  background: #f4f4f4;
+  width: 300px;
+  height: 140px;
+  flex-shrink: 0;
+}
+
+.title-direccionLog {
+  color: #00448a;
+  font-family: Public Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: -10%;
+}
+
+.txt-direccionLog {
+  color: #656565;
+  font-family: Public Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.title-direccionLog,
+.txt-direccionLog {
+  margin-left: 10%;
+  margin-top: 30px;
+}
+}
 
 
 

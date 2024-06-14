@@ -58,6 +58,7 @@
     width: 510px;
     height: 15px;
     color: #878179;
+    font-family: Public Sans;
   
   }
   
@@ -67,6 +68,7 @@
     width: 510px;
     height: 105px;
     color: #878179;
+    font-family: Public Sans;
   }
   
   .p-enviado {
@@ -202,6 +204,7 @@
   width: 550px;
   height: 20px;
   color: #878179;
+  font-family: Public Sans;
 
 }
 
@@ -211,6 +214,7 @@
   width: 550px;
   height: 120px;
   color: #878179;
+  font-family: Public Sans;
 }
 
 .p-enviado {
@@ -346,6 +350,7 @@
     width: 650px;
     height: 20px;
     color: #878179;
+    font-family: Public Sans;
   
   }
   
@@ -355,6 +360,7 @@
     width: 650px;
     height: 120px;
     color: #878179;
+    font-family: Public Sans;
   }
   
   .p-enviado {

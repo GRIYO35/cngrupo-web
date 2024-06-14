@@ -512,11 +512,10 @@
   }
 
   .banner-neca1 {
-    background: url(../Assets/1er\ ANCHO\ -\ CN\ NECA\ LAS\ LAJITAS-489.png);
-    height: 600px;
-    background-repeat: no-repeat;
-    background-position-x: -550px;
-    background-position-y: -60px;
+  background: url(../Assets/1er\ ANCHO\ -\ CN\ NECA\ LAS\ LAJITAS-489.png),
+    lightgray 50% / cover no-repeat;
+  background-size: cover;
+  height: 600px;
   }
 
   .container-dibujitos {

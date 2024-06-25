@@ -756,8 +756,16 @@
     "txt1": "Gracias por tu interés",
     "txt2": "en nuestra empresa",
     "txt3": "Envianos tu consulta y recibirás la respuesta en tu casilla de e-mail"
-}
+},
 
+"ComentarioCnSima": {
+    "//": "A partir de aqui comienzan los Textos de la pantalla CnSima"
+},
+
+"CnSima": {
+    "txt1": "Somos un grupo empresarial dedicado a proporcionar SOLUCIONES INTEGRALES de gerenciamiento de proyectos para Minería y Oil&Gas.",
+    "txt2": "Ingeniería Sima + CN GRUPO Unieron EXPERIENCIA & KNOW HOW para crear CN SIMA, una empresa dedicada a brindar soluciones customizadas para proyectos de Minería y Oil&Gas."
+}
 }
 
 

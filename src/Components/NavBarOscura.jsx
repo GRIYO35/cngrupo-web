@@ -224,10 +224,10 @@ const NavbarOscura = () => {
                     onMouseEnter={handleMouseEnter6}
                     onMouseLeave={handleMouseLeave6}
                   >
-                    <Link className="liOsc" to="/logistica">
+                    <Link className="liOsc">
                     {t("li.Mining")}
                     </Link>
-                    {/*{isSubMenuOpen6 && (
+                    {isSubMenuOpen6 && (
                       <div className="submenuNav-boxOsc">
                       <ul className="link-nav-submenuNuevoOsc">
                         <li>
@@ -235,9 +235,14 @@ const NavbarOscura = () => {
                             CN LOGISTICA
                           </Link>
                         </li>
+                        <li>
+                          <Link className="li" to="/cnsima">
+                            CN SIMA
+                          </Link>
+                        </li>
                       </ul>
                     </div>
-                    )}*/}
+                    )}
                   </li>
                 </li>
               )}

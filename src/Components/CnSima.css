@@ -1,0 +1,856 @@
+@media (min-width: 801px) and (max-width: 1280px) {
+    .Simaimg1 {
+        width: 177px;
+        height: 79px;
+        margin-top: 1%;
+        margin-left: -8%;
+      }
+  
+  .home-containerSima {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../Assets/PORTADA\ CN\ SIMA\ 3.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  }
+  
+  .txt-redesSima {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+  }
+  
+  .txt-container-empresaSima {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 7%;
+  margin-top: -2%;
+  margin-bottom: 15%;
+  }
+  
+  .fotoSima {
+  width: 450px;
+  height: 290px;
+  margin-top: 0px;
+  margin-right: 5%;
+  }
+  
+  .container-cards-sima {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-bottom: 10%;
+  }
+  
+  .container-sima {
+  display: flex;
+  flex-direction: row;
+  }
+  
+  .text-sima {
+  color: #6c6c6c;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 7.1%;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  }
+  
+  .container-sima {
+  margin-top: 100px;
+  margin-left: 130px;
+  margin-right: 100px;
+  }
+  
+  .logoSima {
+  margin-left: -40%;
+  }
+  
+  .txt-empresa-spanSima {
+  font-weight: 600;
+  }
+  
+  .separadorfotoSima {
+  margin-top: 100px;
+  background-image: url(../Assets/Banner\ Cn\ Sima.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  }
+  
+  .container-txt-cardSima {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  margin-left: 130px;
+  margin-top: 50px;
+  text-align: left;
+  }
+  
+  .sima-title-card {
+  color: #4C4C4C;
+  font-family: Public Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 69px;
+  }
+  
+  .linea-sima {
+  height: 1px;
+  border: none;
+  width: 80px;
+  background-color: #4C4C4C;
+  margin-left: 0;
+  margin-top: -30px;
+  }
+  
+  .txt-sima-card {
+  color: #656565;
+  font-family: Public Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  }
+  
+  .titulo-logo-sima {
+  display: flex;
+  flex-direction: row;
+  }
+  
+  .vector-sima {
+    height: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+  
+  .vector-sima2 {
+    height: 18px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+  
+  .vector-sima2EN {
+    height: 18px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+  
+  .vector-sima3 {
+    height: 13px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+  
+  .card-contactoSima {
+  border-radius: 15px;
+  background: #f4f4f4;
+  width: 300px;
+  height: 140px;
+  flex-shrink: 0;
+  }
+  
+  .title-direccionSima {
+  color: #4C4C4C;
+  font-family: Public Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: -10%;
+  }
+  
+  .txt-direccionSima {
+  color: #656565;
+  font-family: Public Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  }
+
+  .title-direccionSima1 {
+    color: #4C4C4C;
+    font-family: Public Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: -10%;
+    margin-left: 10%;
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+
+  .txt-direccionSima1 {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 10%;
+    text-decoration: none;
+  }
+  
+  .title-direccionSima,
+  .txt-direccionSima {
+  margin-left: 10%;
+  margin-top: 30px;
+  }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (min-width: 1281px) and (max-width: 1679px) {
+  .Simaimg1 {
+    width: 177px;
+    height: 79px;
+    margin-top: 1%;
+    margin-left: -8%;
+  }
+  
+  .home-containerSima {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(../Assets/PORTADA\ CN\ SIMA\ 3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .txt-redesSima {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+  }
+  
+  .txt-container-empresaSima {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 7%;
+    margin-top: -2%;
+    margin-bottom: 15%;
+  }
+  
+  .fotoSima {
+    width: 450px;
+    height: 290px;
+    margin-top: 0px;
+    margin-right: 5%;
+  }
+  
+  .container-cards-sima {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 10%;
+  }
+  
+  .container-sima {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .text-sima {
+    color: #6c6c6c;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-family: Public Sans;
+    line-height: 25px;
+  
+  }
+  
+  .container-sima {
+    margin-top: 100px;
+    margin-left: 130px;
+    margin-right: 100px;
+  }
+  
+  .logoSima {
+    margin-left: -40%;
+  }
+  
+  .txt-empresa-spanSima {
+    font-weight: 600;
+  }
+  
+  .separadorfotoSima {
+    margin-top: 100px;
+    background-image: url(../Assets/Banner\ Cn\ Sima.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+  }
+  
+  .container-txt-cardSima {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-left: 130px;
+    margin-top: 50px;
+    text-align: left;
+  }
+  
+  .sima-title-card {
+    color: #4C4C4C;
+    font-family: Public Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69px;
+  }
+  
+  .linea-sima {
+    height: 1px;
+    border: none;
+    width: 80px;
+    background-color: #4C4C4C;
+    margin-left: 0;
+    margin-top: -30px;
+  }
+  
+  .txt-sima-card {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  
+  .titulo-logo-sima {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .vector-sima {
+    height: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+  
+  .vector-sima2 {
+    height: 18px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+  
+  .vector-sima2EN {
+    height: 18px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+  
+  .vector-sima3 {
+    height: 13px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+  
+  .card-contactoSima {
+    border-radius: 15px;
+    background: #f4f4f4;
+    width: 250px;
+    height: 120px;
+    flex-shrink: 0;
+  }
+  
+  .title-direccionSima {
+    color: #4C4C4C;
+    font-family: Public Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: -10%;
+  }
+  
+  .txt-direccionSima {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .title-direccionSima1 {
+    color: #4C4C4C;
+    font-family: Public Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: -10%;
+    margin-left: 10%;
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+
+  .txt-direccionSima1 {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 10%;
+    text-decoration: none;
+  }
+  
+  .title-direccionSima,
+  .txt-direccionSima{
+    margin-left: 10%;
+    margin-top: 30px;
+  }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (min-width: 1680px) and (max-width: 1919px) {
+    .Simaimg1 {
+        width: 203px;
+        height: 90px;
+        margin-top: 2%;
+        margin-left: -12.5%;
+    }
+  
+  .home-containerSima {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(../Assets/PORTADA\ CN\ SIMA\ 3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .txt-redesSima {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+  }
+  
+  .txt-container-empresaSima {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 7%;
+    margin-top: -2%;
+    margin-bottom: 21%;
+  }
+  
+  .fotoSima {
+    width: 450px;
+    height: 290px;
+    margin-top: 0px;
+    margin-right: 5%;
+  }
+  
+  .container-cards-sima {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 10%;
+  }
+  
+  .container-sima {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .text-sima {
+    color: #6c6c6c;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-family: Public Sans;
+    line-height: 25px;
+  
+  }
+  
+  .container-sima {
+    margin-top: 100px;
+    margin-left: 130px;
+    margin-right: 100px;
+  }
+  
+  .logoSima {
+    margin-left: -40%;
+  }
+  
+  .txt-empresa-spanSima {
+    font-weight: 600;
+  }
+  
+  .separadorfotoSima {
+    margin-top: 100px;
+    background-image: url(../Assets/Banner\ Cn\ Sima.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+  }
+  
+  .container-txt-cardSima {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-left: 130px;
+    margin-top: 50px;
+    text-align: left;
+  }
+  
+  .sima-title-card {
+    color: #4C4C4C;
+    font-family: Public Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69px;
+  }
+  
+  .linea-sima {
+    height: 1px;
+    border: none;
+    width: 80px;
+    background-color: #4C4C4C;
+    margin-left: 0;
+    margin-top: -30px;
+  }
+  
+  .txt-sima-card {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  
+  .titulo-logo-sima {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .vector-sima {
+    height: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 15px;
+  }
+  
+  .vector-sima2 {
+    height: 18px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 15px;
+  }
+  
+  .vector-sima2EN {
+    height: 18px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 15px;
+  }
+  
+  .vector-sima3 {
+    height: 13px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: 15px;
+  }
+  
+  .card-contactoSima {
+    border-radius: 15px;
+    background: #f4f4f4;
+    width: 300px;
+    height: 140px;
+    flex-shrink: 0;
+  }
+  
+  .title-direccionSima {
+    color: #4C4C4C;
+    font-family: Public Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: -10%;
+  }
+  
+  .txt-direccionSima {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .title-direccionSima1 {
+    color: #4C4C4C;
+    font-family: Public Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: -10%;
+    margin-left: 10%;
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+
+  .txt-direccionSima1 {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 10%;
+    text-decoration: none;
+  }
+  
+  .title-direccionSima,
+  .txt-direccionSima {
+    margin-left: 10%;
+    margin-top: 30px;
+  }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (min-width: 1920px) {
+    .Simaimg1 {
+        width: 243px;
+        height: 108px;
+        margin-top: 35px;
+        margin-left: -34%;
+      }
+  
+  .home-containerSima {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(../Assets/PORTADA\ CN\ SIMA\ 3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .txt-redesSima {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+  }
+  
+  .txt-container-empresaSima {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 7%;
+    margin-top: -2%;
+    margin-bottom: 15%;
+  }
+  
+  .fotoSima {
+    width: 650px;
+    height: 388px;
+    margin-top: 0px;
+  }
+  
+  .container-cards-sima {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 10%;
+  }
+  
+  .container-sima {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .text-sima {
+    color: #6c6c6c;
+    font-weight: 400;
+    text-align: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: Public Sans;
+    line-height: 30px;
+  }
+  
+  .container-sima {
+    margin-top: 100px;
+    margin-left: 13%;
+    margin-right: 12%;
+  }
+  
+  .logoSima {
+    margin-left: -200px;
+  }
+  
+  .txt-empresa-spanSima {
+    font-weight: 600;
+  }
+  
+  .separadorfotoSima {
+    margin-top: 100px;
+    background-image: url(../Assets/Banner\ Cn\ Sima.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+  }
+  
+  .container-txt-cardSima {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-left: 130px;
+    margin-top: 50px;
+    text-align: left;
+  }
+  
+  .sima-title-card {
+    color: #4C4C4C;
+    font-family: Public Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69px;
+  }
+  
+  .linea-sima {
+    height: 1px;
+    border: none;
+    width: 80px;
+    background-color: #4C4C4C;
+    margin-left: 0;
+    margin-top: -30px;
+  }
+  
+  .txt-sima-card {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  
+  .titulo-logo-sima {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .vector-sima {
+    height: 22px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 15px;
+  }
+  
+  .vector-sima2 {
+    height: 21px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 15px;
+  }
+  
+  .vector-sima2EN {
+    height: 21px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 15px;
+  }
+  
+  .vector-sima3 {
+    height: 16px;
+    margin-top: 23px;
+    margin-left: auto;
+    margin-right: 15px;
+  }
+  
+  .card-contactoSima {
+    border-radius: 15px;
+    background: #f4f4f4;
+    width: 330px;
+    height: 150px;
+    flex-shrink: 0;
+  }
+  
+  .title-direccionSima {
+    color: #4C4C4C;
+    font-family: Public Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: -10%;
+  }
+  
+  .txt-direccionSima {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .title-direccionSima1 {
+    color: #4C4C4C;
+    font-family: Public Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: -10%;
+    margin-left: 10%;
+    margin-top: 40px;
+    margin-bottom: 5px;
+  }
+
+  .txt-direccionSima1 {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 10%;
+    text-decoration: none;
+  }
+  
+  .title-direccionSima,
+  .txt-direccionSima {
+    margin-left: 10%;
+    margin-top: 40px;
+  }
+  }

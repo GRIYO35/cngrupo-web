@@ -226,10 +226,10 @@ const Navbar = () => {
                     onMouseEnter={handleMouseEnter6}
                     onMouseLeave={handleMouseLeave6}
                   >
-                    <Link className="li" to="/logistica">
+                    <Link className="li">
                     {t("li.Mining")}
                     </Link>
-                    {/*{isSubMenuOpen6 && (
+                    {isSubMenuOpen6 && (
                       <div className="submenuNav-box">
                       <ul className="link-nav-submenuNuevo">
                         <li>
@@ -237,9 +237,14 @@ const Navbar = () => {
                             CN LOGISTICA
                           </Link>
                         </li>
+                        <li>
+                          <Link className="li" to="/cnsima">
+                            CN SIMA
+                          </Link>
+                        </li>
                       </ul>
                     </div>
-                    )}*/}
+                    )}
                   </li>
                 </li>
               )}

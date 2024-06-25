@@ -755,6 +755,15 @@
     "txt1": "Thank you for your interest",
     "txt2": "in our company.",
     "txt3": "Send us your inquiry and we will send you a response via e-mail."
+},
+
+"ComentarioCnSima": {
+    "//": "A partir de aqui comienzan los Textos de la pantalla CnSima"
+},
+
+"CnSima": {
+    "txt1": "We are a business group dedicated to providing INTEGRAL project management SOLUTIONS for Mining and Oil&Gas.",
+    "txt2": "Engineering Sima + CN GRUPO have united EXPERIENCE & KNOW HOW to create CN SIMA, a company dedicated to providing customized solutions for Mining and Oil&Gas projects."
 }
 
 

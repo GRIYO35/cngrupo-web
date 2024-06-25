@@ -25,7 +25,7 @@ import vectorneca4 from "../Assets/logomail.svg";
 import LogoPersona from "../Assets/logoPersona.svg";
 import videoSourceComb from "../Assets/COMBUSTIBLES DEL NORTE.mp4";
 //import videoSourceComb1 from "../Assets/COMBUSTIBLES-DEL-NORTE.av1.mp4";
-//import videoSourceComb2 from "../Assets/ESTACIONFIJA1.mp4";
+import videoSourceComb2 from "../Assets/ESTACIONFIJA1.mp4";
 import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBar";
 import "./Combustiblesdelnorte.css";
@@ -148,8 +148,8 @@ const Combustibles = () => {
           className="tuvideo"
           style={{ width: `${dimensions.width}px`, height: `${dimensions.height}px` }}
         >
-          <source src="http://webcontent.cn-grupo.net/Media/ESTACION%20FIJA%20-%201920x911.mp4" type="video/mp4; codecs=av01" />
-          <source src="http://webcontent.cn-grupo.net/Media/ESTACION%20FIJA%20-%201920x911.mp4" type="video/mp4" />
+          <source src={videoSourceComb2} type="video/mp4; codecs=av01" />
+          <source src={videoSourceComb2} type="video/mp4" />
         </video>
 
       <div className="container-txt-cardCombustible">

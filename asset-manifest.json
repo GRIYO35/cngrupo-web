@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.526dfd0e.css",
-    "main.js": "/static/js/main.16e21fb0.js",
+    "main.css": "/static/css/main.4165aa00.css",
+    "main.js": "/static/js/main.cbf51b8c.js",
     "static/media/NECA web v3.mp4": "/static/media/NECA web v3.330a279e7eacd90e7a86.mp4",
     "static/media/Home Cn web v3 .mp4": "/static/media/Home Cn web v3 .30bee1f7079a85eb5cbe.mp4",
     "static/media/Trabaja con nosotros Web.mp4": "/static/media/Trabaja con nosotros Web.f5b1602b7133c6f1f3e5.mp4",
     "static/media/COMBUSTIBLES DEL NORTE.mp4": "/static/media/COMBUSTIBLES DEL NORTE.70de15f75c257d562fba.mp4",
     "static/media/Puesto el mollar web v3.mp4": "/static/media/Puesto el mollar web v3.cfda3da7d6e81621e535.mp4",
-    "static/media/ESTACIONFIJA1.mp4": "/static/media/ESTACIONFIJA1.82b2a31476dc45542029.mp4",
     "static/media/Home-Cn-web-v3-.av1.mp4": "/static/media/Home-Cn-web-v3-.av1.470f148a2cc0502ef690.mp4",
     "static/media/YPF EESS Las lajitas web.mp4": "/static/media/YPF EESS Las lajitas web.c84a46bc3e9528939509.mp4",
     "static/media/Gas del norte web v2.mp4": "/static/media/Gas del norte web v2.1c9020677beae2da4f9b.mp4",
@@ -133,11 +132,11 @@
     "static/media/vectorPersoAzul.svg": "/static/media/vectorPersoAzul.f28af095a995afa8d40a1540b0de5796.svg",
     "index.html": "/index.html",
     "static/media/logomail.svg": "/static/media/logomail.250a2a2b6809a33ee82e489cd0c99de4.svg",
-    "main.526dfd0e.css.map": "/static/css/main.526dfd0e.css.map",
-    "main.16e21fb0.js.map": "/static/js/main.16e21fb0.js.map"
+    "main.4165aa00.css.map": "/static/css/main.4165aa00.css.map",
+    "main.cbf51b8c.js.map": "/static/js/main.cbf51b8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.526dfd0e.css",
-    "static/js/main.16e21fb0.js"
+    "static/css/main.4165aa00.css",
+    "static/js/main.cbf51b8c.js"
   ]
 }

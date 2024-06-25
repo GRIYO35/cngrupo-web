@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.4165aa00.css",
-    "main.js": "/static/js/main.cbf51b8c.js",
+    "main.css": "/static/css/main.944edf1a.css",
+    "main.js": "/static/js/main.5c50eb12.js",
     "static/media/NECA web v3.mp4": "/static/media/NECA web v3.330a279e7eacd90e7a86.mp4",
     "static/media/Home Cn web v3 .mp4": "/static/media/Home Cn web v3 .30bee1f7079a85eb5cbe.mp4",
     "static/media/Trabaja con nosotros Web.mp4": "/static/media/Trabaja con nosotros Web.f5b1602b7133c6f1f3e5.mp4",
     "static/media/COMBUSTIBLES DEL NORTE.mp4": "/static/media/COMBUSTIBLES DEL NORTE.70de15f75c257d562fba.mp4",
     "static/media/Puesto el mollar web v3.mp4": "/static/media/Puesto el mollar web v3.cfda3da7d6e81621e535.mp4",
+    "static/media/ESTACIONFIJA1.mp4": "/static/media/ESTACIONFIJA1.82b2a31476dc45542029.mp4",
     "static/media/Home-Cn-web-v3-.av1.mp4": "/static/media/Home-Cn-web-v3-.av1.470f148a2cc0502ef690.mp4",
     "static/media/YPF EESS Las lajitas web.mp4": "/static/media/YPF EESS Las lajitas web.c84a46bc3e9528939509.mp4",
     "static/media/Gas del norte web v2.mp4": "/static/media/Gas del norte web v2.1c9020677beae2da4f9b.mp4",
     "static/media/Guemes web.mp4": "/static/media/Guemes web.55ea961ea6ffdc4a9119.mp4",
+    "static/media/650x388 CN SIMA.png": "/static/media/650x388 CN SIMA.2549b455991e6daa3d83.png",
     "static/media/PORTADA - DJI_0321.jpg": "/static/media/PORTADA - DJI_0321.72d93713397b0a5e9008.jpg",
     "static/media/GRUPAL sin carteles.png": "/static/media/GRUPAL sin carteles.76514b850fc2c7acd994.png",
     "static/media/PORTADA MISION VIVION WEB.png": "/static/media/PORTADA MISION VIVION WEB.9be3ad388447098f69b2.png",
@@ -19,9 +21,11 @@
     "static/media/ANCHO WEB 1 - DJI_0016.png": "/static/media/ANCHO WEB 1 - DJI_0016.7f764501b6e54cdd95bf.png",
     "static/media/foto CH vision y mision.png": "/static/media/foto CH vision y mision.d1755c46968a14d982b9.png",
     "static/media/image 70.png": "/static/media/image 70.7a30835db3201d184c16.png",
+    "static/media/PORTADA CN SIMA 3.png": "/static/media/PORTADA CN SIMA 3.05611a90db52dace138e.png",
     "static/media/1er ANCHO - CN NECA LAS LAJITAS-489.png": "/static/media/1er ANCHO - CN NECA LAS LAJITAS-489.45f2129251d8b6d7fcc4.png",
     "static/media/ANCHO WEB - DSC04722-HDR-2.jpg": "/static/media/ANCHO WEB - DSC04722-HDR-2.2cb524eed202b867d51d.jpg",
     "static/media/image 110.png": "/static/media/image 110.2692d7a33d1515bc0d14.png",
+    "static/media/Banner Cn Sima.png": "/static/media/Banner Cn Sima.792f3acf88e9cb932ace.png",
     "static/media/ANCHO WEB - 7S303513.png": "/static/media/ANCHO WEB - 7S303513.84f82d60cf87e279ccd2.png",
     "static/media/PORTADA - DSC04714-HDR.png": "/static/media/PORTADA - DSC04714-HDR.9e69c8b5f74f00c86143.png",
     "static/media/fotoANCHOweb - CN NECA LAS LAJITAS-115 1.png": "/static/media/fotoANCHOweb - CN NECA LAS LAJITAS-115 1.00b561c308f72a637532.png",
@@ -111,6 +115,7 @@
     "static/media/manoarribanuevo.svg": "/static/media/manoarribanuevo.e6b1bcc32472af876e848d261114d898.svg",
     "static/media/atanor WEB@300x.png": "/static/media/atanor WEB@300x.ed5d2469789fe038a5a4.png",
     "static/media/insuagro WEB@300x.png": "/static/media/insuagro WEB@300x.ad3561d2cd15139b9d29.png",
+    "static/media/148x66 logo CN SIMA responsive_1@300x.png": "/static/media/148x66 logo CN SIMA responsive_1@300x.7f858e047fed1908ed1e.png",
     "static/media/IconoNuevo.svg": "/static/media/IconoNuevo.1def919d279dbb806f99cbfa925d6632.svg",
     "static/media/silobolsa plastar WEB@300x.png": "/static/media/silobolsa plastar WEB@300x.a99a076c6b0634753e7d.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
@@ -128,15 +133,17 @@
     "static/media/Group (2).svg": "/static/media/Group (2).902ad2fc9ad6d57fe4f9bac0cd4dab78.svg",
     "static/media/flechitanuevo.svg": "/static/media/flechitanuevo.e9e3d2a191d7476de9a7229702de7a11.svg",
     "static/media/Mesa de trabajo 5.svg": "/static/media/Mesa de trabajo 5.5035562df9423bb2ab93d6dd4d9b4d88.svg",
+    "static/media/VectorSima1.svg": "/static/media/VectorSima1.0dba76d1f5a9d26df8c3ac0d0c65fa78.svg",
     "static/media/logoPersona.svg": "/static/media/logoPersona.c8dac510d884d27f51e477b859dd7729.svg",
     "static/media/vectorPersoAzul.svg": "/static/media/vectorPersoAzul.f28af095a995afa8d40a1540b0de5796.svg",
     "index.html": "/index.html",
+    "static/media/VectorSima2.svg": "/static/media/VectorSima2.27de91dcb9a0c7a8848e5716d3c8c803.svg",
     "static/media/logomail.svg": "/static/media/logomail.250a2a2b6809a33ee82e489cd0c99de4.svg",
-    "main.4165aa00.css.map": "/static/css/main.4165aa00.css.map",
-    "main.cbf51b8c.js.map": "/static/js/main.cbf51b8c.js.map"
+    "main.944edf1a.css.map": "/static/css/main.944edf1a.css.map",
+    "main.5c50eb12.js.map": "/static/js/main.5c50eb12.js.map"
   },
   "entrypoints": [
-    "static/css/main.4165aa00.css",
-    "static/js/main.cbf51b8c.js"
+    "static/css/main.944edf1a.css",
+    "static/js/main.5c50eb12.js"
   ]
 }

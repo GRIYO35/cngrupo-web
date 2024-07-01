@@ -1,4 +1,5 @@
 import React from "react";
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import LogoSima from '../Assets/148x66 logo CN SIMA responsive_1@300x.png'
 import Imgvisionlogo from '../Assets/650x388 CN SIMA.png'
@@ -19,6 +20,22 @@ const Logistica = () => {
         <div className="home-container">
             <div className="home-containerSima">
         <NAVBAR></NAVBAR>
+        <div className="redes-container-empresa-gas">
+          <a
+                href="https://www.linkedin.com/company/cn-sima/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin className="icono-red-social" />
+              </a>
+              <a
+                href="https://www.instagram.com/cn_sima/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram className="icono-red-social" />
+              </a>
+          </div>
         <div className="txt-redesSima">
             <div className="txt-container-empresaSima">
               <div className="linea-titulo">

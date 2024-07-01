@@ -1,3 +1,9 @@
+.Scroll {
+  width: 100%;
+  background-color: #040404;
+  position: absolute;
+}
+
 @media (min-width: 801px) and (max-width: 1280px) {
   .home-container6 {
     background-size: cover;
@@ -452,6 +458,16 @@
     z-index: 3;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+  }
+
+  .scroll-to-top {
+    transition: background-color 0.3s ease;
+    margin-right: 45%;
+    margin-bottom: -1%;
+  }
+
+  .scroll-to-top:hover {
+    background-color: #1f6a8c !important;
   }
 }
 
@@ -915,6 +931,16 @@
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
   }
+
+  .scroll-to-top {
+    transition: background-color 0.3s ease;
+    margin-right: 45%;
+    margin-bottom: -1%;
+  }
+
+  .scroll-to-top:hover {
+    background-color: #1f6a8c !important;
+  }
 }
 
 
@@ -1377,6 +1403,15 @@
     z-index: 3;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+  }
+  .scroll-to-top {
+    transition: background-color 0.3s ease;
+    margin-right: 45%;
+    margin-bottom: -1%;
+  }
+
+  .scroll-to-top:hover {
+    background-color: #1f6a8c !important;
   }
 }
 
@@ -1854,5 +1889,15 @@
     z-index: 3;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+  }
+
+  .scroll-to-top {
+    transition: background-color 0.3s ease;
+    margin-right: 47%;
+    margin-bottom: -1%;
+  }
+
+  .scroll-to-top:hover {
+    background-color: #1f6a8c !important;
   }
 }

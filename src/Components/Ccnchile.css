@@ -26,7 +26,7 @@
     border-bottom-left-radius: 10px;
   }*/
 
-  redes-container-empresa-chile{
+  .redes-container-empresa-chile{
     position: fixed;
     right: 0%;
     display: flex;
@@ -199,7 +199,6 @@
   .titulo-logo-chile {
     display: flex;
     flex-direction: row;
-    gap: 130px;
   }
 
   .title-direccionChile,
@@ -228,19 +227,22 @@
   .vector-chile {
     height: 20px;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: auto;
+    margin-right: 10px;
   }
 
   .vector-chile2 {
     height: 18px;
     margin-top: 20px;
-    margin-left: 12px;
+    margin-left: auto;
+    margin-right: 10px;
   }
 
   .vector-chile3 {
     height: 13px;
     margin-top: 25px;
-    margin-left: 40px;
+    margin-left: auto;
+    margin-right: 10px;
   }
 
   .banner-chile{
@@ -460,7 +462,6 @@
   .titulo-logo-chile {
     display: flex;
     flex-direction: row;
-    gap: 100px;
   }
 
   .title-direccionChile,
@@ -489,25 +490,22 @@
   .vector-chile {
     height: 20px;
     margin-top: 20px;
-    margin-left: 55px;
+    margin-left: auto;
+    margin-right: 10px;
   }
 
   .vector-chile2 {
     height: 18px;
     margin-top: 20px;
-    margin-left: 57px;
-  }
-
-  .vector-chile2EN {
-    height: 18px;
-    margin-top: 20px;
-    margin-left: 6px;
+    margin-left: auto;
+    margin-right: 10px;
   }
 
   .vector-chile3 {
     height: 13px;
     margin-top: 25px;
-    margin-left: 85px;
+    margin-left: auto;
+    margin-right: 10px;
   }
 
   .banner-chile{
@@ -735,7 +733,6 @@
   .titulo-logo-chile {
     display: flex;
     flex-direction: row;
-    gap: 150px;
   }
 
   .title-direccionChile,
@@ -765,19 +762,22 @@
   .vector-chile {
     height: 22px;
     margin-top: 18px;
-    margin-left: 22px;
+    margin-left: auto;
+    margin-right: 15px;
   }
 
   .vector-chile2 {
     height: 22px;
     margin-top: 18px;
-    margin-left: 25px;
+    margin-left: auto;
+    margin-right: 15px;
   }
 
   .vector-chile3 {
     height: 16px;
     margin-top: 23px;
-    margin-left: 65px;
+    margin-left: auto;
+    margin-right: 15px;
   }
 
   .banner-chile{

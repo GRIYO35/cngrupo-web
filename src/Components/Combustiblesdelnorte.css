@@ -1,3 +1,9 @@
+.Scroll {
+  width: 100%;
+  background-color: #040404;
+  position: absolute;
+}
+
 @media (min-width: 801px) and (max-width: 1280px) {
   .home-container9 {
     background-size: cover;
@@ -450,7 +456,24 @@
     margin-top: 100px;
     padding-top: 50px;
   }
+
+  .scroll-to-top {
+    transition: background-color 0.3s ease;
+    margin-right: 45%;
+    margin-bottom: -1%;
+  }
+
+  .scroll-to-top:hover {
+    background-color: #1f6a8c !important;
+  }
 }
+
+
+
+
+
+
+
 @media (min-width: 1281px) and (max-width: 1919px) {
   .home-container9 {
     background-size: cover;
@@ -901,6 +924,16 @@
     background: #f4f4f4;
     margin-top: 100px;
     padding-top: 50px;
+  }
+
+  .scroll-to-top {
+    transition: background-color 0.3s ease;
+    margin-right: 45%;
+    margin-bottom: -1%;
+  }
+
+  .scroll-to-top:hover {
+    background-color: #1f6a8c !important;
   }
   
 }
@@ -1387,6 +1420,16 @@
     background: #f4f4f4;
     margin-top: 100px;
     padding-top: 50px;
+  }
+
+  .scroll-to-top {
+    transition: background-color 0.3s ease;
+    margin-right: 47%;
+    margin-bottom: -1%;
+  }
+
+  .scroll-to-top:hover {
+    background-color: #1f6a8c !important;
   }
   
 }

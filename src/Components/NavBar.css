@@ -85,6 +85,14 @@
   margin-left: -50%;
 }
 
+.botones {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-left: -150%;
+  margin-top: 12%;
+}
+
 @media (max-width: 800px) {
   .submenuNav-box {
     position: absolute;
@@ -301,7 +309,6 @@
     } 
 
     .navbar-links-container{
-      margin-right: 3rem;
       text-decoration: none;
       color:#bfc4d8;
       font-size: 15px;
@@ -316,7 +323,7 @@
       justify-content: flex-start;
       cursor: pointer;
       background-color: transparent;
-      margin-right: 55%;
+      margin-right: 58%;
     }
 
     .ul-nav li {
@@ -839,5 +846,13 @@
     .ul-menuNav li {
       margin-top: 13px;
       margin-bottom: 15px;
+    }
+
+    .botones {
+      display: flex;
+      flex-direction: row;
+      gap: 5px;
+      margin-left: -240%;
+      margin-top: 23%;
     }
 }

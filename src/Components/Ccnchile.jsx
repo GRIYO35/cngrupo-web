@@ -89,7 +89,7 @@ const Ccn = () => {
           <div className="card-contactoChile">
             <div className="titulo-logo-chile">
               <h2 className="title-direccionChile">{t("txtContacto.txt4")}</h2>
-              <img src={Vectorlogistica2} alt="" className={i18next.language === "es" ? "vector-chile2" : "vector-chile2EN"} />
+              <img src={Vectorlogistica2} alt="" className="vector-chile2" />
             </div>
             <p className="txt-direccionChile">(0387) 423 6555</p>
           </div>

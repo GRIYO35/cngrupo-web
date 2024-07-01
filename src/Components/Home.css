@@ -1,3 +1,8 @@
+.Scroll {
+  width: 100%;
+  background-color: #040404;
+  position: absolute;
+}
 @media (max-width: 800px) {
   .txt-redesHome{
     display: flex;
@@ -314,6 +319,16 @@
             }
             .txt-foo {
               margin: auto; /* Centrar el texto horizontalmente */
+            }
+
+            .scroll-to-top {
+              transition: background-color 0.3s ease;
+              margin-right: 35%;
+              margin-bottom: -7%;
+            }
+          
+            .scroll-to-top:hover {
+              background-color: #1f6a8c !important;
             }
 }
 
@@ -643,6 +658,16 @@
                 
                 .txt2 {
                   margin-top: 0%;
+                }
+
+                .scroll-to-top {
+                  transition: background-color 0.3s ease;
+                  margin-right: 45%;
+                  margin-bottom: -1%;
+                }
+              
+                .scroll-to-top:hover {
+                  background-color: #1f6a8c !important;
                 }
           
 }
@@ -978,6 +1003,16 @@
                 
                 .txt2 {
                   margin-top: 0%;
+                }
+
+                .scroll-to-top {
+                  transition: background-color 0.3s ease;
+                  margin-right: 47%;
+                  margin-bottom: -1%;
+                }
+              
+                .scroll-to-top:hover {
+                  background-color: #1f6a8c !important;
                 }
           
 }

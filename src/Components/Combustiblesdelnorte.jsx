@@ -25,7 +25,7 @@ import vectorneca4 from "../Assets/logomail.svg";
 import LogoPersona from "../Assets/logoPersona.svg";
 import videoSourceComb from "../Assets/COMBUSTIBLES DEL NORTE.mp4";
 //import videoSourceComb1 from "../Assets/COMBUSTIBLES-DEL-NORTE.av1.mp4";
-import videoSourceComb2 from "../Assets/ESTACIONFIJA1.mp4";
+//import videoSourceComb2 from "../Assets/ESTACIONFIJA1.mp4";
 import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBar";
 import "./Combustiblesdelnorte.css";
@@ -36,6 +36,9 @@ const Combustibles = () => {
   // eslint-disable-next-line no-unused-vars
   const [t, i18next] = useTranslation("global");
   const [selectedButton, setSelectedButton] = useState(1);
+
+  const handleDownload = () => {
+  };
 
   const handleButtonClick = (buttonNumber) => {
     setSelectedButton(buttonNumber);
@@ -148,8 +151,8 @@ const Combustibles = () => {
           className="tuvideo"
           style={{ width: `${dimensions.width}px`, height: `${dimensions.height}px` }}
         >
-          <source src={videoSourceComb2} type="video/mp4; codecs=av01" />
-          <source src={videoSourceComb2} type="video/mp4" />
+          <source src="http://webcontent.cn-grupo.net/Media/ESTACION%20FIJA%20-%201920x911.mp4" type="video/mp4; codecs=av01" />
+          <source src="http://webcontent.cn-grupo.net/Media/ESTACION%20FIJA%20-%201920x911.mp4" type="video/mp4" />
         </video>
 
       <div className="container-txt-cardCombustible">
@@ -496,7 +499,15 @@ const Combustibles = () => {
                     <li>{t("txtMuestreo.txt5")}</li>
                     <li>{t("txtMuestreo.txt6")}</li>
                   </ul>
+                  <a 
+                  href="https://webcontent.cn-grupo.net/Assets/CdN/CombustiblesMD-.pdf" 
+                  download 
+                  onClick={handleDownload}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  >
                   <button className="info-btn-Comb">{t("txtInfo.txt2")}</button>
+                  </a>
                 </div>
               </div>
             </>
@@ -523,7 +534,15 @@ const Combustibles = () => {
                       {t("txtSumma.txt6")}
                     </span>
                   </p>
+                  <a 
+                  href="https://webcontent.cn-grupo.net/Assets/CdN/CombustiblesSUMMA+SAF-.pdf" 
+                  download 
+                  onClick={handleDownload}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  >
                   <button className="info-btn-Comb">{t("txtInfo.txt2")}</button>
+                  </a>
                 </div>
               </div>
             </>

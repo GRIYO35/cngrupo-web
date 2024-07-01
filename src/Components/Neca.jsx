@@ -288,7 +288,13 @@ const Neca = () => {
                     <span className="txt-empresa-spanNeca">{t("txtCurado.txt6")}{" "}</span>{t("txtCurado.txt7")}{" "}
                     <span className="txt-empresa-spanNeca">{t("txtCurado.txt8")}{" "}</span>{t("txtCurado.txt9")}
                   </p>
-                  <a href="https://drive.google.com/drive/folders/1PR5y1NpqB3MUJ3ZLA2C9YN5nvdMe_Y6h?usp=drive_link" download onClick={handleDownload}>
+                  <a 
+                  href="https://webcontent.cn-grupo.net/Assets/CdN/CombustiblesMD-.pdf" 
+                  download 
+                  onClick={handleDownload}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  >
                   <button className="info-btn-neca">{t("txtInfo.txt2")}</button>
                   </a>
                 </div>
@@ -311,7 +317,15 @@ const Neca = () => {
                     <span className="txt-empresa-spanNeca">{t("txtSolucionesDigitalesNECA.txt10")}{" "}</span>
                     {t("txtSolucionesDigitalesNECA.txt11")}
                   </p>
+                  <a 
+                  href="https://webcontent.cn-grupo.net/Assets/CdN/CombustiblesMD-.pdf" 
+                  download 
+                  onClick={handleDownload}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  >
                   <button className="info-btn-neca">{t("txtInfo.txt2")}</button>
+                  </a>
                 </div>
               </div>
             </>

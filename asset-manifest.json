@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e848844e.css",
-    "main.js": "/static/js/main.49d0687a.js",
+    "main.css": "/static/css/main.db9ea45c.css",
+    "main.js": "/static/js/main.5b7e727e.js",
     "static/media/NECA web v3.mp4": "/static/media/NECA web v3.330a279e7eacd90e7a86.mp4",
     "static/media/Home Cn web v3 .mp4": "/static/media/Home Cn web v3 .30bee1f7079a85eb5cbe.mp4",
     "static/media/Trabaja con nosotros Web.mp4": "/static/media/Trabaja con nosotros Web.f5b1602b7133c6f1f3e5.mp4",
@@ -93,6 +93,7 @@
     "static/media/349x209 - 2023.png": "/static/media/349x209 - 2023.027215585e51ae02b991.png",
     "static/media/349x209 - 1991.png": "/static/media/349x209 - 1991.24fc6f55e81b671e4a39.png",
     "static/media/349x209 - 2005.png": "/static/media/349x209 - 2005.369ec9fb4aa3907efe4d.png",
+    "static/media/logo cn grupo color 2@300x.png": "/static/media/logo cn grupo color 2@300x.4ff93b64cc7bd4ad64a1.png",
     "static/media/cngrupoLOGOwhite.png": "/static/media/cngrupoLOGOwhite.e8a28e225d92e5213643.png",
     "static/media/PEM - INFO IMPOSITIVA grey@300x.png": "/static/media/PEM - INFO IMPOSITIVA grey@300x.a8de32b06b053f7e4f00.png",
     "static/media/CN LOGISTICA - INFO IMPOSITIVA grey@300x.png": "/static/media/CN LOGISTICA - INFO IMPOSITIVA grey@300x.843fa88ccbd4be32c8b9.png",
@@ -108,7 +109,6 @@
     "static/media/GASdelNORTE WEB@300x.png": "/static/media/GASdelNORTE WEB@300x.bd4f087cba55a2067964.png",
     "static/media/NECA WEB@300x.png": "/static/media/NECA WEB@300x.4b03a40d6071ca0e970c.png",
     "static/media/CCNchile WEB@300x.png": "/static/media/CCNchile WEB@300x.478c060460fc82f74c86.png",
-    "static/media/cngrupocolor.png": "/static/media/cngrupocolor.c262c2cfee89691fb8ba.png",
     "static/media/adama WEB@300x.png": "/static/media/adama WEB@300x.8808bd463d6da0ac4ddf.png",
     "static/media/Group (1).svg": "/static/media/Group (1).adde8c6e38b11c916d01d8091bc67382.svg",
     "static/media/manoarribanuevo.svg": "/static/media/manoarribanuevo.e6b1bcc32472af876e848d261114d898.svg",
@@ -138,11 +138,11 @@
     "index.html": "/index.html",
     "static/media/VectorSima2.svg": "/static/media/VectorSima2.27de91dcb9a0c7a8848e5716d3c8c803.svg",
     "static/media/logomail.svg": "/static/media/logomail.250a2a2b6809a33ee82e489cd0c99de4.svg",
-    "main.e848844e.css.map": "/static/css/main.e848844e.css.map",
-    "main.49d0687a.js.map": "/static/js/main.49d0687a.js.map"
+    "main.db9ea45c.css.map": "/static/css/main.db9ea45c.css.map",
+    "main.5b7e727e.js.map": "/static/js/main.5b7e727e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e848844e.css",
-    "static/js/main.49d0687a.js"
+    "static/css/main.db9ea45c.css",
+    "static/js/main.5b7e727e.js"
   ]
 }

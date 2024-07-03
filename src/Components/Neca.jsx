@@ -36,7 +36,7 @@ import logogrande7 from "../Assets/sigma agro WEB@300x.png";
 import logogrande8 from "../Assets/insuagro WEB@300x.png";
 import videoSourceNECA from "../Assets/NECA web v3.mp4";
 import { useTranslation } from "react-i18next";
-import NAVBAR from "./NavBar";
+import NAVBAR from "./NavBarNueva";
 import ScrollToTop from "react-scroll-to-top";
 import "./Neca.css";
 import FlechaScrol from "../Assets/flecha web cn grupo@300x-8.png"

@@ -5,7 +5,7 @@ import logoinf3 from "../Assets/GAS DEL NORTE - INFO IMPOSITIVA grey@300x.png";
 import logoinf4 from "../Assets/CN LOGISTICA - INFO IMPOSITIVA grey@300x.png";
 import logoinf5 from "../Assets/NECA - INFO IMPOSITIVA grey@300x.png";
 import logoinf6 from "../Assets/PEM - INFO IMPOSITIVA grey@300x.png";
-import NAVBAR from "./NavBarOscura";
+import NAVBAR from "./NavBarNuevaOsc";
 import { useTranslation } from "react-i18next";
 import "./Infoimpo.css"
 

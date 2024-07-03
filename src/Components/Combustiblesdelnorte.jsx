@@ -27,7 +27,7 @@ import videoSourceComb from "../Assets/COMBUSTIBLES DEL NORTE.mp4";
 //import videoSourceComb1 from "../Assets/COMBUSTIBLES-DEL-NORTE.av1.mp4";
 //import videoSourceComb2 from "../Assets/ESTACIONFIJA1.mp4";
 import { useTranslation } from "react-i18next";
-import NAVBAR from "./NavBar";
+import NAVBAR from "./NavBarNueva";
 import "./Combustiblesdelnorte.css";
 import ScrollToTop from "react-scroll-to-top";
 import FlechaScrol from "../Assets/flecha web cn grupo@300x-8.png"

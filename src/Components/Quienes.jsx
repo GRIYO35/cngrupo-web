@@ -10,7 +10,7 @@ import fotoellos6 from '../Assets/261x353 EDU h.png';
 import { useTranslation } from "react-i18next";
 import gerentes from '../Assets/gerentes.png';
 import gerentes1 from '../Assets/479x279 GERENTES.png';
-import NAVBAR from "./NavBar"
+import NAVBAR from "./NavBarNueva"
 import "./Quienes.css"
 
 

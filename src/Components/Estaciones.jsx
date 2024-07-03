@@ -14,7 +14,7 @@ import estacionesimg1 from '../Assets/650X388px WEB lajitas.png'
 import estacionesimg2 from '../Assets/650X388px WEB chango.png'
 import videoSourceComb from "../Assets/YPF EESS Las lajitas web.mp4";
 import { useTranslation } from "react-i18next";
-import NAVBAR from "./NavBar";
+import NAVBAR from "./NavBarNueva";
 import "./Estaciones.css"
 import FlechaScrol from "../Assets/flecha web cn grupo@300x-8.png"
 

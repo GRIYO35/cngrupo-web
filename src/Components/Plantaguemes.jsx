@@ -10,7 +10,7 @@ import Vectorlogistica3 from "../Assets/Vector (3).png";
 import loggo3 from "../Assets/loggo3.png";
 import videoSourceGuemes from "../Assets/Guemes web.mp4";
 import { useTranslation } from "react-i18next";
-import NAVBAR from "./NavBar";
+import NAVBAR from "./NavBarNueva";
 import "./Plantaguemes.css"
 /*import fotogas from "../Assets/autoelevadores 15 kg  1.png";
 import logodireccion from "../Assets/logodireccion.png";

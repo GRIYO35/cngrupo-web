@@ -15,7 +15,7 @@ import Linea12 from "../Assets/453x271 2023.png";
 import { useTranslation } from "react-i18next";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import NAVBAR from "./NavBar";
+import NAVBAR from "./NavBarNueva";
 import "./Historia.css";
 
 const Historia = () => {

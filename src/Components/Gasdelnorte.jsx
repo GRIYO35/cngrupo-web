@@ -11,7 +11,7 @@ import logowpp from "../Assets/logowpp.png";
 import logodelivery from "../Assets/logodelivery.png";
 import videoSourceGas from "../Assets/Gas del norte web v2.mp4";
 import { useTranslation } from "react-i18next";
-import NAVBAR from "./NavBar";
+import NAVBAR from "./NavBarNueva";
 import "./Gasdelnorte.css";
 
 const Gas = () => {

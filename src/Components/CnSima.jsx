@@ -8,7 +8,7 @@ import VectorSima2 from '../Assets/VectorSima1.svg'
 import VectorSima3 from '../Assets/VectorSima2.svg'
 import VectorSima4 from '../Assets/vectorSima6.png'
 import { useTranslation } from "react-i18next";
-import NAVBAR from "./NavBar";
+import NAVBAR from "./NavBarNueva";
 import "./CnSima.css"
 
 

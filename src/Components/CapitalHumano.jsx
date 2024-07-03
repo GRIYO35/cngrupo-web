@@ -1,7 +1,7 @@
 import React from "react";
 import videoSourceGas from "../Assets/Trabaja con nosotros Web.mp4";
 import { useTranslation } from "react-i18next";
-import NAVBAR from "./NavBar";
+import NAVBAR from "./NavBarNueva";
 import "./CapitalHumano.css";
 
 const CapitalH = () => {

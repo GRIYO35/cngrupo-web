@@ -8,7 +8,7 @@ import vectormollar3 from '../Assets/Vector (4).png'
 import vectormollar4 from '../Assets/Vector (5).png'
 import videoSourceMollar from "../Assets/Puesto el mollar web v3.mp4";
 import { useTranslation } from "react-i18next";
-import NAVBAR from "./NavBar"
+import NAVBAR from "./NavBarNueva"
 import "./Mollar.css"
 
 const Puesto = () => {

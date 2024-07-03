@@ -12,7 +12,7 @@ import FlechitaNuevo from '../Assets/flechitanuevo.svg';
 import ManosNuevo from '../Assets/manosnuevo.svg';
 import { useTranslation } from "react-i18next";
 import Tarjeta from "./Tarjeta"
-import NAVBAR from "./NavBar"
+import NAVBAR from "./NavBarNueva"
 import "./Vision.css"
 
 

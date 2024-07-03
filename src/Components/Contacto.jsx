@@ -7,7 +7,7 @@ import logodireccion from "../Assets/logodireccion.png";
 import logotelefono from "../Assets/logotelefono.png";
 import vectorcontacto from "../Assets/Vector (11).png";
 import { useTranslation } from "react-i18next";
-import NAVBAR from "./NavBarOscura";
+import NAVBAR from "./NavBarNuevaOsc";
 import "./Contacto.css";
 
 const Navinfo = () => {

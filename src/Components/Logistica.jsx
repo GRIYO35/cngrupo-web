@@ -5,7 +5,7 @@ import Vectorlogistica1 from '../Assets/Group 94.png'
 import Vectorlogistica2 from '../Assets/Vector (2).png'
 import Vectorlogistica3 from '../Assets/Vector (3).png'
 import { useTranslation } from "react-i18next";
-import NAVBAR from "./NavBar";
+import NAVBAR from "./NavBarNueva";
 import "./Logistica.css"
 
 

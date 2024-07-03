@@ -20,7 +20,7 @@ import videoSource1 from "../Assets/Home-Cn-web-v3-.av1.mp4";
 import { useTranslation } from "react-i18next";
 import Slider from "./Slider";
 import ScrollToTop from "react-scroll-to-top";
-import NAVBAR from "./NavBar";
+import NAVBAR from "./NavBarNueva";
 import "./Home.css"
 import FlechaScrol from "../Assets/flecha web cn grupo@300x-8.png"
 

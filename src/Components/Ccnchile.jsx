@@ -7,7 +7,7 @@ import Vectorlogistica2 from "../Assets/Vector (2).png";
 import Vectorlogistica3 from "../Assets/Vector (3).png";
 import imgchile from "../Assets/650X388px WEB descripcion chile.png";
 import { useTranslation } from "react-i18next";
-import NAVBAR from "./NavBar";
+import NAVBAR from "./NavBarNueva";
 import "./Ccnchile.css";
 
 const Ccn = () => {

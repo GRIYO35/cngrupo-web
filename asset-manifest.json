@@ -1,16 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.db9ea45c.css",
-    "main.js": "/static/js/main.5b7e727e.js",
-    "static/media/NECA web v3.mp4": "/static/media/NECA web v3.330a279e7eacd90e7a86.mp4",
-    "static/media/Home Cn web v3 .mp4": "/static/media/Home Cn web v3 .30bee1f7079a85eb5cbe.mp4",
-    "static/media/Trabaja con nosotros Web.mp4": "/static/media/Trabaja con nosotros Web.f5b1602b7133c6f1f3e5.mp4",
-    "static/media/COMBUSTIBLES DEL NORTE.mp4": "/static/media/COMBUSTIBLES DEL NORTE.70de15f75c257d562fba.mp4",
-    "static/media/Puesto el mollar web v3.mp4": "/static/media/Puesto el mollar web v3.cfda3da7d6e81621e535.mp4",
-    "static/media/Home-Cn-web-v3-.av1.mp4": "/static/media/Home-Cn-web-v3-.av1.470f148a2cc0502ef690.mp4",
-    "static/media/YPF EESS Las lajitas web.mp4": "/static/media/YPF EESS Las lajitas web.c84a46bc3e9528939509.mp4",
-    "static/media/Gas del norte web v2.mp4": "/static/media/Gas del norte web v2.1c9020677beae2da4f9b.mp4",
-    "static/media/Guemes web.mp4": "/static/media/Guemes web.55ea961ea6ffdc4a9119.mp4",
+    "main.css": "/static/css/main.628d9bea.css",
+    "main.js": "/static/js/main.e6c2a996.js",
     "static/media/650x388 CN SIMA.png": "/static/media/650x388 CN SIMA.2549b455991e6daa3d83.png",
     "static/media/PORTADA - DJI_0321.jpg": "/static/media/PORTADA - DJI_0321.72d93713397b0a5e9008.jpg",
     "static/media/GRUPAL sin carteles.png": "/static/media/GRUPAL sin carteles.76514b850fc2c7acd994.png",
@@ -138,11 +129,11 @@
     "index.html": "/index.html",
     "static/media/VectorSima2.svg": "/static/media/VectorSima2.27de91dcb9a0c7a8848e5716d3c8c803.svg",
     "static/media/logomail.svg": "/static/media/logomail.250a2a2b6809a33ee82e489cd0c99de4.svg",
-    "main.db9ea45c.css.map": "/static/css/main.db9ea45c.css.map",
-    "main.5b7e727e.js.map": "/static/js/main.5b7e727e.js.map"
+    "main.628d9bea.css.map": "/static/css/main.628d9bea.css.map",
+    "main.e6c2a996.js.map": "/static/js/main.e6c2a996.js.map"
   },
   "entrypoints": [
-    "static/css/main.db9ea45c.css",
-    "static/js/main.5b7e727e.js"
+    "static/css/main.628d9bea.css",
+    "static/js/main.e6c2a996.js"
   ]
 }

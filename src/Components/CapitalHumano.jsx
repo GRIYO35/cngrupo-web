@@ -1,5 +1,5 @@
 import React from "react";
-import videoSourceGas from "../Assets/Trabaja con nosotros Web.mp4";
+//import videoSourceGas from "../Assets/Trabaja con nosotros Web.mp4";
 import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBarNueva";
 import "./CapitalHumano.css";
@@ -12,7 +12,8 @@ const CapitalH = () => {
     <div className="home-containerCap">
       <div className="videoCap">
         <video
-          src={videoSourceGas}
+          /*src={videoSourceGas}*/
+          src= "http://webcontent.cn-grupo.net/Media/Trabaja%20con%20nosotros%20Web.mp4"
           autoPlay
           loop
           muted

@@ -6,7 +6,7 @@ import vectormollar1 from '../Assets/Capa_2.png'
 import vectormollar2 from '../Assets/Group 94 (1).png'
 import vectormollar3 from '../Assets/Vector (4).png'
 import vectormollar4 from '../Assets/Vector (5).png'
-import videoSourceMollar from "../Assets/Puesto el mollar web v3.mp4";
+//import videoSourceMollar from "../Assets/Puesto el mollar web v3.mp4";
 import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBarNueva"
 import "./Mollar.css"
@@ -19,7 +19,8 @@ const Puesto = () => {
     <div className="home-container">
       <div className="video">
         <video
-          src={videoSourceMollar}
+          /*src={videoSourceMollar}*/
+          src="http://webcontent.cn-grupo.net/Media/Puesto%20el%20mollar%20web%20v3.mp4"
           autoPlay
           loop
           muted

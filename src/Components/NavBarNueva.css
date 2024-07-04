@@ -102,6 +102,7 @@
     z-index: 1000;
     font-size: 12px;
     white-space: nowrap; /* Prevents text from wrapping */
+    /*min-width: 160px;*/
   }
   
   .dropdown-menu li {
@@ -135,6 +136,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     white-space: nowrap; /* Prevents text from wrapping */
     text-align: start;
+    min-width: 193px;
+    min-height: 120px;
   }
   
   .submenu li {
@@ -188,6 +191,7 @@
       z-index: 1000;
       font-size: 15px;
       white-space: nowrap; /* Prevents text from wrapping */
+      /*min-width: 190px;*/
     }
     
     .dropdown-menu li {
@@ -221,6 +225,8 @@
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       white-space: nowrap; /* Prevents text from wrapping */
       text-align: start;
+      min-width: 235px;
+      min-height: 128px;
     }
     
     .submenu li {

@@ -34,7 +34,7 @@ const Info = () => {
         <div className="logo-boton">
           <img src={logoinf1} alt="" className="logo-info" />
           <a 
-                  href="https://webcontent.cn-grupo.net/Assets/CdN/CombustiblesMD-.pdf" 
+                  href="https://webcontent.cn-grupo.net/Assets/CN/Legajo Impositivo CN - 2024.pdf" 
                   download 
                   onClick={handleDownload}
                   target="_blank" 
@@ -46,7 +46,7 @@ const Info = () => {
         <div className="logo-boton">
           <img src={logoinf2} alt="" className="logo-info" />
           <a 
-                  href="https://webcontent.cn-grupo.net/Assets/CdN/CombustiblesMD-.pdf" 
+                  href="https://webcontent.cn-grupo.net/Assets/CN/EESS CHANGO - Legajo Impositivo - 2024.pdf" 
                   download 
                   onClick={handleDownload}
                   target="_blank" 
@@ -58,7 +58,7 @@ const Info = () => {
         <div className="logo-boton">
           <img src={logoinf3} alt="" className="logo-info" />
           <a 
-                  href="https://webcontent.cn-grupo.net/Assets/CdN/CombustiblesMD-.pdf" 
+                  href="https://webcontent.cn-grupo.net/Assets/CN/GN Legajo Impositivo 04.2024.pdf" 
                   download 
                   onClick={handleDownload}
                   target="_blank" 
@@ -70,7 +70,7 @@ const Info = () => {
         <div className="logo-boton">
           <img src={logoinf4} alt="" className="logo-info" />
           <a 
-                  href="https://webcontent.cn-grupo.net/Assets/CdN/CombustiblesMD-.pdf" 
+                  href="https://webcontent.cn-grupo.net/Assets/CN/LCN Legajo Impositivo 04.2024.pdf" 
                   download 
                   onClick={handleDownload}
                   target="_blank" 
@@ -82,7 +82,7 @@ const Info = () => {
         <div className="logo-boton">
           <img src={logoinf5} alt="" className="logo-info" />
           <a 
-                  href="https://webcontent.cn-grupo.net/Assets/CdN/CombustiblesMD-.pdf" 
+                  href="https://webcontent.cn-grupo.net/Assets/CN/NECA Legajo Impositivo 04.2024.pdf" 
                   download 
                   onClick={handleDownload}
                   target="_blank" 
@@ -94,7 +94,7 @@ const Info = () => {
         <div className="logo-boton">
           <img src={logoinf6} alt="" className="logo-info" />
           <a 
-                  href="https://webcontent.cn-grupo.net/Assets/CdN/CombustiblesMD-.pdf" 
+                  href="https://webcontent.cn-grupo.net/Assets/CN/PEM Legajo Impositivo 04.2024.pdf" 
                   download 
                   onClick={handleDownload}
                   target="_blank" 

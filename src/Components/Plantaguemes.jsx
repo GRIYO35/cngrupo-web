@@ -8,7 +8,7 @@ import Vectorlogistica1 from "../Assets/Group 94.png";
 import Vectorlogistica2 from "../Assets/Vector (2).png";
 import Vectorlogistica3 from "../Assets/Vector (3).png";
 import loggo3 from "../Assets/loggo3.png";
-import videoSourceGuemes from "../Assets/Guemes web.mp4";
+//import videoSourceGuemes from "../Assets/Guemes web.mp4";
 import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBarNueva";
 import "./Plantaguemes.css"
@@ -27,7 +27,8 @@ const Guemes = () => {
     <div className="home-container">
       <div className="video">
         <video
-          src={videoSourceGuemes}
+        /*src={videoSourceGuemes}*/
+          src="http://webcontent.cn-grupo.net/Media/Guemes%20web.mp4"
           autoPlay
           loop
           muted

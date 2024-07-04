@@ -9,7 +9,7 @@ import logodireccion from "../Assets/logodireccion.png";
 import logotelefono from "../Assets/logotelefono.png";
 import logowpp from "../Assets/logowpp.png";
 import logodelivery from "../Assets/logodelivery.png";
-import videoSourceGas from "../Assets/Gas del norte web v2.mp4";
+//import videoSourceGas from "../Assets/Gas del norte web v2.mp4";
 import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBarNueva";
 import "./Gasdelnorte.css";
@@ -28,7 +28,8 @@ const Gas = () => {
     <div className="home-container">
       <div className="video">
         <video
-          src={videoSourceGas}
+          /*src={videoSourceGas}*/
+          src= "http://webcontent.cn-grupo.net/Media/Gas%20del%20norte%20web%20v2.mp4"
           autoPlay
           loop
           muted

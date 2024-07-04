@@ -34,7 +34,7 @@ import logogrande5 from "../Assets/atanor WEB@300x.png";
 import logogrande6 from "../Assets/silobolsa plastar WEB@300x.png";
 import logogrande7 from "../Assets/sigma agro WEB@300x.png";
 import logogrande8 from "../Assets/insuagro WEB@300x.png";
-import videoSourceNECA from "../Assets/NECA web v3.mp4";
+//import videoSourceNECA from "../Assets/NECA web v3.mp4";
 import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBarNueva";
 import ScrollToTop from "react-scroll-to-top";
@@ -57,7 +57,8 @@ const Neca = () => {
     <div className="home-container">
       <div className="video">
       <video
-          src={videoSourceNECA}
+          /*src={videoSourceNECA}*/
+          src="http://webcontent.cn-grupo.net/Media/NECA%20web%20v3.mp4"
           autoPlay
           loop
           muted
@@ -289,7 +290,7 @@ const Neca = () => {
                     <span className="txt-empresa-spanNeca">{t("txtCurado.txt8")}{" "}</span>{t("txtCurado.txt9")}
                   </p>
                   <a 
-                  href="https://webcontent.cn-grupo.net/Assets/CdN/CombustiblesMD-.pdf" 
+                  href="https://webcontent.cn-grupo.net/Assets/Neca/necaCURADOdeSEMILLAS-.pdf" 
                   download 
                   onClick={handleDownload}
                   target="_blank" 
@@ -318,7 +319,7 @@ const Neca = () => {
                     {t("txtSolucionesDigitalesNECA.txt11")}
                   </p>
                   <a 
-                  href="https://webcontent.cn-grupo.net/Assets/CdN/CombustiblesMD-.pdf" 
+                  href="https://webcontent.cn-grupo.net/Assets/Neca/necaCROPWISE-.pdf" 
                   download 
                   onClick={handleDownload}
                   target="_blank" 

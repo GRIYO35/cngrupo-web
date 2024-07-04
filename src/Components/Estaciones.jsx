@@ -12,7 +12,7 @@ import accesorios from '../Assets/accesorios.png'
 import ScrollToTop from "react-scroll-to-top";
 import estacionesimg1 from '../Assets/650X388px WEB lajitas.png'
 import estacionesimg2 from '../Assets/650X388px WEB chango.png'
-import videoSourceComb from "../Assets/YPF EESS Las lajitas web.mp4";
+//import videoSourceComb from "../Assets/YPF EESS Las lajitas web.mp4";
 import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBarNueva";
 import "./Estaciones.css"
@@ -27,7 +27,8 @@ const Estacion = () => {
     <div className="home-container">
       <div className="video">
         <video
-          src={videoSourceComb}
+          /*src={videoSourceComb}*/
+          src= "http://webcontent.cn-grupo.net/Media/YPF%20EESS%20Las%20lajitas%20web.mp4"
           autoPlay
           loop
           muted

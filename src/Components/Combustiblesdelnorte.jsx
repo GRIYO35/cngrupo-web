@@ -23,7 +23,7 @@ import logoneca3 from "../Assets/logoneca3.png";
 import logoneca4 from "../Assets/logoneca4.png";
 import vectorneca4 from "../Assets/logomail.svg";
 import LogoPersona from "../Assets/logoPersona.svg";
-import videoSourceComb from "../Assets/COMBUSTIBLES DEL NORTE.mp4";
+//import videoSourceComb from "../Assets/COMBUSTIBLES DEL NORTE.mp4";
 //import videoSourceComb1 from "../Assets/COMBUSTIBLES-DEL-NORTE.av1.mp4";
 //import videoSourceComb2 from "../Assets/ESTACIONFIJA1.mp4";
 import { useTranslation } from "react-i18next";
@@ -78,8 +78,8 @@ const Combustibles = () => {
           muted
           className="tuvideo"
         >
-          <source src={videoSourceComb} type="video/mp4; codecs=av01" />
-          <source src={videoSourceComb} type="video/mp4" />
+          <source src="http://webcontent.cn-grupo.net/Media/COMBUSTIBLES%20DEL%20NORTE.mp4" type="video/mp4; codecs=av01" />
+          <source src="http://webcontent.cn-grupo.net/Media/COMBUSTIBLES%20DEL%20NORTE.mp4" type="video/mp4" />
         </video>
         <div className="content">
         <NAVBAR></NAVBAR>

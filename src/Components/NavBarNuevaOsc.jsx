@@ -85,6 +85,7 @@ const NavbarNueva = () => {
 
   return (
     <div className="nav-containerNuevaOsc">
+      <div className="Nav-Clas3Osc"></div>
         <div className="Nav-ClasOsc">
         <Link to="/" className="LogoNavNuevaOsc">
           <img src={Logo} alt="" className="logoNuevoOsc" />

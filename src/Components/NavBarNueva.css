@@ -26,7 +26,7 @@
   .Nav-Clas1{
     display: flex;
     justify-content: space-between;
-    width: 65%;
+    width: 59%;
   }
 
   .Nav-Clas2{
@@ -36,6 +36,11 @@
     width: 15%;
     gap: 5%;
     margin-top: 1%;
+  }
+
+  .Nav-Clas3{
+    display: flex;
+    width: 6%;
   }
 
   .Nav-Clases {

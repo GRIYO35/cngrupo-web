@@ -494,15 +494,15 @@
   .txt-redesVision {
     display: flex;
     flex-direction: row;
-    margin-top: -14%;
+    margin-top: -13%;
   }
 
   .txt-container-empresaVis {
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-left: 7%;
-    margin-top: 20%;
+    margin-left: 7.5%;
+    margin-top: 19.8%;
   }
 
   .cuadros-vectores {

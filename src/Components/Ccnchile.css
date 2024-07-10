@@ -95,7 +95,7 @@
   }
   .logochile {
     width: 250px;
-    margin-left: -56%;
+    margin-left: -49%;
   }
 
   .p-chile1 {
@@ -589,7 +589,7 @@
 
   .mapaChile {
     width: 600px;
-    height: 650px;
+    height: 735px;
     margin-left: 34%;
     margin-bottom: 8%;
     margin-top: 5%;
@@ -598,16 +598,16 @@
   .txt-redesChile {
     display: flex;
     flex-direction: row;
-    margin-top: 10%;
+    margin-top: 9%;
   }
 
   .txt-container-empresaChile {
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-left: 7%;
+    margin-left: 7.5%;
     margin-top: -2%;
-    margin-bottom: 14.9%;
+    margin-bottom: 16.6%;
   }
 
   .chile-title {

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import LogoMollar from '../Assets/PEM - INFO IMPOSITIVA grey@300x.png'
 import Logochoclo from '../Assets/Group (2).png'
 import Logosiembra from '../Assets/Group (3).png'
@@ -14,6 +14,10 @@ import "./Mollar.css"
 const Puesto = () => {
   // eslint-disable-next-line no-unused-vars
   const [t, i18next] = useTranslation("global");
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="home-container">
@@ -80,7 +84,7 @@ const Puesto = () => {
 
       </div>
 
-      <div id="contacto" className="banner-mollar"></div>
+      <div className="banner-mollar"></div>
 
       <div className="container-txt-cardMollar">
         <h2 className="mollar-card">{t("txtContacto.txt1")}</h2>

@@ -26,7 +26,7 @@
   .Nav-Clas1Osc{
     display: flex;
     justify-content: space-between;
-    width: 65%;
+    width: 59%;
   }
 
   .Nav-Clas2Osc{
@@ -36,6 +36,11 @@
     width: 15%;
     gap: 5%;
     margin-top: 1%;
+  }
+
+  .Nav-Clas3Osc{
+    display: flex;
+    width: 6%;
   }
 
   .Nav-ClasesOsc {
@@ -135,6 +140,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     white-space: nowrap; /* Prevents text from wrapping */
     text-align: start;
+    min-width: 193px;
+    min-height: 120px;
   }
   
   .submenuOsc li {
@@ -215,6 +222,8 @@
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       white-space: nowrap; /* Prevents text from wrapping */
       text-align: start;
+      min-width: 235px;
+      min-height: 128px;
     }
     
     .submenuOsc li {

@@ -382,7 +382,7 @@ const Neca = () => {
                   {t("txtSiembra.txt3")} 
                   </p>
                   <button className="info-btn-neca">
-                  <Link className="info-btn-neca1" to ="/mollar">{t("txtSiembra.txt4")}</Link>
+                  <Link className="info-btn-neca1" to ="/mollar#contacto">{t("txtSiembra.txt4")}</Link>
                   </button>
                 </div>
               </div>

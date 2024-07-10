@@ -80,7 +80,7 @@ const Puesto = () => {
 
       </div>
 
-      <div className="banner-mollar"></div>
+      <div id="contacto" className="banner-mollar"></div>
 
       <div className="container-txt-cardMollar">
         <h2 className="mollar-card">{t("txtContacto.txt1")}</h2>

@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Logo from "../Assets/cngrupoLOGOwhite.png";
 import { useTranslation } from "react-i18next";
+//import styled from 'styled-components';
 import "./NavBarNueva.css"
 
 const NavbarNueva = () => {
@@ -14,11 +16,16 @@ const NavbarNueva = () => {
     const [isSubMenuOpen5, setSubMenuOpen5] = useState(false);
     // eslint-disable-next-line no-unused-vars
     const [isSubMenuOpen6, setSubMenuOpen6] = useState(false);
+    const [showMobileMenu, setShowMobilemenu] = useState (false)
     let subMenuTimer;
     let subMenuTimer1;
     let subMenuTimer2;
     let subMenuTimer3;
     let subMenuTimer4;
+
+    const ulStyle = {
+      right: showMobileMenu ? '0' : '-100%',
+    };
   
     const handleMouseEnter4 = (setSubMenuOpen) => {
       clearTimeout(subMenuTimer);
@@ -92,7 +99,7 @@ const NavbarNueva = () => {
         </Link>
         </div>
       <nav className="Nav-Clas1">
-        <ul className="Nav-Clases">
+        <ul className="Nav-Clases" style={ulStyle}>
         <li 
         onMouseEnter={handleMouseEnter1}
         onMouseLeave={handleMouseLeave1}
@@ -161,7 +168,7 @@ const NavbarNueva = () => {
           <Link className="Link" to="/contacto">{t("li.CONTACT")}</Link>
         </ul>
       </nav>
-      <div className="Nav-Clas2">
+      <div className="Nav-Clas2" style={ulStyle}>
       <button
         onClick={(event) => {
         i18next.changeLanguage("es");
@@ -187,6 +194,9 @@ const NavbarNueva = () => {
         >
         EN
         </button>
+      </div>
+      <div className="Mobile" onClick={() => setShowMobilemenu (!showMobileMenu)}>
+        <FaBars className="IconMobile"/>
       </div>
     </div>
   );

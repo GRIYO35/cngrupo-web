@@ -103,7 +103,6 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    z-index: 1000;
     font-size: 12px;
     white-space: nowrap; /* Prevents text from wrapping */
     margin-top: 3px;
@@ -155,9 +154,6 @@
     text-decoration: none;
     font-size: 12px;
   }
-  .mobile {
-    display: none;
-  }
 
   @media (max-width: 800px) {
 
@@ -203,8 +199,8 @@
     .Nav-Clases {
       position: absolute;
       top: 70px;
-      width: 50%;
-      height: 30vh;
+      width: auto;
+      height: auto;
       display: flex;
       justify-content: flex-start;
       flex-direction: column;
@@ -219,6 +215,8 @@
       padding: 0;
       padding-top: 30px;
       padding-right: 15px;
+      padding-bottom: 100px;
+      padding-left: 20px;
       row-gap: 30px;
     }
   
@@ -226,7 +224,7 @@
       position: absolute;
       top: 320px;
       width: 50%;
-      height: 10vh;
+      height: auto;
       justify-content: center;
       flex-direction: row;
       align-items: flex-start;
@@ -266,19 +264,13 @@
     
     .dropdown-menu {
       position: absolute;
-      top: 100%;
-      left: 50%;
-      transform: translateX(-50%);
-      background: rgba( 4, 68, 132, 0.45 );
-      backdrop-filter: blur(6px);
-      -webkit-backdrop-filter: blur(6px);
+      background: transparent;
       color: white;
       list-style: none;
       padding: 0;
       margin: 0;
-      z-index: 1000;
       font-size: 12px;
-      white-space: nowrap; /* Prevents text from wrapping */
+      white-space: nowrap; 
       margin-top: 3px;
       /*min-width: 160px;*/
     }
@@ -291,7 +283,15 @@
       color: #FFF;
       font-family: Public Sans;
       text-decoration: none;
-      font-size: 12px;
+      font-size: 16px;
+    }
+
+    .dropdown:hover .dropdown-menu {
+      display: block; /* Show the menu on hover */
+    }
+    
+    .dropdown:hover + .dropdown {
+      margin-top: 120px; /* Adjust this value to match the height of your dropdown menu */
     }
   
     .submenu-item {
@@ -302,20 +302,13 @@
     
     .submenu {
       position: absolute;
-      top: 0;
-      left: 100%;
-      background: rgba(44, 45, 46, 0.45);
-      backdrop-filter: blur(6px);
-      -webkit-backdrop-filter: blur(6px);
+      background: transparent;
       color: white;
       list-style: none;
       padding: 0;
       margin: 0;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      white-space: nowrap; /* Prevents text from wrapping */
+      white-space: nowrap; 
       text-align: start;
-      min-width: 193px;
-      min-height: 120px;
     }
     
     .submenu li {
@@ -326,17 +319,38 @@
       color: #FFF;
       font-family: Public Sans;
       text-decoration: none;
-      font-size: 12px;
+      font-size: 16px;
+    }
+  }
+
+  @media (min-width: 801px) and (max-width: 1280px) {
+    .mobile {
+      display: none;
+    }
+    .IconMobile{
+      display: none;
     }
   }
 
 
   @media (min-width: 1281px) and (max-width: 1919px) {
-
+    .mobile {
+      display: none;
+    }
+    .IconMobile{
+      display: none;
+    }
   }
 
 
   @media (min-width: 1920px) {
+    .mobile {
+      display: none;
+    }
+    .IconMobile{
+      display: none;
+    }
+
     .Nav-Clases {
       display: flex;
       flex: 1;

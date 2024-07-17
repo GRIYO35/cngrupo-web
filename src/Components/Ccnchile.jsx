@@ -1,7 +1,8 @@
 import React from "react";
 import { FaInstagram, FaFacebook } from "react-icons/fa";
 import logochile from "../Assets/loggo1.png";
-import mapachile from "../Assets/MAPA CHILE WEB@300x.png";
+//import mapachile from "../Assets/MAPA CHILE WEB@300x.png";
+import mapachile from "../Assets/mapa chile regiones.png";
 import Vectorlogistica1 from "../Assets/Group 94.png";
 import Vectorlogistica2 from "../Assets/Vector (2).png";
 import Vectorlogistica3 from "../Assets/Vector (3).png";

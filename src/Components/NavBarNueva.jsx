@@ -113,11 +113,11 @@ const NavbarNueva = () => {
                 <li><Link to="/info">{t("li.Tax information")}</Link></li>
               </ul>
             )}
-          </li>
-          <li 
-          onMouseEnter={handleMouseEnter2}
-          onMouseLeave={handleMouseLeave2} 
-          className="dropdown">
+        </li>
+        <li 
+        onMouseEnter={handleMouseEnter2}
+        onMouseLeave={handleMouseLeave2} 
+        className="dropdown">
           {t("li.OUR BUSINESSES")}
           {isSubMenuOpen2 && (
               <ul className="dropdown-menu">

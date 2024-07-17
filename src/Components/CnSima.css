@@ -216,8 +216,8 @@
   .Simaimg1 {
     width: 177px;
     height: 79px;
-    margin-top: 1%;
-    margin-left: -8%;
+    margin-top: 2%;
+    margin-left: -12%;
   }
   
   .home-containerSima {
@@ -230,16 +230,16 @@
   .txt-redesSima {
     display: flex;
     flex-direction: row;
-    margin-top: 3%;
+    margin-top: 4%;
   }
   
   .txt-container-empresaSima {
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-left: 7%;
+    margin-left: 7.5%;
     margin-top: -2%;
-    margin-bottom: 15%;
+    margin-bottom: 17%;
   }
   
   .fotoSima {

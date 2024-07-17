@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
-import logo2 from "../Assets/loggo2.png";
+//import logo2 from "../Assets/loggo2.png";
+import logo2 from "../Assets/gs del norte logo  360x115.png";
 import fotogas15 from "../Assets/GAS 15.png";
 import fotogasBu from "../Assets/650X388px WEB gas butano.png";
 import fotogasPla from "../Assets/650X388px WEB autoelevadores.png";

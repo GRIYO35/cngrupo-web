@@ -97,8 +97,8 @@ button.ol-full-screen-true {
   font-size: 21px;
 }
 .MapaDim{
-  width: 1070px;
-  height: 540px;
+  width: 1230px;
+  height: 621px;
 }
 #map {
   filter: grayscale(100%);

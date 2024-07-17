@@ -71,7 +71,7 @@ export const Contactocomponente = () => {
       setSendingEmail(true);
       emailjs
         .sendForm(
-          "service_x4v9z9j",
+          "service_za8wjel",
           "template_n7by7sp",
           form.current,
           "d3VXfZZrFVUqnu77q"

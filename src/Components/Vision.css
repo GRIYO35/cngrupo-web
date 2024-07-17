@@ -236,12 +236,248 @@
 
 
 
+@media (min-width: 1281px) and (max-width: 1549px) {
+  .home-containerVision {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../Assets/PORTADA\ MISION\ VIVION\ WEB.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .txt-redesVision {
+    display: flex;
+    flex-direction: row;
+    margin-top: -11.5%;
+  }
+
+  .txt-container-empresaVis {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 8%;
+    margin-top: 17%;
+  }
+
+  .cuadros-vectores {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+  }
+
+  .cuadros-vectores .tu-elemento {
+    margin-bottom: -100px;
+  }
+
+  .title-vector {
+    color: #FFF;
+    font-family: Public Sans;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 7%;
+    font-style: normal;
+  }
+
+  .title-vector1 {
+    color: #FFF;
+    font-family: Public Sans;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: -1%;
+    font-style: normal;
+  }
+
+  .p-vector {
+    color: #FFF;
+    font-family: Public Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 280px;
+    margin-top: -6%;
+  }
+
+  .circulo-txt {
+    margin-top: 8%;
+    margin-bottom: 32%;
+  }
+
+  .circulo-txt1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 10%;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: left;
+  }
+
+  .Circulo-Valores {
+    display: flex;
+    position: absolute;
+    margin-left: -30%;
+    margin-top: -5%;
+  }
+
+  .cositos {
+    position: relative;
+    width: 50%;
+    height: 20%;
+    margin-top: 18%;
+  }
+
+  .circle {
+    width: 180%;
+    height: 180%;
+  }
+
+  .svg-vision1 {
+    background-color: white;
+    padding: 1px;
+    border-radius: 50%;
+    border: solid #3A93A4;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 159%;
+    top: 30%;
+    transform: translate(-50%, -50%) rotate(var(--n) * 1turn / 5) translate(100px) rotate(-var(--n) * 1turn / 5);
+  }
+
+  .svg-vision2 {
+    background-color: #fff;
+    padding: 1px;
+    border-radius: 50%;
+    border: solid #3A93A4;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 75%;
+    top: -8%;
+    transform: translate(-50%, -50%) rotate(var(--n) * 1turn / 5) translate(100px) rotate(-var(--n) * 1turn / 5);
+  }
+
+  .svg-vision3 {
+    background-color: #fff;
+    padding: 1px;
+    border-radius: 50%;
+    border: solid #3A93A4;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: -13%;
+    top: 30%;
+    transform: translate(-50%, -50%) rotate(var(--n) * 1turn / 5) translate(100px) rotate(-var(--n) * 1turn / 5);
+  }
+
+  .svg-vision4 {
+    background-color: #fff;
+    padding: 1px;
+    border-radius: 50%;
+    border: solid #3A93A4;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 19%;
+    top: 80%;
+    transform: translate(-50%, -50%) rotate(var(--n) * 1turn / 5) translate(100px) rotate(-var(--n) * 1turn / 5);
+  }
+
+  .svg-vision5 {
+    background-color: #fff;
+    padding: 1px;
+    border-radius: 50%;
+    border: solid #3A93A4;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 126%;
+    top: 81%;
+    transform: translate(-50%, -50%) rotate(var(--n) * 1turn / 5) translate(100px) rotate(-var(--n) * 1turn / 5);
+  }
+
+  .txt-cir {
+    color: #3A93A4;
+    text-align: center;
+    top: 18%;
+    left: 63%;
+    transform: translate(-50%, -50%) rotate(var(--n) * 1turn / 5) translate(100px) rotate(-var(--n) * 1turn / 5);
+    position: absolute;
+    font-weight: 800;
+    font-size: 28px;
+  }
+
+  .titulo-p-circulo {
+    margin-left: -2%;
+    margin-right: 14%;
+    margin-top: 18%;
+  }
+
+  .circulo-titulo {
+    color: #3A93A4;
+    font-size: 25px;
+  }
+
+  .circulo-subtitulo {
+    color: #225065;
+    font-size: 20px;
+    margin-top: -7%;
+  }
+
+  .p-circulo {
+    color: #656565;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .Txt-Valores {
+    margin-left: 50%;
+    padding-left: 0%;
+    margin-top: -5%;
+    position: absolute;
+    margin-bottom: 80px;
+  }
+
+  .banner-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../Assets/foto\ CH\ vision\ y\ mision.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: 36% center;
+  }
+
+  .mi-linea-carrusel {
+    height: 1px;
+    border: none;
+    width: 80px;
+    background-color: #3A93A4;
+    margin-left: 0px;
+    margin-top: -10px;
+    margin-bottom: 70px;
+  }
+
+  .ejes-compromiso {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: left;
+    margin-left: 150px;
+  }
+
+  .txt-empresa-spanVis {
+    font-weight: 600;
+  }
+
+}
 
 
 
 
 
-@media (min-width: 1281px) and (max-width: 1919px) {
+
+
+
+
+@media (min-width: 1550px) and (max-width: 1919px) {
   .home-containerVision {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../Assets/PORTADA\ MISION\ VIVION\ WEB.png);
     background-size: 100%;

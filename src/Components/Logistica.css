@@ -191,8 +191,8 @@ margin-top: 30px;
   .Logimg1 {
       width: 250px;
       height: 65px;
-      margin-top: 1%;
-      margin-left: 1%;
+      margin-top: 2%;
+      margin-left: -5%;
     }
 
 .home-containerLog {
@@ -212,9 +212,9 @@ margin-top: 30px;
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin-left: 7%;
-  margin-top: -2%;
-  margin-bottom: 15%;
+  margin-left: 7.5%;
+  margin-top: -1%;
+  margin-bottom: 19%;
 }
 
 .fotoLog {

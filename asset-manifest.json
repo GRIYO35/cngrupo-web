@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.07f14748.css",
-    "main.js": "/static/js/main.badeb885.js",
+    "main.css": "/static/css/main.2c1c2710.css",
+    "main.js": "/static/js/main.dd4227ca.js",
     "static/media/650x388 CN SIMA.png": "/static/media/650x388 CN SIMA.2549b455991e6daa3d83.png",
     "static/media/PORTADA - DJI_0321.jpg": "/static/media/PORTADA - DJI_0321.72d93713397b0a5e9008.jpg",
     "static/media/GRUPAL sin carteles.png": "/static/media/GRUPAL sin carteles.76514b850fc2c7acd994.png",
@@ -80,10 +80,10 @@
     "static/media/349x209 - 2008.png": "/static/media/349x209 - 2008.00ef602c23f24ce8ce42.png",
     "static/media/349x209 - 2009.png": "/static/media/349x209 - 2009.2cc9b884387d2319af56.png",
     "static/media/349x209 - 2022.png": "/static/media/349x209 - 2022.b02ca8a0fbebf5446cc2.png",
-    "static/media/MAPA CHILE WEB@300x.png": "/static/media/MAPA CHILE WEB@300x.7aff8303275dff18a518.png",
     "static/media/349x209 - 2023.png": "/static/media/349x209 - 2023.027215585e51ae02b991.png",
     "static/media/349x209 - 1991.png": "/static/media/349x209 - 1991.24fc6f55e81b671e4a39.png",
     "static/media/349x209 - 2005.png": "/static/media/349x209 - 2005.369ec9fb4aa3907efe4d.png",
+    "static/media/mapa chile regiones.png": "/static/media/mapa chile regiones.de56081b5ee8d27c4026.png",
     "static/media/logo cn grupo color 2@300x.png": "/static/media/logo cn grupo color 2@300x.4ff93b64cc7bd4ad64a1.png",
     "static/media/cngrupoLOGOwhite.png": "/static/media/cngrupoLOGOwhite.e8a28e225d92e5213643.png",
     "static/media/PEM - INFO IMPOSITIVA grey@300x.png": "/static/media/PEM - INFO IMPOSITIVA grey@300x.a8de32b06b053f7e4f00.png",
@@ -113,7 +113,6 @@
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/sigma agro WEB@300x.png": "/static/media/sigma agro WEB@300x.6cce148e48ae4e0715e5.png",
     "static/media/sumitomo WEB@300x.png": "/static/media/sumitomo WEB@300x.d7e9afad117d4bbf2131.png",
-    "static/media/loggo2.png": "/static/media/loggo2.edf557f9adc1936f574b.png",
     "static/media/nk WEB@300x.png": "/static/media/nk WEB@300x.9f28789cb250a2127c80.png",
     "static/media/Group.svg": "/static/media/Group.ccabb897e8bb1b3a9b2dc9ade8452cb2.svg",
     "static/media/grupitonuevo.svg": "/static/media/grupitonuevo.5fe6221cc38510f409092b092ebdb573.svg",
@@ -129,11 +128,11 @@
     "index.html": "/index.html",
     "static/media/VectorSima2.svg": "/static/media/VectorSima2.27de91dcb9a0c7a8848e5716d3c8c803.svg",
     "static/media/logomail.svg": "/static/media/logomail.250a2a2b6809a33ee82e489cd0c99de4.svg",
-    "main.07f14748.css.map": "/static/css/main.07f14748.css.map",
-    "main.badeb885.js.map": "/static/js/main.badeb885.js.map"
+    "main.2c1c2710.css.map": "/static/css/main.2c1c2710.css.map",
+    "main.dd4227ca.js.map": "/static/js/main.dd4227ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.07f14748.css",
-    "static/js/main.badeb885.js"
+    "static/css/main.2c1c2710.css",
+    "static/js/main.dd4227ca.js"
   ]
 }

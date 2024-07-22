@@ -58,7 +58,7 @@ const Quienes = () => {
 
   return (
       <div className="home-container">
-        <div className="home-containerQuienes">
+      <div className="home-containerQuienes">
         <NAVBAR></NAVBAR>
       <div className="txt-redesQuienes">
            <div className="txt-container-empresaQuienes">
@@ -83,7 +83,7 @@ const Quienes = () => {
              </h2>
           </div>
           <div className="gerentes">
-            <img src = {currentImage} alt = "Gerentes"/>
+            <img src = {currentImage} alt = "Gerentes" className="gerentesMobile"/>
           </div>
       </div>
 
@@ -100,7 +100,7 @@ const Quienes = () => {
                     </div>
                  </div>
              </div>
-            <div className="footer">
+          <div className="footer">
           <div className="txt1">
             <p className="txt-foo">{t("txt-foo2.Footer1")}</p>
           </div>

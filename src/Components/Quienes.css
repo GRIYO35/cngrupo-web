@@ -1,3 +1,159 @@
+@media (max-width: 800px) {
+  .home-containerQuienes {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(../Assets/GRUPAL-sin-carteles.avif), url(../Assets/GRUPAL\ sin\ carteles.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1520px;
+  }
+
+  .txt-redesQuienes {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+  }
+  .txt-redes-quienes {
+    display: flex;
+    flex-direction: column;
+  }
+  .txt-container-empresaQuienes {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: -10%;
+    margin-top: -15%;
+    margin-bottom: 50%;
+  }
+  .txt-container-quienes {
+    text-align: left;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 7%;
+  }
+  .quienes-info-txt {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #878179;
+  }
+  .txt-empresa-spanQuienes {
+    font-weight: 600;
+  }
+  .gerentes {
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+  }
+  .gerentesMobile{
+    width: 335px;
+    height: 195px;
+  }
+  .fotosdellos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: -1%;
+    margin-bottom: 8%;
+  }
+
+  .fotoellos {
+    width: 261px;
+    height: 353px;
+  }
+
+  .container-fotosdellos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 40px;
+  }
+  .quienes-title-foto {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69px;
+    text-align: left;
+  }
+  .p-quienes1 {
+    text-align: left;
+    color: #6c6c6c;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: -30px;
+  }
+  .titulo-quienes {
+    font-size: 37px;
+    color: #5abdcf;
+    font-weight: 600;
+  }
+
+  .quienes-title2 {
+    color: #5abdcf;
+    font-family: Public Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69px;
+    text-align: left;
+  }
+
+  .linea-quienes {
+    height: 1px;
+    border: none;
+    width: 80px;
+    background-color: #5abdcf;
+    margin-left: 0;
+    margin-top: -30px;
+  }
+
+  .linea-quienes2 {
+    height: 1px;
+    border: none;
+    width: 80px;
+    background-color: #656565;
+    margin-left: 0;
+  }
+
+  .Quienes-title{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.05px;
+    color: #FFF;   
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 105%;
+    }
+    .Quienes-titleEN{
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 25px;
+      letter-spacing: 0.05px;
+      color: #FFF;   
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      margin-bottom: 170%;
+      }
+    .mi-lineaQuienes {
+        height: 1px; 
+        border: none; 
+        width: 80px;
+        margin-top: 180px;
+        background-color: #FFF;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        margin-left: 0px;
+        margin-right: 10px;
+      }
+}
+
+
+
+
+
+
+
 @media (min-width: 801px) and (max-width: 1280px) {
   .home-containerQuienes {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),

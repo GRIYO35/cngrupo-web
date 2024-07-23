@@ -1,3 +1,314 @@
+@media (max-width: 800px) {
+  .home-containerHistoria {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(../Assets/image\ 70.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 1520px;
+  }
+
+  .txt-redesHistoria {
+    display: flex;
+    flex-direction: row;
+    margin-top: -3%;
+  }
+  .txt-container-empresaHistoria {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 7.4%;
+    margin-top: 3.9%;
+    margin-bottom: 29%;
+  }
+  .mi-lineaHis {
+    height: 1px;
+    border: none;
+    width: 80px;
+    margin-top: 180px;
+    background-color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+  .nuestra-empresaHis {
+    margin-top: 170px;
+    margin-right: 20px;
+    margin-left: 5px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2.5px;
+  }
+  .titulo-historia {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 1%;
+  }
+  .nuestra-historia-txt {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 2.5px;
+    color: #fff;
+    margin-right: 2%;
+    margin-top: -1%;
+    margin-bottom: 10%;
+  }
+  .txt-empresa-spanHis {
+    font-weight: 600;
+  }
+
+  .timeline-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  ul.timeline {
+    list-style-type: none;
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+  }
+  
+  ul.timeline:before {
+    content: " ";
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    right: 30px; /* Posiciona la línea a la derecha con un margen de 10px */
+  }
+  
+  ul.timeline > li {
+    margin: 20px 10% 20px 0; /* Añade un margen derecho del 10% */
+    padding-right: 50px; /* Añade espacio a la derecha del contenedor para el contenido */
+    text-align: right;
+    width: 85%;
+    position: relative;
+  }
+  
+  ul.timeline > li:before {
+    content: " ";
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c1c3;
+    right: -8px; /* Posiciona el punto a la derecha */
+    width: 20px;
+    height: 20px;
+  }
+  
+  ul.timeline > li:nth-child(even):before {
+    right: -20px; /* Ajusta la posición del punto para los elementos pares */
+  }
+  
+  ul.timeline > li:nth-child(odd) {
+    position: relative;
+    right: 0; /* Ajusta la posición del contenedor para los elementos impares */
+  }
+  
+  ul.timeline > li:nth-child(even) {
+    position: relative;
+    right: 0; /* Ajusta la posición del contenedor para los elementos pares */
+  }
+  
+  .li-linea1,
+  .li-linea2,
+  .li-linea2i,
+  .li-linea3,
+  .li-linea3i,
+  .li-linea4,
+  .li-linea4i,
+  .li-linea5,
+  .li-linea6i {
+    color: #225065;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end; /* Alinea el contenido a la derecha */
+    text-align: right; /* Alinea el texto a la derecha */
+  }
+  
+  .txt-linea1 {
+    color: #656565;
+    font-size: 17px;
+    font-weight: 400;
+    width: 100%; 
+    text-align: right; /* Alinea el texto del div a la derecha */
+  }
+  
+  .linea-linea,
+  .linea-linea2 {
+    border: none;
+    border-top: 0.5px solid #5abdcf;
+    width: 50px; /* Ajusta este valor según el ancho deseado */
+    display: inline-block; /* Mantén la línea en línea con el texto */
+    margin-right: 0; /* Asegúrate de que no haya margen a la derecha */
+  }
+  
+  
+  .ImagenHistoria1,
+  .ImagenHistoria2 {
+    margin-top: -10%;
+    width: 279px;
+    height: 167px;
+    align-self: flex-end; /* Alinea la imagen a la derecha */
+  }
+  
+  ul.timeline > li.li-linea1:before {
+    content: " ";
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #225065;
+    width: 15px;
+    height: 15px;
+    border: none;
+    right: 24px;
+  }
+
+  ul.timeline > li.li-linea2:before {
+    content: " ";
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #5abdcf;
+    width: 10px;
+    height: 10px;
+    border: none;
+    right: 27px;
+  }
+
+  ul.timeline > li.li-linea2i:before {
+    content: " ";
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #5abdcf;
+    width: 10px;
+    height: 10px;
+    border: none;
+    right: 27px;
+  }
+
+  ul.timeline > li.li-linea3i:before {
+    content: " ";
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #3a93a4;
+    width: 10px;
+    height: 10px;
+    border: none;
+    right: 27px;
+  }
+
+  ul.timeline > li.li-linea3:before {
+    content: " ";
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #3a93a4;
+    width: 10px;
+    height: 10px;
+    border: none;
+    right: 27px;
+  }
+
+  ul.timeline > li.li-linea4:before {
+    content: " ";
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #225065;
+    width: 10px;
+    height: 10px;
+    border: none;
+    right: 27px;
+  }
+
+  ul.timeline > li.li-linea4i:before {
+    content: " ";
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #225065;
+    width: 10px;
+    height: 10px;
+    border: none;
+    right: 27px;
+  }
+
+  ul.timeline > li.li-linea5:before {
+    content: " ";
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #5abdcf;
+    width: 15px;
+    height: 15px;
+    border: none;
+    right: 24px;
+  }
+
+  ul.timeline > li.li-linea6i:before {
+    content: " ";
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #3a93a4;
+    width: 15px;
+    height: 15px;
+    border: none;
+    right: 24px;
+  }
+  
+  .footerHis {
+    display: flex;
+    flex-direction: column;
+    background-color: #27617b;
+    justify-content: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 470%;
+    color: #fff;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+  }
+
+}
+
+
+
+
+
+
+
 @media (min-width: 801px) and (max-width: 1280px) {
   .home-containerHistoria {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),

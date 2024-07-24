@@ -2,16 +2,17 @@
   .home-containerHistoria {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
       url(../Assets/image\ 70.png);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: 1520px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1520px;
   }
-
+  
   .txt-redesHistoria {
     display: flex;
     flex-direction: row;
     margin-top: -3%;
   }
+  
   .txt-container-empresaHistoria {
     display: flex;
     flex-direction: column;
@@ -20,6 +21,7 @@
     margin-top: 3.9%;
     margin-bottom: 29%;
   }
+  
   .mi-lineaHis {
     height: 1px;
     border: none;
@@ -30,6 +32,7 @@
     margin-left: 0px;
     margin-right: 10px;
   }
+  
   .nuestra-empresaHis {
     margin-top: 170px;
     margin-right: 20px;
@@ -40,12 +43,14 @@
     line-height: 20px;
     letter-spacing: 2.5px;
   }
+  
   .titulo-historia {
     font-size: 30px;
     color: #fff;
     font-weight: 600;
     margin-top: 1%;
   }
+  
   .nuestra-historia-txt {
     font-size: 16px;
     font-weight: 300;
@@ -56,15 +61,16 @@
     margin-top: -1%;
     margin-bottom: 10%;
   }
+  
   .txt-empresa-spanHis {
     font-weight: 600;
   }
-
+  
   .timeline-container {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     margin-top: 50px;
@@ -76,6 +82,7 @@
     position: relative;
     width: 100%;
     max-width: 700px;
+    padding-bottom: 0px; 
   }
   
   ul.timeline:before {
@@ -85,14 +92,14 @@
     position: absolute;
     width: 2px;
     height: 100%;
-    right: 30px; /* Posiciona la línea a la derecha con un margen de 10px */
+    right: 30px; 
   }
   
   ul.timeline > li {
-    margin: 20px 10% 20px 0; /* Añade un margen derecho del 10% */
-    padding-right: 50px; /* Añade espacio a la derecha del contenedor para el contenido */
+    margin: 20px 0px 20px 0; 
+    padding-right: 50px; 
     text-align: right;
-    width: 85%;
+    width: calc(100% 0px);
     position: relative;
   }
   
@@ -103,42 +110,62 @@
     position: absolute;
     border-radius: 50%;
     border: 3px solid #22c1c3;
-    right: -8px; /* Posiciona el punto a la derecha */
+    right: -8px; 
     width: 20px;
     height: 20px;
   }
   
   ul.timeline > li:nth-child(even):before {
-    right: -20px; /* Ajusta la posición del punto para los elementos pares */
+    right: -20px; 
   }
   
   ul.timeline > li:nth-child(odd) {
     position: relative;
-    right: 0; /* Ajusta la posición del contenedor para los elementos impares */
+    right: 0; 
   }
   
   ul.timeline > li:nth-child(even) {
     position: relative;
-    right: 0; /* Ajusta la posición del contenedor para los elementos pares */
+    right: 0; 
   }
   
   .li-linea1,
-  .li-linea2,
-  .li-linea2i,
-  .li-linea3,
-  .li-linea3i,
   .li-linea4,
-  .li-linea4i,
-  .li-linea5,
-  .li-linea6i {
+  .li-linea4i{
     color: #225065;
     font-size: 20px;
     font-weight: 600;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-end; /* Alinea el contenido a la derecha */
-    text-align: right; /* Alinea el texto a la derecha */
+    align-items: flex-end; 
+    text-align: right; 
+  }
+
+  .li-linea2,
+  .li-linea2i,
+  .li-linea5{
+    color: #5abdcf;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-align: right;
+  }
+
+  .li-linea3,
+  .li-linea3i,
+  .li-linea6i {
+    color: #3a93a4;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-align: right;
   }
   
   .txt-linea1 {
@@ -146,25 +173,24 @@
     font-size: 17px;
     font-weight: 400;
     width: 100%; 
-    text-align: right; /* Alinea el texto del div a la derecha */
+    text-align: right;
   }
   
   .linea-linea,
   .linea-linea2 {
     border: none;
     border-top: 0.5px solid #5abdcf;
-    width: 50px; /* Ajusta este valor según el ancho deseado */
-    display: inline-block; /* Mantén la línea en línea con el texto */
-    margin-right: 0; /* Asegúrate de que no haya margen a la derecha */
+    width: 50px;
+    display: inline-block;
+    margin-right: 0;
   }
-  
   
   .ImagenHistoria1,
   .ImagenHistoria2 {
     margin-top: -10%;
     width: 279px;
     height: 167px;
-    align-self: flex-end; /* Alinea la imagen a la derecha */
+    align-self: flex-end;
   }
   
   ul.timeline > li.li-linea1:before {
@@ -179,7 +205,7 @@
     border: none;
     right: 24px;
   }
-
+  
   ul.timeline > li.li-linea2:before {
     content: " ";
     background: white;
@@ -192,7 +218,7 @@
     border: none;
     right: 27px;
   }
-
+  
   ul.timeline > li.li-linea2i:before {
     content: " ";
     background: white;
@@ -205,7 +231,7 @@
     border: none;
     right: 27px;
   }
-
+  
   ul.timeline > li.li-linea3i:before {
     content: " ";
     background: white;
@@ -218,7 +244,7 @@
     border: none;
     right: 27px;
   }
-
+  
   ul.timeline > li.li-linea3:before {
     content: " ";
     background: white;
@@ -231,7 +257,7 @@
     border: none;
     right: 27px;
   }
-
+  
   ul.timeline > li.li-linea4:before {
     content: " ";
     background: white;
@@ -244,7 +270,7 @@
     border: none;
     right: 27px;
   }
-
+  
   ul.timeline > li.li-linea4i:before {
     content: " ";
     background: white;
@@ -257,7 +283,7 @@
     border: none;
     right: 27px;
   }
-
+  
   ul.timeline > li.li-linea5:before {
     content: " ";
     background: white;
@@ -270,7 +296,7 @@
     border: none;
     right: 24px;
   }
-
+  
   ul.timeline > li.li-linea6i:before {
     content: " ";
     background: white;
@@ -293,7 +319,7 @@
     padding-left: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top: 470%;
+    margin-top: 0px;
     color: #fff;
     font-size: 10px;
     font-style: normal;
@@ -466,6 +492,7 @@
     height: 20px;
     border: none;
   }
+
   .li-linea1 {
     color: #225065;
     font-size: 20px;

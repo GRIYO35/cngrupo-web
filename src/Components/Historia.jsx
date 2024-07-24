@@ -110,7 +110,6 @@ const Historia = () => {
             1995<br></br>
             <div className="txt-linea1">Combustibles del Norte</div>
             <hr className="linea-linea2"></hr>
-            <br></br>
           </li>
 
           <li className="li-linea3" data-aos="fade-right">

@@ -138,7 +138,7 @@
   }
 
   .p-Comb1 {
-    text-align: left;
+    text-align: justify;
     color: #6c6c6c;
     font-size: 15px;
     font-weight: 400;
@@ -209,6 +209,7 @@
     line-height: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    text-align: justify;
   }
 
   .Comb-buttons {
@@ -294,6 +295,7 @@
     line-height: 20px;
     margin-right: 20px;
     margin-left: 20px;
+    text-align: justify;
   }
 
   .container-completoComb {
@@ -310,6 +312,7 @@
     line-height: 30px;
     margin-left: 20px;
     margin-right: 20px;
+    text-align: justify;
   }
 
   .image-container {

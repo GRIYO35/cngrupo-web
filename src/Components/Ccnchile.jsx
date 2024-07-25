@@ -70,7 +70,9 @@ const Ccn = () => {
       <div className="container-txt-cardChile">
         <h2 className="chile-title-card">{t("txtChile.txt7")}</h2>
         <hr className="linea-chile"></hr>
+        <div className="MapaChile-Mobile">
         <img src={mapachile} alt="Mapachile" className="mapaChile"></img>
+        </div>
       </div>
       <div className="banner-chile"></div>
       <div className="container-txt-cardChile1">

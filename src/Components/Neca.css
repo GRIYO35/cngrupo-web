@@ -4,6 +4,478 @@
   position: absolute;
 }
 
+@media (max-width: 800px) {
+  .home-container6 {
+    background-size: cover;
+    height: 600px;
+  }
+
+  .txt-redesNeca {
+    display: flex;
+    flex-direction: row;
+    margin-top: -15%;
+  }
+
+  .txt-container-empresaNeca {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 7%;
+    margin-top: 17%;
+  }
+
+  .container-neca {
+    display: flex;
+    flex-direction: row;
+    margin-left: 17%;
+    margin-right: 10%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 100px;
+  }
+
+  .necaimg1 {
+    width: 215px;
+    height: 60px;
+    margin-top: 8%;
+  }
+
+  .p-neca1 {
+    text-align: left;
+    color: #6c6c6c;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-right: 10%;
+  }
+
+  .txt-empresa-spanNeca {
+    font-weight: 600;
+  }
+
+  .banner-neca1 {
+    background: url(../Assets/1er\ ANCHO\ -\ CN\ NECA\ LAS\ LAJITAS-489.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position-x: -550px;
+    background-position-y: -60px;
+  }
+
+  .container-dibujitos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-left: 130px;
+    margin-top: 50px;
+    text-align: left;
+  }
+
+  .neca-title {
+    color: #2a4b51;
+    font-family: Public Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69px;
+  }
+
+  .linea-neca {
+    height: 1px;
+    border: none;
+    width: 80px;
+    background-color: #2a4b51;
+    margin-left: 0;
+    margin-top: -30px;
+  }
+
+  .neca-subtitle {
+    color: #2a4b51;
+    font-family: Public Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69px;
+  }
+
+  .productos-protección {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    text-align: center;
+  }
+
+  .productos-protección2 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: left;
+    gap: 15px;
+  }
+
+  .container-producto-protección-e {
+    margin-top: 5px;
+  }
+
+  .txt-productoNeca {
+    color: #6c6c6c;
+  }
+
+  .container-tresproductosNeca {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 150px;
+    margin-left: 110px;
+    margin-top: 50px;
+  }
+
+  .container-txt-cardNeca {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-left: 130px;
+    margin-top: 50px;
+    text-align: left;
+  }
+
+  .txt-neca-boton {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 650px;
+  }
+
+  .neca-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .neca-buttons1 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 50px;
+    margin-top: -10px;
+  }
+
+  .neca-org {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info-btn-neca {
+    width: 200px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 40px;
+    background-color: transparent;
+    color: #225065;
+    border: 1px solid #225065;
+    font-size: 10px;
+    margin-top: 30px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .info-btn-neca1 {
+    color: #225065;
+    font-size: 10px;
+    margin-top: 30px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .containerfoto-botones-neca1 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 8%;
+  }
+
+  .fotobotonesNeca {
+    width: 450px;
+    height: 290px;
+    margin-top: 50px;
+  }
+
+  .neca-title2 {
+    color: #efb014;
+    font-family: Public Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69px;
+  }
+
+  .txt-neca-boton2 {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 220px;
+  }
+
+  .logos-neca2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+
+  .logo-neca2 {
+    width: 47.6px;
+    height: 15.26px;
+  }
+
+  .logo-neca2a {
+    width: 72.8px;
+    height: 14.14px;
+  }
+
+  .logo-neca2b {
+    width: 94.92px;
+    height: 15.26px;
+  }
+
+  .logo-neca2c {
+    width: 31.92px;
+    height: 15.4px;
+  }
+
+  .banner-necaflor {
+    background: url(../Assets/2do\ ANCHO\ -\ CN\ NECA\ LAS\ LAJITAS-132.png),
+      lightgray 50% / cover no-repeat;
+    background-size: cover;
+    height: 600px;
+  }
+
+  .container-logos-final {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: -12%;
+    gap: 5px;
+  }
+
+  .logogrande {
+    width: 254px;
+    height: 92px;
+  }
+
+  .title-direccion-neca {
+    color: #2a4b51;
+    font-family: Public Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+  }
+
+  .card-neca {
+    border-radius: 15px;
+    background: #f4f4f4;
+    width: 220px;
+    height: 200px;
+    flex-shrink: 0;
+  }
+
+  .producto{
+    width: 80px;
+    height: 43.2px;
+  }
+
+  .productoINS{
+    width: 70.4px;
+    height: 49.7px;
+    margin-top: -8px;
+  }
+
+  .productoFUN{
+    width: 68.4px;
+    height: 48.2px;
+    margin-top: -5px;
+  }
+  
+  .productoCOA{
+    width: 42.5px;
+    height: 53px; 
+    margin-top: -10px;
+  }
+  .productoSEM{
+    width: 36.2px;
+    height: 53.5px; 
+    margin-top: -10px;
+  }
+
+  .productoSOJ{
+    width: 52.6px;
+    height: 52.6px;
+    margin-top: -14px;
+  }
+
+  .productoMAI{
+    width: 39.1px;
+    height: 54.2px;
+    margin-top: -11px;
+  }
+
+  .productoFER{
+    width: 41.8px;
+    height: 50.2px;
+    margin-top: -5px;
+  }
+
+  .productoSIL{
+    width: 44.6px;
+    height: 56.4px;
+    margin-top: -12px;
+  }
+
+
+  .NecaDirec{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .NecaDirec5{
+    display: flex;
+    flex-direction: row;
+    margin-right: 11.6%;
+    margin-left: 5%;
+  }
+
+  .NecaDirec1{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+  }
+
+  .NecaDirec2{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+  }
+
+  .NecaDirec3{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .vectorneca1
+{
+  height: 18px;
+  width: 18px;
+  margin-top: 10px;
+  margin-left: 60px;
+}
+
+.vectorneca2
+{
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+  margin-left: 90px;
+}
+
+.vectorneca3a
+{
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+
+.vectorneca3b
+{
+  margin-top: 10px;
+  height: 20px;
+  width: 20px;
+  margin-left: 5px;
+ 
+}
+
+.vectorneca4
+{
+  height: 16px;
+  width: 18px;
+  margin-top: 13px;
+  margin-left: 125px;
+}
+
+.card-Neca {
+  border-radius: 15px;
+  background: #f4f4f4;
+  width: 103%;
+  height: 30%;
+  flex-shrink: 0;
+  padding-bottom: 1%;
+}
+
+.card-Neca1 {
+  border-radius: 15px;
+  background: #f4f4f4;
+  width: 103%;
+  height: 30%;
+  flex-shrink: 0;
+  padding-bottom: 1%;
+  margin-bottom: 10%;
+}
+
+.redes-container-empresa-nec{
+  position: fixed;
+  right: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    margin-top: 210px;
+    font-size: 150%;
+    color: #FFF;
+    height: 25%;
+    padding-right: 1%;
+    padding-left:1%;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+    background: rgba(37, 75, 81, 0.80);
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    gap: 10%;
+    z-index: 3;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .scroll-to-top {
+    transition: background-color 0.3s ease;
+    margin-right: 45%;
+    margin-bottom: -1%;
+  }
+
+  .scroll-to-top:hover {
+    background-color: #1f6a8c !important;
+  }
+}
+
+
+
+
+
 @media (min-width: 801px) and (max-width: 1280px) {
   .home-container6 {
     background-size: cover;

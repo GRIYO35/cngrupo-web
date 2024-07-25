@@ -696,6 +696,15 @@ text-align: left;
     margin-top: 0%;
   }
 
+  .logistica-title {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0.05px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
   /* Estilos para pantallas más pequeñas */
   /*.txt-container-empresa {
     display: flex;

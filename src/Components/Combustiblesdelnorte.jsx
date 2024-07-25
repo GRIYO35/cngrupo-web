@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from "swiper";
 /*import ExpandLessIcon from "@material-ui/icons/ExpandLess";*/
 import { FaInstagram, FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
 import logo2 from "../Assets/CN - INFO IMPOSITIVA grey@300x.png";
@@ -36,6 +38,24 @@ const Combustibles = () => {
   // eslint-disable-next-line no-unused-vars
   const [t, i18next] = useTranslation("global");
   const [selectedButton, setSelectedButton] = useState(1);
+  const [activeSlide, setActiveSlide] = useState(1);
+
+  const CustomPagination = ({ totalSlides, activeSlide }) => {
+    return (
+      <div className="custom-pagination">
+        {[...Array(totalSlides)].map((_, index) => (
+          <div
+            key={index}
+            className={`pagination-point ${index + 1 === activeSlide ? 'active' : ''}`}
+          />
+        ))}
+      </div>
+    );
+  };
+
+  const handleSlideChange = (swiper) => {
+    setActiveSlide(swiper.activeIndex + 1);
+  };
 
   const handleDownload = () => {
   };
@@ -311,6 +331,106 @@ const Combustibles = () => {
           )}
         </div>
       </div>
+      <section className="swiper-container">
+        <CustomPagination totalSlides={5} activeSlide={activeSlide} />
+        <Swiper
+          onSlideChange={handleSlideChange}
+          pagination={false}
+          slidesPerView={1}
+          modules={[Pagination]}
+        >
+        <SwiperSlide>
+          <div className="card1">
+          <div className="containerfoto-botones-Comb">
+                <img src={fotocomb} alt="" className="fotobotonesComb" />
+                <div className="txt-logos-Com">
+                  <h2 className="Comb-title2">{t("txtSoluciones.txt6")}</h2>
+                  <p className="txt-Comb-boton2">
+                  {t("txtEstacionesFijas.txt1")}
+                    <span className="txt-empresa-spanComb">{" "}{t("txtEstacionesFijas.txt2")}</span>
+                    {" "}{t("txtEstacionesFijas.txt3")}{" "}
+                    <span className="txt-empresa-spanComb">{t("txtEstacionesFijas.txt4")}{" "}</span>
+                    {t("txtEstacionesFijas.txt5")}
+
+                  </p>
+                </div>
+              </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="card1">
+          <div className="containerfoto-botones-Comb">
+                <img src={fotocombMob} alt="" className="fotobotonesComb" />
+                <div className="txt-logos-Com">
+                  <h2 className="Comb-title2">{t("txtSoluciones.txt7")}</h2>
+                  <p className="txt-Comb-boton2">
+                  {t("txtEstacionesMoviles.txt1")}
+                    <span className="txt-empresa-spanComb">{" "}{t("txtEstacionesMoviles.txt2")}</span>
+                    {" "}{t("txtEstacionesMoviles.txt3")}{" "}
+                    <span className="txt-empresa-spanComb">{t("txtEstacionesMoviles.txt4")}{" "}</span>
+                    {t("txtEstacionesMoviles.txt5")}
+                  </p>
+                </div>
+              </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="card1">
+          <div className="containerfoto-botones-Comb">
+                <img src={fotocombDis} alt="" className="fotobotonesComb" />
+                <div className="txt-logos-Com">
+                  <h2 className="Comb-title2">{t("txtSoluciones.txt8")}</h2>
+                  <p className="txt-Comb-boton2">
+                  {t("txtDistribucionCapilar.txt1")}
+                    <span className="txt-empresa-spanComb">{" "}{t("txtDistribucionCapilar.txt2")}</span>
+                    {" "}{t("txtDistribucionCapilar.txt3")}{" "}   
+                    <span className="txt-empresa-spanComb">{t("txtDistribucionCapilar.txt4")}</span>
+                    {" "}{t("txtDistribucionCapilar.txt5")}{" "}
+                    <span className="txt-empresa-spanComb">{t("txtDistribucionCapilar.txt6")}</span>
+                    {" "}{t("txtDistribucionCapilar.txt7")}
+                  </p>
+                </div>
+              </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="card1">
+          <div className="containerfoto-botones-Comb">
+                <img src={fotocombHibridas} alt="" className="fotobotonesComb" />
+                <div className="txt-logos-Com">
+                  <h2 className="Comb-title2">{t("txtSoluciones.txt9")}</h2>
+                  <p className="txt-Comb-boton2">
+                  {t("txtEstacionesHibridas.txt1")}
+                    <span className="txt-empresa-spanComb">{" "}{t("txtEstacionesHibridas.txt2")}</span>
+                    {" "}{t("txtEstacionesHibridas.txt3")}{" "}   
+                    <span className="txt-empresa-spanComb">{t("txtEstacionesHibridas.txt4")}</span>
+                    {" "}{t("txtEstacionesHibridas.txt5")}{" "}
+                    <span className="txt-empresa-spanComb">{t("txtEstacionesHibridas.txt6")}</span>
+                    {" "}{t("txtEstacionesHibridas.txt7")}
+                  </p>
+                </div>
+              </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="card1">
+          <div className="containerfoto-botones-Comb">
+                <img src={fotocombAuto} alt="" className="fotobotonesComb" />
+                <div className="txt-logos-Com">
+                  <h2 className="Comb-title2">{t("txtSoluciones.txt10")}</h2>
+                  <p className="txt-Comb-boton2">
+                  {t("txtAutogestion.txt1")}
+                    <span className="txt-empresa-spanComb">{" "}{t("txtAutogestion.txt2")}</span>
+                    {" "}{t("txtAutogestion.txt3")}{" "}   
+                    <span className="txt-empresa-spanComb">{t("txtAutogestion.txt4")}</span>
+                    {" "}{t("txtAutogestion.txt5")}{" "}
+                  </p>
+                </div>
+              </div>
+          </div>
+        </SwiperSlide>
+      </Swiper>
+      </section>
 
       <div className="container-gris">
         <div className="container-completoComb">
@@ -324,7 +444,9 @@ const Combustibles = () => {
               <span className="txt-empresa-spanComb">{t("txtLubricentro.txt8")}</span> {t("txtLubricentro.txt7")}
             </p>
           </div>
-          <img src={fotolubri} alt="" className="fotosgris1" />
+          <div className="image-container">
+            <img src={fotolubri} alt="" className="fotosgris1" />
+          </div>
         </div>
 
         <div className="container-completoComb">
@@ -343,7 +465,9 @@ const Combustibles = () => {
               {t("txtAsfalto.txt9")}
             </p>
           </div>
-          <img src={fotoasfalto} alt="" className="fotosgris2" />
+          <div className="image-container">
+           <img src={fotoasfalto} alt="" className="fotosgris2" />
+          </div>
         </div>
 
         <div className="seccion2">
@@ -505,6 +629,7 @@ const Combustibles = () => {
                   onClick={handleDownload}
                   target="_blank" 
                   rel="noopener noreferrer"
+                  className="Btn-Mobile"
                   >
                   <button className="info-btn-Comb">{t("txtInfo.txt2")}</button>
                   </a>
@@ -540,6 +665,7 @@ const Combustibles = () => {
                   onClick={handleDownload}
                   target="_blank" 
                   rel="noopener noreferrer"
+                  className="Btn-Mobile"
                   >
                   <button className="info-btn-Comb">{t("txtInfo.txt2")}</button>
                   </a>
@@ -574,6 +700,105 @@ const Combustibles = () => {
           )}
         </div>
       </div>
+
+      <section className="swiper-container">
+        <CustomPagination totalSlides={3} activeSlide={activeSlide} />
+        <Swiper
+          onSlideChange={handleSlideChange}
+          pagination={false}
+          slidesPerView={1}
+          modules={[Pagination]}
+        >
+        <SwiperSlide>
+          <div className="card1">
+          <div className="containerfoto-botones-Comb">
+                <img src={fotocombMD} alt="" className="fotobotonesComb" />
+                <div className="txt-logos-Com">
+                  <h2 className="Comb-title2">{t("txtMuestreo.txt1")}</h2>
+                  <ul className="lista-Comb">
+                    <li>{t("txtMuestreo.txt2")}</li>
+                    <li>{t("txtMuestreo.txt3")}</li>
+                    <li>{t("txtMuestreo.txt4")}</li>
+                    <li>{t("txtMuestreo.txt5")}</li>
+                    <li>{t("txtMuestreo.txt6")}</li>
+                  </ul>
+                  <a 
+                  href="https://webcontent.cn-grupo.net/Assets/CdN/CombustiblesMD-.pdf" 
+                  download 
+                  onClick={handleDownload}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="Btn-Mobile"
+                  >
+                  <button className="info-btn-Comb">{t("txtInfo.txt2")}</button>
+                  </a>
+                </div>
+          </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="card1">
+          <div className="containerfoto-botones-Comb">
+                <img src={fotocombSum} alt="" className="fotobotonesComb" />
+                <div className="txt-logos-Com">
+                  <h2 className="Comb-title2">{t("txtSumma.txt1")}</h2>
+                  <p className="txt-Comb-boton2">
+                    <span className="txt-empresa-spanComb">
+                      {" "}
+                      {t("txtSumma.txt2")}{" "}
+                    </span>{" "}
+                    {t("txtSumma.txt3")}
+                    <span className="txt-empresa-spanComb">
+                      {" "}
+                      {t("txtSumma.txt4")}{" "}
+                    </span>{" "}
+                    {t("txtSumma.txt5")}
+                    <span className="txt-empresa-spanComb">
+                      {" "}
+                      {t("txtSumma.txt6")}
+                    </span>
+                  </p>
+                  <a 
+                  href="https://webcontent.cn-grupo.net/Assets/CdN/CombustiblesSUMMA+SAF-.pdf" 
+                  download 
+                  onClick={handleDownload}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="Btn-Mobile"
+                  >
+                  <button className="info-btn-Comb">{t("txtInfo.txt2")}</button>
+                  </a>
+                </div>
+              </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="card1">
+          <div className="containerfoto-botones-Comb">
+                <img src={fotocombSF} alt="" className="fotobotonesComb" />
+                <div className="txt-logos-Com">
+                  <h2 className="Comb-title2">{t("txtSolucionesFinancieras.txt1")}</h2>
+                  <p className="txt-Comb-boton2">
+                  {t("txtSolucionesFinancieras.txt2")}
+                    <span className="txt-empresa-spanComb">
+                      {" "}
+                      {t("txtSolucionesFinancieras.txt3")}{" "}
+                    </span>{" "}
+                    {t("txtSolucionesFinancieras.txt4")}
+                  </p>
+                  <h3 className="socios-comb">{t("txtSolucionesFinancieras.txt5")}</h3>
+                  <div className="logos-neca2">
+                    <img src={logoneca1} alt="" className="logo-neca2" />
+                    <img src={logoneca2} alt="" className="logo-neca2a" />
+                    <img src={logoneca3} alt="" className="logo-neca2b" />
+                    <img src={logoneca4} alt="" className="logo-neca2c" />
+                  </div>
+                </div>
+              </div>
+          </div>
+        </SwiperSlide>
+      </Swiper>
+      </section>
 
       <div className="banner-comb3"></div>
 

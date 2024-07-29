@@ -57,7 +57,9 @@ const Estacion = () => {
             {" "}{t("txtChango.txt8")}
           </p>
         </div>
+        <div className="image-container">
         <img src={estacionesimg2} alt="" className="fotobotonesEst" />
+        </div>
       </div>
       <div className="container-dibujitos">
         <h2 className="estaciones-title">{t("txtChangoProductos.txt1")}</h2>
@@ -120,7 +122,9 @@ const Estacion = () => {
             {t("txtLajitasEstacion.txt9")} 
           </p>
         </div>
+        <div className="image-container">
         <img src={estacionesimg1} alt="" className="fotobotonesEst" />
+        </div>
       </div>
       <div className="container-dibujitos">
         <h2 className="estaciones-title">{t("txtChangoProductos.txt1")}</h2>

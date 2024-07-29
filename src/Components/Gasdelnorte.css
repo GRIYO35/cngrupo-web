@@ -1,4 +1,341 @@
+@media (max-width: 800px) {
+  .title-direccion-gas,
+  .txt-direccion-gas {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .txt-direccion-gas {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+  }
+
+  .title-direccion-gas {
+    color: #009fe3;
+    font-family: Public Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+  }
+
+  .titulo-gas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .container-cards-gas {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .txt-gas-card {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  .banner-gas{
+    background: url(../Assets/GN\ RAW-185\ BANNER\ 1\ \(1\).png);
+    height: 150px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .gas-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 50px;
+    display: none;
+  }
+
+  .txt-gas-boton {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 20px;
+    text-align: justify;
+  }
+
+  .txt-gas-boton2 {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: justify;
+  }
+
+  .home-container7 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../Assets/image\ 110.png);
+    background-size: cover;
+    background-color: #22c1c3;
+    height: 700px;
+  }
+
+  /*.redes-container-empresa-gas {
+    position: fixed;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+    font-size: 25px;
+    color: #fff;
+    height: 110px;
+    padding-top: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: rgba(140, 130, 122, 0.4);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    gap: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }*/
+
+  .redes-container-empresa-gas{
+    position: fixed;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+      margin-top: 195px;
+      font-size: 150%;
+      color: #FFF;
+      height: 20%;
+      padding-right: 1%;
+      padding-left:1%;
+      padding-top: 1.5%;
+      padding-bottom: 1%;
+      background: rgba(140, 130, 122, 0.4);
+      backdrop-filter: blur( 6px );
+      -webkit-backdrop-filter: blur( 6px );
+      gap: 10%;
+      z-index: 3;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+
+  .txt-redesGas {
+    display: flex;
+    flex-direction: row;
+    margin-top: -15%;
+  }
+
+  .txt-container-empresaGas {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 7%;
+    margin-top: 17%;
+  }
+
+  .container-gas {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 20px;
+  }
+
+  .gasimg1 {
+    width: 250px;
+    height: 80px;
+  }
+
+  .p-gas1 {
+    text-align: justify;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .txt-empresa-spanGas {
+    font-weight: 600;
+  }
+
+  .txt-empresa-spangGas {
+    font-weight: 600;
+    font-size: 20px;
+    color: #009fe3;
+  }
+
+  .lineagas {
+    height: 5px;
+    border-left: 2px solid #009fe3;
+    margin-right: 13px;
+    margin-left: 11px;
+  }
+
+  .gas-title {
+    color: #009fe3;
+    font-family: Public Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69px;
+  }
+
+  .linea-gas {
+    height: 1px;
+    border: none;
+    width: 80px;
+    background-color: #009fe3;
+    margin-left: 0;
+    margin-top: -30px;
+  }
+
+  .info-btn-gas {
+    width: 200px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 40px;
+    background-color: transparent;
+    color: #009fe3;
+    border: 1px solid #009fe3;
+    font-size: 9px;
+    margin-top: 30px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .gas-title2 {
+    color: #6c6c6c;
+    font-family: Public Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: left;
+  }
+
+  .fotobotonesgas {
+    width: 318px;
+    height: 188px;
+    margin-top: 20px;
+  }
+
+  .linea-gas {
+    height: 1px;
+    border: none;
+    width: 80px;
+    background-color: #009fe3;
+    margin-left: 0;
+    margin-top: -30px;
+  }
+
+  /*.title-direccion-gas{
+        color: #009FE3;
+        font-family: Public Sans;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 40px;
+        margin-bottom: 0px;
+      margin-left: 20px;}*/
+
+  .card-gas {
+    border-radius: 15px;
+    background: #f4f4f4;
+    width: 100%;
+    height: auto;
+  }
+
+  .logogas1 {
+    height: 18px;
+    width: 18px;
+    margin-top: 15px;
+    margin-right: 20px;
+  }
+  .logogas2 {
+    height: 18px;
+    width: 18px;
+    margin-top: 15px;
+    margin-left: 125px;
+    margin-right: 20px;
+  }
+  .logogas2EN {
+    height: 18px;
+    width: 18px;
+    margin-top: 15px;
+    margin-left: 75px;
+    margin-right: 20px;
+  }
+  .logogas3 {
+    height: 18px;
+    width: 18px;
+    margin-top: 15px;
+    margin-left: 111px;
+    margin-right: 20px;
+  }
+  .logogas4 {
+    height: 18px;
+    width: 22px;
+    margin-top: 15px;
+    margin-left: 87px;
+    margin-right: 20px;
+  }
+
+  .containerfoto-botones-gas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-txt-cardGas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+  }
+}
+
+
+
+
+
+
+
+
+
 @media (min-width: 801px) and (max-width: 1280px) {
+  .cardGas {
+    display: none;
+  }
+
+  .swiper-containerGas{
+    display: none;
+  }
+
   .title-direccion-gas,
   .txt-direccion-gas {
     margin-left: 20px;
@@ -317,6 +654,14 @@
 
 
 @media (min-width: 1281px) and (max-width: 1919px) {
+  .cardGas {
+    display: none;
+  }
+
+  .swiper-containerGas{
+    display: none;
+  }
+
   .title-direccion-gas,
   .txt-direccion-gas {
     margin-left: 20px;
@@ -640,6 +985,14 @@
 
 
 @media (min-width: 1920px) {
+  .cardGas {
+    display: none;
+  }
+
+  .swiper-containerGas{
+    display: none;
+  }
+
   .title-direccion-gas,
   .txt-direccion-gas {
     margin-left: 20px;

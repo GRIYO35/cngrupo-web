@@ -4,6 +4,396 @@
   position: absolute;
 }
 
+@media (max-width: 800px) {
+
+  .txt-container-empresaEst {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 7%;
+  margin-top: 17%;
+}
+
+.container-txt-cardEst {
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: left;
+margin-left: 20px;
+margin-top: 0px;
+text-align: left;
+}
+
+.Lista-card-est{
+  margin-left: -20px;
+}
+
+.EstDirec{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.EstDirec1{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+.EstDirec6{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+.EstDirec2{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+.EstDirec3{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.logoEst1 {
+  height: 18px;
+  width: 18px;
+  margin-top: 20px;
+  margin-right: -10px;
+}
+.logoEst2 {
+  height: 18px;
+  width: 18px;
+  margin-top: 20px;
+  margin-right: -10px;
+}
+
+.logoEst3 {
+  height: 18px;
+  width: 18px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.logoEst4 {
+  height: 16px;
+  width: 18px;
+  margin-top: 16px;
+  margin-right: 5px;
+}
+
+.vectorEst4 {
+  height: 16px;
+  width: 18px;
+  margin-top: 20px;
+  margin-right: -10px;
+}
+
+.CardEstContacto{
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo-Est {
+  margin-left: 0px;
+}
+
+.card-est1 {
+  border-radius: 15px;
+  background: #f4f4f4;
+  width: 100%;
+  height: auto;
+  flex-shrink: 0;
+  margin-bottom: 100px;
+}
+
+.card-Est {
+  border-radius: 15px;
+  background: #f4f4f4;
+  width: 100%;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.container-cards-estaciones {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+  .title-direccion-est, .txt-direccion-est{
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+  .titulo-estaciones{
+      display: flex;
+      flex-direction: row;
+    }
+
+  .title-direccion-est {
+      color: #00448A;
+      font-family: Public Sans;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 40px;
+      margin-bottom: 0px;
+      margin-left: 20px;
+    }
+
+    .txt-direccion-est{
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px; 
+  }
+
+    .li-est{
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px; 
+    list-style: none;
+  }
+
+  .card-est {
+      border-radius: 15px;
+      background: #f4f4f4;
+      width: 220px;
+      height: 200px;
+      flex-shrink: 0;
+    }
+
+  .container-cards-est {
+      display: flex;
+      flex-direction: row;
+      gap: 50px;
+      margin-top: 50px;
+      margin-right: 100px;
+      margin-bottom: 10%;
+    }
+
+  .txt-est-card {
+      color: #656565;
+      font-family: Public Sans;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px;
+      margin-bottom: 0px;
+    }
+
+  .linea-est {
+      height: 1px;
+      border: none;
+      width: 80px;
+      background-color: #2a4b51;
+      margin-left: 0;
+      margin-top: -30px;
+    }
+
+  .Est-title {
+      color: #2a4b51;
+      font-family: Public Sans;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 69px;
+    }
+.txt-redesEst{
+  display: flex;
+  flex-direction: row;
+  margin-top: -15%;
+}
+
+.txt-container-empresaEst{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 7%;
+  margin-top: 17%;
+}
+
+.container-estaciones{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+  gap: 20px;
+  margin-top: 0px;
+}
+
+.title-txt-estaciones{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.estaciones-title{
+  color: #00448A;
+  font-family: Public Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 69px;
+  text-align: left;
+}
+
+.linea-estaciones{
+  height: 1px; 
+  border: none; 
+  width: 80px;
+  background-color: #00448A;
+ margin-left: 0;
+ margin-top: -30px;
+}
+
+.p-estaciones1{
+  text-align: justify;
+  color: #6C6C6C;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 0%;
+}
+
+.productos-protección-esta{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.productos-protección-estaEN{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.container-producto-estaciones{
+  display: flex;
+  flex-direction: row;
+}
+
+.icons-est-text{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: -35px;
+}
+
+.producto-est{
+  width: 55px;
+  height: 55px;
+}
+
+.title-container-estacion{
+color: #6C6C6C;
+font-family: Public Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; 
+margin-bottom: -10px;
+}
+
+.banner-estacion1{
+  background: url(../Assets/2DO\ ANCHO\ -\ YPF\ CHANGO\ OCT-305\ \(1\).png);
+  height: 160px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% center;
+}
+
+.banner-estacion2{
+  background: url(../Assets/1ER\ ANCHO\ -\ DSC04559-HDR\ \(1\).png);
+  height: 150px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% center;
+}
+
+.txt-empresa-spanEst{
+  font-weight: 600;
+}
+
+.fotobotonesEst{
+  width: 292px;
+  height: 188px;
+  margin-top: 0px;
+}
+
+.vectorEst1
+{
+height: 18px;
+width: 18px;
+margin-top: 10px;
+margin-left: 60px;
+}
+
+.vectorEst2
+{
+height: 20px;
+width: 20px;
+margin-top: 10px;
+margin-left: 90px;
+}
+
+.vectorEst3a
+{
+height: 20px;
+width: 20px;
+margin-top: 10px;
+margin-left: 70px;
+}
+
+.vectorEst3b
+{
+margin-top: 10px;
+height: 20px;
+width: 20px;
+margin-left: 5px;
+}
+
+.scroll-to-top {
+transition: background-color 0.3s ease;
+margin-right: 33%;
+margin-bottom: -3%;
+}
+
+.scroll-to-top:hover {
+background-color: #1f6a8c !important;
+}
+
+}
+
+
+
+
+
+
+
+
 @media (min-width: 801px) and (max-width: 1679px) {
     .txt-container-empresaEst {
     display: flex;

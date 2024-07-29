@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from "swiper";
 //import logo2 from "../Assets/loggo2.png";
 import logo2 from "../Assets/gs del norte logo  360x115.png";
 import fotogas15 from "../Assets/GAS 15.png";
@@ -18,6 +20,24 @@ import "./Gasdelnorte.css";
 const Gas = () => {
   // eslint-disable-next-line no-unused-vars
   const [t, i18next] = useTranslation("global");
+  const [activeSlide, setActiveSlide] = useState(1);
+
+  const CustomPagination = ({ totalSlides, activeSlide }) => {
+    return (
+      <div className="custom-pagination">
+        {[...Array(totalSlides)].map((_, index) => (
+          <div
+            key={index}
+            className={`pagination-point ${index + 1 === activeSlide ? 'active' : ''}`}
+          />
+        ))}
+      </div>
+    );
+  };
+
+  const handleSlideChange = (swiper) => {
+    setActiveSlide(swiper.activeIndex + 1);
+  };
 
   const [selectedButton, setSelectedButton] = useState(1);
 
@@ -235,6 +255,100 @@ const Gas = () => {
           )}
         </div>
       </div>
+      <section className="swiper-containerGas">
+        <CustomPagination totalSlides={4} activeSlide={activeSlide} />
+        <Swiper
+          onSlideChange={handleSlideChange}
+          pagination={false}
+          slidesPerView={1}
+          modules={[Pagination]}
+        >
+        <SwiperSlide>
+          <div className="cardGas">
+          <div className="containerfoto-botones-gas">
+                <img src={fotogasBu} alt="" className="fotobotonesgas" />
+                <div className="txt-logos-neca">
+                  <h2 className="gas-title2">
+                  {t("txtButano.txt2")}
+                  </h2>
+                  <p className="txt-gas-boton2">
+                  {t("txtButano.txt3")}{" "}
+                    <span className="txt-empresa-spanGas">{t("txtButano.txt4")}</span>{" "}
+                    {t("txtButano.txt5")}
+                  </p>
+                </div>
+              </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="cardGas">
+          <div className="containerfoto-botones-gas">
+                <img src={fotogasPro} alt="" className="fotobotonesgas" />
+                <div className="txt-logos-neca">
+                  <h2 className="gas-title2">
+                  {t("txtPropano.txt2")}
+                  </h2>
+                  <p className="txt-gas-boton2">
+                  {t("txtPropano.txt3")}{" "}
+                    <span className="txt-empresa-spanGas">{t("txtPropano.txt4")}</span>{" "}
+                    {t("txtPropano.txt5")}{" "}
+                    <span className="txt-empresa-spanGas">{t("txtPropano.txt6")}{" "}</span>
+                    {t("txtPropano.txt7")}{" "}
+                    <span className="txt-empresa-spanGas">
+                    {t("txtPropano.txt8")}
+                    </span>
+                  </p>
+                </div>
+              </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="cardGas">
+          <div className="containerfoto-botones-gas">
+                <img src={fotogas15} alt="" className="fotobotonesgas" />
+                <div className="txt-logos-neca">
+                  <h2 className="gas-title2">
+                  {t("txtGarrafa15.txt2")}
+                  </h2>
+                  <p className="txt-gas-boton2">
+                  {t("txtGarrafa15.txt3")}{" "}
+                    <span className="txt-empresa-spanGas">{t("txtGarrafa15.txt4")}</span>{" "}
+                    {t("txtGarrafa15.txt5")}{" "}
+                    <span className="txt-empresa-spanGas">{t("txtGarrafa15.txt6")}{" "}</span>{t("txtGarrafa15.txt7")}{" "}
+                    <span className="txt-empresa-spanGas">
+                    {t("txtGarrafa15.txt8")}
+                    </span>
+                    {t("txtGarrafa15.txt9")}
+                  </p>
+                </div>
+              </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="cardGas">
+          <div className="containerfoto-botones-gas">
+                <img src={fotogasPla} alt="" className="fotobotonesgas" />
+                <div className="txt-logos-neca">
+                  <h2 className="gas-title2">
+                  {t("txtGarrafa13.txt2")}
+                  </h2>
+                  <p className="txt-gas-boton2">
+                  {t("txtGarrafa13.txt3")}{" "}
+                    <span className="txt-empresa-spanGas">{t("txtGarrafa13.txt4")}</span>{" "}
+                    {t("txtGarrafa13.txt5")}{" "}
+                    <span className="txt-empresa-spanGas">{t("txtGarrafa13.txt6")}{" "}</span>
+                    {t("txtGarrafa13.txt7")}{" "}
+                    <span className="txt-empresa-spanGas">
+                    {t("txtGarrafa13.txt8")}
+                    </span>{" "}
+                    {t("txtGarrafa13.txt9")}
+                  </p>
+                </div>
+              </div>
+          </div>
+        </SwiperSlide>
+      </Swiper>
+      </section>
 
       <div className="container-txt-cardGas">
         <h2 className="gas-title">{t("txtContacto.txt1")}</h2>

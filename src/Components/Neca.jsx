@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import {Link} from "react-router-dom";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from "swiper";
 import { FaInstagram, FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
 import necaimg1 from "../Assets/Frame (2).png";
 import vectorneca1 from "../Assets/Capa_2 (1).png";
@@ -45,9 +47,27 @@ const Neca = () => {
   // eslint-disable-next-line no-unused-vars
   const [t, i18next] = useTranslation("global");
   const [selectedButton, setSelectedButton] = useState(1);
+  const [activeSlide, setActiveSlide] = useState(1);
 
-    const handleDownload = () => {
-    };
+  const CustomPagination = ({ totalSlides, activeSlide }) => {
+    return (
+      <div className="custom-paginationNeca">
+        {[...Array(totalSlides)].map((_, index) => (
+          <div
+            key={index}
+            className={`pagination-pointNeca ${index + 1 === activeSlide ? 'active' : ''}`}
+          />
+        ))}
+      </div>
+    );
+  };
+
+  const handleSlideChange = (swiper) => {
+    setActiveSlide(swiper.activeIndex + 1);
+  };
+
+  const handleDownload = () => {
+  };
 
   const handleButtonClick = (buttonNumber) => {
     setSelectedButton(buttonNumber);
@@ -276,7 +296,7 @@ const Neca = () => {
           </div>
         </div>
 
-        <div>
+        <div className="NecaMobile">
         {selectedButton === 1 && (
             <>
               <div className="containerfoto-botones-neca1">
@@ -409,6 +429,146 @@ const Neca = () => {
           )}
         </div>
       </div>
+      <section className="swiper-containerNeca">
+        <CustomPagination totalSlides={6} activeSlide={activeSlide} />
+        <Swiper
+          onSlideChange={handleSlideChange}
+          pagination={false}
+          slidesPerView={1}
+          modules={[Pagination]}
+        >
+        <SwiperSlide>
+          <div className="cardNeca">
+          <div className="containerfoto-botones-neca1">
+                <img src={fotobotones2} alt="" className="fotobotonesNeca" />
+                <div className="txt-logos-neca">
+                  <h2 className="neca-title2">{t("txtCurado.txt2")}</h2>
+                  <p className="txt-neca-boton2">
+                  {t("txtCurado.txt3")} <span className="txt-empresa-spanNeca">{t("txtCurado.txt4")}{" "}</span>
+                  {t("txtCurado.txt5")}{" "} 
+                    <span className="txt-empresa-spanNeca">{t("txtCurado.txt6")}{" "}</span>{t("txtCurado.txt7")}{" "}
+                    <span className="txt-empresa-spanNeca">{t("txtCurado.txt8")}{" "}</span>{t("txtCurado.txt9")}
+                  </p>
+                  <a 
+                  href="https://webcontent.cn-grupo.net/Assets/Neca/necaCURADOdeSEMILLAS-.pdf" 
+                  download 
+                  onClick={handleDownload}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  >
+                  </a>
+                </div>
+                <button className="info-btn-neca">{t("txtInfo.txt2")}</button>
+              </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="cardNeca">
+          <div className="containerfoto-botones-neca1">
+                <img src={fotobotones5} alt="" className="fotobotonesNeca" />
+                <div className="txt-logos-neca">
+                  <h2 className="neca-title2">{t("txtSolucionesDigitalesNECA.txt2")}</h2>
+                  <p className="txt-neca-boton2">
+                  {t("txtSolucionesDigitalesNECA.txt3")}{" "}<span className="txt-empresa-spanNeca">{t("txtSolucionesDigitalesNECA.txt4")}{" "}</span>
+                  {t("txtSolucionesDigitalesNECA.txt5")}{" "}  
+                    <span className="txt-empresa-spanNeca">{t("txtSolucionesDigitalesNECA.txt6")}{" "}</span> 
+                    {t("txtSolucionesDigitalesNECA.txt7")}{" "}
+                    <span className="txt-empresa-spanNeca">{t("txtSolucionesDigitalesNECA.txt8")}{" "}</span> 
+                    {t("txtSolucionesDigitalesNECA.txt9")}{" "}
+                    <span className="txt-empresa-spanNeca">{t("txtSolucionesDigitalesNECA.txt10")}{" "}</span>
+                    {t("txtSolucionesDigitalesNECA.txt11")}
+                  </p>
+                  <a 
+                  href="https://webcontent.cn-grupo.net/Assets/Neca/necaCROPWISE-.pdf" 
+                  download 
+                  onClick={handleDownload}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  >
+                  </a>
+                </div>
+                <button className="info-btn-neca">{t("txtInfo.txt2")}</button>
+              </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="cardNeca">
+          <div className="containerfoto-botones-neca1">
+                <img src={fotobotones} alt="" className="fotobotonesNeca" />
+                <div className="txt-logos-neca">
+                  <h2 className="neca-title2">{t("txtSolucionesFinancierasNECA.txt2")}</h2>
+                  <p className="txt-neca-boton2">
+                  {t("txtSolucionesFinancierasNECA.txt3")}<br></br>
+                    <br></br>– {t("txtSolucionesFinancierasNECA.txt4")}<br></br>– {t("txtSolucionesFinancierasNECA.txt5")}
+                    <br></br>– {t("txtSolucionesFinancierasNECA.txt6")}<br></br>– {t("txtSolucionesFinancierasNECA.txt7")}
+                    <br></br>– {t("txtSolucionesFinancierasNECA.txt8")}<br></br>
+                    {t("txtSolucionesFinancierasNECA.txt9")}
+                  </p>
+                  <div className="logos-neca2">
+                    <img src={logoneca1} alt="" className="logo-neca2" />
+                    <img src={logoneca2} alt="" className="logo-neca2a" />
+                    <img src={logoneca3} alt="" className="logo-neca2b" />
+                    <img src={logoneca4} alt="" className="logo-neca2c" />
+                  </div>
+                </div>
+              </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="cardNeca">
+          <div className="containerfoto-botones-neca1">
+                <img src={fotobotones1} alt="" className="fotobotonesNeca" />
+                <div className="txt-logos-neca">
+                  <h2 className="neca-title2">{t("txtAsesoramiento.txt2")}</h2>
+                  <p className="txt-neca-boton2">
+                  {t("txtAsesoramiento.txt3")}{" "}<span className="txt-empresa-spanNeca">{t("txtAsesoramiento.txt4")}{" "}</span>
+                  {t("txtAsesoramiento.txt5")}{" "}   
+                    <span className="txt-empresa-spanNeca">{t("txtAsesoramiento.txt6")}{" "}</span> 
+                    {t("txtAsesoramiento.txt7")}{" "}
+                    <span className="txt-empresa-spanNeca">{t("txtAsesoramiento.txt8")}{" "}</span> 
+                    {t("txtAsesoramiento.txt9")}
+                  </p>
+                </div>
+              </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="cardNeca">
+          <div className="containerfoto-botones-neca1">
+                <img src={fotobotones4} alt="" className="fotobotonesNeca" />
+                <div className="txt-logos-neca">
+                  <h2 className="neca-title2">{t("txtSiembra.txt2")}</h2>
+                  <p className="txt-neca-boton2">
+                  {t("txtSiembra.txt3")} 
+                  </p>
+                </div>
+                <button className="info-btn-neca">
+                  <Link className="info-btn-neca1" to ="/mollar">{t("txtSiembra.txt4")}</Link>
+                </button>
+              </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="cardNeca">
+          <div className="containerfoto-botones-neca1">
+                <img src={fotobotones3} alt="" className="fotobotonesNeca" />
+                <div className="txt-logos-neca">
+                  <h2 className="neca-title2">{t("txtGranos.txt2")}</h2>
+                  <p className="txt-neca-boton2">
+                  {t("txtGranos.txt3")}{" "}<span className="txt-empresa-spanNeca">{t("txtGranos.txt4")}{" "}</span>
+                  {t("txtGranos.txt5")}{" "} 
+                    <span className="txt-empresa-spanNeca">{t("txtGranos.txt6")}{" "}</span> 
+                    {t("txtGranos.txt7")}{" "}
+                    <span className="txt-empresa-spanNeca">{t("txtGranos.txt8")}{" "}</span> 
+                    {t("txtGranos.txt9")}{" "}
+                    <span className="txt-empresa-spanNeca">{t("txtGranos.txt10")}</span>{t("txtGranos.txt11")}
+                  </p>
+                </div>
+              </div>
+          </div>
+        </SwiperSlide>
+      </Swiper>
+      </section>
       <div className="banner-necaflor"></div>
 
       <div className="container-txt-cardNeca">
@@ -466,7 +626,7 @@ const Neca = () => {
             </div>
           </div>
         </div>
-        <div className="container-cards-estaciones">
+        <div className="container-cards-Neca">
           <div className="card-Neca1">
             <div className="titulo-Combustible">
               <h2 className="title-direccion-neca">Embarcación</h2>
@@ -537,7 +697,7 @@ const Neca = () => {
         </div>
         <div className="txt2">
           <p className="txt-foo">
-          {t("txt-foo2.Footer1")}
+          {t("txt-foo2.Footer")}
           </p>
         </div>
       </div>

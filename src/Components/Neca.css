@@ -26,12 +26,12 @@
 
   .container-neca {
     display: flex;
-    flex-direction: row;
-    margin-left: 17%;
-    margin-right: 10%;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    gap: 100px;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    gap: 10px;
   }
 
   .necaimg1 {
@@ -41,12 +41,11 @@
   }
 
   .p-neca1 {
-    text-align: left;
+    text-align: justify;
     color: #6c6c6c;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 25px;
-    margin-right: 10%;
   }
 
   .txt-empresa-spanNeca {
@@ -55,10 +54,9 @@
 
   .banner-neca1 {
     background: url(../Assets/1er\ ANCHO\ -\ CN\ NECA\ LAS\ LAJITAS-489.png);
-    height: 600px;
+    height: 200px;
     background-repeat: no-repeat;
-    background-position-x: -550px;
-    background-position-y: -60px;
+    background-size: cover;
   }
 
   .container-dibujitos {
@@ -74,7 +72,7 @@
   .neca-title {
     color: #2a4b51;
     font-family: Public Sans;
-    font-size: 25px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: 69px;
@@ -92,17 +90,18 @@
   .neca-subtitle {
     color: #2a4b51;
     font-family: Public Sans;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 69px;
+    margin-top: 0%;
   }
 
   .productos-protección {
     display: flex;
-    flex-direction: row;
-    gap: 80px;
-    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: start;
   }
 
   .productos-protección2 {
@@ -123,11 +122,11 @@
 
   .container-tresproductosNeca {
     display: flex;
-    flex-direction: row;
-    text-align: center;
-    gap: 150px;
-    margin-left: 110px;
-    margin-top: 50px;
+    flex-direction: column;
+    text-align: start;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
   }
 
   .container-txt-cardNeca {
@@ -135,19 +134,20 @@
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    margin-left: 130px;
-    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: left;
   }
 
   .txt-neca-boton {
     color: #656565;
     font-family: Public Sans;
-    font-size: 15px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
-    margin-right: 650px;
+    margin-right: 20px;
+    text-align: justify;
   }
 
   .neca-buttons {
@@ -165,8 +165,7 @@
   }
 
   .neca-org {
-    display: flex;
-    flex-direction: column;
+    display: none;
   }
 
   .info-btn-neca {
@@ -196,34 +195,52 @@
 
   .containerfoto-botones-neca1 {
     display: flex;
-    flex-direction: row;
-    gap: 50px;
-    margin-bottom: 8%;
+    flex-direction: column;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .txt-logos-neca {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .NecaMobile {
+    display: none;
   }
 
   .fotobotonesNeca {
-    width: 450px;
-    height: 290px;
-    margin-top: 50px;
+    width: 318px;
+    height: 188px;
+    margin-top: 20px;
   }
 
   .neca-title2 {
     color: #efb014;
     font-family: Public Sans;
-    font-size: 25px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: 69px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0%;
   }
 
   .txt-neca-boton2 {
     color: #656565;
     font-family: Public Sans;
-    font-size: 15px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
-    margin-right: 220px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .logos-neca2 {
@@ -258,17 +275,16 @@
     background: url(../Assets/2do\ ANCHO\ -\ CN\ NECA\ LAS\ LAJITAS-132.png),
       lightgray 50% / cover no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 150px;
+    width: auto;
   }
 
   .container-logos-final {
     display: flex;
     justify-content: center;
-    text-align: center;
-    flex-direction: row;
-    margin-top: 50px;
-    margin-left: -12%;
-    gap: 5px;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
   }
 
   .logogrande {
@@ -284,14 +300,6 @@
     line-height: 40px;
     margin-bottom: 0px;
     margin-left: 20px;
-  }
-
-  .card-neca {
-    border-radius: 15px;
-    background: #f4f4f4;
-    width: 220px;
-    height: 200px;
-    flex-shrink: 0;
   }
 
   .producto{
@@ -350,32 +358,31 @@
   .NecaDirec{
     display: flex;
     flex-direction: row;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-left: 20px;
   }
 
   .NecaDirec5{
     display: flex;
     flex-direction: row;
-    margin-right: 11.6%;
-    margin-left: 5%;
+    margin-left: 20px;
   }
 
   .NecaDirec1{
     display: flex;
     flex-direction: row;
-    margin-right: 5%;
+    margin-left: 20px;
   }
 
   .NecaDirec2{
     display: flex;
     flex-direction: row;
-    margin-right: 5%;
+    margin-left: 20px;
   }
 
   .NecaDirec3{
     display: flex;
     flex-direction: row;
+    margin-left: 20px;
   }
 
   .vectorneca1
@@ -422,20 +429,25 @@
 .card-Neca {
   border-radius: 15px;
   background: #f4f4f4;
-  width: 103%;
-  height: 30%;
+  width: auto;
+  height: auto;
   flex-shrink: 0;
-  padding-bottom: 1%;
 }
 
 .card-Neca1 {
   border-radius: 15px;
   background: #f4f4f4;
-  width: 103%;
-  height: 30%;
+  width: auto;
+  height: auto;
   flex-shrink: 0;
-  padding-bottom: 1%;
   margin-bottom: 10%;
+}
+
+.container-cards-Neca {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 70px;
 }
 
 .redes-container-empresa-nec{
@@ -470,6 +482,31 @@
   .scroll-to-top:hover {
     background-color: #1f6a8c !important;
   }
+
+  .custom-paginationNeca {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 0px; /* Ajusta el espacio según sea necesario */
+  }
+  
+  .pagination-pointNeca {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 2px solid #2A4B51; /* Borde celeste */
+    background-color: transparent;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, border 0.3s;
+  }
+  
+  .pagination-pointNeca.active {
+    background-color: #2A4B51; /* Color de fondo celeste cuando está activo */
+    border-color: #2A4B51;
+    width: 8px;
+    height: 8px;
+  }
 }
 
 
@@ -477,6 +514,15 @@
 
 
 @media (min-width: 801px) and (max-width: 1280px) {
+
+  .cardNeca {
+    display: none;
+  }
+
+  .swiper-containerNeca{
+    display: none;
+  }
+
   .home-container6 {
     background-size: cover;
     height: 600px;
@@ -941,6 +987,15 @@
   .scroll-to-top:hover {
     background-color: #1f6a8c !important;
   }
+
+  .container-cards-Neca {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 50px;
+    margin-right: 100px;
+  }
+
 }
 
 
@@ -951,6 +1006,16 @@
 
 
 @media (min-width: 1281px) and (max-width: 1679px) {
+
+  .cardNeca {
+    display: none;
+  }
+
+  .swiper-containerNeca{
+    display: none;
+  }
+
+
   .home-container6 {
     background-size: cover;
     height: 600px;
@@ -1413,6 +1478,14 @@
   .scroll-to-top:hover {
     background-color: #1f6a8c !important;
   }
+
+  .container-cards-Neca {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 50px;
+    margin-right: 100px;
+  }
 }
 
 
@@ -1424,6 +1497,15 @@
 
 
 @media (min-width: 1680px) and (max-width: 1919px) {
+
+  .cardNeca {
+    display: none;
+  }
+
+  .swiper-containerNeca{
+    display: none;
+  }
+
   .home-container6 {
     background-size: cover;
     height: 600px;
@@ -1885,6 +1967,14 @@
   .scroll-to-top:hover {
     background-color: #1f6a8c !important;
   }
+
+  .container-cards-Neca {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 50px;
+    margin-right: 100px;
+  }
 }
 
 
@@ -1899,6 +1989,15 @@
 
 
 @media (min-width: 1920px) {
+
+  .cardNeca {
+    display: none;
+  }
+
+  .swiper-containerNeca{
+    display: none;
+  }
+
   .home-container6 {
     background-size: cover;
     height: 600px;
@@ -2371,5 +2470,13 @@
 
   .scroll-to-top:hover {
     background-color: #1f6a8c !important;
+  }
+
+  .container-cards-Neca {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 50px;
+    margin-right: 100px;
   }
 }

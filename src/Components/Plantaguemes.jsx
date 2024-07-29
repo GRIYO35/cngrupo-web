@@ -80,8 +80,8 @@ const Guemes = () => {
         <div className="numeritosPla">
           <div className="numeroytxtPlanta">
             <div className="numeroPlanta">
-              <h2 className="numerito1">01</h2>
-              <hr className="lineanum"></hr>
+              <h2 className="numeritoPlanta">01</h2>
+              <hr className="lineanumPlanta"></hr>
             </div>
             <div className="parrafos">
               <p className="txt-numAPlanta">
@@ -93,16 +93,16 @@ const Guemes = () => {
 
           <div className="numeroytxtPlanta">
             <div className="numeroPlanta2">
-              <h2 className="numerito">02</h2>
-              <hr className="lineanum"></hr>
+              <h2 className="numeritoPlanta">02</h2>
+              <hr className="lineanumPlanta"></hr>
             </div>
             <p className="txt-numAPlanta">{t("txtVentasGuemes.txt4")}</p>
           </div>
 
           <div className="numeroytxtPlanta">
             <div className="numeroPlanta">
-              <h2 className="numerito">03</h2>
-              <hr className="lineanum"></hr>
+              <h2 className="numeritoPlanta">03</h2>
+              <hr className="lineanumPlanta"></hr>
             </div>
             <p className="txt-numAPlanta">{t("txtVentasGuemes.txt5")}</p>
             <p className={i18next.language === "es" ? "txt-pequeñoA" : "txt-pequeñoAEN"}>{t("txtVentasGuemes.txt6")}</p>
@@ -110,8 +110,8 @@ const Guemes = () => {
 
           <div className="numeroytxtPlanta">
             <div className="numeroPlanta">
-              <h2 className="numerito">04</h2>
-              <hr className="lineanum"></hr>
+              <h2 className="numeritoPlanta">04</h2>
+              <hr className="lineanumPlanta"></hr>
             </div>
             <p className="txt-numAPlanta">{t("txtVentasGuemes.txt7")}</p>
             <p className={i18next.language === "es" ? "txt-pequeñoB" : "txt-pequeñoBEN"}>{t("txtVentasGuemes.txt8")}</p>
@@ -119,8 +119,8 @@ const Guemes = () => {
 
           <div className="numeroytxtPlanta">
             <div className="numeroPlanta5">
-              <h2 className="numerito">05</h2>
-              <hr className="lineanum"></hr>
+              <h2 className="numeritoPlanta">05</h2>
+              <hr className="lineanumPlanta"></hr>
             </div>
             <p className="txt-numAPlanta">
             {t("txtVentasGuemes.txt9")}<br></br>{t("txtVentasGuemes.txt10")}

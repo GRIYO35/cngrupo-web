@@ -49,7 +49,9 @@ const Logistica = () => {
             <span className="txt-empresa-spanLog">{t("txtLogistica.txt14")}</span>.
             </p>
             </div>
+            <div className="LogisticaMobile">
             <img src={Imgvisionlogo} alt="" className="fotoLog"/>
+            </div>
         </div>
 
         <div className="separadorfoto"></div>

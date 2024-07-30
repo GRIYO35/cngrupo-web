@@ -47,9 +47,9 @@ const Logistica = () => {
         </div>
         <div className="container-sima">
             <div className="logo-texto-logistica">
-                <div className="logoSima">           
-            <img src={LogoSima} alt="" className="Simaimg1"/>
-            </div>
+              <div className="logoSima">           
+                <img src={LogoSima} alt="" className="Simaimg1"/>
+              </div>
             
           <p className="text-sima">
             {t("CnSima.txt1")}
@@ -57,7 +57,9 @@ const Logistica = () => {
             {t("CnSima.txt2")} 
             </p>
             </div>
+            <div className="CnSimaMobile">
             <img src={Imgvisionlogo} alt="" className="fotoSima"/>
+            </div>
         </div>
 
         <div className="separadorfotoSima"></div>

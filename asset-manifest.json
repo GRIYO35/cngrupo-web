@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.9112a659.css",
+    "main.css": "/static/css/main.10d4de44.css",
     "main.js": "/static/js/main.cf1038d4.js",
     "static/media/650x388 CN SIMA.png": "/static/media/650x388 CN SIMA.2549b455991e6daa3d83.png",
     "static/media/PORTADA - DJI_0321.jpg": "/static/media/PORTADA - DJI_0321.72d93713397b0a5e9008.jpg",
@@ -128,11 +128,11 @@
     "index.html": "/index.html",
     "static/media/VectorSima2.svg": "/static/media/VectorSima2.27de91dcb9a0c7a8848e5716d3c8c803.svg",
     "static/media/logomail.svg": "/static/media/logomail.250a2a2b6809a33ee82e489cd0c99de4.svg",
-    "main.9112a659.css.map": "/static/css/main.9112a659.css.map",
+    "main.10d4de44.css.map": "/static/css/main.10d4de44.css.map",
     "main.cf1038d4.js.map": "/static/js/main.cf1038d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.9112a659.css",
+    "static/css/main.10d4de44.css",
     "static/js/main.cf1038d4.js"
   ]
 }

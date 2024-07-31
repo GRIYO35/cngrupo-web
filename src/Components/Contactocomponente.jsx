@@ -176,7 +176,9 @@ export const Contactocomponente = () => {
           </p>
           {showEmailSentMessage && <p className="p-enviado">{t("ComponenteContacto.txt6")}</p>}
         </form>
+        <div className="MapaMobile">
         <MAPA></MAPA>
+        </div>
       </div>
     </div>
   );

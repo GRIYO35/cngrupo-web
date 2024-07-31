@@ -616,9 +616,9 @@
   .container-comb {
     display: flex;
     flex-direction: row;
-    margin-left: 13%;
-    margin-right: 7%;
-    gap: 20px;
+    margin-left: 16%;
+    margin-right: 5%;
+    gap: 70px;
     margin-top: 80px;
     margin-bottom: 100px;
   }
@@ -896,9 +896,9 @@
   }
 
   .Combimg1 {
-    width: 400px;
-    height: 150px;
-    margin-top: 50px;
+    width: 288px;
+    height: 80px;
+    margin-top: 70px;
   }
 
   .Combimg2 {
@@ -1089,9 +1089,9 @@
   .container-comb {
     display: flex;
     flex-direction: row;
-    margin-left: 13%;
-    margin-right: 7%;
-    gap: 20px;
+    margin-left: 16%;
+    margin-right: 5%;
+    gap: 70px;
     margin-top: 80px;
     margin-bottom: 100px;
   }
@@ -1369,9 +1369,9 @@
   }
 
   .Combimg1 {
-    width: 400px;
-    height: 150px;
-    margin-top: 50px;
+    width: 288px;
+    height: 80px;
+    margin-top: 70px;
   }
 
   .Combimg2 {
@@ -1567,9 +1567,9 @@
   .container-comb {
     display: flex;
     flex-direction: row;
-    margin-left: 13%;
-    margin-right: 7%;
-    gap: 20px;
+    margin-left: 15%;
+    margin-right: 5%;
+    gap: 70px;
     margin-top: 80px;
     margin-bottom: 100px;
   }
@@ -1851,9 +1851,9 @@
   }
 
   .Combimg1 {
-    width: 500px;
-    height: 185px;
-    margin-top: 30px;
+    width: 300px;
+    height: 101px;
+    margin-top: 80px;
   }
 
   .Combimg2 {

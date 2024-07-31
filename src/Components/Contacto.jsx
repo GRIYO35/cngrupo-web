@@ -7,10 +7,11 @@ import logodireccion from "../Assets/logodireccion.png";
 import logotelefono from "../Assets/logotelefono.png";
 import vectorcontacto from "../Assets/Vector (11).png";
 import { useTranslation } from "react-i18next";
-import NAVBAR from "./NavBarNuevaOsc";
+//import NAVBAR from "./NavBarNuevaOsc";
+import NAVBAR from "./NavBarNueva";
 import "./Contacto.css";
 
-const Navinfo = () => {
+const Contacto = () => {
   // eslint-disable-next-line no-unused-vars
   const [t, i18next] = useTranslation("global");
 
@@ -27,6 +28,7 @@ const Navinfo = () => {
             <h2 className="titulo-Contacto">
             {t("txtContactoPagina.txt1")}<br></br>{t("txtContactoPagina.txt2")}
             </h2>
+            <img src={imgcontacto} alt="" className="imgcontactoMobile" />
             <p className="p-contacto1">
             {t("txtContactoPagina.txt3")}
             </p>
@@ -76,5 +78,11 @@ const Navinfo = () => {
   );
 };
 
-export default Navinfo;
+export default Contacto;
+
+
+
+
+
+
 

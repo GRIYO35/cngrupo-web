@@ -3,7 +3,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from "swiper";
 /*import ExpandLessIcon from "@material-ui/icons/ExpandLess";*/
 import { FaInstagram, FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
-import logo2 from "../Assets/CN - INFO IMPOSITIVA grey@300x.png";
+/*import logo2 from "../Assets/CN - INFO IMPOSITIVA grey@300x.png";*/
+import logo2 from "../Assets/cnLOGO.png";
 /*import fotocomb from "../Assets/650X388px WEB est fijas.png";*/
 import fotocomb from "../Assets/Est. Fijas.jpg";
 /*import fotocombMob from "../Assets/650X388px WEB est moviles.png";*/

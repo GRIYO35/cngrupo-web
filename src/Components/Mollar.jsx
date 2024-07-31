@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
-import LogoMollar from '../Assets/PEM - INFO IMPOSITIVA grey@300x.png'
+/*import LogoMollar from '../Assets/PEM - INFO IMPOSITIVA grey@300x.png'*/
+import LogoMollar from '../Assets/PEMlogo.png'
 import Logochoclo from '../Assets/Group (2).png'
 import Logosiembra from '../Assets/Group (3).png'
 import vectormollar1 from '../Assets/Capa_2.png'

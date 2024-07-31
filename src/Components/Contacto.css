@@ -1,3 +1,155 @@
+@media (max-width: 800px) {
+  .unrecuadro {
+    margin-top: 3%;
+  }
+  .dosrecuadros {
+    display: flex;
+    flex-direction: column;
+    gap: 430px;
+    position: absolute;
+  }
+
+  .txt-container-contacto {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .p-contacto1 {
+    text-align: left;
+    color: #6c6c6c;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .subtitulocontacto {
+    margin-top: 170px;
+    margin-left: 0px;
+
+    color: #5abdcf;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2.5px;
+  }
+
+  .milinea-contacto {
+    height: 1px;
+    border: none;
+    width: 80px;
+    margin-top: 180px;
+    background-color: #5abdcf;
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+
+  .linea-titulo2Con {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .titulo-Contacto {
+    font-size: 25px;
+    color: #5abdcf;
+    font-weight: 700;
+  }
+
+  .otrorecuadro {
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+
+  .title-contacto {
+    color: #2a4b51;
+    font-family: Public Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+
+  .txt-direccion-contacto {
+    color: #656565;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .logo-txt-contacto {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .linea-contacto {
+    height: 1px;
+    border: none;
+    width: 80px;
+    background-color: #009fe3;
+    margin-left: 0px;
+  }
+
+  .vectorcontacto {
+    padding: 10px;
+    border-radius: 45%;
+    height: 16px;
+    width: 18px;
+    background: #ececec;
+  }
+
+  .vectorcontacto2 {
+    padding: 10px;
+    border-radius: 45%;
+    height: 15px;
+    width: 20px;
+    background: #ececec;
+  }
+
+  .imgcontacto {
+    display: none;
+  }
+
+  .imgcontactoMobile {
+    width: 320px;
+    height: 160px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .footerContacto {
+    display: flex;
+    flex-direction: column;
+    background-color: #27617b;
+    justify-content: center;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    margin-top: 1800px;
+  }
+}
+
+
+
+
+
+
+
+
+
 @media (min-width: 801px) and (max-width: 1280px) {
   .unrecuadro {
     margin-top: 3%;
@@ -136,6 +288,13 @@
     margin-top: 110%;
   }
 }
+
+
+
+
+
+
+
 
 @media (min-width: 1281px) and (max-width: 1679px) {
   .unrecuadro {

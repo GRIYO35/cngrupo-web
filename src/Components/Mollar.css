@@ -1,11 +1,12 @@
-.banner-mollar {
-  background: url(../Assets/fotoANCHOweb\ -\ CN\ NECA\ LAS\ LAJITAS-115\ 1.png);
-  background-size: cover;
-  height: 200px;
-}
-
 
 @media (max-width: 800px) {
+
+  .banner-mollar {
+    background: url(../Assets/fotoANCHOweb\ -\ CN\ NECA\ LAS\ LAJITAS-115\ 1.png);
+    background-size: cover;
+    height: 200px;
+  }
+
   .container-elmollar {
     display: flex;
     flex-direction: column;
@@ -13,6 +14,7 @@
     margin-bottom: 30px;
     margin-left: 20px;
     margin-right: 20px;
+    align-items: flex-start;
   }
 
   .home-container5 {
@@ -49,13 +51,16 @@
   }
 
   .logomollar {
-    width: 360px;
-    height: 140px;
+    width: 190px;
+    height: 80px;
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
   }
 
   .my-lineaMollar {
     width: 100px;
-    margin-top: -5%;
+    margin-top: 10px;
     margin-left: 0px;
   }
 
@@ -258,14 +263,20 @@
 
 
 @media (min-width: 801px) and (max-width: 1280px) {
+  .banner-mollar {
+    background: url(../Assets/fotoANCHOweb\ -\ CN\ NECA\ LAS\ LAJITAS-115\ 1.png);
+    background-size: cover;
+    height: 600px;
+  }
+
   .container-elmollar {
     display: flex;
     flex-direction: row;
     margin-top: 7%;
     margin-bottom: 9%;
     margin-left: 15%;
-    margin-right: 2%;
-    gap: 130px
+    margin-right: 15%;
+    gap: 80px
   }
 
   .home-container5 {
@@ -299,21 +310,17 @@
     font-weight: 400;
     line-height: 30px;
     text-align: left;
-    margin-left: -15%;
-    margin-right: 20%;
   }
 
   .logomollar {
-    width: 360px;
-    height: 140px;
-    margin-left: -60%;
-    margin-top: -5%;
+    width: 288px;
+    height: 82px;
   }
 
   .my-lineaMollar {
     width: 100px;
-    margin-left: -8%;
-    margin-top: -5%;
+    margin-left: 0%;
+    margin-top: 2%;
   }
 
   .title-elmollar {
@@ -324,7 +331,7 @@
     font-weight: 400;
     line-height: 37px;
     text-align: left;
-    margin-left: -8%;
+    white-space: nowrap;
   }
 
   .logo-siembra {
@@ -349,7 +356,6 @@
   .logos-siembra-text {
     display: flex;
     flex-direction: row;
-    margin-left: -100px;
     gap: 40px;
     margin-top: 20px;
   }
@@ -516,6 +522,11 @@
 
 
 @media (min-width: 1281px) and (max-width: 1919px) {
+  .banner-mollar {
+    background: url(../Assets/fotoANCHOweb\ -\ CN\ NECA\ LAS\ LAJITAS-115\ 1.png);
+    background-size: cover;
+    height: 600px;
+  }
 
   .container-elmollar {
     display: flex;
@@ -523,8 +534,8 @@
     margin-top: 7%;
     margin-bottom: 9%;
     margin-left: 15%;
-    margin-right: 2%;
-    gap: 130px
+    margin-right: 15%;
+    gap: 80px
   }
 
   .home-container5 {
@@ -558,21 +569,17 @@
     font-weight: 400;
     line-height: 30px;
     text-align: left;
-    margin-left: -15%;
-    margin-right: 20%;
   }
 
   .logomollar {
-    width: 360px;
-    height: 140px;
-    margin-left: -60%;
-    margin-top: -5%;
+    width: 288px;
+    height: 82px;
   }
 
   .my-lineaMollar {
     width: 100px;
-    margin-left: -8%;
-    margin-top: -5%;
+    margin-left: 0%;
+    margin-top: 2%;
   }
 
   .title-elmollar {
@@ -583,7 +590,7 @@
     font-weight: 400;
     line-height: 37px;
     text-align: left;
-    margin-left: -8%;
+    white-space: nowrap;
   }
 
   .logo-siembra {
@@ -608,7 +615,6 @@
   .logos-siembra-text {
     display: flex;
     flex-direction: row;
-    margin-left: -100px;
     gap: 40px;
     margin-top: 20px;
   }
@@ -780,14 +786,20 @@
 
 @media (min-width: 1920px) {
 
+  .banner-mollar {
+    background: url(../Assets/fotoANCHOweb\ -\ CN\ NECA\ LAS\ LAJITAS-115\ 1.png);
+    background-size: cover;
+    height: 750px;
+  }
+
   .container-elmollar {
     display: flex;
     flex-direction: row;
     margin-top: 7%;
     margin-bottom: 7%;
     margin-left: 15%;
-    margin-right: 10%;
-    gap: 130px
+    margin-right: 15%;
+    gap: 100px
   }
 
   .home-container5 {
@@ -811,7 +823,6 @@
 
   .logo-title-linea-mollar {
     margin-top: 20px;
-    margin-left: -10%;
   }
 
   .p-elmollar {
@@ -822,21 +833,18 @@
     font-weight: 400;
     line-height: 30px;
     text-align: left;
-    margin-left: 70px;
-    margin-right: 10%;
-    margin-left: -10%;
   }
 
   .logomollar {
-    width: 560px;
-    height: 190px;
-    margin-top: -2%;
+    width: 360px;
+    height: 103px;
+    margin-top: 20px;
   }
 
   .my-lineaMollar {
     width: 100px;
-    margin-left: 22%;
-    margin-top: -5%;
+    margin-left: 0%;
+    margin-top: 3%;
   }
 
   .title-elmollar {
@@ -847,7 +855,6 @@
     font-weight: 400;
     line-height: 37px;
     text-align: left;
-    margin-left: 22%;
   }
 
   .logo-siembra {
@@ -872,7 +879,6 @@
   .logos-siembra-text {
     display: flex;
     flex-direction: row;
-    margin-left: 60px;
     gap: 40px;
     margin-top: 30px;
   }

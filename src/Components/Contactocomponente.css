@@ -1,3 +1,146 @@
+@media (max-width: 800px) {
+
+  .contentContacto {
+    position: absolute;
+    width: 100%;
+  }
+  
+  .contact-wrapper {
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+    gap: 30px;
+    flex-direction: column;
+    margin-top: 600px;
+  }
+  
+  .input-field {
+    position: relative;
+  }
+  
+  .input-field input,
+  .input-field textarea {
+    padding: 10px;
+    border: 1px solid #ccc; 
+    transition: border-color 0.3s;
+    outline: none;
+  }
+  
+  .input-field label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transition: 0.3s;
+  }
+  
+  .input-field input:focus + label,
+  .input-field textarea:focus + label {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .input-field input:focus,
+  .input-field textarea:focus {
+    border-color: #5abdcf; 
+  }
+  
+  .input-field label.hide {
+    display: none;
+  }
+  
+  .input-contacto {
+    border-radius: 200px;
+    background: #ececec;
+    width: 300px;
+    height: 20px;
+    color: #878179;
+    font-family: Public Sans;
+  
+  }
+  
+  .input-contacto2 {
+    border-radius: 20px;
+    background: #ececec;
+    width: 300px;
+    height: 105px;
+    color: #878179;
+    font-family: Public Sans;
+  }
+  
+  .p-enviado {
+    margin-top: -8%;
+    font-size: 20px;
+    color: red;
+    font-weight: 400;
+  }
+  
+  .form-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .input-field input.has-value + label,
+  .input-field textarea.has-value + label {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .nombre {
+    color: #878179;
+    font-size: 14px;
+  }
+  
+  .btn-contacto {
+      width: 160px;
+      height: 36px;
+      border-radius: 40px;
+      background-color: transparent;
+      border: 1.5px solid #225065;
+      color: #225065;
+      font-size: 9px;
+      letter-spacing: 1.5px;
+      text-align: center;
+      font-weight: 600;
+      display: flex;
+      justify-content: left;
+      padding-top: 12px;
+      padding-left: 58px;
+      transition: background-color 0.3s, color 0.3s; 
+    }
+    
+    .btn-contacto:hover {
+      background-color: #225065; 
+      color: white; 
+    }
+  
+    .spinner {
+      font-size: 50px;
+      position: absolute;
+      top: 103%;
+      left: 53%;
+      color: #225065;
+      animation: spin 1s linear infinite;
+    }
+    
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+}
+
+
+
+
+
+
+
+
+
 @media (min-width: 801px) and (max-width: 1280px) {
   .contentContacto {
     position: absolute;

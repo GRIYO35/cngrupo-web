@@ -395,16 +395,19 @@
   }
 
   .Combimg1 {
-    width: 400px;
-    height: 150px;
+    width: 228px;
+    height: 64px;
     margin-top: 20px;
     display: block;
     text-align: left;
+    margin-left: 20px;
   }
 
   .Combimg2 {
-    width: 400px;
-    height: 150px;
+    width: 228px;
+    height: 64px;
+    margin-left: 20px;
+    margin-top: 30px;
   }
 
   .container-cards-Combustible {

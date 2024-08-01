@@ -1,3 +1,75 @@
+@media (max-width: 800px) {
+  .swiper,
+  .swiper-container {
+    height: 310px;
+    width: 100% !important;
+    display: flex;
+    gap: 200px;
+    margin-top: -20px;
+  }
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: var(--swiper-pagination-bottom, -3px) !important;
+    top: var(--swiper-pagination-top, auto);
+    left: 0;
+    width: 100%;
+  }
+
+  .swiper-pagination-bullet {
+    background-color: white !important; /* Color de fondo para el punto no activo */
+    padding: 1px !important;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: white !important; /* Color de fondo para el punto activo */
+  }
+
+  .swiper-pagination {
+    margin-top: 100px;
+  }
+  .swiper-3d {
+    perspective: 85px !important;
+  }
+
+  .swiper-wrapper {
+    height: 85% !important;
+  }
+
+  .swiper-slide-shadow-left {
+    opacity: 0 !important;
+  }
+  .swiper-slide-shadow-right {
+    opacity: 0 !important;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    color: white !important; /* Utiliza !important para asegurarte de que prevalezca */
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 150% !important;
+    font-weight: 800;
+    content: "";
+  }
+
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    background-color: #1f6a8c; /* Cambia el color de fondo al pasar el ratón */
+  }
+}
+
+
+
+
+
+
 @media (min-width: 801px) and (max-width: 1919px) {
   .swiper,
   .swiper-container {
@@ -77,6 +149,13 @@
     background-color: #1f6a8c; /* Cambia el color de fondo al pasar el ratón */
   }
 }
+
+
+
+
+
+
+
 
 @media (min-width: 1920px) {
   .swiper-horizontal > .swiper-pagination-bullets,

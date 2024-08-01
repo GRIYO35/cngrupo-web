@@ -17,15 +17,22 @@
     margin-top: 80%;
   }
   .nuestra-empresa-txtHome{
-    font-size: 130%;
-    font-weight: 300;
-    line-height: 28px;
-    letter-spacing: 2px;
-    color: #FFF;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    /*-webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: #bbbcb8;*/
+      display: none;
     }
+
+    .nuestra-empresa-txtHomeMobile{
+      font-size: 21px;
+      font-weight: 300;
+      line-height: 28px;
+      letter-spacing: 2px;
+      color: #FFF;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      text-align: left;
+      margin-right: 20px;
+      margin-top: 150px;
+      /*-webkit-text-stroke-width: 0.5px;
+      -webkit-text-stroke-color: #bbbcb8;*/
+      }
     .txt-empresa-spanHome{
         font-weight: 600;
       }
@@ -54,26 +61,23 @@
           }
           .recuadros{
             display: flex;
-            flex-direction: center;
+            flex-direction: column;
+            align-items: flex-start;
             text-align: left;
-            font-size: 15px;
+            font-size: 16px;
             font-weight: 400;
             line-height: 25px;
             letter-spacing: 1.5px;
             color: #656565;
-            margin-bottom: 100px;
-            margin-top: 100px;
+            margin-bottom: 30px;
+            margin-top: 20px;
             flex-wrap: wrap;
-            padding-left: 13.5%;
-            padding-right: 10%;
+            margin-left: 20px;
+            margin-right: 150px;
           }
-          
-          .recuadros .imgResponsiva1 {width: 100%; max-width: 345px; display: inline-block; font-size: inherit;}
-          
-          .imgResponsiva1 img {
-              height: auto;
-              width: 100%;
-              padding: 1%;
+
+          .imgResponsiva1 {
+            flex: 1;
           }
           
           
@@ -83,6 +87,8 @@
             font-style: normal;
             font-weight: 600;
             line-height: 69px;
+            display: flex;
+            justify-content: flex-start;
           }
           
           .number1{
@@ -91,6 +97,8 @@
             font-style: normal;
             font-weight: 600;
             line-height: 69px;
+            display: flex;
+            justify-content: flex-start;
           }
           
           .number2{
@@ -99,6 +107,8 @@
             font-style: normal;
             font-weight: 600;
             line-height: 69px;
+            display: flex;
+            justify-content: flex-start;
           }
           
           .number3{
@@ -107,14 +117,19 @@
             font-style: normal;
             font-weight: 600;
             line-height: 69px;
+            display: flex;
+            justify-content: flex-start;
           }
           
-          .mi-linea-ver{
-            border: 10px solid#5ABDCF;
+          .mi-linea-ver {
+            border-left: 100px solid #5abdcf;
+            height: 0.5px; /* Ajusta la altura según sea necesario */
+            margin-left: 20px; /* Ajusta el margen según sea necesario */
           }
           
           .recuadros-span{
             font-weight: 500;
+            text-align: left;
           }
           
           .containerfoto-cards{
@@ -214,8 +229,10 @@
             display: flex;
             text-align: left;
             flex-direction: column;
-            margin-left: 7%;
-            margin-top: 2%;
+            margin-left: 20px;
+            margin-top: 30px;
+            margin-bottom: 0px;
+            padding-bottom: 40px;
           }
           
           .micarrusel-titulo{
@@ -269,9 +286,9 @@
               display: flex;
               text-align: left;
               flex-direction: column;
-              margin-left: 7%;
+              margin-left: 20px;
               margin-top: 50px;
-              padding-top: 50px;
+              padding-top: 20px;
             
             }
             
@@ -285,14 +302,14 @@
               margin-bottom: 70px;
             }
 
-            .mi-linea-carrusel{
+            .mi-linea-carruselHome{
               height: 1px; 
               border: none; 
               width: 80px;
               background-color:  #3A93A4; 
               margin-left: 0px;
               margin-top: -10px;
-              margin-bottom: 70px;
+              margin-bottom: 0px;
             }
             
             .micarrusel-titulo-logos{
@@ -330,6 +347,37 @@
             .scroll-to-top:hover {
               background-color: #1f6a8c !important;
             }
+
+            
+  .custom-paginationHome {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 0px; /* Ajusta el espacio según sea necesario */
+  }
+  
+  .pagination-pointHome {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 2px solid #009FE3; /* Borde celeste */
+    background-color: transparent;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, border 0.3s;
+  }
+  
+  .pagination-pointHome.active {
+    background-color: #009FE3; /* Color de fondo celeste cuando está activo */
+    border-color: #009FE3;
+    width: 8px;
+    height: 8px;
+  }
+
+  .SliderMobile{
+    display: none;
+  }
+
 }
 
 
@@ -342,6 +390,19 @@
 
 
 @media (min-width: 801px) and (max-width: 1919px) {
+
+  .card1Home {
+    display: none;
+  }
+
+  .swiper-containerHome{
+    display: none;
+  }
+
+  .nuestra-empresa-txtHomeMobile{
+    display: none;
+  } 
+
     .txt-redesHome{
         display: flex;
         flex-direction: row;
@@ -685,6 +746,18 @@
 
 
 @media (min-width: 1920px) {
+
+  .card1Home {
+    display: none;
+  }
+
+  .swiper-containerHome{
+    display: none;
+  }
+
+  .nuestra-empresa-txtHomeMobile{
+    display: none;
+  }  
     .txt-redesHome{
         display: flex;
         flex-direction: row;

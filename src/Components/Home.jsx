@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 /*import ExpandLessIcon from "@material-ui/icons/ExpandLess";*/
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from "swiper";
 import "react-multi-carousel/lib/styles.css";
 import logo1 from "../Assets/PLANTAguemes WEB@300x.png";
 import logo3 from "../Assets/EESS WEB@300x.png";
@@ -9,6 +11,12 @@ import logo6 from "../Assets/CCNchile WEB@300x.png";
 import logo8 from "../Assets/CNlogistica WEB@300x.png";
 import logo9 from "../Assets/GASdelNORTE WEB@300x.png";
 import logo10 from "../Assets/PUESTOelMOLLAR WEB@300x.png";
+import carru1 from "../Assets/redi1.png";
+import carru2 from "../Assets/redi2.png";
+import carru3 from "../Assets/redi3.png";
+import carru4 from "../Assets/redi4.png";
+import carru5 from "../Assets/redi5.png";
+import carru6 from "../Assets/redi6.png";
 import { FaInstagram, FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
 import "react-multi-carousel/lib/styles.css";
 import "swiper/css";
@@ -27,6 +35,23 @@ import FlechaScrol from "../Assets/flecha web cn grupo@300x-8.png"
 const Home = () => {
   // eslint-disable-next-line no-unused-vars
   const [t, i18next] = useTranslation("global");
+  const [activeSlide, setActiveSlide] = useState(1);
+  const CustomPagination = ({ totalSlides, activeSlide }) => {
+    return (
+      <div className="custom-paginationHome">
+        {[...Array(totalSlides)].map((_, index) => (
+          <div
+            key={index}
+            className={`pagination-pointHome ${index + 1 === activeSlide ? 'active' : ''}`}
+          />
+        ))}
+      </div>
+    );
+  };
+
+  const handleSlideChange = (swiper) => {
+    setActiveSlide(swiper.activeIndex + 1);
+  };
 
   return (
     <div className="home-container">
@@ -55,6 +80,17 @@ const Home = () => {
                 ,<br></br>
                 {t("nuestra-empresa-txt.text3")}
                 <br></br>
+                {t("nuestra-empresa-txt.text4")}
+                <span className="txt-empresa-spanHome">
+                  {t("nuestra-empresa-txt.text5")}
+                </span>
+              </h2>
+              <h2 className="nuestra-empresa-txtHomeMobile">
+                {t("nuestra-empresa-txt.text1")}
+                <span className="txt-empresa-spanHome">
+                  {t("nuestra-empresa-txt.text2")}
+                </span>,
+                {t("nuestra-empresa-txt.text3")}
                 {t("nuestra-empresa-txt.text4")}
                 <span className="txt-empresa-spanHome">
                   {t("nuestra-empresa-txt.text5")}
@@ -99,7 +135,7 @@ const Home = () => {
         <div className="imgResponsiva1">
           <div className="number">9</div>
           <span className="recuadros-span">
-            {t("recuadros-span.Leading companies")}
+          {t("recuadros-span.Leading companies")}
           </span>{" "}
           {t("recuadros-span.in their")}
           <br></br>
@@ -160,9 +196,53 @@ const Home = () => {
       </div>
       <div className="my-carousel">
         <h2 className="micarrusel-titulo">{t("li.Our culture")}</h2>
-        <hr class="mi-linea-carrusel"></hr>
+        <hr class="mi-linea-carruselHome"></hr>
       </div>
+
+
+      <section className="swiper-containerHome">
+        <CustomPagination totalSlides={6} activeSlide={activeSlide} />
+        <Swiper
+          onSlideChange={handleSlideChange}
+          pagination={false}
+          slidesPerView={1}
+          modules={[Pagination]}
+        >
+        <SwiperSlide>
+          <div className="card1Home">
+          <img src={carru1} alt="slide_image1" className="CarruImg1"/>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="card1Home">
+          <img src={carru2} alt="slide_image2" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="card1Home">
+          <img src={carru3} alt="slide_image3" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="card1Home">
+          <img src={carru4} alt="slide_image4" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="card1Home">
+          <img src={carru5} alt="slide_image5" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="card1Home">
+          <img src={carru6} alt="slide_image6" />
+          </div>
+        </SwiperSlide>
+      </Swiper>
+      </section>
+      <div className="SliderMobile">
       <Slider />
+      </div>
       <div class="foot">
         <div class="Logos-empresa">
           <div className="my-carousel-logos">

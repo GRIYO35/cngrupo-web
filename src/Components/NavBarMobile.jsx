@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import Logo from "../Assets/cngrupoLOGOwhite.png";
 import { useTranslation } from "react-i18next";
@@ -8,13 +8,16 @@ import "./NavBarMobile.css";
 
 const Sidebar = () => {
   const [t, i18next] = useTranslation("global");
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [openSubMenu, setOpenSubMenu] = useState(null);
   const [openSubSubMenu, setOpenSubSubMenu] = useState(null);
+  const location = useLocation();
 
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
+    resetMenuState(); // Reset menu state when the sidebar is toggled
   };
+
 
   const handleSubMenuToggle = (menu) => {
     setOpenSubMenu(openSubMenu === menu ? null : menu);
@@ -24,9 +27,19 @@ const Sidebar = () => {
     setOpenSubSubMenu(openSubSubMenu === menu ? null : menu);
   };
 
+  const resetMenuState = () => {
+    setOpenSubMenu(null);
+    setOpenSubSubMenu(null);
+  };
+
+  useEffect(() => {
+    // Reset menu state when the component mounts
+    resetMenuState();
+  }, [location]);
+
   return (
     
-    <div className="Prueba">
+    <div className="ConteinerNavMobile">
       <div className="Cabecera"> 
       <div className="Nav-ClasMobile">
         <Link to="/" className="LogoNavNueva">

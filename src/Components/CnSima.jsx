@@ -26,7 +26,7 @@ const Logistica = () => {
           <div className="BarraMobile">
           <NAVBARMOBILE></NAVBARMOBILE>
           </div>
-        <div className="redes-container-empresa-gas">
+        <div className="redes-container-empresa-CnSima">
           <a
                 href="https://www.linkedin.com/company/cn-sima/"
                 target="_blank"

@@ -13,6 +13,7 @@ import ManosNuevo from '../Assets/manosnuevo.svg';
 import { useTranslation } from "react-i18next";
 import Tarjeta from "./Tarjeta"
 import NAVBAR from "./NavBarNueva"
+import NAVBARMOBILE from "./NavBarMobile";
 import "./Vision.css"
 
 
@@ -110,7 +111,12 @@ const Vision = () => {
     return (
         <div className="home-container">
         <div className="home-containerVision">
-        <NAVBAR></NAVBAR>
+          <div className="BarraEscritorio">
+          <NAVBAR></NAVBAR>
+          </div>
+          <div className="BarraMobile">
+          <NAVBARMOBILE></NAVBARMOBILE>
+          </div>
         <div className="txt-redesVision">
             <div className="txt-container-empresaVis">
               <div className="linea-titulo">

@@ -6,6 +6,7 @@ import logoinf4 from "../Assets/CN LOGISTICA - INFO IMPOSITIVA grey@300x.png";
 import logoinf5 from "../Assets/NECA - INFO IMPOSITIVA grey@300x.png";
 import logoinf6 from "../Assets/PEM - INFO IMPOSITIVA grey@300x.png";
 import NAVBAR from "./NavBarNuevaOsc";
+import NAVBARMOBILEOSC from "./NavBarMobileOsc";
 import { useTranslation } from "react-i18next";
 import "./Infoimpo.css"
 
@@ -18,8 +19,12 @@ const Info = () => {
 
   return (
     <div className="home-container">
-      <NAVBAR></NAVBAR>
-
+          <div className="BarraEscritorio">
+          <NAVBAR></NAVBAR>
+          </div>
+          <div className="BarraMobile">
+          <NAVBARMOBILEOSC></NAVBARMOBILEOSC>
+          </div>
       <div className="txt-redesInfo">
         <div className="txt-container-InfoImpo">
           <div className="linea-tituloInfo">

@@ -16,6 +16,7 @@ import { useTranslation } from "react-i18next";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import NAVBAR from "./NavBarNueva";
+import NAVBARMOBILE from "./NavBarMobile";
 import "./Historia.css";
 
 const Historia = () => {
@@ -77,7 +78,12 @@ const Historia = () => {
   return (
     <div className="todo-historia">
       <div className="home-containerHistoria">
-        <NAVBAR></NAVBAR>
+          <div className="BarraEscritorio">
+          <NAVBAR></NAVBAR>
+          </div>
+          <div className="BarraMobile">
+          <NAVBARMOBILE></NAVBARMOBILE>
+          </div>
         <div className="txt-redesHistoria">
           <div className="txt-container-empresaHistoria">
             <div className="linea-titulo2">

@@ -11,6 +11,7 @@ import loggo3 from "../Assets/loggo3.png";
 //import videoSourceGuemes from "../Assets/Guemes web.mp4";
 import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBarNueva";
+import NAVBARMOBILE from "./NavBarMobile";
 import "./Plantaguemes.css"
 /*import fotogas from "../Assets/autoelevadores 15 kg  1.png";
 import logodireccion from "../Assets/logodireccion.png";
@@ -35,7 +36,12 @@ const Guemes = () => {
           className="tuvideo"
         ></video>
         <div className="content">
+          <div className="BarraEscritorio">
           <NAVBAR></NAVBAR>
+          </div>
+          <div className="BarraMobile">
+          <NAVBARMOBILE></NAVBARMOBILE>
+          </div>
           <div className="txt-redesGue">
             <div className="txt-container-empresaGas">
               <div className="linea-titulo">

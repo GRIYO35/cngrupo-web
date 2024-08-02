@@ -8,6 +8,7 @@ import logotelefono from "../Assets/logotelefono.png";
 import vectorcontacto from "../Assets/Vector (11).png";
 import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBarNuevaOsc";
+import NAVBARMOBILEOSC from "./NavBarMobileOsc";
 import "./Contacto.css";
 
 const Contacto = () => {
@@ -16,7 +17,12 @@ const Contacto = () => {
 
   return (
     <div className="home-container">
-      <NAVBAR></NAVBAR>
+          <div className="BarraEscritorio">
+          <NAVBAR></NAVBAR>
+          </div>
+          <div className="BarraMobile">
+          <NAVBARMOBILEOSC></NAVBARMOBILEOSC>
+          </div>
       <div className="dosrecuadros">
         <div className="unrecuadro">
           <div className="txt-container-contacto">

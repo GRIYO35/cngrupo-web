@@ -31,6 +31,7 @@ import LogoPersona from "../Assets/logoPersona.svg";
 //import videoSourceComb2 from "../Assets/ESTACIONFIJA1.mp4";
 import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBarNueva";
+import NAVBARMOBILE from "./NavBarMobile";
 import "./Combustiblesdelnorte.css";
 import ScrollToTop from "react-scroll-to-top";
 import FlechaScrol from "../Assets/flecha web cn grupo@300x-8.png"
@@ -121,7 +122,12 @@ const Combustibles = () => {
           <source src="http://webcontent.cn-grupo.net/Media/COMBUSTIBLES%20DEL%20NORTE.mp4" type="video/mp4" />
         </video>
         <div className="content">
-        <NAVBAR></NAVBAR>
+          <div className="BarraEscritorio">
+          <NAVBAR></NAVBAR>
+          </div>
+          <div className="BarraMobile">
+          <NAVBARMOBILE></NAVBARMOBILE>
+          </div>
         <div className="redes-container-empresa-comb">
         <a
                 href="https://www.linkedin.com/company/combustibles-del-norte-sa"

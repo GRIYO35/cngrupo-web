@@ -6,6 +6,7 @@ import Vectorlogistica2 from '../Assets/Vector (2).png'
 import Vectorlogistica3 from '../Assets/Vector (3).png'
 import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBarNueva";
+import NAVBARMOBILE from "./NavBarMobile";
 import "./Logistica.css"
 
 
@@ -15,8 +16,13 @@ const Logistica = () => {
 
     return (
         <div className="home-container">
-            <div className="home-containerLog">
-        <NAVBAR></NAVBAR>
+        <div className="home-containerLog">
+          <div className="BarraEscritorio">
+          <NAVBAR></NAVBAR>
+          </div>
+          <div className="BarraMobile">
+          <NAVBARMOBILE></NAVBARMOBILE>
+          </div>
         <div className="txt-redesLog">
             <div className="txt-container-empresaLog">
               <div className="linea-titulo">

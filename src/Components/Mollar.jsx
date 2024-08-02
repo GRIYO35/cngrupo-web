@@ -10,6 +10,7 @@ import vectormollar4 from '../Assets/Vector (5).png'
 //import videoSourceMollar from "../Assets/Puesto el mollar web v3.mp4";
 import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBarNueva"
+import NAVBARMOBILE from "./NavBarMobile";
 import "./Mollar.css"
 
 const Puesto = () => {
@@ -33,7 +34,12 @@ const Puesto = () => {
         >
         </video>
         <div className="content">
+          <div className="BarraEscritorio">
           <NAVBAR></NAVBAR>
+          </div>
+          <div className="BarraMobile">
+          <NAVBARMOBILE></NAVBARMOBILE>
+          </div>
           <div className="txt-redes-mollar">
             <div className="txt-container-mollar">
               <div className="linea-titulo">

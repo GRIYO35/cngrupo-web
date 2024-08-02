@@ -2,6 +2,7 @@ import React from "react";
 //import videoSourceGas from "../Assets/Trabaja con nosotros Web.mp4";
 import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBarNueva";
+import NAVBARMOBILE from "./NavBarMobile";
 import "./CapitalHumano.css";
 
 const CapitalH = () => {
@@ -20,7 +21,12 @@ const CapitalH = () => {
           className="tuvideoCap"
         ></video>
         <div className="contentCapi">
+          <div className="BarraEscritorio">
           <NAVBAR></NAVBAR>
+          </div>
+          <div className="BarraMobile">
+          <NAVBARMOBILE></NAVBARMOBILE>
+          </div>
           <div className="txt-redesCap">
             <div className="txt-container-empresaCap">
               <div className="linea-titulo">

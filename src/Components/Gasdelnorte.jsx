@@ -16,6 +16,7 @@ import logodelivery from "../Assets/logodelivery.png";
 //import videoSourceGas from "../Assets/Gas del norte web v2.mp4";
 import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBarNueva";
+import NAVBARMOBILE from "./NavBarMobile";
 import "./Gasdelnorte.css";
 
 const Gas = () => {
@@ -58,8 +59,12 @@ const Gas = () => {
           className="tuvideo"
         ></video>
         <div className="content">
+           <div className="BarraEscritorio">
           <NAVBAR></NAVBAR>
-
+          </div>
+          <div className="BarraMobile">
+          <NAVBARMOBILE></NAVBARMOBILE>
+          </div>
           <div className="redes-container-empresa-gas">
           <a
                 href="https://www.linkedin.com/company/combustibles-del-norte-sa"

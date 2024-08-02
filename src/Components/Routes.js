@@ -17,6 +17,7 @@ import Contacto from './Contacto';
 import Navbar from './NavBar';
 import RRHH from './CapitalHumano';
 import CnSima from './CnSima';
+import Mobile from './NavBarMobile'
 
 const Myroutes = () => {
   return (
@@ -39,6 +40,7 @@ const Myroutes = () => {
          <Route path="/navbar" element={<Navbar/>} />
          <Route path="/capital" element={<RRHH/>} />
          <Route path="/cnsima" element={<CnSima/>} />
+         <Route path="/mobile" element={<Mobile/>} />
         </Routes>
     </div>
   );

@@ -9,6 +9,7 @@ import VectorSima3 from '../Assets/VectorSima2.svg'
 import VectorSima4 from '../Assets/vectorSima6.png'
 import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBarNueva";
+import NAVBARMOBILE from "./NavBarMobile";
 import "./CnSima.css"
 
 
@@ -18,8 +19,13 @@ const Logistica = () => {
 
     return (
         <div className="home-container">
-            <div className="home-containerSima">
-        <NAVBAR></NAVBAR>
+          <div className="home-containerSima">
+          <div className="BarraEscritorio">
+          <NAVBAR></NAVBAR>
+          </div>
+          <div className="BarraMobile">
+          <NAVBARMOBILE></NAVBARMOBILE>
+          </div>
         <div className="redes-container-empresa-gas">
           <a
                 href="https://www.linkedin.com/company/cn-sima/"

@@ -9,6 +9,7 @@ import Vectorlogistica3 from "../Assets/Vector (3).png";
 import imgchile from "../Assets/650X388px WEB descripcion chile.png";
 import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBarNueva";
+import NAVBARMOBILE from "./NavBarMobile";
 import "./Ccnchile.css";
 
 const Ccn = () => {
@@ -18,7 +19,12 @@ const Ccn = () => {
   return (
     <div className="home-container">
       <div className="home-container8">
-        <NAVBAR></NAVBAR>
+          <div className="BarraEscritorio">
+          <NAVBAR></NAVBAR>
+          </div>
+          <div className="BarraMobile">
+          <NAVBARMOBILE></NAVBARMOBILE>
+          </div>
         <div className="redes-container-empresa-chile">
               <a
                 href="https://www.instagram.com/ccn.chile?igsh=MWNrY3ZwOGg0emtybQ=="

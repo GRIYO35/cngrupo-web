@@ -151,6 +151,11 @@
 
 
 @media (min-width: 801px) and (max-width: 1280px) {
+
+  .imgcontactoMobile {
+    display: none;
+  }
+
   .unrecuadro {
     margin-top: 3%;
   }
@@ -297,6 +302,11 @@
 
 
 @media (min-width: 1281px) and (max-width: 1679px) {
+
+  .imgcontactoMobile {
+    display: none;
+  }
+
   .unrecuadro {
     margin-top: 3%;
   }
@@ -439,6 +449,11 @@
 
 
 @media (min-width: 1680px) and (max-width: 1919px) {
+
+  .imgcontactoMobile {
+    display: none;
+  }
+
   .unrecuadro {
     margin-top: 3%;
   }
@@ -583,6 +598,11 @@
 
 
 @media (min-width: 1920px) {
+
+  .imgcontactoMobile {
+    display: none;
+  }
+  
   .unrecuadro {
     margin-top: 3%;
   }

@@ -377,6 +377,10 @@
     display: none;
   }
 
+  .BarraEscritorio{
+    display: none;
+  }
+
 }
 
 
@@ -728,6 +732,10 @@
               
                 .scroll-to-top:hover {
                   background-color: #1f6a8c !important;
+                }
+
+                .BarraMobile {
+                  display: none;
                 }
           
 }
@@ -1085,6 +1093,10 @@
               
                 .scroll-to-top:hover {
                   background-color: #1f6a8c !important;
+                }
+
+                .BarraMobile {
+                  display: none;
                 }
           
 }

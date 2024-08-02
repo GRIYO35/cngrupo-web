@@ -39,6 +39,7 @@ import logogrande8 from "../Assets/insuagro WEB@300x.png";
 //import videoSourceNECA from "../Assets/NECA web v3.mp4";
 import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBarNueva";
+import NAVBARMOBILE from "./NavBarMobile";
 import ScrollToTop from "react-scroll-to-top";
 import "./Neca.css";
 import FlechaScrol from "../Assets/flecha web cn grupo@300x-8.png"
@@ -86,7 +87,12 @@ const Neca = () => {
         >
         </video>
         <div className="content">
-        <NAVBAR></NAVBAR>
+          <div className="BarraEscritorio">
+          <NAVBAR></NAVBAR>
+          </div>
+          <div className="BarraMobile">
+          <NAVBARMOBILE></NAVBARMOBILE>
+          </div>
         <div className="redes-container-empresa-nec">
         <a
                 href="https://www.linkedin.com/company/combustibles-del-norte-sa"

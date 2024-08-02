@@ -29,6 +29,7 @@ import { useTranslation } from "react-i18next";
 import Slider from "./Slider";
 import ScrollToTop from "react-scroll-to-top";
 import NAVBAR from "./NavBarNueva";
+import NAVBARMOBILE from "./NavBarMobile";
 import "./Home.css"
 import FlechaScrol from "../Assets/flecha web cn grupo@300x-8.png"
 
@@ -68,7 +69,12 @@ const Home = () => {
           <source src="http://webcontent.cn-grupo.net/Media/Home%20Cn%20web%20v3%20.mp4" type="video/mp4" />
         </video>
         <div className="content">
+          <div className="BarraEscritorio">
           <NAVBAR></NAVBAR>
+          </div>
+          <div className="BarraMobile">
+          <NAVBARMOBILE></NAVBARMOBILE>
+          </div>
           <div className="txt-redesHome">
             <div className="txt-container-empresaHome">
               <h2 className="nuestra-empresa-txtHome">

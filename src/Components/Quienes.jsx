@@ -11,6 +11,7 @@ import { useTranslation } from "react-i18next";
 import gerentes from '../Assets/gerentes.png';
 import gerentes1 from '../Assets/479x279 GERENTES.png';
 import NAVBAR from "./NavBarNueva"
+import NAVBARMOBILE from "./NavBarMobile";
 import "./Quienes.css"
 
 
@@ -59,7 +60,12 @@ const Quienes = () => {
   return (
       <div className="home-container">
       <div className="home-containerQuienes">
-        <NAVBAR></NAVBAR>
+          <div className="BarraEscritorio">
+          <NAVBAR></NAVBAR>
+          </div>
+          <div className="BarraMobile">
+          <NAVBARMOBILE></NAVBARMOBILE>
+          </div>
       <div className="txt-redesQuienes">
            <div className="txt-container-empresaQuienes">
                <div className="linea-titulo">

@@ -15,6 +15,7 @@ import estacionesimg2 from '../Assets/650X388px WEB chango.png'
 //import videoSourceComb from "../Assets/YPF EESS Las lajitas web.mp4";
 import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBarNueva";
+import NAVBARMOBILE from "./NavBarMobile";
 import "./Estaciones.css"
 import FlechaScrol from "../Assets/flecha web cn grupo@300x-8.png"
 
@@ -36,7 +37,12 @@ const Estacion = () => {
         >
         </video>
         <div className="content">
+          <div className="BarraEscritorio">
           <NAVBAR></NAVBAR>
+          </div>
+          <div className="BarraMobile">
+          <NAVBARMOBILE></NAVBARMOBILE>
+          </div>
           <div className="txt-redesEst">
             <div className="txt-container-empresaEst">
               <div className="linea-titulo">

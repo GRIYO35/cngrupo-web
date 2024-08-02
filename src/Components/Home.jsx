@@ -210,7 +210,7 @@ const Home = () => {
         >
         <SwiperSlide>
           <div className="card1Home">
-          <img src={carru1} alt="slide_image1" className="CarruImg1"/>
+          <img src={carru1} alt="slide_image1" />
           </div>
         </SwiperSlide>
         <SwiperSlide>

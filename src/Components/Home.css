@@ -29,7 +29,6 @@
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
       text-align: left;
       margin-right: 20px;
-      margin-top: 150px;
       /*-webkit-text-stroke-width: 0.5px;
       -webkit-text-stroke-color: #bbbcb8;*/
       }
@@ -353,14 +352,14 @@
     display: flex;
     justify-content: center;
     margin-top: 10px;
-    margin-bottom: 0px; /* Ajusta el espacio según sea necesario */
+    margin-bottom: 20px; /* Ajusta el espacio según sea necesario */
   }
   
   .pagination-pointHome {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    border: 2px solid #009FE3; /* Borde celeste */
+    border: 2px solid #3A93A4; /* Borde celeste */
     background-color: transparent;
     margin: 0 5px;
     cursor: pointer;
@@ -368,8 +367,8 @@
   }
   
   .pagination-pointHome.active {
-    background-color: #009FE3; /* Color de fondo celeste cuando está activo */
-    border-color: #009FE3;
+    background-color: #3A93A4; /* Color de fondo celeste cuando está activo */
+    border-color: #3A93A4;
     width: 8px;
     height: 8px;
   }

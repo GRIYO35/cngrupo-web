@@ -518,7 +518,7 @@
     margin-bottom: 0px; /* Ajusta el espacio según sea necesario */
   }
   
-  .pagination-point {
+  .pagination-point{
     width: 8px;
     height: 8px;
     border-radius: 50%;
@@ -905,9 +905,9 @@
   }
 
   .Combimg2 {
-    width: 400px;
-    height: 150px;
-    margin-top: 100px;
+    width: 288px;
+    height: 80px;
+    margin-top: 120px;
   }
 
   .container-cards-Combustible {
@@ -1378,9 +1378,9 @@
   }
 
   .Combimg2 {
-    width: 400px;
-    height: 150px;
-    margin-top: 100px;
+    width: 288px;
+    height: 80px;
+    margin-top: 120px;
   }
 
   .container-cards-Combustible {
@@ -1860,9 +1860,9 @@
   }
 
   .Combimg2 {
-    width: 500px;
-    height: 185px;
-    margin-top: 80px;
+    width: 300px;
+    height: 101px;
+    margin-top: 120px;
   }
 
   .container-cards-Combustible {

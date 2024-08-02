@@ -40,6 +40,7 @@ const Combustibles = () => {
   const [t, i18next] = useTranslation("global");
   const [selectedButton, setSelectedButton] = useState(1);
   const [activeSlide, setActiveSlide] = useState(1);
+  const [activeSlide1, setActiveSlide1] = useState(1);
 
   const CustomPagination = ({ totalSlides, activeSlide }) => {
     return (
@@ -54,8 +55,25 @@ const Combustibles = () => {
     );
   };
 
+  const CustomPagination1 = ({ totalSlides, activeSlide1 }) => {
+    return (
+      <div className="custom-pagination">
+        {[...Array(totalSlides)].map((_, index) => (
+          <div
+            key={index}
+            className={`pagination-point ${index + 1 === activeSlide1 ? 'active' : ''}`}
+          />
+        ))}
+      </div>
+    );
+  };
+
   const handleSlideChange = (swiper) => {
     setActiveSlide(swiper.activeIndex + 1);
+  };
+
+  const handleSlideChange1 = (swiper) => {
+    setActiveSlide1(swiper.activeIndex + 1);
   };
 
   const handleDownload = () => {
@@ -703,9 +721,9 @@ const Combustibles = () => {
       </div>
 
       <section className="swiper-container">
-        <CustomPagination totalSlides={3} activeSlide={activeSlide} />
+        <CustomPagination1 totalSlides={3} activeSlide1={activeSlide1} />
         <Swiper
-          onSlideChange={handleSlideChange}
+          onSlideChange={handleSlideChange1}
           pagination={false}
           slidesPerView={1}
           modules={[Pagination]}

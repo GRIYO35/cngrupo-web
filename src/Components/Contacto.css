@@ -104,12 +104,20 @@
     background: #ececec;
   }
 
-  .vectorcontacto2 {
+  .Div-vectorcontacto2 {
     padding: 10px;
     border-radius: 45%;
     height: 15px;
     width: 20px;
     background: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .vectorcontacto2 {
+    height: 15px;
+    width: 20px;
   }
 
   .imgcontacto {
@@ -262,12 +270,20 @@
     background: #ececec;
   }
 
-  .vectorcontacto2 {
+  .Div-vectorcontacto2 {
     padding: 10px;
     border-radius: 45%;
     height: 15px;
     width: 20px;
     background: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .vectorcontacto2 {
+    height: 15px;
+    width: 20px;
   }
 
   .imgcontacto {
@@ -413,12 +429,20 @@
     background: #ececec;
   }
 
-  .vectorcontacto2 {
+  .Div-vectorcontacto2 {
     padding: 10px;
     border-radius: 45%;
     height: 15px;
     width: 20px;
     background: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .vectorcontacto2 {
+    height: 15px;
+    width: 20px;
   }
 
   .imgcontacto {
@@ -560,12 +584,20 @@
     background: #ececec;
   }
 
-  .vectorcontacto2 {
+  .Div-vectorcontacto2 {
     padding: 10px;
     border-radius: 45%;
     height: 15px;
     width: 20px;
     background: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .vectorcontacto2 {
+    height: 15px;
+    width: 20px;
   }
 
   .imgcontacto {
@@ -707,12 +739,20 @@
     background: #ececec;
   }
 
-  .vectorcontacto2 {
+  .Div-vectorcontacto2 {
     padding: 10px;
     border-radius: 45%;
     height: 15px;
     width: 20px;
     background: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .vectorcontacto2 {
+    height: 15px;
+    width: 20px;
   }
 
   .imgcontacto {

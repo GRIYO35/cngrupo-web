@@ -61,7 +61,9 @@ const Contacto = () => {
 
           <h2 className="title-contacto">{t("txtContacto.txt5")}</h2>
           <div className="logo-txt-contacto">
+            <div className="Div-vectorcontacto2">
             <img src={vectorcontacto} alt="" className="vectorcontacto2" />
+            </div>
             <p className="txt-direccion-contacto">recepcion@cngrupo.com.ar</p>
           </div>
           <hr className="linea-contacto"></hr>

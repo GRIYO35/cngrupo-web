@@ -73,6 +73,22 @@ const Historia = () => {
 
   useEffect(() => {
     Aos.init({ duration: 1000 });
+
+    const updateAOS = () => {
+      const elements = document.querySelectorAll('.li-linea1, .li-linea2, .li-linea3, .li-linea4, .li-linea5, .li-linea6i, .li-linea2i, .li-linea3i, .li-linea4i');
+    elements.forEach((el) => {
+        if (window.innerWidth < 800) {
+          el.setAttribute('data-aos', 'fade-right');
+        }
+      });
+    };
+
+    updateAOS();
+    window.addEventListener('resize', updateAOS);
+
+    return () => {
+      window.removeEventListener('resize', updateAOS);
+    };
   }, []);
 
   return (

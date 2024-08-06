@@ -56,6 +56,7 @@ const Gas = () => {
           autoPlay
           loop
           muted
+          playsInline
           className="tuvideo"
         ></video>
         <div className="content">

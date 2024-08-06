@@ -83,6 +83,7 @@ const Neca = () => {
           autoPlay
           loop
           muted
+          playsInline
           className="tuvideo"
         >
         </video>

@@ -33,6 +33,7 @@ const Estacion = () => {
           autoPlay
           loop
           muted
+          playsInline
           className="tuvideo"
         >
         </video>

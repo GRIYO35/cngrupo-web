@@ -61,6 +61,7 @@ const Home = () => {
           autoPlay
           loop
           muted
+          playsInline
           className="tuvideo"
         >
           {/*<source src={videoSource1} type="video/mp4; codecs=av01" />

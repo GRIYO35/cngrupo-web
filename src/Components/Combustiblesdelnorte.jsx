@@ -116,6 +116,7 @@ const Combustibles = () => {
           autoPlay
           loop
           muted
+          playsInline
           className="tuvideo"
         >
           <source src="http://webcontent.cn-grupo.net/Media/COMBUSTIBLES%20DEL%20NORTE.mp4" type="video/mp4; codecs=av01" />
@@ -193,6 +194,7 @@ const Combustibles = () => {
           autoPlay
           loop
           muted
+          playsInline
           className="tuvideo"
           style={{ width: `${dimensions.width}px`, height: `${dimensions.height}px` }}
         >

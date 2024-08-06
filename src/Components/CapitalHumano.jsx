@@ -18,6 +18,7 @@ const CapitalH = () => {
           autoPlay
           loop
           muted
+          playsInline
           className="tuvideoCap"
         ></video>
         <div className="contentCapi">

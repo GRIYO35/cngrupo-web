@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from "swiper";
 /*import ExpandLessIcon from "@material-ui/icons/ExpandLess";*/
@@ -42,6 +42,40 @@ const Combustibles = () => {
   const [selectedButton, setSelectedButton] = useState(1);
   const [activeSlide, setActiveSlide] = useState(1);
   const [activeSlide1, setActiveSlide1] = useState(1);
+  const [videoSrc, setVideoSrc] = useState(
+    "http://webcontent.cn-grupo.net/Media/ESTACION%20FIJA%20-%201920x911.mp4"
+  );
+  const videoRef = useRef(null);
+
+  const [dimensions, setDimensions] = useState({
+    width: window.innerWidth,
+    height: window.innerHeight
+  });
+
+  const updateVideoSrc = () => {
+    setVideoSrc(prevSrc => {
+      const newSrc = window.innerWidth < 800
+        ? "https://webcontent.cn-grupo.net/Media/MIC%20FIJO%20-%20SQUARE.mp4"
+        : "http://webcontent.cn-grupo.net/Media/ESTACION%20FIJA%20-%201920x911.mp4";
+        const uniqueSrc = `${newSrc}?t=${new Date().getTime()}`;
+      return uniqueSrc;
+    });
+  };
+
+  useEffect(() => {
+    updateVideoSrc();
+    window.addEventListener("resize", updateVideoSrc);
+
+    return () => {
+      window.removeEventListener("resize", updateVideoSrc);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.load(); 
+    }
+  }, [videoSrc]);
 
   const CustomPagination = ({ totalSlides, activeSlide }) => {
     return (
@@ -90,24 +124,21 @@ const Combustibles = () => {
     setSelectedButton1(buttonNumber1);
   };
 
-  const [dimensions, setDimensions] = useState({
-    width: window.innerWidth,
-    height: window.innerHeight
-  });
-
-  const handleResize = () => {
-    setDimensions({
-      width: window.innerWidth,
-      height: window.innerHeight
-    });
-  };
-
   useEffect(() => {
+    const handleResize = () => {
+      setDimensions({
+        width: window.innerWidth,
+        height: window.innerHeight
+      });
+    };
+
     window.addEventListener('resize', handleResize);
     return () => {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
+  
+
 
   return (
     <div className="home-container">
@@ -191,6 +222,7 @@ const Combustibles = () => {
       </div>
       {/*<div className="banner-comb"></div>*/}
       <video
+          ref={videoRef}
           autoPlay
           loop
           muted
@@ -198,8 +230,7 @@ const Combustibles = () => {
           className="tuvideo"
           style={{ width: `${dimensions.width}px`, height: `${dimensions.height}px` }}
         >
-          <source src="http://webcontent.cn-grupo.net/Media/ESTACION%20FIJA%20-%201920x911.mp4" type="video/mp4; codecs=av01" />
-          <source src="http://webcontent.cn-grupo.net/Media/ESTACION%20FIJA%20-%201920x911.mp4" type="video/mp4" />
+          <source src={videoSrc} type="video/mp4" />
         </video>
 
       <div className="container-txt-cardCombustible">

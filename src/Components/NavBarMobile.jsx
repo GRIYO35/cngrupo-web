@@ -51,6 +51,33 @@ const Sidebar = () => {
       </div>
       </div>  
     <aside className={`sidebar ${isSidebarOpen ? "open" : "closed"}`}>
+    <div className="TraduccionMobile" >
+        <button
+          onClick={(event) => {
+            i18next.changeLanguage("es");
+            document
+              .querySelectorAll(".language-buttonMobile")
+              .forEach((btn) => btn.classList.remove("active"));
+            event.target.classList.add("active");
+          }}
+          className={`language-buttonMobile ${i18next.language === "es" && "active"}`}
+        >
+          ES
+        </button>
+
+        <button
+          onClick={(event) => {
+            i18next.changeLanguage("en");
+            document
+              .querySelectorAll(".language-buttonMobile")
+              .forEach((btn) => btn.classList.remove("active"));
+            event.target.classList.add("active");
+          }}
+          className={`language-buttonMobile ${i18next.language === "en" && "active"}`}
+        >
+          EN
+        </button>
+      </div>
       <ul>
         <li>
           <li className="buttonNav" type="button" onClick={() => handleSubMenuToggle("settings")}>
@@ -99,22 +126,22 @@ const Sidebar = () => {
                 <div className={`sub-sub-menu ${openSubSubMenu === "oil" ? "open" : ""}`}>
                   <ul>
                     <li>
-                      <li className="buttonSubMenu" type="button">
+                      <li className="buttonSubMenu-Sub" type="button">
                       <Link className="Link" to="/combustiblesdelnorte">COMBUSTIBLES DEL NORTE</Link>
                       </li>
                     </li>
                     <li>
-                      <li className="buttonSubMenu"type="button">
+                      <li className="buttonSubMenu-Sub"type="button">
                       <Link className="Link" to="/ccnchile">CCN CHILE</Link>
                       </li>
                     </li>
                     <li>
-                      <li className="buttonSubMenu" type="button">
+                      <li className="buttonSubMenu-Sub" type="button">
                       <Link className="Link" to="/gasdelnorte">GAS DEL NORTE</Link>
                       </li>
                     </li>
                     <li>
-                      <li className="buttonSubMenu" type="button">
+                      <li className="buttonSubMenu-Sub" type="button">
                       <Link className="Link" to="/estaciones">{t("li.SERVICE STATIONS")}</Link>
                       </li>
                     </li>
@@ -129,22 +156,22 @@ const Sidebar = () => {
                 <div className={`sub-sub-menu ${openSubSubMenu === "agro" ? "open" : ""}`}>
                   <ul>
                     <li>
-                      <li className="buttonSubMenu" type="button">
+                      <li className="buttonSubMenu-Sub" type="button">
                       <Link className="Link" to="/neca">NECA</Link>
                       </li>
                     </li>
                     <li>
-                      <li className="buttonSubMenu" type="button">
+                      <li className="buttonSubMenu-Sub" type="button">
                       <Link className="Link" to="/combustiblesdelnorte">COMBUSTIBLES DEL NORTE</Link>
                       </li>
                     </li>
                     <li>
-                      <li className="buttonSubMenu" type="button">
+                      <li className="buttonSubMenu-Sub" type="button">
                       <Link className="Link" to="/mollar">PUESTO EL MOLLAR</Link>
                       </li>
                     </li>
                     <li>
-                      <li className="buttonSubMenu" type="button">
+                      <li className="buttonSubMenu-Sub" type="button">
                       <Link className="Link" to="/plantaguemes">PLANTA GÜEMES</Link>
                       </li>
                     </li>
@@ -159,12 +186,12 @@ const Sidebar = () => {
                 <div className={`sub-sub-menu ${openSubSubMenu === "mineria" ? "open" : ""}`}>
                   <ul>
                     <li>
-                      <li className="buttonSubMenu" type="button">
+                      <li className="buttonSubMenu-Sub" type="button">
                       <Link className="Link" to="/logistica">CN LOGISTICA</Link>
                       </li>
                     </li>
                     <li>
-                      <li className="buttonSubMenu" type="button">
+                      <li className="buttonSubMenu-Sub" type="button">
                       <Link className="Link" to="/cnsima">CN SIMA</Link>
                       </li>
                     </li>
@@ -187,33 +214,6 @@ const Sidebar = () => {
           </li>
         </li>
       </ul>
-      <div className="TraduccionMobile" >
-        <button
-          onClick={(event) => {
-            i18next.changeLanguage("es");
-            document
-              .querySelectorAll(".language-buttonMobile")
-              .forEach((btn) => btn.classList.remove("active"));
-            event.target.classList.add("active");
-          }}
-          className={`language-buttonMobile ${i18next.language === "es" && "active"}`}
-        >
-          ES
-        </button>
-
-        <button
-          onClick={(event) => {
-            i18next.changeLanguage("en");
-            document
-              .querySelectorAll(".language-buttonMobile")
-              .forEach((btn) => btn.classList.remove("active"));
-            event.target.classList.add("active");
-          }}
-          className={`language-buttonMobile ${i18next.language === "en" && "active"}`}
-        >
-          EN
-        </button>
-      </div>
     </aside>
     </div>
   );

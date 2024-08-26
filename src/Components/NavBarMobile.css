@@ -13,6 +13,22 @@
     padding-bottom: 10px;
     cursor: pointer;
     text-align: right;
+    font-size: 15px;
+    font-weight: 200;
+    padding-right: 15px;
+  }
+
+  
+  .buttonSubMenu-Sub {
+    background: transparent;
+    border: 0;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 180;
+    padding-right: 30px;
   }
   
   .sidebar {
@@ -29,13 +45,15 @@
     color: #fff;
     font-family: Public Sans;
     font-size: 16px;
-    background: rgba(4, 68, 132, 0.45);
+    font-weight: 400;
+    /*background: rgba(4, 68, 132, 0.45);
     backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);*/
+    background-color: #27617B;
     padding-top: 15px;
-    padding-right: 15px;
+    padding-right: 20px;
     padding-left: 20px;
-    row-gap: 30px;
+    row-gap: 0px;
     list-style: none;
     z-index: 1000;
   }
@@ -178,7 +196,7 @@
     display: flex;
     flex-direction: row;
     padding-top: 0px;
-    margin-top: -15px;
+    margin-top: 0px;
     gap: 20px;
   }
 

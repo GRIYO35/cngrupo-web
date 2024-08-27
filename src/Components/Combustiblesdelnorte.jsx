@@ -75,22 +75,21 @@ const Combustibles = () => {
   useEffect(() => {
     const video = videoRef.current;
   
-    if (video && video.src !== videoSrc) {
-      video.setAttribute("src", videoSrc);
+    if (video && videoSrc) {
+      const isPaused = video.paused;
   
-      // Escuchar el evento loadeddata para iniciar la reproducción cuando esté listo
-      const handleLoadedData = () => {
-        video.play();
-      };
+      // Verificamos si el video está en el medio de la reproducción antes de recargar
+      if (video.src !== videoSrc) {
+        video.src = videoSrc;
   
-      video.addEventListener("loadeddata", handleLoadedData);
-  
-      // Cleanup para remover el listener cuando el componente se desmonte o la fuente cambie
-      return () => {
-        video.removeEventListener("loadeddata", handleLoadedData);
-      };
+        // Solamente recargamos si el video ya no se está reproduciendo
+        if (isPaused) {
+          video.load();
+        }
+      }
     }
   }, [videoSrc]);
+  
 
   const CustomPagination = ({ totalSlides, activeSlide }) => {
     return (

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect,useRef } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from "swiper";
 /*import ExpandLessIcon from "@material-ui/icons/ExpandLess";*/
@@ -57,9 +57,9 @@ const Combustibles = () => {
       const newSrc = window.innerWidth < 800
         ? "https://webcontent.cn-grupo.net/Media/MIC%20FIJO%20-%20SQUARE.mp4"
         : "http://webcontent.cn-grupo.net/Media/ESTACION%20FIJA%20-%201920x911.mp4";
-        //const uniqueSrc = `${newSrc}?t=${new Date().getTime()}`;
-      //return uniqueSrc;
-      return newSrc
+        const uniqueSrc = `${newSrc}?t=${new Date().getTime()}`;
+      return uniqueSrc;
+      //return newSrc
     });
   };
 
@@ -73,8 +73,22 @@ const Combustibles = () => {
   }, []);
 
   useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.load(); 
+    const video = videoRef.current;
+  
+    if (video && video.src !== videoSrc) {
+      video.setAttribute("src", videoSrc);
+  
+      // Escuchar el evento loadeddata para iniciar la reproducción cuando esté listo
+      const handleLoadedData = () => {
+        video.play();
+      };
+  
+      video.addEventListener("loadeddata", handleLoadedData);
+  
+      // Cleanup para remover el listener cuando el componente se desmonte o la fuente cambie
+      return () => {
+        video.removeEventListener("loadeddata", handleLoadedData);
+      };
     }
   }, [videoSrc]);
 

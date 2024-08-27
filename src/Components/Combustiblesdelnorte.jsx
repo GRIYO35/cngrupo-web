@@ -57,8 +57,9 @@ const Combustibles = () => {
       const newSrc = window.innerWidth < 800
         ? "https://webcontent.cn-grupo.net/Media/MIC%20FIJO%20-%20SQUARE.mp4"
         : "http://webcontent.cn-grupo.net/Media/ESTACION%20FIJA%20-%201920x911.mp4";
-        const uniqueSrc = `${newSrc}?t=${new Date().getTime()}`;
-      return uniqueSrc;
+        //const uniqueSrc = `${newSrc}?t=${new Date().getTime()}`;
+      //return uniqueSrc;
+      return newSrc
     });
   };
 

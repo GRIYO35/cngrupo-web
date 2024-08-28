@@ -89,22 +89,22 @@ const Sidebar = () => {
             <ul>
               <li>
                 <li className="buttonSubMenu" type="button">
-                <Link className="Link" to="/quienes">{t("li.Who are we?")}</Link>
+                <Link className="Link" to="/quienes">{t("li.who are we?")}</Link>
                 </li>
               </li>
               <li>
                 <li className="buttonSubMenu" type="button">
-                <Link className="Link" to="/vision">{t("li.Vision and mission")}</Link>
+                <Link className="Link" to="/vision">{t("li.vision and mission")}</Link>
                 </li>
               </li>
               <li>
                 <li className="buttonSubMenu" type="button">
-                <Link className="Link" to="/historia">{t("li.History")}</Link>
+                <Link className="Link" to="/historia">{t("li.history")}</Link>
                 </li>
               </li>
               <li>
                 <li className="buttonSubMenu" type="button">
-                <Link className="Link" to="/info">{t("li.Tax information")}</Link>
+                <Link className="Link" to="/info">{t("li.tax information")}</Link>
                 </li>
               </li>
             </ul>
@@ -120,29 +120,29 @@ const Sidebar = () => {
             <ul>
               <li>
                 <li className="buttonSubMenu" type="button" onClick={() => handleSubSubMenuToggle("oil")}>
-                  OIL & GAS
+                  Oil & Gas
                   <i className="ai-chevron-down-small"></i>
                 </li>
                 <div className={`sub-sub-menu ${openSubSubMenu === "oil" ? "open" : ""}`}>
                   <ul>
                     <li>
                       <li className="buttonSubMenu-Sub" type="button">
-                      <Link className="Link" to="/combustiblesdelnorte">COMBUSTIBLES DEL NORTE</Link>
+                      <Link className="Link" to="/combustiblesdelnorte">Combustibles del Norte</Link>
                       </li>
                     </li>
                     <li>
                       <li className="buttonSubMenu-Sub"type="button">
-                      <Link className="Link" to="/ccnchile">CCN CHILE</Link>
+                      <Link className="Link" to="/ccnchile">CCN Chile</Link>
                       </li>
                     </li>
                     <li>
                       <li className="buttonSubMenu-Sub" type="button">
-                      <Link className="Link" to="/gasdelnorte">GAS DEL NORTE</Link>
+                      <Link className="Link" to="/gasdelnorte">Gas del Norte</Link>
                       </li>
                     </li>
                     <li>
                       <li className="buttonSubMenu-Sub" type="button">
-                      <Link className="Link" to="/estaciones">{t("li.SERVICE STATIONS")}</Link>
+                      <Link className="Link" to="/estaciones">{t("li.Service stations")}</Link>
                       </li>
                     </li>
                   </ul>
@@ -150,7 +150,7 @@ const Sidebar = () => {
               </li>
               <li>
                 <li className="buttonSubMenu" type="button" onClick={() => handleSubSubMenuToggle("agro")}>
-                {t("li.FARMLAND")}
+                {t("li.Farmland")}
                   <i className="ai-chevron-down-small"></i>
                 </li>
                 <div className={`sub-sub-menu ${openSubSubMenu === "agro" ? "open" : ""}`}>
@@ -162,17 +162,17 @@ const Sidebar = () => {
                     </li>
                     <li>
                       <li className="buttonSubMenu-Sub" type="button">
-                      <Link className="Link" to="/combustiblesdelnorte">COMBUSTIBLES DEL NORTE</Link>
+                      <Link className="Link" to="/combustiblesdelnorte">Combustibles del Norte</Link>
                       </li>
                     </li>
                     <li>
                       <li className="buttonSubMenu-Sub" type="button">
-                      <Link className="Link" to="/mollar">PUESTO EL MOLLAR</Link>
+                      <Link className="Link" to="/mollar">Puesto El Mollar</Link>
                       </li>
                     </li>
                     <li>
                       <li className="buttonSubMenu-Sub" type="button">
-                      <Link className="Link" to="/plantaguemes">PLANTA GÜEMES</Link>
+                      <Link className="Link" to="/plantaguemes">Planta Güemes</Link>
                       </li>
                     </li>
                   </ul>
@@ -180,14 +180,14 @@ const Sidebar = () => {
               </li>
               <li>
                 <li className="buttonSubMenu" type="button" onClick={() => handleSubSubMenuToggle("mineria")}>
-                {t("li.Mining")}
+                {t("li.MINING")}
                   <i className="ai-chevron-down-small"></i>
                 </li>
                 <div className={`sub-sub-menu ${openSubSubMenu === "mineria" ? "open" : ""}`}>
                   <ul>
                     <li>
                       <li className="buttonSubMenu-Sub" type="button">
-                      <Link className="Link" to="/logistica">CN LOGISTICA</Link>
+                      <Link className="Link" to="/logistica">CN Logística</Link>
                       </li>
                     </li>
                     <li>

@@ -5,9 +5,13 @@
 
 "li":{
     "Who are we?":"¿QUIÉNES SOMOS?",
-    "Vision and mission":"VISIÓN Y MISIÓN",
+    "who are we?":"¿Quiénes somos?",
+    "Vision and mission":"VISIÓN & MISIÓN",
+    "vision and mission":"Visión & Misión",
     "History":"HISTORIA",
+    "history":"Historia",
     "Tax information":"INFO IMPOSITIVA",
+    "tax information":"Info impositiva",
     "OUR COMPANY":"NUESTRA EMPRESA",
     "OUR BUSINESSES":"NUESTROS NEGOCIOS",
     "Mining":"MINERÍA",
@@ -16,11 +20,13 @@
     "HUMAN CAPITAL": "CAPITAL HUMANO",
     "CONTACT": "CONTACTO",
     "SERVICE STATIONS": "ESTACIONES DE SERVICIO",
+    "Service stations": "Estaciones de servicio",
     "Our culture":"Nuestra cultura",
     "Our business portfolio": "Nuestra Cartera de Negocios",
     "Apply": "Postulate",
     "MINING":"Minería",
-    "FARMLAND": "AGRO"
+    "FARMLAND": "AGRO",
+    "Farmland": "Agro"
 },
 
 "ComentarioHome":{

@@ -13,8 +13,8 @@
     padding-bottom: 10px;
     cursor: pointer;
     text-align: right;
-    font-size: 15px;
-    font-weight: 200;
+    font-size: 16px;
+    font-weight: 300;
     padding-right: 15px;
   }
 
@@ -26,8 +26,8 @@
     padding-bottom: 10px;
     cursor: pointer;
     text-align: right;
-    font-size: 14px;
-    font-weight: 180;
+    font-size: 13px;
+    font-weight: bold;
     padding-right: 30px;
   }
   
@@ -44,8 +44,8 @@
     transition: 0.5s all ease;
     color: #fff;
     font-family: Public Sans;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 13px;
+    font-weight: 550;
     /*background: rgba(4, 68, 132, 0.45);
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);*/

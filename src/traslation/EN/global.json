@@ -5,9 +5,13 @@
 
 "li":{
     "Who are we?":"ABOUT US",
+    "who are we?":"About us",
     "Vision and mission":"VISION AND MISSION",
+    "vision and mission":"Vision & Mission",
     "History":"HISTORY",
+    "history":"History",
     "Tax information":"TAX INFORMATION",
+    "tax information":"Tax information",
     "OUR COMPANY":"OUR COMPANY",
     "OUR BUSINESSES":"OUR BUSINESSES",
     "Mining":"MINING",
@@ -16,11 +20,13 @@
     "HUMAN CAPITAL": "HUMAN CAPITAL",
     "CONTACT": "CONTACT US",
     "SERVICE STATIONS": "GAS STATIONS",
+    "Service stations": "Gas stations",
     "Our culture":"Our culture",
     "Our business portfolio": "Our business portfolio",
     "Apply": "Apply",
     "MINING":"Mining",
-    "FARMLAND": "FARMLAND"
+    "FARMLAND": "FARMLAND",
+    "Farmland": "Farmland"
 },
 
 "ComentarioHome":{

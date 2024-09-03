@@ -1,6 +1,6 @@
 import React from "react";
 import Logologistica from '../Assets/logoinf4.png'
-import Imgvisionlogo from '../Assets/650X388px WEB descripcion.png'
+//import Imgvisionlogo from '../Assets/650X388px WEB descripcion.png'
 import Vectorlogistica1 from '../Assets/Group 94.png'
 import Vectorlogistica2 from '../Assets/Vector (2).png'
 import Vectorlogistica3 from '../Assets/Vector (3).png'
@@ -56,7 +56,7 @@ const Logistica = () => {
             </p>
             </div>
             <div className="LogisticaMobile">
-            <img src={Imgvisionlogo} alt="" className="fotoLog"/>
+            <img src= "http://webcontent.cn-grupo.net/Media/Fotos/Logistica/650X388px WEB descripcion.png" alt="" className="fotoLog"/>
             </div>
         </div>
 

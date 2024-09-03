@@ -10,8 +10,8 @@ import boxes from '../Assets/boxes.png'
 import tiendafull from '../Assets/tiendafull.png'
 import accesorios from '../Assets/accesorios.png'
 import ScrollToTop from "react-scroll-to-top";
-import estacionesimg1 from '../Assets/650X388px WEB lajitas.png'
-import estacionesimg2 from '../Assets/650X388px WEB chango.png'
+//import estacionesimg1 from '../Assets/650X388px WEB lajitas.png'
+//import estacionesimg2 from '../Assets/650X388px WEB chango.png'
 //import videoSourceComb from "../Assets/YPF EESS Las lajitas web.mp4";
 import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBarNueva";
@@ -65,7 +65,7 @@ const Estacion = () => {
           </p>
         </div>
         <div className="image-container">
-        <img src={estacionesimg2} alt="" className="fotobotonesEst" />
+        <img src="http://webcontent.cn-grupo.net/Media/Fotos/Estaciones/650X388px WEB chango.png" alt="" className="fotobotonesEst" />
         </div>
       </div>
       <div className="container-dibujitos">
@@ -130,7 +130,7 @@ const Estacion = () => {
           </p>
         </div>
         <div className="image-container">
-        <img src={estacionesimg1} alt="" className="fotobotonesEst" />
+        <img src="http://webcontent.cn-grupo.net/Media/Fotos/Estaciones/650X388px WEB lajitas.png" alt="" className="fotobotonesEst" />
         </div>
       </div>
       <div className="container-dibujitos">

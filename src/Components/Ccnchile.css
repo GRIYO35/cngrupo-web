@@ -1,7 +1,7 @@
 @media (max-width: 800px) {
   .home-container8 {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(../Assets/PORTADA\ -\ DSC04714-HDR.png);
+      url("http://webcontent.cn-grupo.net/Media/Fotos/Chile/PORTADA - DSC04714-HDR.png");
     background-size: cover;
     height: 650px;
   }
@@ -276,7 +276,7 @@
   }
 
   .banner-chile{
-    background: url(../Assets/ANCHO\ WEB\ -\ DSC04722-HDR-2.jpg);
+    background: url("http://webcontent.cn-grupo.net/Media/Fotos/Chile/ANCHO WEB - DSC04722-HDR-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 300PX;
@@ -293,7 +293,7 @@
 @media (min-width: 801px) and (max-width: 1280px) {
   .home-container8 {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(../Assets/PORTADA\ -\ DSC04714-HDR.png);
+      url("http://webcontent.cn-grupo.net/Media/Fotos/Chile/PORTADA - DSC04714-HDR.png");
     background-size: cover;
     height: 600px;
   }
@@ -538,7 +538,7 @@
   }
 
   .banner-chile{
-    background: url(../Assets/ANCHO\ WEB\ -\ DSC04722-HDR-2.jpg);
+    background: url("http://webcontent.cn-grupo.net/Media/Fotos/Chile/ANCHO WEB - DSC04722-HDR-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 780PX;
@@ -556,7 +556,7 @@
 @media (min-width: 1281px) and (max-width: 1549px) {
   .home-container8 {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(../Assets/PORTADA\ -\ DSC04714-HDR.png);
+      url("http://webcontent.cn-grupo.net/Media/Fotos/Chile/PORTADA - DSC04714-HDR.png");
     background-size: cover;
     height: 700px;
   }
@@ -801,7 +801,7 @@
   }
 
   .banner-chile{
-    background: url(../Assets/ANCHO\ WEB\ -\ DSC04722-HDR-2.jpg);
+    background: url("http://webcontent.cn-grupo.net/Media/Fotos/Chile/ANCHO WEB - DSC04722-HDR-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 900PX;
@@ -818,7 +818,7 @@
 @media (min-width: 1550px) and (max-width: 1919px) {
   .home-container8 {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(../Assets/PORTADA\ -\ DSC04714-HDR.png);
+      url("http://webcontent.cn-grupo.net/Media/Fotos/Chile/PORTADA - DSC04714-HDR.png");
     background-size: cover;
     height: 700px;
   }
@@ -1063,7 +1063,7 @@
   }
 
   .banner-chile{
-    background: url(../Assets/ANCHO\ WEB\ -\ DSC04722-HDR-2.jpg);
+    background: url("http://webcontent.cn-grupo.net/Media/Fotos/Chile/ANCHO WEB - DSC04722-HDR-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 900PX;
@@ -1088,7 +1088,7 @@
 
   .home-container8 {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(../Assets/PORTADA\ -\ DSC04714-HDR.png);
+      url("http://webcontent.cn-grupo.net/Media/Fotos/Chile/PORTADA - DSC04714-HDR.png");
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -1335,7 +1335,7 @@
   }
 
   .banner-chile{
-    background: url(../Assets/ANCHO\ WEB\ -\ DSC04722-HDR-2.jpg);
+    background: url("http://webcontent.cn-grupo.net/Media/Fotos/Chile/ANCHO WEB - DSC04722-HDR-2.jpg");
     height: 1200PX;
     width: 100%;
     background-size: cover;

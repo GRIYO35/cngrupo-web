@@ -2,7 +2,7 @@
 import React from "react";
 /*import { BrowserRouter, Link, Route, Routes } from "react-router-dom";*/
 import { Contactocomponente } from "../Components/Contactocomponente";
-import imgcontacto from "../Assets/CONTACTO 537X249px.png";
+//import imgcontacto from "../Assets/CONTACTO 537X249px.png";
 import logodireccion from "../Assets/logodireccion.png";
 import logotelefono from "../Assets/logotelefono.png";
 import vectorcontacto from "../Assets/Vector (11).png";
@@ -33,7 +33,7 @@ const Contacto = () => {
             <h2 className="titulo-Contacto">
             {t("txtContactoPagina.txt1")}<br></br>{t("txtContactoPagina.txt2")}
             </h2>
-            <img src={imgcontacto} alt="" className="imgcontactoMobile" />
+            <img src="http://webcontent.cn-grupo.net/Media/Fotos/Contacto/CONTACTO 537X249px.png" alt="" className="imgcontactoMobile" />
             <p className="p-contacto1">
             {t("txtContactoPagina.txt3")}
             </p>
@@ -41,7 +41,7 @@ const Contacto = () => {
         </div>
 
         <div className="otrorecuadro">
-          <img src={imgcontacto} alt="" className="imgcontacto" />
+          <img src="http://webcontent.cn-grupo.net/Media/Fotos/Contacto/CONTACTO 537X249px.png" alt="" className="imgcontacto" />
 
           <h2 className="title-contacto">{t("txtContacto.txt4")}</h2>
           <div className="logo-txt-contacto">

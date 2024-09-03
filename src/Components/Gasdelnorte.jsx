@@ -5,10 +5,10 @@ import { Pagination } from "swiper";
 //import logo2 from "../Assets/loggo2.png";
 //import logo2 from "../Assets/gs del norte logo  360x115.png";
 import logo2 from "../Assets/GASdelnortelogo.png";
-import fotogas15 from "../Assets/GAS 15.png";
-import fotogasBu from "../Assets/650X388px WEB gas butano.png";
-import fotogasPla from "../Assets/650X388px WEB autoelevadores.png";
-import fotogasPro from "../Assets/GAS 45.png";
+//import fotogas15 from "../Assets/GAS 15.png";
+//import fotogasBu from "../Assets/650X388px WEB gas butano.png";
+//import fotogasPla from "../Assets/650X388px WEB autoelevadores.png";
+//import fotogasPro from "../Assets/GAS 45.png";
 import logodireccion from "../Assets/logodireccion.png";
 import logotelefono from "../Assets/logotelefono.png";
 import logowpp from "../Assets/logowpp.png";
@@ -179,7 +179,7 @@ const Gas = () => {
           {selectedButton === 1 && (
             <>
               <div className="containerfoto-botones-gas">
-                <img src={fotogasBu} alt="" className="fotobotonesgas" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/Gas/650X388px WEB gas butano.png" alt="" className="fotobotonesgas" />
                 <div className="txt-logos-neca">
                   <h2 className="gas-title2">
                   {t("txtButano.txt2")}
@@ -196,7 +196,7 @@ const Gas = () => {
           {selectedButton === 2 && (
             <>
               <div className="containerfoto-botones-gas">
-                <img src={fotogasPro} alt="" className="fotobotonesgas" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/Gas/GAS 45.png" alt="" className="fotobotonesgas" />
                 <div className="txt-logos-neca">
                   <h2 className="gas-title2">
                   {t("txtPropano.txt2")}
@@ -218,7 +218,7 @@ const Gas = () => {
           {selectedButton === 3 && (
             <>
               <div className="containerfoto-botones-gas">
-                <img src={fotogas15} alt="" className="fotobotonesgas" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/Gas/GAS 15.png" alt="" className="fotobotonesgas" />
                 <div className="txt-logos-neca">
                   <h2 className="gas-title2">
                   {t("txtGarrafa15.txt2")}
@@ -240,7 +240,7 @@ const Gas = () => {
           {selectedButton === 4 && (
             <>
               <div className="containerfoto-botones-gas">
-                <img src={fotogasPla} alt="" className="fotobotonesgas" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/Gas/650X388px WEB autoelevadores.png" alt="" className="fotobotonesgas" />
                 <div className="txt-logos-neca">
                   <h2 className="gas-title2">
                   {t("txtGarrafa13.txt2")}
@@ -273,7 +273,7 @@ const Gas = () => {
         <SwiperSlide>
           <div className="cardGas">
           <div className="containerfoto-botones-gas">
-                <img src={fotogasBu} alt="" className="fotobotonesgas" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/Gas/650X388px WEB gas butano.png" alt="" className="fotobotonesgas" />
                 <div className="txt-logos-neca">
                   <h2 className="gas-title2">
                   {t("txtButano.txt2")}
@@ -290,7 +290,7 @@ const Gas = () => {
         <SwiperSlide>
           <div className="cardGas">
           <div className="containerfoto-botones-gas">
-                <img src={fotogasPro} alt="" className="fotobotonesgas" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/Gas/GAS 45.png" alt="" className="fotobotonesgas" />
                 <div className="txt-logos-neca">
                   <h2 className="gas-title2">
                   {t("txtPropano.txt2")}
@@ -312,7 +312,7 @@ const Gas = () => {
         <SwiperSlide>
           <div className="cardGas">
           <div className="containerfoto-botones-gas">
-                <img src={fotogas15} alt="" className="fotobotonesgas" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/Gas/GAS 15.png" alt="" className="fotobotonesgas" />
                 <div className="txt-logos-neca">
                   <h2 className="gas-title2">
                   {t("txtGarrafa15.txt2")}
@@ -334,7 +334,7 @@ const Gas = () => {
         <SwiperSlide>
           <div className="cardGas">
           <div className="containerfoto-botones-gas">
-                <img src={fotogasPla} alt="" className="fotobotonesgas" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/Gas/650X388px WEB autoelevadores.png" alt="" className="fotobotonesgas" />
                 <div className="txt-logos-neca">
                   <h2 className="gas-title2">
                   {t("txtGarrafa13.txt2")}

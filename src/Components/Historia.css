@@ -1,7 +1,7 @@
 @media (max-width: 800px) {
   .home-containerHistoria {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url(../Assets/image\ 70.png);
+      url("http://webcontent.cn-grupo.net/Media/Fotos/Historia/image 70.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1520px;
@@ -340,7 +340,7 @@
 @media (min-width: 801px) and (max-width: 1280px) {
   .home-containerHistoria {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url(../Assets/image\ 70.png);
+      url("http://webcontent.cn-grupo.net/Media/Fotos/Historia/image 70.png");
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -697,7 +697,7 @@
 @media (min-width: 1281px) and (max-width: 1549px) {
   .home-containerHistoria {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url(../Assets/image\ 70.png);
+      url("http://webcontent.cn-grupo.net/Media/Fotos/Historia/image 70.png");
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -1056,7 +1056,7 @@
 @media (min-width: 1550px) and (max-width: 1679px) {
   .home-containerHistoria {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url(../Assets/image\ 70.png);
+      url("http://webcontent.cn-grupo.net/Media/Fotos/Historia/image 70.png");
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -1414,7 +1414,7 @@
 @media (min-width: 1680px) and (max-width: 1919px) {
   .home-containerHistoria {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url(../Assets/image\ 70.png);
+      url("http://webcontent.cn-grupo.net/Media/Fotos/Historia/image 70.png");
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -1773,7 +1773,7 @@
 @media (min-width: 1920px) {
   .home-containerHistoria {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url(../Assets/image\ 70.png);
+      url("http://webcontent.cn-grupo.net/Media/Fotos/Historia/image 70.png");
     background-size: 100%;
     background-repeat: no-repeat;
   }

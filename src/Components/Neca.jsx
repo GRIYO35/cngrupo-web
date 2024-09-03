@@ -18,12 +18,12 @@ import soja from "../Assets/soja.png";
 import maiz from "../Assets/maiz.png";
 import fertilizante from "../Assets/fertilizante.png";
 import silobolsa from "../Assets/silobolsa.png";
-import fotobotones from "../Assets/650X388px SS financieras.png";
-import fotobotones1 from "../Assets/650X388px WEB ase tecnico.png";
-import fotobotones2 from "../Assets/650X388px WEB curado semillas.png";
-import fotobotones3 from "../Assets/650X388px WEB granos.png";
-import fotobotones4 from "../Assets/650X388px WEB siembra.png";
-import fotobotones5 from "../Assets/650X388px WEB ss digitales.png";
+//import fotobotones from "../Assets/650X388px SS financieras.png";
+//import fotobotones1 from "../Assets/650X388px WEB ase tecnico.png";
+//import fotobotones2 from "../Assets/650X388px WEB curado semillas.png";
+//import fotobotones3 from "../Assets/650X388px WEB granos.png";
+//import fotobotones4 from "../Assets/650X388px WEB siembra.png";
+//import fotobotones5 from "../Assets/650X388px WEB ss digitales.png";
 import logoneca1 from "../Assets/logoneca1.png";
 import logoneca2 from "../Assets/logoneca2.png";
 import logoneca3 from "../Assets/logoneca3.png";
@@ -307,7 +307,7 @@ const Neca = () => {
         {selectedButton === 1 && (
             <>
               <div className="containerfoto-botones-neca1">
-                <img src={fotobotones2} alt="" className="fotobotonesNeca" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/NECA/650X388px WEB curado semillas.png" alt="" className="fotobotonesNeca" />
                 <div className="txt-logos-neca">
                   <h2 className="neca-title2">{t("txtCurado.txt2")}</h2>
                   <p className="txt-neca-boton2">
@@ -332,7 +332,7 @@ const Neca = () => {
           {selectedButton === 2 && (
             <>
               <div className="containerfoto-botones-neca1">
-                <img src={fotobotones5} alt="" className="fotobotonesNeca" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/NECA/650X388px WEB ss digitales.png" alt="" className="fotobotonesNeca" />
                 <div className="txt-logos-neca">
                   <h2 className="neca-title2">{t("txtSolucionesDigitalesNECA.txt2")}</h2>
                   <p className="txt-neca-boton2">
@@ -361,7 +361,7 @@ const Neca = () => {
           {selectedButton === 3 && (
             <>
               <div className="containerfoto-botones-neca1">
-                <img src={fotobotones} alt="" className="fotobotonesNeca" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/NECA/650X388px SS financieras.png" alt="" className="fotobotonesNeca" />
                 <div className="txt-logos-neca">
                   <h2 className="neca-title2">{t("txtSolucionesFinancierasNECA.txt2")}</h2>
                   <p className="txt-neca-boton2">
@@ -384,7 +384,7 @@ const Neca = () => {
           {selectedButton === 4 && (
             <>
               <div className="containerfoto-botones-neca1">
-                <img src={fotobotones1} alt="" className="fotobotonesNeca" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/NECA/650X388px WEB ase tecnico.png" alt="" className="fotobotonesNeca" />
                 <div className="txt-logos-neca">
                   <h2 className="neca-title2">{t("txtAsesoramiento.txt2")}</h2>
                   <p className="txt-neca-boton2">
@@ -402,7 +402,7 @@ const Neca = () => {
           {selectedButton === 5 && (
             <>
               <div className="containerfoto-botones-neca1">
-                <img src={fotobotones4} alt="" className="fotobotonesNeca" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/NECA/650X388px WEB siembra.png" alt="" className="fotobotonesNeca" />
                 <div className="txt-logos-neca">
                   <h2 className="neca-title2">{t("txtSiembra.txt2")}</h2>
                   <p className="txt-neca-boton2">
@@ -418,7 +418,7 @@ const Neca = () => {
           {selectedButton === 6 && (
             <>
               <div className="containerfoto-botones-neca1">
-                <img src={fotobotones3} alt="" className="fotobotonesNeca" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/NECA/650X388px WEB granos.png" alt="" className="fotobotonesNeca" />
                 <div className="txt-logos-neca">
                   <h2 className="neca-title2">{t("txtGranos.txt2")}</h2>
                   <p className="txt-neca-boton2">
@@ -447,7 +447,7 @@ const Neca = () => {
         <SwiperSlide>
           <div className="cardNeca">
           <div className="containerfoto-botones-neca1">
-                <img src={fotobotones2} alt="" className="fotobotonesNeca" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/NECA/650X388px WEB curado semillas.png" alt="" className="fotobotonesNeca" />
                 <div className="txt-logos-neca">
                   <h2 className="neca-title2">{t("txtCurado.txt2")}</h2>
                   <p className="txt-neca-boton2">
@@ -472,7 +472,7 @@ const Neca = () => {
         <SwiperSlide>
           <div className="cardNeca">
           <div className="containerfoto-botones-neca1">
-                <img src={fotobotones5} alt="" className="fotobotonesNeca" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/NECA/650X388px WEB ss digitales.png"alt="" className="fotobotonesNeca" />
                 <div className="txt-logos-neca">
                   <h2 className="neca-title2">{t("txtSolucionesDigitalesNECA.txt2")}</h2>
                   <p className="txt-neca-boton2">
@@ -501,7 +501,7 @@ const Neca = () => {
         <SwiperSlide>
           <div className="cardNeca">
           <div className="containerfoto-botones-neca1">
-                <img src={fotobotones} alt="" className="fotobotonesNeca" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/NECA/650X388px SS financieras.png" alt="" className="fotobotonesNeca" />
                 <div className="txt-logos-neca">
                   <h2 className="neca-title2">{t("txtSolucionesFinancierasNECA.txt2")}</h2>
                   <p className="txt-neca-boton2">
@@ -524,7 +524,7 @@ const Neca = () => {
         <SwiperSlide>
           <div className="cardNeca">
           <div className="containerfoto-botones-neca1">
-                <img src={fotobotones1} alt="" className="fotobotonesNeca" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/NECA/650X388px WEB ase tecnico.png" alt="" className="fotobotonesNeca" />
                 <div className="txt-logos-neca">
                   <h2 className="neca-title2">{t("txtAsesoramiento.txt2")}</h2>
                   <p className="txt-neca-boton2">
@@ -542,7 +542,7 @@ const Neca = () => {
         <SwiperSlide>
           <div className="cardNeca">
           <div className="containerfoto-botones-neca1">
-                <img src={fotobotones4} alt="" className="fotobotonesNeca" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/NECA/650X388px WEB siembra.png" alt="" className="fotobotonesNeca" />
                 <div className="txt-logos-neca">
                   <h2 className="neca-title2">{t("txtSiembra.txt2")}</h2>
                   <p className="txt-neca-boton2">
@@ -558,7 +558,7 @@ const Neca = () => {
         <SwiperSlide>
           <div className="cardNeca">
           <div className="containerfoto-botones-neca1">
-                <img src={fotobotones3} alt="" className="fotobotonesNeca" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/NECA/650X388px WEB granos.png" alt="" className="fotobotonesNeca" />
                 <div className="txt-logos-neca">
                   <h2 className="neca-title2">{t("txtGranos.txt2")}</h2>
                   <p className="txt-neca-boton2">

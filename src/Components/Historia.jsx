@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from "react";
-import Linea1 from "../Assets/349x209 - 1991.png";
-import Linea2 from "../Assets/349x209 - 2005.png";
-import Linea3 from "../Assets/349x209 - 2008.png";
-import Linea4 from "../Assets/349x209 - 2009.png";
-import Linea5 from "../Assets/349x209 - 2022.png";
-import Linea6 from "../Assets/349x209 - 2023.png";
-import Linea7 from "../Assets/453x271 1991.png";
-import Linea8 from "../Assets/453x271 2005.png";
-import Linea9 from "../Assets/453x271 2008.png";
-import Linea10 from "../Assets/453x271 2009.png";
-import Linea11 from "../Assets/453x271 2022.png";
-import Linea12 from "../Assets/453x271 2023.png";
+//import Linea1 from "../Assets/349x209 - 1991.png";
+//import Linea2 from "../Assets/349x209 - 2005.png";
+//import Linea3 from "../Assets/349x209 - 2008.png";
+//import Linea4 from "../Assets/349x209 - 2009.png";
+//import Linea5 from "../Assets/349x209 - 2022.png";
+//import Linea6 from "../Assets/349x209 - 2023.png";
+//import Linea7 from "../Assets/453x271 1991.png";
+//import Linea8 from "../Assets/453x271 2005.png";
+//import Linea9 from "../Assets/453x271 2008.png";
+//import Linea10 from "../Assets/453x271 2009.png";
+//import Linea11 from "../Assets/453x271 2022.png";
+//import Linea12 from "../Assets/453x271 2023.png";
 /*import Vector from "../Assets/Vector.jpg";*/
 import { useTranslation } from "react-i18next";
 import Aos from "aos";
@@ -20,6 +20,18 @@ import NAVBARMOBILE from "./NavBarMobile";
 import "./Historia.css";
 
 const Historia = () => {
+  const Linea1 = "http://webcontent.cn-grupo.net/Media/Fotos/Historia/349x209 - 1991.png";
+  const Linea2 = "http://webcontent.cn-grupo.net/Media/Fotos/Historia/349x209 - 2005.png";
+  const Linea3 = "http://webcontent.cn-grupo.net/Media/Fotos/Historia/349x209 - 2008.png";
+  const Linea4 = "http://webcontent.cn-grupo.net/Media/Fotos/Historia/349x209 - 2009.png";
+  const Linea5 = "http://webcontent.cn-grupo.net/Media/Fotos/Historia/349x209 - 2022.png";
+  const Linea6 = "http://webcontent.cn-grupo.net/Media/Fotos/Historia/349x209 - 2023.png";
+  const Linea7 = "http://webcontent.cn-grupo.net/Media/Fotos/Historia/453x271 1991.png";
+  const Linea8 = "http://webcontent.cn-grupo.net/Media/Fotos/Historia/453x271 2005.png";
+  const Linea9 = "http://webcontent.cn-grupo.net/Media/Fotos/Historia/453x271 2008.png";
+  const Linea10 = "http://webcontent.cn-grupo.net/Media/Fotos/Historia/453x271 2009.png";
+  const Linea11 = "http://webcontent.cn-grupo.net/Media/Fotos/Historia/453x271 2022.png";
+  const Linea12 = "http://webcontent.cn-grupo.net/Media/Fotos/Historia/453x271 2023.png";
   // eslint-disable-next-line no-unused-vars
   const [t, i18next] = useTranslation("global");
   const [currentImage1, setCurrentImage1] = useState(Linea1);

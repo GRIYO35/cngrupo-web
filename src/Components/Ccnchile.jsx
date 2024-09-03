@@ -2,11 +2,11 @@ import React from "react";
 import { FaInstagram, FaFacebook } from "react-icons/fa";
 import logochile from "../Assets/loggo1.png";
 //import mapachile from "../Assets/MAPA CHILE WEB@300x.png";
-import mapachile from "../Assets/mapa chile regiones.png";
+/*import mapachile from "../Assets/mapa chile regiones.png";*/
 import Vectorlogistica1 from "../Assets/Group 94.png";
 import Vectorlogistica2 from "../Assets/Vector (2).png";
 import Vectorlogistica3 from "../Assets/Vector (3).png";
-import imgchile from "../Assets/650X388px WEB descripcion chile.png";
+/*import imgchile from "../Assets/650X388px WEB descripcion chile.png";*/
 import { useTranslation } from "react-i18next";
 import NAVBAR from "./NavBarNueva";
 import NAVBARMOBILE from "./NavBarMobile";
@@ -71,13 +71,13 @@ const Ccn = () => {
             {t("txtChile.txt6")}
           </p>
         </div>
-        <img src={imgchile} alt="" className="imgchile" />
+        <img src="http://webcontent.cn-grupo.net/Media/Fotos/Chile/650X388px WEB descripcion chile.png" alt="" className="imgchile" />
       </div>
       <div className="container-txt-cardChile">
         <h2 className="chile-title-card">{t("txtChile.txt7")}</h2>
         <hr className="linea-chile"></hr>
         <div className="MapaChile-Mobile">
-        <img src={mapachile} alt="Mapachile" className="mapaChile"></img>
+        <img src="http://webcontent.cn-grupo.net/Media/Fotos/Chile/mapa chile regiones.png" alt="Mapachile" className="mapaChile"></img>
         </div>
       </div>
       <div className="banner-chile"></div>

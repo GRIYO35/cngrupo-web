@@ -2,7 +2,7 @@ import React from "react";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import LogoSima from '../Assets/148x66 logo CN SIMA responsive_1@300x.png'
-import Imgvisionlogo from '../Assets/650x388 CN SIMA.png'
+//import Imgvisionlogo from '../Assets/650x388 CN SIMA.png'
 import VectorSima1 from '../Assets/vectorSima5.png'
 import VectorSima2 from '../Assets/VectorSima1.svg'
 import VectorSima3 from '../Assets/VectorSima2.svg'
@@ -64,7 +64,7 @@ const Logistica = () => {
             </p>
             </div>
             <div className="CnSimaMobile">
-            <img src={Imgvisionlogo} alt="" className="fotoSima"/>
+            <img src="http://webcontent.cn-grupo.net/Media/Fotos/SIMA/650x388 CN SIMA.png" alt="" className="fotoSima"/>
             </div>
         </div>
 

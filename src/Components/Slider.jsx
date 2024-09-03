@@ -1,4 +1,4 @@
-import carru1 from "../Assets/redi1.png";
+/*import carru1 from "../Assets/redi1.png";
 import carru2 from "../Assets/redi2.png";
 import carru3 from "../Assets/redi3.png";
 import carru4 from "../Assets/redi4.png";
@@ -9,7 +9,7 @@ import carru8 from "../Assets/redi8.png";
 import carru9 from "../Assets/redi9.png";
 import carru10 from "../Assets/redi10.png";
 import carru11 from "../Assets/redi11.png";
-import carru12 from "../Assets/redi12.png";
+import carru12 from "../Assets/redi12.png";*/
 import React, { useRef, useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -22,6 +22,18 @@ import FlechaIzquierda from "../Assets/flecha izquierda@300x-8.png"
 import { EffectCoverflow, Pagination, Navigation } from "swiper";
 
 function Slider() {
+  const carru1 = "http://webcontent.cn-grupo.net/Media/Fotos/Home/redi1.png";
+  const carru2 = "http://webcontent.cn-grupo.net/Media/Fotos/Home/redi2.png";
+  const carru3 = "http://webcontent.cn-grupo.net/Media/Fotos/Home/redi3.png";
+  const carru4 = "http://webcontent.cn-grupo.net/Media/Fotos/Home/redi4.png";
+  const carru5 = "http://webcontent.cn-grupo.net/Media/Fotos/Home/redi5.png";
+  const carru6 = "http://webcontent.cn-grupo.net/Media/Fotos/Home/redi6.png";
+  const carru7 = "http://webcontent.cn-grupo.net/Media/Fotos/Home/redi7.png";
+  const carru8 = "http://webcontent.cn-grupo.net/Media/Fotos/Home/redi8.png";
+  const carru9 = "http://webcontent.cn-grupo.net/Media/Fotos/Home/redi9.png";
+  const carru10 = "http://webcontent.cn-grupo.net/Media/Fotos/Home/redi10.png";
+  const carru11 = "http://webcontent.cn-grupo.net/Media/Fotos/Home/redi11.png";
+  const carru12 = "http://webcontent.cn-grupo.net/Media/Fotos/Home/redi12.png";
   const swiperRef = useRef(null);
   const [currentImage, setCurrentImage] = useState(carru1);
   const [currentImage1, setCurrentImage1] = useState(carru2);

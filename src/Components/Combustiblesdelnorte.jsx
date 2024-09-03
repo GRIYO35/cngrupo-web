@@ -6,20 +6,20 @@ import { FaInstagram, FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
 /*import logo2 from "../Assets/CN - INFO IMPOSITIVA grey@300x.png";*/
 import logo2 from "../Assets/cnLOGO.png";
 /*import fotocomb from "../Assets/650X388px WEB est fijas.png";*/
-import fotocomb from "../Assets/Est. Fijas.jpg";
+/*import fotocomb from "../Assets/Est. Fijas.jpg";*/
 /*import fotocombMob from "../Assets/650X388px WEB est moviles.png";*/
-import fotocombMob from "../Assets/Est. Móviles.jpg";
-import fotocombDis from "../Assets/650X388px WEB dd.png";
-import fotocombSF from "../Assets/650X388px WEB ss financieras.png";
-import fotocombSum from "../Assets/650X388px WEB summa.png";
-import fotocombMD from "../Assets/650X388px WEB md.png";
-import fotocombHibridas from "../Assets/Est. Híbridas.jpg";
-import fotocombAuto from "../Assets/Autogestión.jpg";
+/*import fotocombMob from "../Assets/Est. Móviles.jpg";*/
+/*import fotocombDis from "../Assets/650X388px WEB dd.png";*/
+/*import fotocombSF from "../Assets/650X388px WEB ss financieras.png";*/
+/*import fotocombSum from "../Assets/650X388px WEB summa.png";*/
+/*import fotocombMD from "../Assets/650X388px WEB md.png";*/
+/*import fotocombHibridas from "../Assets/Est. Híbridas.jpg";*/
+/*import fotocombAuto from "../Assets/Autogestión.jpg";*/
 import logodireccion from "../Assets/logodireccion.png";
 import logotelefono from "../Assets/logotelefono.png";
 import logowpp from "../Assets/logowpp.png";
-import fotolubri from "../Assets/650X388px WEB lubricentro.png";
-import fotoasfalto from "../Assets/650X388px WEB asfalto.png";
+/*import fotolubri from "../Assets/650X388px WEB lubricentro.png";*/
+/*import fotoasfalto from "../Assets/650X388px WEB asfalto.png";*/
 import logoneca1 from "../Assets/logoneca1.png";
 import logoneca2 from "../Assets/logoneca2.png";
 import logoneca3 from "../Assets/logoneca3.png";
@@ -314,7 +314,7 @@ const Combustibles = () => {
           {selectedButton === 1 && (
             <>
               <div className="containerfoto-botones-Comb">
-                <img src={fotocomb} alt="" className="fotobotonesComb" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/CN/Est. Fijas.jpg" alt="" className="fotobotonesComb" />
                 <div className="txt-logos-Com">
                   <h2 className="Comb-title2">{t("txtSoluciones.txt6")}</h2>
                   <p className="txt-Comb-boton2">
@@ -332,7 +332,7 @@ const Combustibles = () => {
           {selectedButton === 2 && (
             <>
               <div className="containerfoto-botones-Comb">
-                <img src={fotocombMob} alt="" className="fotobotonesComb" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/CN/Est. Móviles.jpg" alt="" className="fotobotonesComb" />
                 <div className="txt-logos-Com">
                   <h2 className="Comb-title2">{t("txtSoluciones.txt7")}</h2>
                   <p className="txt-Comb-boton2">
@@ -349,7 +349,7 @@ const Combustibles = () => {
           {selectedButton === 3 && (
             <>
               <div className="containerfoto-botones-Comb">
-                <img src={fotocombDis} alt="" className="fotobotonesComb" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/CN/650X388px WEB dd.png" alt="" className="fotobotonesComb" />
                 <div className="txt-logos-Com">
                   <h2 className="Comb-title2">{t("txtSoluciones.txt8")}</h2>
                   <p className="txt-Comb-boton2">
@@ -368,7 +368,7 @@ const Combustibles = () => {
           {selectedButton === 4 && (
             <>
               <div className="containerfoto-botones-Comb">
-                <img src={fotocombHibridas} alt="" className="fotobotonesComb" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/CN/Est. Híbridas.jpg" alt="" className="fotobotonesComb" />
                 <div className="txt-logos-Com">
                   <h2 className="Comb-title2">{t("txtSoluciones.txt9")}</h2>
                   <p className="txt-Comb-boton2">
@@ -387,7 +387,7 @@ const Combustibles = () => {
           {selectedButton === 5 && (
             <>
               <div className="containerfoto-botones-Comb">
-                <img src={fotocombAuto} alt="" className="fotobotonesComb" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/CN/Autogestión.jpg" alt="" className="fotobotonesComb" />
                 <div className="txt-logos-Com">
                   <h2 className="Comb-title2">{t("txtSoluciones.txt10")}</h2>
                   <p className="txt-Comb-boton2">
@@ -414,7 +414,7 @@ const Combustibles = () => {
         <SwiperSlide>
           <div className="card1">
           <div className="containerfoto-botones-Comb">
-                <img src={fotocomb} alt="" className="fotobotonesComb" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/CN/Est. Fijas.jpg" alt="" className="fotobotonesComb" />
                 <div className="txt-logos-Com">
                   <h2 className="Comb-title2">{t("txtSoluciones.txt6")}</h2>
                   <p className="txt-Comb-boton2">
@@ -432,7 +432,7 @@ const Combustibles = () => {
         <SwiperSlide>
           <div className="card1">
           <div className="containerfoto-botones-Comb">
-                <img src={fotocombMob} alt="" className="fotobotonesComb" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/CN/Est. Móviles.jpg" alt="" className="fotobotonesComb" />
                 <div className="txt-logos-Com">
                   <h2 className="Comb-title2">{t("txtSoluciones.txt7")}</h2>
                   <p className="txt-Comb-boton2">
@@ -449,7 +449,7 @@ const Combustibles = () => {
         <SwiperSlide>
           <div className="card1">
           <div className="containerfoto-botones-Comb">
-                <img src={fotocombDis} alt="" className="fotobotonesComb" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/CN/650X388px WEB dd.png" alt="" className="fotobotonesComb" />
                 <div className="txt-logos-Com">
                   <h2 className="Comb-title2">{t("txtSoluciones.txt8")}</h2>
                   <p className="txt-Comb-boton2">
@@ -468,7 +468,7 @@ const Combustibles = () => {
         <SwiperSlide>
           <div className="card1">
           <div className="containerfoto-botones-Comb">
-                <img src={fotocombHibridas} alt="" className="fotobotonesComb" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/CN/Est. Híbridas.jpg" alt="" className="fotobotonesComb" />
                 <div className="txt-logos-Com">
                   <h2 className="Comb-title2">{t("txtSoluciones.txt9")}</h2>
                   <p className="txt-Comb-boton2">
@@ -487,7 +487,7 @@ const Combustibles = () => {
         <SwiperSlide>
           <div className="card1">
           <div className="containerfoto-botones-Comb">
-                <img src={fotocombAuto} alt="" className="fotobotonesComb" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/CN/Autogestión.jpg" alt="" className="fotobotonesComb" />
                 <div className="txt-logos-Com">
                   <h2 className="Comb-title2">{t("txtSoluciones.txt10")}</h2>
                   <p className="txt-Comb-boton2">
@@ -517,7 +517,7 @@ const Combustibles = () => {
             </p>
           </div>
           <div className="image-container">
-            <img src={fotolubri} alt="" className="fotosgris1" />
+            <img src="http://webcontent.cn-grupo.net/Media/Fotos/CN/650X388px WEB lubricentro.png" alt="" className="fotosgris1" />
           </div>
         </div>
 
@@ -538,7 +538,7 @@ const Combustibles = () => {
             </p>
           </div>
           <div className="image-container">
-           <img src={fotoasfalto} alt="" className="fotosgris2" />
+           <img src="http://webcontent.cn-grupo.net/Media/Fotos/CN/650X388px WEB asfalto.png" alt="" className="fotosgris2" />
           </div>
         </div>
 
@@ -685,7 +685,7 @@ const Combustibles = () => {
           {selectedButton1 === 1 && (
             <>
               <div className="containerfoto-botones-Comb">
-                <img src={fotocombMD} alt="" className="fotobotonesComb" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/CN/650X388px WEB md.png" alt="" className="fotobotonesComb" />
                 <div className="txt-logos-Com">
                   <h2 className="Comb-title2">{t("txtMuestreo.txt1")}</h2>
                   <ul className="lista-Comb">
@@ -712,7 +712,7 @@ const Combustibles = () => {
           {selectedButton1 === 2 && (
             <>
               <div className="containerfoto-botones-Comb">
-                <img src={fotocombSum} alt="" className="fotobotonesComb" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/CN/650X388px WEB summa.png" alt="" className="fotobotonesComb" />
                 <div className="txt-logos-Com">
                   <h2 className="Comb-title2">{t("txtSumma.txt1")}</h2>
                   <p className="txt-Comb-boton2">
@@ -748,7 +748,7 @@ const Combustibles = () => {
           {selectedButton1 === 3 && (
             <>
               <div className="containerfoto-botones-Comb">
-                <img src={fotocombSF} alt="" className="fotobotonesComb" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/CN/650X388px WEB ss financieras.png" alt="" className="fotobotonesComb" />
                 <div className="txt-logos-Com">
                   <h2 className="Comb-title2">{t("txtSolucionesFinancieras.txt1")}</h2>
                   <p className="txt-Comb-boton2">
@@ -784,7 +784,7 @@ const Combustibles = () => {
         <SwiperSlide>
           <div className="card1">
           <div className="containerfoto-botones-Comb">
-                <img src={fotocombMD} alt="" className="fotobotonesComb" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/CN/650X388px WEB md.png" alt="" className="fotobotonesComb" />
                 <div className="txt-logos-Com">
                   <h2 className="Comb-title2">{t("txtMuestreo.txt1")}</h2>
                   <ul className="lista-Comb">
@@ -811,7 +811,7 @@ const Combustibles = () => {
         <SwiperSlide>
           <div className="card1">
           <div className="containerfoto-botones-Comb">
-                <img src={fotocombSum} alt="" className="fotobotonesComb" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/CN/650X388px WEB summa.png" alt="" className="fotobotonesComb" />
                 <div className="txt-logos-Com">
                   <h2 className="Comb-title2">{t("txtSumma.txt1")}</h2>
                   <p className="txt-Comb-boton2">
@@ -847,7 +847,7 @@ const Combustibles = () => {
         <SwiperSlide>
           <div className="card1">
           <div className="containerfoto-botones-Comb">
-                <img src={fotocombSF} alt="" className="fotobotonesComb" />
+                <img src="http://webcontent.cn-grupo.net/Media/Fotos/CN/650X388px WEB ss financieras.png" alt="" className="fotobotonesComb" />
                 <div className="txt-logos-Com">
                   <h2 className="Comb-title2">{t("txtSolucionesFinancieras.txt1")}</h2>
                   <p className="txt-Comb-boton2">

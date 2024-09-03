@@ -1,21 +1,29 @@
 /*import Logo from "../Assets/cngrupoLOGOwhite.png"*/
 import React, { useState, useEffect } from "react";
 /*import { Link} from "react-router-dom";*/
-import fotoellos1 from '../Assets/EDUARDO.png';
-import fotoellos4 from '../Assets/261x353 EDUARDO.png';
-import fotoellos2 from '../Assets/TOMI.png';
-import fotoellos5 from '../Assets/261x353 TOMI.png';
-import fotoellos3 from '../Assets/EDU solo.png';
-import fotoellos6 from '../Assets/261x353 EDU h.png';
+//import fotoellos1 from '../Assets/EDUARDO.png';
+//import fotoellos4 from '../Assets/261x353 EDUARDO.png';
+//import fotoellos2 from '../Assets/TOMI.png';
+//import fotoellos5 from '../Assets/261x353 TOMI.png';
+//import fotoellos3 from '../Assets/EDU solo.png';
+//import fotoellos6 from '../Assets/261x353 EDU h.png';
 import { useTranslation } from "react-i18next";
-import gerentes from '../Assets/gerentes.png';
-import gerentes1 from '../Assets/479x279 GERENTES.png';
+//import gerentes from '../Assets/gerentes.png';
+//import gerentes1 from '../Assets/479x279 GERENTES.png';
 import NAVBAR from "./NavBarNueva"
 import NAVBARMOBILE from "./NavBarMobile";
 import "./Quienes.css"
 
 
 const Quienes = () => {
+  const fotoellos1 = "http://webcontent.cn-grupo.net/Media/Fotos/Quienes/EDUARDO.png";
+  const fotoellos4 = "http://webcontent.cn-grupo.net/Media/Fotos/Quienes/261x353 EDUARDO.png";
+  const fotoellos2 = "http://webcontent.cn-grupo.net/Media/Fotos/Quienes/TOMI.png";
+  const fotoellos5 = "http://webcontent.cn-grupo.net/Media/Fotos/Quienes/261x353 TOMI.png";
+  const fotoellos3 = "http://webcontent.cn-grupo.net/Media/Fotos/Quienes/EDU solo.png";
+  const fotoellos6 = "http://webcontent.cn-grupo.net/Media/Fotos/Quienes/261x353 EDU h.png";
+  const gerentes = "http://webcontent.cn-grupo.net/Media/Fotos/Quienes/gerentes.png";
+  const gerentes1 = "http://webcontent.cn-grupo.net/Media/Fotos/Quienes/479x279 GERENTES.png"; 
   // eslint-disable-next-line no-unused-vars
   const [t, i18next] = useTranslation("global");
   /*const [isOpen, setIsOpen] = useState(false);*/

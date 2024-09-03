@@ -1,7 +1,7 @@
 @media (max-width: 800px) {
   .home-containerQuienes {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url(../Assets/GRUPAL-sin-carteles.avif), url(../Assets/GRUPAL\ sin\ carteles.png);
+      url("http://webcontent.cn-grupo.net/Media/Fotos/Quienes/GRUPAL-sin-carteles.avif"), url("http://webcontent.cn-grupo.net/Media/Fotos/Quienes/GRUPAL sin carteles.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1520px;
@@ -158,7 +158,7 @@
 @media (min-width: 801px) and (max-width: 1280px) {
   .home-containerQuienes {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url(../Assets/GRUPAL-sin-carteles.avif), url(../Assets/GRUPAL\ sin\ carteles.png);
+      url("http://webcontent.cn-grupo.net/Media/Fotos/Quienes/GRUPAL-sin-carteles.avif"), url("http://webcontent.cn-grupo.net/Media/Fotos/Quienes/GRUPAL sin carteles.png");
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -308,7 +308,7 @@
 @media (min-width: 1281px) and (max-width: 1549px) {
   .home-containerQuienes {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url(../Assets/GRUPAL-sin-carteles.avif), url(../Assets/GRUPAL\ sin\ carteles.png);
+      url("http://webcontent.cn-grupo.net/Media/Fotos/Quienes/GRUPAL-sin-carteles.avif"), url("http://webcontent.cn-grupo.net/Media/Fotos/Quienes/GRUPAL sin carteles.png");
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -454,7 +454,7 @@
 @media (min-width: 1550px) and (max-width: 1919px) {
   .home-containerQuienes {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url(../Assets/GRUPAL-sin-carteles.avif), url(../Assets/GRUPAL\ sin\ carteles.png);
+      url("http://webcontent.cn-grupo.net/Media/Fotos/Quienes/GRUPAL-sin-carteles.avif"), url("http://webcontent.cn-grupo.net/Media/Fotos/Quienes/GRUPAL sin carteles.png");
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -604,7 +604,7 @@
 @media (min-width: 1920px) {
   .home-containerQuienes {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url(../Assets/GRUPAL-sin-carteles.avif), url(../Assets/GRUPAL\ sin\ carteles.png);
+      url("http://webcontent.cn-grupo.net/Media/Fotos/Quienes/GRUPAL-sin-carteles.avif"), url("http://webcontent.cn-grupo.net/Media/Fotos/Quienes/GRUPAL sin carteles.png");
     background-size: 100%;
     background-repeat: no-repeat;
   }

@@ -316,7 +316,7 @@ margin-bottom: -10px;
 }
 
 .banner-estacion1{
-  background: url(../Assets/2DO\ ANCHO\ -\ YPF\ CHANGO\ OCT-305\ \(1\).png);
+  background: url("http://webcontent.cn-grupo.net/Media/Fotos/Estaciones/2DO ANCHO - YPF CHANGO OCT-305 (1).png");
   height: 160px;
   width: auto;
   background-repeat: no-repeat;
@@ -325,7 +325,7 @@ margin-bottom: -10px;
 }
 
 .banner-estacion2{
-  background: url(../Assets/1ER\ ANCHO\ -\ DSC04559-HDR\ \(1\).png);
+  background: url("http://webcontent.cn-grupo.net/Media/Fotos/Estaciones/1ER ANCHO - DSC04559-HDR (1).png");
   height: 150px;
   width: auto;
   background-repeat: no-repeat;
@@ -705,14 +705,14 @@ background-color: #1f6a8c !important;
   }
   
   .banner-estacion1{
-    background: url(../Assets/2DO\ ANCHO\ -\ YPF\ CHANGO\ OCT-305\ \(1\).png);
+    background: url("http://webcontent.cn-grupo.net/Media/Fotos/Estaciones/2DO ANCHO - YPF CHANGO OCT-305 (1).png");
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   .banner-estacion2{
-    background: url(../Assets/1ER\ ANCHO\ -\ DSC04559-HDR\ \(1\).png);
+    background: url("http://webcontent.cn-grupo.net/Media/Fotos/Estaciones/1ER ANCHO - DSC04559-HDR (1).png");
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1090,14 +1090,14 @@ margin-bottom: -10px;
 }
 
 .banner-estacion1{
-  background: url(../Assets/2DO\ ANCHO\ -\ YPF\ CHANGO\ OCT-305\ \(1\).png);
+  background: url("http://webcontent.cn-grupo.net/Media/Fotos/Estaciones/2DO ANCHO - YPF CHANGO OCT-305 (1).png");
   height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .banner-estacion2{
-  background: url(../Assets/1ER\ ANCHO\ -\ DSC04559-HDR\ \(1\).png);
+  background: url("http://webcontent.cn-grupo.net/Media/Fotos/Estaciones/1ER ANCHO - DSC04559-HDR (1).png");
   height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1487,14 +1487,14 @@ margin-left: 5px;
       }
       
       .banner-estacion1{
-        background: url(../Assets/2DO\ ANCHO\ -\ YPF\ CHANGO\ OCT-305\ \(1\).png);
+        background: url("http://webcontent.cn-grupo.net/Media/Fotos/Estaciones/2DO ANCHO - YPF CHANGO OCT-305 (1).png");
         height: 800px;
         background-repeat: no-repeat;
         background-size: cover;
       }
       
       .banner-estacion2{
-        background: url(../Assets/1ER\ ANCHO\ -\ DSC04559-HDR\ \(1\).png);
+        background: url("http://webcontent.cn-grupo.net/Media/Fotos/Estaciones/1ER ANCHO - DSC04559-HDR (1).png");
         height: 800px;
         background-repeat: no-repeat;
         background-size: cover;

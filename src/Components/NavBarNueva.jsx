@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Logo from "../Assets/cngrupoLOGOwhite.png";
@@ -14,24 +14,24 @@ const NavbarNueva = () => {
   const [isSubMenuOpen6, setSubMenuOpen6] = useState(false);
   const [showMobileMenu, setShowMobileMenu] = useState(false);
 
-  let subMenuTimer;
-  let subMenuTimer1;
-  let subMenuTimer2;
-  let subMenuTimer3;
-  let subMenuTimer4;
+  const subMenuTimer3 = useRef(null);
+  const subMenuTimer4 = useRef(null);
+  const subMenuTimer = useRef(null);
+  const subMenuTimer1 = useRef(null);
+  const subMenuTimer2 = useRef(null);
 
   const ulStyle = {
     right: showMobileMenu ? '0' : '-100%',
   };
 
-  const handleMouseEnter = (setSubMenuOpen, timer) => {
-    clearTimeout(timer);
+  const handleMouseEnter = (setSubMenuOpen, timerRef) => {
+    clearTimeout(timerRef.current);
     setSubMenuOpen(true);
   };
 
-  const handleMouseLeave = (setSubMenuOpen, timer, delay) => {
-    clearTimeout(timer);
-    timer = setTimeout(() => {
+  const handleMouseLeave = (setSubMenuOpen, timerRef, delay) => {
+    clearTimeout(timerRef.current);
+    timerRef.current = setTimeout(() => {
       setSubMenuOpen(false);
     }, delay);
   };
@@ -165,3 +165,4 @@ const NavbarNueva = () => {
 };
 
 export default NavbarNueva;
+
